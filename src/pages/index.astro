@@ -1,0 +1,82 @@
+---
+import ClaimText from '../components/ClaimText.astro';
+import CountyTable from '../components/CountyTable.astro';
+import MethodologyBlock from '../components/MethodologyBlock.astro';
+import ProposalTable from '../components/ProposalTable.astro';
+import SourceLibrary from '../components/SourceLibrary.astro';
+import SourceLink from '../components/SourceLink.astro';
+import StatusCard from '../components/StatusCard.astro';
+import StatusHero from '../components/StatusHero.astro';
+import Timeline from '../components/Timeline.astro';
+import UpdateLog from '../components/UpdateLog.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { counties, getClaims, getSources, proposals, sources, status } from '../utils/data';
+
+const statusClaims = getClaims(status.claim_ids);
+const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-constitution-article-xi']);
+const activeProposalCount = proposals.filter((proposal) => proposal.status === 'active').length;
+const sourcedCountyEstimateCount = counties.filter((county) => county.estimated_impact !== null).length;
+---
+
+<BaseLayout>
+  <StatusHero />
+  <section class="shell status-card-grid" aria-label="Tracker status cards">
+    <StatusCard label="current_status" value="STALLED" explanation="No tracked property-tax elimination vehicle is shown as active in the current tracker data." severity="stalled" />
+    <StatusCard label="last_verified" value={status.last_verified} explanation="Official source records were reviewed for the initial scaffold." severity="confirmed" />
+    <StatusCard label="next_action" value="WATCHING" explanation="Monitor special-session calls, new joint resolutions, committee agendas, and ballot records." severity="watching" />
+    <StatusCard label="ballot_path" value="JOINT RESOLUTION + VOTERS" explanation="A legislative constitutional amendment would still require voter approval." severity="neutral" />
+    <StatusCard label="active_proposals" value={String(activeProposalCount)} explanation="Dead and historical proposals remain visible for context." severity={activeProposalCount ? 'watching' : 'confirmed'} />
+    <StatusCard label="county_impacts" value={`${sourcedCountyEstimateCount} sourced`} explanation="County estimates stay blank until a version-labeled source is added." severity="neutral" />
+  </section>
+
+  <section class="shell section-block">
+    <div class="section-heading">
+      <div>
+        <p class="terminal-label">&gt; ten_second_summary</p>
+        <h2>10-Second Summary</h2>
+      </div>
+    </div>
+    <p class="lede">{status.current_status_summary}</p>
+    <div class="claim-grid">
+      {statusClaims.slice(0, 4).map((claim) => <ClaimText claim={claim} />)}
+    </div>
+  </section>
+
+  <section class="shell section-block">
+    <div class="section-heading">
+      <div>
+        <p class="terminal-label">&gt; what_happens_next</p>
+        <h2>What Happens Next</h2>
+      </div>
+    </div>
+    <div class="next-grid">
+      {
+        [
+          'New special session proclamation',
+          'New HJR or SJR filing',
+          'Senate committee agenda or floor calendar movement',
+          'House or Senate vote action',
+          'Department of State ballot listing',
+          'County fiscal impact response',
+        ].map((item, index) => (
+          <article>
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <p>{item}</p>
+          </article>
+        ))
+      }
+    </div>
+    <div class="source-row">
+      {ballotSources.map((source) => <SourceLink source={source} compact />)}
+    </div>
+  </section>
+
+  <div class="shell">
+    <ProposalTable />
+    <Timeline compact />
+    <CountyTable />
+    <SourceLibrary items={sources} />
+    <UpdateLog />
+    <MethodologyBlock />
+  </div>
+</BaseLayout>

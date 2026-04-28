@@ -1,0 +1,78 @@
+---
+import '../styles/global.css';
+import { correctionUrl, site } from '../utils/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Florida Property Tax Tracker | 2026 Elimination Proposals and Related Reforms',
+  description = site.description,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://florida-property-tax-tracker.local').href;
+const navItems = [
+  ['Status', '/'],
+  ['Sources', '/sources/'],
+  ['Timeline', '/timeline/'],
+  ['Proposals', '/proposals/'],
+  ['Counties', '/counties/'],
+  ['Methodology', '/methodology/'],
+  ['About', '/about/'],
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label="Florida Property Tax Tracker home">
+          <span class="brand-mark" aria-hidden="true">FL</span>
+          <span>
+            <strong>Florida Property Tax Tracker</strong>
+            <small>Source-backed civic status</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          {
+            navItems.map(([label, href]) => (
+              <a href={href} class={Astro.url.pathname === href ? 'is-active' : ''}>
+                {label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <p>
+          Florida Property Tax Tracker is a neutral civic tracking project. It is not affiliated with
+          the State of Florida, the Florida Legislature, any county government, or any advocacy
+          organization. All factual claims are linked to source records.
+        </p>
+        <a href={correctionUrl}>See an error? Submit a correction with a source.</a>
+      </div>
+    </footer>
+  </body>
+</html>

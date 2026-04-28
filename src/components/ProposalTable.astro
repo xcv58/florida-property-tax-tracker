@@ -1,0 +1,86 @@
+---
+import { getSources, proposals as defaultProposals } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const { items = defaultProposals } = Astro.props;
+---
+
+<section class="section-block">
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; proposals</p>
+      <h2>Proposal Tracker</h2>
+    </div>
+  </div>
+  <div class="table-frame desktop-table">
+    <table>
+      <caption>
+        Active, dead, and related proposals materially connected to the property-tax elimination debate.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Proposal</th>
+          <th scope="col">Type</th>
+          <th scope="col">Status</th>
+          <th scope="col">Chamber</th>
+          <th scope="col">Sponsor</th>
+          <th scope="col">Last action</th>
+          <th scope="col">Current relevance</th>
+          <th scope="col">Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          items.map((proposal) => {
+            const proposalSources = getSources(proposal.source_ids);
+            return (
+              <tr>
+                <th scope="row">
+                  <strong>{proposal.name}</strong>
+                  <span>{proposal.title}</span>
+                </th>
+                <td>{proposal.proposal_type.replaceAll('_', ' ')}</td>
+                <td><span class={`badge badge--${proposal.status}`}>{proposal.status.replaceAll('_', ' ')}</span></td>
+                <td>{proposal.chamber}</td>
+                <td>{proposal.sponsor}</td>
+                <td>{proposal.last_action_date}: {proposal.last_action}</td>
+                <td>{proposal.current_relevance}</td>
+                <td>
+                  <div class="source-row">
+                    {proposalSources.map((source) => <SourceLink source={source} compact />)}
+                  </div>
+                </td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+  </div>
+  <div class="mobile-cards" aria-label="Proposal cards">
+    {
+      items.map((proposal) => {
+        const proposalSources = getSources(proposal.source_ids);
+        return (
+          <article class="mobile-record">
+            <div>
+              <p class="terminal-label">&gt; {proposal.name}</p>
+              <h3>{proposal.title}</h3>
+            </div>
+            <span class={`badge badge--${proposal.status}`}>{proposal.status.replaceAll('_', ' ')}</span>
+            <dl>
+              <div><dt>Type</dt><dd>{proposal.proposal_type.replaceAll('_', ' ')}</dd></div>
+              <div><dt>Chamber</dt><dd>{proposal.chamber}</dd></div>
+              <div><dt>Sponsor</dt><dd>{proposal.sponsor}</dd></div>
+              <div><dt>Last action</dt><dd>{proposal.last_action_date}: {proposal.last_action}</dd></div>
+              <div><dt>Relevance</dt><dd>{proposal.current_relevance}</dd></div>
+            </dl>
+            <div class="source-row">
+              {proposalSources.map((source) => <SourceLink source={source} compact />)}
+            </div>
+          </article>
+        );
+      })
+    }
+  </div>
+</section>

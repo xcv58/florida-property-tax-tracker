@@ -1,0 +1,60 @@
+---
+import { getSources, timeline as defaultTimeline } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const { items = defaultTimeline, compact = false } = Astro.props;
+const timelineItems = compact ? [...items].slice(-4).reverse() : [...items].reverse();
+const categories = Array.from(new Set(items.map((item) => item.category))).sort();
+---
+
+<section class="section-block" data-timeline>
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; timeline</p>
+      <h2>{compact ? 'Recent Timeline' : 'Full Timeline'}</h2>
+    </div>
+    {!compact && (
+      <label class="filter-control">
+        <span>Category</span>
+        <select data-timeline-filter>
+          <option value="all">All</option>
+          {categories.map((category) => <option value={category}>{category}</option>)}
+        </select>
+      </label>
+    )}
+  </div>
+  <ol class="timeline-list">
+    {
+      timelineItems.map((item) => {
+        const itemSources = getSources(item.source_ids);
+        return (
+          <li data-category={item.category}>
+            <time datetime={item.date}>{item.date}</time>
+            <div>
+              <h3>{item.title}</h3>
+              <p>{item.summary}</p>
+              <p class="muted">{item.importance}</p>
+              <div class="source-row">
+                {itemSources.map((source) => (
+                  <SourceLink source={source} compact />
+                ))}
+              </div>
+            </div>
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>
+
+<script>
+  const timeline = document.querySelector('[data-timeline]');
+  const timelineFilter = timeline?.querySelector('[data-timeline-filter]');
+
+  timelineFilter?.addEventListener('change', () => {
+    const value = timelineFilter.value;
+    timeline.querySelectorAll('[data-category]').forEach((item) => {
+      item.hidden = value !== 'all' && item.dataset.category !== value;
+    });
+  });
+</script>

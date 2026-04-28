@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-04-28",
+    "what_changed": [
+      "Created initial tracker data scaffold.",
+      "Added official source records for CS/CS/HJR 203, Special Session D materials, constitutional amendment procedure, and Department of State ballot-path guidance.",
+      "Set current status to Stalled based on the April 28, 2026 official bill-actions review and the March 13, 2026 HJR 203 final action."
+    ],
+    "source_ids_added": [
+      "flsenate-hjr203-2026",
+      "flsenate-special-session-d-memo-2026-04-15",
+      "flsenate-special-session-d-update-2026-04-24",
+      "flsenate-bill-actions-2026-04-28",
+      "flsenate-redistricting-2026d",
+      "flsenate-session-overview",
+      "flsenate-constitution-article-xi",
+      "fl-dos-constitutional-amendments"
+    ],
+    "claims_added": [
+      "claim-hjr203-proposed-homestead-nonschool-exemption",
+      "claim-hjr203-house-passed-80-30",
+      "claim-hjr203-received-senate-referred-appropriations",
+      "claim-hjr203-died-senate-appropriations",
+      "claim-special-session-d-legislation-2026-04-24",
+      "claim-special-session-d-bill-actions-no-property-tax-2026-04-28",
+      "claim-special-session-d-redistricting-purpose",
+      "claim-special-sessions-can-be-called-later",
+      "claim-constitutional-amendment-legislative-path",
+      "claim-constitutional-amendment-sixty-percent"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "manual-initial-scaffold",
+    "git_commit": null
+  }
+]

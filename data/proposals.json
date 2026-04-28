@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hjr203-2026",
+    "name": "CS/CS/HJR 203",
+    "title": "Elimination of Non-school Property for Homesteads",
+    "session": "2026",
+    "proposal_type": "constitutional_amendment",
+    "chamber": "House",
+    "sponsor": "Miller",
+    "status": "dead",
+    "last_action_date": "2026-03-13",
+    "last_action": "Died in Senate Appropriations",
+    "current_relevance": "Central House-passed proposal in the 2026 property tax elimination debate.",
+    "material_to_elimination_debate": true,
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": [
+      "claim-hjr203-proposed-homestead-nonschool-exemption",
+      "claim-hjr203-house-passed-80-30",
+      "claim-hjr203-died-senate-appropriations"
+    ]
+  },
+  {
+    "id": "related-house-property-tax-proposals-2026",
+    "name": "Related 2026 House proposals",
+    "title": "Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203",
+    "session": "2026",
+    "proposal_type": "related_property_tax_reform",
+    "chamber": "House",
+    "sponsor": "Multiple",
+    "status": "historical_context_only",
+    "last_action_date": "2026-03-13",
+    "last_action": "Related bills listed with HJR 203 ended without final passage during the 2026 regular session.",
+    "current_relevance": "Relevant as comparison proposals, but not active vehicles for the current status summary.",
+    "material_to_elimination_debate": true,
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": ["claim-hjr203-died-senate-appropriations"]
+  }
+]

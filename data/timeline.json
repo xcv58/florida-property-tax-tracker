@@ -1,0 +1,68 @@
+[
+  {
+    "id": "timeline-2025-10-16-hjr203-filed",
+    "date": "2025-10-16",
+    "title": "HJR 203 was filed",
+    "summary": "The House property-tax proposal that became CS/CS/HJR 203 entered the 2026 regular-session bill record.",
+    "importance": "This created the primary House vehicle tracked in the 2026 elimination debate.",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": ["claim-hjr203-proposed-homestead-nonschool-exemption"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-02-19-hjr203-passed-house",
+    "date": "2026-02-19",
+    "title": "CS/CS/HJR 203 passed the House",
+    "summary": "The House passed CS/CS/HJR 203 by an 80-30 vote.",
+    "importance": "The proposal cleared one chamber but still needed Senate approval to reach the ballot.",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": [
+      "claim-hjr203-house-passed-80-30",
+      "claim-constitutional-amendment-legislative-path"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-02-19-hjr203-senate-referral",
+    "date": "2026-02-19",
+    "title": "CS/CS/HJR 203 was referred to Senate Appropriations",
+    "summary": "After House passage, the Senate received the proposal and referred it to Appropriations.",
+    "importance": "Senate committee movement became the remaining regular-session path for that proposal.",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": ["claim-hjr203-received-senate-referred-appropriations"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-03-13-hjr203-died",
+    "date": "2026-03-13",
+    "title": "CS/CS/HJR 203 died in Senate Appropriations",
+    "summary": "The House-passed property-tax proposal did not advance through the Senate before the end of the regular session.",
+    "importance": "This ended the regular-session path for CS/CS/HJR 203.",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "claim_ids": ["claim-hjr203-died-senate-appropriations"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-04-24-special-session-d-memo",
+    "date": "2026-04-24",
+    "title": "Senate memo described Special Session D legislation",
+    "summary": "The Senate memo identified expected Special Session D legislation on redistricting, artificial intelligence, public records, and medical freedom.",
+    "importance": "The official memo did not describe a property-tax elimination vehicle among the listed Special Session D items.",
+    "source_ids": ["flsenate-special-session-d-update-2026-04-24"],
+    "claim_ids": ["claim-special-session-d-legislation-2026-04-24"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-04-28-special-session-d-bill-actions",
+    "date": "2026-04-28",
+    "title": "Special Session D bill-actions list showed no tracked property-tax elimination proposal",
+    "summary": "The April 28 Senate bill-actions list reviewed for this tracker showed Special Session D activity on redistricting, AI, public records, medical freedom, and state reapportionment items.",
+    "importance": "This supports the current status label that no tracked property-tax elimination proposal was active on that reviewed list.",
+    "source_ids": [
+      "flsenate-bill-actions-2026-04-28",
+      "flsenate-special-session-d-update-2026-04-24"
+    ],
+    "claim_ids": ["claim-special-session-d-bill-actions-no-property-tax-2026-04-28"],
+    "category": "legislative"
+  }
+]

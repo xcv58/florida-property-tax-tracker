@@ -1,0 +1,73 @@
+---
+import { sourceTypeLabel, sources as defaultSources } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const { items = defaultSources } = Astro.props;
+const sourceTypes = Array.from(new Set(items.map((source) => source.source_type))).sort();
+---
+
+<section class="section-block" data-source-library>
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; source_library</p>
+      <h2>Source Library</h2>
+    </div>
+    <div class="control-row">
+      <label class="filter-control">
+        <span>Search</span>
+        <input data-source-search type="search" placeholder="Title, publisher, or ID" />
+      </label>
+      <label class="filter-control">
+        <span>Type</span>
+        <select data-source-filter>
+          <option value="all">All</option>
+          {sourceTypes.map((sourceType) => <option value={sourceType}>{sourceTypeLabel(sourceType)}</option>)}
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="source-library-list">
+    {
+      [...items]
+        .sort((a, b) => b.accessed_date.localeCompare(a.accessed_date))
+        .map((source) => (
+          <article class="source-record" data-source-record data-source-type={source.source_type} data-source-text={`${source.id} ${source.title} ${source.publisher}`.toLowerCase()}>
+            <div>
+              <p class="terminal-label">&gt; {source.id}</p>
+              <h3>{source.title}</h3>
+              <p>{source.description}</p>
+            </div>
+            <dl>
+              <div><dt>Publisher</dt><dd>{source.publisher}</dd></div>
+              <div><dt>Source type</dt><dd>{sourceTypeLabel(source.source_type)}</dd></div>
+              <div><dt>Published</dt><dd>{source.published_date ?? 'Not dated'}</dd></div>
+              <div><dt>Accessed</dt><dd>{source.accessed_date}</dd></div>
+            </dl>
+            <p class="muted">{source.reliability_notes}</p>
+            <div class="source-row">
+              <SourceLink source={source} />
+            </div>
+          </article>
+        ))
+    }
+  </div>
+</section>
+
+<script>
+  const sourceRoot = document.querySelector('[data-source-library]');
+  const sourceSearch = sourceRoot?.querySelector('[data-source-search]');
+  const sourceFilter = sourceRoot?.querySelector('[data-source-filter]');
+
+  function applySourceFilters() {
+    const query = sourceSearch?.value.toLowerCase().trim() ?? '';
+    const type = sourceFilter?.value ?? 'all';
+    sourceRoot?.querySelectorAll('[data-source-record]').forEach((record) => {
+      const matchesText = record.dataset.sourceText?.includes(query);
+      const matchesType = type === 'all' || record.dataset.sourceType === type;
+      record.hidden = !(matchesText && matchesType);
+    });
+  }
+
+  sourceSearch?.addEventListener('input', applySourceFilters);
+  sourceFilter?.addEventListener('change', applySourceFilters);
+</script>

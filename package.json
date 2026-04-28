@@ -1,0 +1,39 @@
+{
+  "name": "florida-property-tax-tracker",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate:data && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch:sources": "tsx scripts/fetch-sources.ts",
+    "parse:sources": "tsx scripts/parse-official-pages.ts && tsx scripts/parse-pdfs.ts",
+    "update:claims": "tsx scripts/update-claims.ts",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "proofread": "tsx scripts/proofread.ts",
+    "build:search": "tsx scripts/build-search-index.ts",
+    "generate:report": "tsx scripts/generate-report.ts",
+    "update:auto": "npm run fetch:sources && npm run parse:sources && npm run update:claims && npm run validate:data && npm run proofread && npm run build:search && npm run generate:report && npm run build",
+    "format": "prettier --write .",
+    "check": "npm run validate:data && npm run proofread && npm run build"
+  },
+  "dependencies": {
+    "astro": "^6.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "cheerio": "^1.2.0",
+    "eslint": "^10.2.1",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "pdf-parse": "^2.4.5",
+    "prettier": "^3.8.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  }
+}

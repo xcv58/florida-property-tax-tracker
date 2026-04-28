@@ -1,0 +1,34 @@
+---
+import { updateLog as defaultUpdateLog } from '../utils/data';
+
+const { items = defaultUpdateLog } = Astro.props;
+---
+
+<section class="section-block">
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; update_log</p>
+      <h2>Update Log</h2>
+    </div>
+  </div>
+  <div class="update-list">
+    {
+      [...items]
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .map((entry) => (
+          <article class="update-record">
+            <time datetime={entry.date}>{entry.date}</time>
+            <ul>
+              {entry.what_changed.map((item) => <li>{item}</li>)}
+            </ul>
+            <dl>
+              <div><dt>Sources added</dt><dd>{entry.source_ids_added.length}</dd></div>
+              <div><dt>Claims added</dt><dd>{entry.claims_added.length}</dd></div>
+              <div><dt>Automation run</dt><dd>{entry.automation_run_id}</dd></div>
+              <div><dt>Commit</dt><dd>{entry.git_commit ?? 'Not committed yet'}</dd></div>
+            </dl>
+          </article>
+        ))
+    }
+  </div>
+</section>

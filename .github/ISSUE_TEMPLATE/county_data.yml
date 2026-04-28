@@ -1,0 +1,41 @@
+name: County data
+description: Submit county-level impact data or a county source.
+title: "County data: "
+labels: ["county-data", "needs-review"]
+body:
+  - type: input
+    id: county
+    attributes:
+      label: County
+    validations:
+      required: true
+  - type: input
+    id: proposal_version
+    attributes:
+      label: Proposal version
+      description: Identify bill, amendment, or estimate version.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - official_fiscal
+        - local_government
+        - stakeholder
+        - news
+        - analysis
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

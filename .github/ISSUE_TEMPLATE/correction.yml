@@ -1,0 +1,45 @@
+name: Correction request
+description: Challenge or correct a tracker claim with a source.
+title: "Correction: "
+labels: ["correction", "needs-review"]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim being challenged
+      description: Paste the claim text or claim ID.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL or document
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Requested correction
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - official_legislative
+        - official_election
+        - official_fiscal
+        - official_executive
+        - local_government
+        - stakeholder
+        - news
+        - analysis
+        - other
+    validations:
+      required: true
+  - type: input
+    id: source_date
+    attributes:
+      label: Source date
+      description: Use YYYY-MM-DD if available.

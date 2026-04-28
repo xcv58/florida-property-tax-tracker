@@ -1,0 +1,22 @@
+---
+import { getClaimSources } from '../utils/claims';
+import SourceLink from './SourceLink.astro';
+
+const { claim } = Astro.props;
+const claimSources = claim ? getClaimSources(claim) : [];
+const shouldRender = Boolean(claim?.source_ids?.length && claimSources.length === claim.source_ids.length);
+---
+
+{
+  shouldRender ? (
+    <article class={`claim claim--${claim.status}`}>
+      <p>{claim.claim}</p>
+      <div class="source-row" aria-label="Claim sources">
+        {claim.status === 'needs_review' && <span class="review-badge">Needs review</span>}
+        {claimSources.map((source) => (
+          <SourceLink source={source} compact />
+        ))}
+      </div>
+    </article>
+  ) : null
+}

@@ -1,0 +1,426 @@
+{
+  "generated_at": "2026-04-28T23:36:29.768Z",
+  "counties": [
+    {
+      "title": "Alachua",
+      "type": "county",
+      "text": "Alachua No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Baker",
+      "type": "county",
+      "text": "Baker No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Bay",
+      "type": "county",
+      "text": "Bay No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Bradford",
+      "type": "county",
+      "text": "Bradford No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Brevard",
+      "type": "county",
+      "text": "Brevard No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Broward",
+      "type": "county",
+      "text": "Broward No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Calhoun",
+      "type": "county",
+      "text": "Calhoun No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Charlotte",
+      "type": "county",
+      "text": "Charlotte No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Citrus",
+      "type": "county",
+      "text": "Citrus No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Clay",
+      "type": "county",
+      "text": "Clay No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Collier",
+      "type": "county",
+      "text": "Collier No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Columbia",
+      "type": "county",
+      "text": "Columbia No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "DeSoto",
+      "type": "county",
+      "text": "DeSoto No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Dixie",
+      "type": "county",
+      "text": "Dixie No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Duval",
+      "type": "county",
+      "text": "Duval No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Escambia",
+      "type": "county",
+      "text": "Escambia No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Flagler",
+      "type": "county",
+      "text": "Flagler No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Franklin",
+      "type": "county",
+      "text": "Franklin No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Gadsden",
+      "type": "county",
+      "text": "Gadsden No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Gilchrist",
+      "type": "county",
+      "text": "Gilchrist No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Glades",
+      "type": "county",
+      "text": "Glades No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Gulf",
+      "type": "county",
+      "text": "Gulf No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Hamilton",
+      "type": "county",
+      "text": "Hamilton No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Hardee",
+      "type": "county",
+      "text": "Hardee No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Hendry",
+      "type": "county",
+      "text": "Hendry No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Hernando",
+      "type": "county",
+      "text": "Hernando No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Highlands",
+      "type": "county",
+      "text": "Highlands No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Hillsborough",
+      "type": "county",
+      "text": "Hillsborough No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Holmes",
+      "type": "county",
+      "text": "Holmes No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Indian River",
+      "type": "county",
+      "text": "Indian River No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Jackson",
+      "type": "county",
+      "text": "Jackson No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Jefferson",
+      "type": "county",
+      "text": "Jefferson No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Lafayette",
+      "type": "county",
+      "text": "Lafayette No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Lake",
+      "type": "county",
+      "text": "Lake No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Lee",
+      "type": "county",
+      "text": "Lee No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Leon",
+      "type": "county",
+      "text": "Leon No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Levy",
+      "type": "county",
+      "text": "Levy No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Liberty",
+      "type": "county",
+      "text": "Liberty No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Madison",
+      "type": "county",
+      "text": "Madison No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Manatee",
+      "type": "county",
+      "text": "Manatee No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Marion",
+      "type": "county",
+      "text": "Marion No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Martin",
+      "type": "county",
+      "text": "Martin No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Miami-Dade",
+      "type": "county",
+      "text": "Miami-Dade No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Monroe",
+      "type": "county",
+      "text": "Monroe No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Nassau",
+      "type": "county",
+      "text": "Nassau No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Okaloosa",
+      "type": "county",
+      "text": "Okaloosa No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Okeechobee",
+      "type": "county",
+      "text": "Okeechobee No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Orange",
+      "type": "county",
+      "text": "Orange No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Osceola",
+      "type": "county",
+      "text": "Osceola No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Palm Beach",
+      "type": "county",
+      "text": "Palm Beach No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Pasco",
+      "type": "county",
+      "text": "Pasco No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Pinellas",
+      "type": "county",
+      "text": "Pinellas No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Polk",
+      "type": "county",
+      "text": "Polk No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Putnam",
+      "type": "county",
+      "text": "Putnam No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Santa Rosa",
+      "type": "county",
+      "text": "Santa Rosa No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Sarasota",
+      "type": "county",
+      "text": "Sarasota No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Seminole",
+      "type": "county",
+      "text": "Seminole No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "St. Johns",
+      "type": "county",
+      "text": "St. Johns No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "St. Lucie",
+      "type": "county",
+      "text": "St. Lucie No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Sumter",
+      "type": "county",
+      "text": "Sumter No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Suwannee",
+      "type": "county",
+      "text": "Suwannee No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Taylor",
+      "type": "county",
+      "text": "Taylor No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Union",
+      "type": "county",
+      "text": "Union No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Volusia",
+      "type": "county",
+      "text": "Volusia No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Wakulla",
+      "type": "county",
+      "text": "Wakulla No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Walton",
+      "type": "county",
+      "text": "Walton No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    },
+    {
+      "title": "Washington",
+      "type": "county",
+      "text": "Washington No verified county estimate yet  Not available. Do not infer impact until a version-labeled source is added."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Florida Senate Bill Page: CS/CS/HJR 203, 2026 Session",
+      "type": "source",
+      "text": "flsenate-hjr203-2026 Florida Senate Bill Page: CS/CS/HJR 203, 2026 Session Florida Senate official_legislative"
+    },
+    {
+      "title": "Special Session D Memo and Information",
+      "type": "source",
+      "text": "flsenate-special-session-d-memo-2026-04-15 Special Session D Memo and Information Florida Senate President's Office official_legislative"
+    },
+    {
+      "title": "Update Regarding Special Session D Legislation",
+      "type": "source",
+      "text": "flsenate-special-session-d-update-2026-04-24 Update Regarding Special Session D Legislation Florida Senate President's Office official_legislative"
+    },
+    {
+      "title": "Florida Senate Bill Actions for April 28, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-04-28 Florida Senate Bill Actions for April 28, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Redistricting Page: Special Session 2026-D",
+      "type": "source",
+      "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Session Overview",
+      "type": "source",
+      "text": "flsenate-session-overview Florida Senate Session Overview Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Constitution: Article XI, Amendments",
+      "type": "source",
+      "text": "flsenate-constitution-article-xi Florida Constitution: Article XI, Amendments Florida Senate official_legislative"
+    },
+    {
+      "title": "Constitutional Amendments/Initiatives",
+      "type": "source",
+      "text": "fl-dos-constitutional-amendments Constitutional Amendments/Initiatives Florida Department of State, Division of Elections official_election"
+    }
+  ],
+  "proposals": [
+    {
+      "title": "CS/CS/HJR 203",
+      "type": "proposal",
+      "text": "CS/CS/HJR 203 Elimination of Non-school Property for Homesteads dead Central House-passed proposal in the 2026 property tax elimination debate."
+    },
+    {
+      "title": "Related 2026 House proposals",
+      "type": "proposal",
+      "text": "Related 2026 House proposals Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203 historical_context_only Relevant as comparison proposals, but not active vehicles for the current status summary."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "HJR 203 was filed",
+      "type": "timeline",
+      "text": "2025-10-16 HJR 203 was filed The House property-tax proposal that became CS/CS/HJR 203 entered the 2026 regular-session bill record. This created the primary House vehicle tracked in the 2026 elimination debate."
+    },
+    {
+      "title": "CS/CS/HJR 203 passed the House",
+      "type": "timeline",
+      "text": "2026-02-19 CS/CS/HJR 203 passed the House The House passed CS/CS/HJR 203 by an 80-30 vote. The proposal cleared one chamber but still needed Senate approval to reach the ballot."
+    },
+    {
+      "title": "CS/CS/HJR 203 was referred to Senate Appropriations",
+      "type": "timeline",
+      "text": "2026-02-19 CS/CS/HJR 203 was referred to Senate Appropriations After House passage, the Senate received the proposal and referred it to Appropriations. Senate committee movement became the remaining regular-session path for that proposal."
+    },
+    {
+      "title": "CS/CS/HJR 203 died in Senate Appropriations",
+      "type": "timeline",
+      "text": "2026-03-13 CS/CS/HJR 203 died in Senate Appropriations The House-passed property-tax proposal did not advance through the Senate before the end of the regular session. This ended the regular-session path for CS/CS/HJR 203."
+    },
+    {
+      "title": "Senate memo described Special Session D legislation",
+      "type": "timeline",
+      "text": "2026-04-24 Senate memo described Special Session D legislation The Senate memo identified expected Special Session D legislation on redistricting, artificial intelligence, public records, and medical freedom. The official memo did not describe a property-tax elimination vehicle among the listed Special Session D items."
+    },
+    {
+      "title": "Special Session D bill-actions list showed no tracked property-tax elimination proposal",
+      "type": "timeline",
+      "text": "2026-04-28 Special Session D bill-actions list showed no tracked property-tax elimination proposal The April 28 Senate bill-actions list reviewed for this tracker showed Special Session D activity on redistricting, AI, public records, medical freedom, and state reapportionment items. This supports the current status label that no tracked property-tax elimination proposal was active on that reviewed list."
+    }
+  ]
+}

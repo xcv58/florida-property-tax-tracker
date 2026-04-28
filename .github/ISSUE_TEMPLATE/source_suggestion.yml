@@ -1,0 +1,33 @@
+name: Source suggestion
+description: Suggest a source for the tracker.
+title: "Source suggestion: "
+labels: ["source-suggestion", "needs-review"]
+body:
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - official_legislative
+        - official_election
+        - official_fiscal
+        - official_executive
+        - local_government
+        - stakeholder
+        - news
+        - analysis
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why this source matters
+    validations:
+      required: true

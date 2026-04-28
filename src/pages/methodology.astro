@@ -1,0 +1,21 @@
+---
+import MethodologyBlock from '../components/MethodologyBlock.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Methodology | Florida Property Tax Tracker" description="Methodology, source policy, and verification rules for the tracker.">
+  <div class="shell page-intro">
+    <p class="terminal-label">&gt; methodology</p>
+    <h1>Methodology</h1>
+    <p>The tracker separates factual claims from UI components and validates source references before build output.</p>
+  </div>
+  <div class="shell prose-grid">
+    <MethodologyBlock />
+    <section class="section-block">
+      <h2>What The Tracker Does Not Do</h2>
+      <p>It does not advocate for or against proposals, estimate county impacts without sources, treat stakeholder material as official fiscal analysis, or present dead bills as active.</p>
+      <h2>Correction Standard</h2>
+      <p>Correction requests must include a source and identify the specific claim that should change. Official legislative, fiscal, and election sources are preferred.</p>
+    </section>
+  </div>
+</BaseLayout>

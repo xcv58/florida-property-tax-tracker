@@ -1,0 +1,147 @@
+---
+import { counties as defaultCounties, getSources, sourceTypeLabel } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const { items = defaultCounties } = Astro.props;
+const sourceTypes = Array.from(
+  new Set(items.map((county) => county.source_type).filter((sourceType): sourceType is string => Boolean(sourceType))),
+).sort();
+---
+
+<section class="section-block" data-county-table>
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; counties</p>
+      <h2>County Impact Table</h2>
+    </div>
+    <div class="control-row">
+      <label class="filter-control">
+        <span>Search</span>
+        <input data-county-search type="search" placeholder="County name" />
+      </label>
+      <label class="filter-control">
+        <span>Source type</span>
+        <select data-county-source-filter>
+          <option value="all">All</option>
+          <option value="not_available">Not available</option>
+          {sourceTypes.map((sourceType) => <option value={sourceType}>{sourceTypeLabel(sourceType)}</option>)}
+        </select>
+      </label>
+      <button class="small-button" type="button" data-sort-county>Sort county</button>
+      <button class="small-button" type="button" data-sort-impact>Sort impact</button>
+    </div>
+  </div>
+  <p class="notice">
+    County-level figures are shown only when a version-labeled source is available. Empty values mean
+    this tracker has not verified an estimate.
+  </p>
+  <div class="table-frame desktop-table">
+    <table>
+      <caption>Florida county impact estimates by source type and proposal version.</caption>
+      <thead>
+        <tr>
+          <th scope="col">County</th>
+          <th scope="col">Estimated impact</th>
+          <th scope="col">Proposal version</th>
+          <th scope="col">Source type</th>
+          <th scope="col">Source</th>
+          <th scope="col">Last verified</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody data-county-rows>
+        {
+          items.map((county) => {
+            const countySources = getSources(county.source_ids);
+            const impact = county.estimated_impact === null ? 'Not available' : `${county.estimated_impact} ${county.impact_unit ?? ''}`;
+            const sourceType = county.source_type ?? 'not_available';
+            return (
+              <tr data-county-record data-county={county.county.toLowerCase()} data-impact={county.estimated_impact ?? ''} data-source-type={sourceType}>
+                <th scope="row">{county.county}</th>
+                <td>{impact}</td>
+                <td>{county.proposal_version}</td>
+                <td>{sourceTypeLabel(county.source_type)}</td>
+                <td>
+                  <div class="source-row">
+                    {countySources.length ? countySources.map((source) => <SourceLink source={source} compact />) : <span class="muted">Not available</span>}
+                  </div>
+                </td>
+                <td>{county.last_verified}</td>
+                <td>{county.notes}</td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+  </div>
+  <div class="mobile-cards" data-county-cards aria-label="County impact cards">
+    {
+      items.map((county) => {
+        const countySources = getSources(county.source_ids);
+        const impact = county.estimated_impact === null ? 'Not available' : `${county.estimated_impact} ${county.impact_unit ?? ''}`;
+        const sourceType = county.source_type ?? 'not_available';
+        return (
+          <article class="mobile-record" data-county-record data-county={county.county.toLowerCase()} data-impact={county.estimated_impact ?? ''} data-source-type={sourceType}>
+            <div>
+              <p class="terminal-label">&gt; county</p>
+              <h3>{county.county}</h3>
+            </div>
+            <dl>
+              <div><dt>Estimated impact</dt><dd>{impact}</dd></div>
+              <div><dt>Proposal version</dt><dd>{county.proposal_version}</dd></div>
+              <div><dt>Source type</dt><dd>{sourceTypeLabel(county.source_type)}</dd></div>
+              <div><dt>Last verified</dt><dd>{county.last_verified}</dd></div>
+              <div><dt>Notes</dt><dd>{county.notes}</dd></div>
+            </dl>
+            <div class="source-row">
+              {countySources.length ? countySources.map((source) => <SourceLink source={source} compact />) : <span class="muted">No source yet</span>}
+            </div>
+          </article>
+        );
+      })
+    }
+  </div>
+</section>
+
+<script>
+  const countyRoot = document.querySelector('[data-county-table]');
+  const countySearch = countyRoot?.querySelector('[data-county-search]');
+  const sourceFilter = countyRoot?.querySelector('[data-county-source-filter]');
+  const sortCounty = countyRoot?.querySelector('[data-sort-county]');
+  const sortImpact = countyRoot?.querySelector('[data-sort-impact]');
+  const tableBody = countyRoot?.querySelector('[data-county-rows]');
+  const cardBody = countyRoot?.querySelector('[data-county-cards]');
+
+  function applyCountyFilters() {
+    const query = countySearch?.value.toLowerCase().trim() ?? '';
+    const sourceType = sourceFilter?.value ?? 'all';
+    countyRoot?.querySelectorAll('[data-county-record]').forEach((record) => {
+      const matchesCounty = record.dataset.county?.includes(query);
+      const matchesSource = sourceType === 'all' || record.dataset.sourceType === sourceType;
+      record.hidden = !(matchesCounty && matchesSource);
+    });
+  }
+
+  function sortRecords(key) {
+    [tableBody, cardBody].forEach((container) => {
+      if (!container) return;
+      const records = Array.from(container.querySelectorAll('[data-county-record]'));
+      records
+        .sort((a, b) => {
+          if (key === 'impact') {
+            const aImpact = Number(a.dataset.impact || Number.POSITIVE_INFINITY);
+            const bImpact = Number(b.dataset.impact || Number.POSITIVE_INFINITY);
+            return aImpact - bImpact;
+          }
+          return (a.dataset.county ?? '').localeCompare(b.dataset.county ?? '');
+        })
+        .forEach((record) => container.append(record));
+    });
+  }
+
+  countySearch?.addEventListener('input', applyCountyFilters);
+  sourceFilter?.addEventListener('change', applyCountyFilters);
+  sortCounty?.addEventListener('click', () => sortRecords('county'));
+  sortImpact?.addEventListener('click', () => sortRecords('impact'));
+</script>

@@ -1,0 +1,67 @@
+# Claim Style Guide
+
+## Preferred Style
+
+Use exact dates.
+
+Good:
+
+- "HJR 203 died in Senate Appropriations on March 13, 2026."
+
+Avoid:
+
+- "HJR 203 recently died."
+
+Use careful status language.
+
+Good:
+
+- "The issue may return in a later special session."
+
+Avoid:
+
+- "The Legislature will bring it back."
+
+Use clear source attribution.
+
+Good:
+
+- "The official Senate bill history lists the last action as..."
+
+Avoid:
+
+- "Reports say..."
+
+## Status Language
+
+Use:
+
+- active
+- dead
+- stalled
+- awaiting action
+- not currently on the agenda
+- passed one chamber
+- died in committee
+- filed
+- withdrawn
+- replaced
+- needs review
+
+Avoid:
+
+- killed, unless quoting a source
+- doomed
+- guaranteed
+- certain
+- political stunt
+- tax grab
+- giveaway
+
+## Taxpayer Explanations
+
+- Ad valorem tax: a tax based on assessed property value.
+- Homestead exemption: a reduction in taxable value for qualifying primary residences.
+- Non-school property taxes: local property taxes other than school district taxes.
+- Joint resolution: a legislative vehicle used to place a constitutional amendment on the ballot.
+- Special session: a limited legislative session called for specific topics.

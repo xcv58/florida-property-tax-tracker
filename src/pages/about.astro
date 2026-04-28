@@ -1,0 +1,21 @@
+---
+import { correctionUrl } from '../utils/site';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Florida Property Tax Tracker" description="Purpose, neutrality policy, and correction policy for Florida Property Tax Tracker.">
+  <div class="shell page-intro">
+    <p class="terminal-label">&gt; about</p>
+    <h1>About</h1>
+    <p>Florida Property Tax Tracker is a neutral civic tracking project for Florida's 2026 property tax elimination proposals and materially related reforms.</p>
+  </div>
+  <div class="shell prose-grid">
+    <section class="section-block">
+      <h2>Neutrality Policy</h2>
+      <p>The tracker does not endorse or oppose any proposal. It separates official records from stakeholder positions and preserves historical status when proposals change.</p>
+      <h2 id="corrections">Correction Policy</h2>
+      <p>A correction request should identify the claim being challenged, provide a source URL or document, describe the requested correction, and label the source type.</p>
+      <p><a class="text-link" href={correctionUrl}>Submit a correction with a source</a></p>
+    </section>
+  </div>
+</BaseLayout>

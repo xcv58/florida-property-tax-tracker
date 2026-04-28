@@ -1,0 +1,54 @@
+{
+  "official_legislative": [
+    {
+      "label": "Florida Senate bill pages",
+      "url": "https://www.flsenate.gov/Session/Bills"
+    },
+    {
+      "label": "Florida House bill pages",
+      "url": "https://www.myfloridahouse.gov/Sections/Bills/bills.aspx"
+    },
+    {
+      "label": "Florida Senate calendars and bill actions",
+      "url": "https://www.flsenate.gov/?Tab=BillActions"
+    },
+    {
+      "label": "Florida Senate Special Session D update memo",
+      "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf"
+    }
+  ],
+  "official_executive": [
+    {
+      "label": "Governor actions and proclamations",
+      "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/"
+    }
+  ],
+  "official_fiscal": [
+    {
+      "label": "Florida Office of Economic and Demographic Research",
+      "url": "https://edr.state.fl.us"
+    }
+  ],
+  "official_election": [
+    {
+      "label": "Florida Department of State constitutional amendments",
+      "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives"
+    },
+    {
+      "label": "Constitutional initiatives database",
+      "url": "https://constitutionalinitiatives.dos.fl.gov"
+    }
+  ],
+  "county_and_local_government": [],
+  "stakeholder": [
+    {
+      "label": "Florida Association of Counties",
+      "url": "https://www.fl-counties.com"
+    },
+    {
+      "label": "Florida League of Cities",
+      "url": "https://www.flcities.com"
+    }
+  ],
+  "news_and_context": []
+}

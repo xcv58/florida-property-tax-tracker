@@ -1,0 +1,16 @@
+---
+interface Props {
+  label: string;
+  value: string;
+  explanation?: string;
+  severity?: 'neutral' | 'watching' | 'confirmed' | 'stalled' | 'needs_review';
+}
+
+const { label, value, explanation = '', severity = 'neutral' } = Astro.props;
+---
+
+<article class={`status-card status-card--${severity}`}>
+  <p class="terminal-label">&gt; {label}</p>
+  <strong>{value}</strong>
+  {explanation && <p>{explanation}</p>}
+</article>

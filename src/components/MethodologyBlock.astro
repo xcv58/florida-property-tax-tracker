@@ -1,0 +1,40 @@
+---
+import { glossary as defaultGlossary } from '../utils/data';
+
+const { glossary = defaultGlossary } = Astro.props;
+---
+
+<section class="section-block">
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; methodology</p>
+      <h2>How The Tracker Works</h2>
+    </div>
+  </div>
+  <div class="method-grid">
+    <article>
+      <h3>Source order</h3>
+      <p>
+        Official legislative, election, fiscal, and executive sources come first. Stakeholder and
+        news sources are labeled and used only for the claims they directly support.
+      </p>
+    </article>
+    <article>
+      <h3>Claim handling</h3>
+      <p>
+        Displayed facts must map to source IDs. If an update is ambiguous, the claim is marked
+        needs review instead of confirmed.
+      </p>
+    </article>
+    <article>
+      <h3>Automation</h3>
+      <p>
+        Scheduled checks fetch watched sources, detect changed pages or PDFs, validate data, run
+        proofreading checks, and generate an update report.
+      </p>
+    </article>
+  </div>
+  <div class="glossary-list">
+    {glossary.map((item) => <p><strong>{item.term}:</strong> {item.definition}</p>)}
+  </div>
+</section>

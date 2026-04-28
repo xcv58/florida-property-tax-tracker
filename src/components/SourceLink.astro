@@ -1,0 +1,15 @@
+---
+import { formatDate } from '../utils/dates';
+import { sourceTypeLabel } from '../utils/sources';
+
+const { source, compact = false } = Astro.props;
+---
+
+<span class:list={['source-chip', compact && 'source-chip--compact']}>
+  <a href={source.url ?? source.archive_path} target="_blank" rel="noreferrer">
+    {source.title}
+  </a>
+  <span class="source-type">{sourceTypeLabel(source.source_type)}</span>
+  {!compact && <span class="source-meta">Accessed {formatDate(source.accessed_date)}</span>}
+  {!compact && source.archive_path && <a href={source.archive_path}>Archived copy</a>}
+</span>

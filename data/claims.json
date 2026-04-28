@@ -1,0 +1,112 @@
+[
+  {
+    "id": "claim-hjr203-proposed-homestead-nonschool-exemption",
+    "claim": "CS/CS/HJR 203 proposed a Florida constitutional amendment to exempt homestead property from all ad valorem taxation other than school district levies beginning in a specified year.",
+    "claim_type": "proposal_scope",
+    "date": "2026-01-23",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "display_context": "proposal",
+    "last_verified": "2026-04-28",
+    "notes": "The Senate bill page summary describes the proposed homestead exemption and non-school ad valorem scope."
+  },
+  {
+    "id": "claim-hjr203-house-passed-80-30",
+    "claim": "CS/CS/HJR 203 passed the Florida House by an 80-30 vote on February 19, 2026.",
+    "claim_type": "legislative_status",
+    "date": "2026-02-19",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "display_context": "timeline",
+    "last_verified": "2026-04-28",
+    "notes": "The official bill history lists the House third-reading passage and the vote history lists 80 Yeas and 30 Nays."
+  },
+  {
+    "id": "claim-hjr203-received-senate-referred-appropriations",
+    "claim": "After House passage, CS/CS/HJR 203 was received by the Senate and referred to Senate Appropriations on February 19, 2026.",
+    "claim_type": "legislative_status",
+    "date": "2026-02-19",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "display_context": "timeline",
+    "last_verified": "2026-04-28",
+    "notes": "The official bill history lists Senate receipt and referral to Appropriations."
+  },
+  {
+    "id": "claim-hjr203-died-senate-appropriations",
+    "claim": "CS/CS/HJR 203 died in Senate Appropriations on March 13, 2026.",
+    "claim_type": "legislative_status",
+    "date": "2026-03-13",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr203-2026"],
+    "display_context": "homepage",
+    "last_verified": "2026-04-28",
+    "notes": "The official bill page lists the last action as Senate - Died in Appropriations."
+  },
+  {
+    "id": "claim-special-session-d-legislation-2026-04-24",
+    "claim": "The April 24, 2026 Senate memo described expected Special Session D legislation on congressional redistricting, artificial intelligence, public records, and medical freedom.",
+    "claim_type": "legislative_status",
+    "date": "2026-04-24",
+    "status": "confirmed",
+    "source_ids": ["flsenate-special-session-d-update-2026-04-24"],
+    "display_context": "homepage",
+    "last_verified": "2026-04-28",
+    "notes": "The memo identifies SB 8D as anticipated redistricting legislation and lists SB 2D, SB 4D, and SB 6D as other Special Session D legislation."
+  },
+  {
+    "id": "claim-special-session-d-bill-actions-no-property-tax-2026-04-28",
+    "claim": "As of the April 28, 2026 Senate bill-actions page reviewed for this tracker, Special Session D bill actions listed H 1D, S 2D, S 4D, S 6D, S 8D, and H 23D, and no tracked property tax elimination proposal appeared on that list.",
+    "claim_type": "legislative_status",
+    "date": "2026-04-28",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-04-28", "flsenate-special-session-d-update-2026-04-24"],
+    "display_context": "homepage",
+    "last_verified": "2026-04-28",
+    "notes": "This tracker treats the official bill-actions list and the April 24 Senate memo as the source of truth for the listed Special Session D items reviewed on April 28, 2026."
+  },
+  {
+    "id": "claim-special-session-d-redistricting-purpose",
+    "claim": "The Florida Senate redistricting page describes Special Session 2026-D as centered on congressional redistricting materials and a plan transmitted by the Executive Office of the Governor.",
+    "claim_type": "legislative_status",
+    "date": "2026-04-28",
+    "status": "confirmed",
+    "source_ids": ["flsenate-redistricting-2026d"],
+    "display_context": "timeline",
+    "last_verified": "2026-04-28",
+    "notes": "Used for context on Special Session D materials, not as a property-tax source."
+  },
+  {
+    "id": "claim-special-sessions-can-be-called-later",
+    "claim": "Florida special sessions may be called by the Governor or by joint proclamation of the Senate President and House Speaker.",
+    "claim_type": "process",
+    "date": "2026-04-28",
+    "status": "confirmed",
+    "source_ids": ["flsenate-session-overview"],
+    "display_context": "methodology",
+    "last_verified": "2026-04-28",
+    "notes": "Used to explain why a later special session is a possible future vehicle."
+  },
+  {
+    "id": "claim-constitutional-amendment-legislative-path",
+    "claim": "A Florida constitutional amendment can be proposed by legislative joint resolution.",
+    "claim_type": "ballot_path",
+    "date": "2026-04-28",
+    "status": "confirmed",
+    "source_ids": ["fl-dos-constitutional-amendments", "flsenate-constitution-article-xi"],
+    "display_context": "homepage",
+    "last_verified": "2026-04-28",
+    "notes": "Used to describe the ballot path for a legislative property-tax amendment."
+  },
+  {
+    "id": "claim-constitutional-amendment-sixty-percent",
+    "claim": "A proposed amendment to the Florida Constitution requires at least 60 percent voter approval to pass unless the constitution provides otherwise.",
+    "claim_type": "ballot_path",
+    "date": "2026-04-28",
+    "status": "confirmed",
+    "source_ids": ["fl-dos-constitutional-amendments", "flsenate-constitution-article-xi"],
+    "display_context": "homepage",
+    "last_verified": "2026-04-28",
+    "notes": "Used for voter-approval threshold explanation."
+  }
+]

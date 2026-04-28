@@ -1,0 +1,15 @@
+---
+import ProposalTable from '../components/ProposalTable.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Proposals | Florida Property Tax Tracker" description="Proposal tracker for Florida property tax elimination and related reforms.">
+  <div class="shell page-intro">
+    <p class="terminal-label">&gt; proposals</p>
+    <h1>Proposals</h1>
+    <p>Tracked vehicles are included only when they materially affect the elimination debate or related reform path.</p>
+  </div>
+  <div class="shell">
+    <ProposalTable />
+  </div>
+</BaseLayout>
