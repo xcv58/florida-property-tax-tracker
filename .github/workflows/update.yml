@@ -72,7 +72,10 @@ jobs:
           git config user.name "florida-property-tax-tracker-bot"
           git config user.email "actions@github.com"
           sources_changed=$(node -e "const r=require('./reports/latest-update.json'); console.log(r.source_fetch?.sources_changed ?? 0)")
-          git add data public/archive public/search-index.json reports/source-cache-manifest.json
+          git add data public/search-index.json reports/source-cache-manifest.json
+          if [ -d public/archive ]; then
+            git add public/archive
+          fi
           if [ "$sources_changed" != "0" ]; then
             git add reports
           fi
