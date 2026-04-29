@@ -32,6 +32,12 @@ Status colors describe procedural posture, not policy preference:
 
 The homepage runway uses a month-scale view. Future months are checkpoints to watch, not predictions that a proposal will advance.
 
+## Display Preferences
+
+The site supports light, dark, and system theme modes. System mode is the default and follows `prefers-color-scheme`.
+
+The language picker supports English and Spanish. Official source titles stay in their original language; the tracker interface and summaries are translated.
+
 ## Core Rule
 
 No claim appears on the site without a source.

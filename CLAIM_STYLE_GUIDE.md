@@ -61,6 +61,10 @@ Do not write copy that makes green mean "good" or red mean "bad." Pair color wit
 
 For the monthly runway, use exact month/date labels such as "Feb. 19, 2026" or "Apr. 28, 2026." Future month ranges should say "watching window" or "not reached," not "upcoming approval" or other language that implies a result.
 
+## Spanish Translations
+
+Spanish copy should be a faithful translation of the source-backed English claim, not a new interpretation. Keep official source titles in their published language when needed for verification.
+
 Avoid:
 
 - killed, unless quoting a source

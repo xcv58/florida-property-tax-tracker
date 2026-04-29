@@ -14,6 +14,10 @@ Every displayed factual claim must map to at least one source ID in `/data/sourc
 
 The homepage is a high-level overview for quick readers, led by a monthly ballot runway that shows where the 2026 path stands as of the last source check. The details page expands the legislative record, claims, proposals, and timeline. The county page is an advanced data view and does not compare county impacts until the tracker has version-labeled sources.
 
+## Display Preferences
+
+The interface supports light, dark, and system theme modes. System mode follows the visitor's operating-system preference. The language picker supports English and Spanish; official source titles may remain in their original language so readers can verify the source record.
+
 ## Procedural Colors
 
 Green means a completed procedural step. Yellow means watching or uncertain. Red means blocked, dead, or not currently moving. Gray means a later checkpoint has not been reached. These colors describe process only and do not indicate support or opposition. Future months on the runway are watch checkpoints, not predictions.

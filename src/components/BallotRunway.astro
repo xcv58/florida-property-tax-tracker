@@ -74,7 +74,11 @@ const runwaySources = getSources(runway.source_ids ?? []);
       <p class="terminal-label">&gt; primary_sources</p>
       <div class="source-row source-row--trimmed">
         {runwaySources.slice(0, 4).map((source) => <SourceLink source={source} compact />)}
-        {runwaySources.length > 4 && <a class="source-more-link" href="/sources/">+{runwaySources.length - 4} more source records</a>}
+        {runwaySources.length > 4 && (
+          <a class="source-more-link" href="/sources/" data-i18n-template="moreSourceRecords" data-count={runwaySources.length - 4} data-i18n-default={`+ ${runwaySources.length - 4} more source records`}>
+            + {runwaySources.length - 4} more source records
+          </a>
+        )}
       </div>
     </div>
   )}

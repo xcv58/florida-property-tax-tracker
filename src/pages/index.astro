@@ -16,88 +16,90 @@ const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-
     <BallotRunway compact />
   </div>
 
-  <section class="shell overview-grid" aria-label="Current tracker overview">
-    <article class="section-block overview-brief">
-      <p class="terminal-label">&gt; {overview.brief.eyebrow}</p>
-      <h2>{overview.brief.heading}</h2>
-      <p class="lede">{overview.brief.body}</p>
-      <div class="source-row source-row--trimmed">
-        {briefSources.map((source) => <SourceLink source={source} compact />)}
+  <div class="shell page-stack">
+    <section class="overview-grid" aria-label="Current tracker overview">
+      <article class="section-block overview-brief">
+        <p class="terminal-label">&gt; {overview.brief.eyebrow}</p>
+        <h2>{overview.brief.heading}</h2>
+        <p class="lede">{overview.brief.body}</p>
+        <div class="source-row source-row--trimmed">
+          {briefSources.map((source) => <SourceLink source={source} compact />)}
+        </div>
+      </article>
+      <aside class="section-block status-legend" aria-label="Status color legend">
+        <p class="terminal-label">&gt; status_colors</p>
+        <h2>Color Key</h2>
+        <div class="legend-list">
+          {
+            overview.status_legend.map((item) => (
+              <div class={`legend-item legend-item--${item.status}`}>
+                <span aria-hidden="true"></span>
+                <p><strong>{item.label}</strong>{item.meaning}</p>
+              </div>
+            ))
+          }
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <div>
+          <p class="terminal-label">&gt; next_decisions</p>
+          <h2>What Happens Next</h2>
+        </div>
       </div>
-    </article>
-    <aside class="section-block status-legend" aria-label="Status color legend">
-      <p class="terminal-label">&gt; status_colors</p>
-      <h2>Color Key</h2>
-      <div class="legend-list">
+      <div class="next-panel-grid">
         {
-          overview.status_legend.map((item) => (
-            <div class={`legend-item legend-item--${item.status}`}>
-              <span aria-hidden="true"></span>
-              <p><strong>{item.label}</strong>{item.meaning}</p>
-            </div>
+          overview.next_panels.map((panel) => (
+            <article class={`next-panel next-panel--${panel.status}`}>
+              <p class="terminal-label">&gt; {panel.label}</p>
+              <strong>{panel.value}</strong>
+              <p>{panel.body}</p>
+            </article>
           ))
         }
       </div>
-    </aside>
-  </section>
-
-  <section class="shell section-block">
-    <div class="section-heading">
-      <div>
-        <p class="terminal-label">&gt; next_decisions</p>
-        <h2>What Happens Next</h2>
+      <div class="known-unknowns">
+        <h3>Known Unknowns</h3>
+        <ul>
+          {overview.known_unknowns.map((item) => <li>{item}</li>)}
+        </ul>
       </div>
-    </div>
-    <div class="next-panel-grid">
-      {
-        overview.next_panels.map((panel) => (
-          <article class={`next-panel next-panel--${panel.status}`}>
-            <p class="terminal-label">&gt; {panel.label}</p>
-            <strong>{panel.value}</strong>
-            <p>{panel.body}</p>
-          </article>
-        ))
-      }
-    </div>
-    <div class="known-unknowns">
-      <h3>Known Unknowns</h3>
-      <ul>
-        {overview.known_unknowns.map((item) => <li>{item}</li>)}
-      </ul>
-    </div>
-  </section>
+    </section>
 
-  <section class="shell section-block">
-    <div class="section-heading">
-      <div>
-        <p class="terminal-label">&gt; choose_depth</p>
-        <h2>Choose Your View</h2>
+    <section class="section-block">
+      <div class="section-heading">
+        <div>
+          <p class="terminal-label">&gt; choose_depth</p>
+          <h2>Choose Your View</h2>
+        </div>
       </div>
-    </div>
-    <div class="depth-link-grid">
-      {
-        overview.depth_links.map((item) => (
-          <article class="depth-link-card">
-            <p class="terminal-label">&gt; {item.label}</p>
-            <h3><a href={item.href}>{item.title}</a></h3>
-            <p>{item.body}</p>
-          </article>
-        ))
-      }
-    </div>
-  </section>
+      <div class="depth-link-grid">
+        {
+          overview.depth_links.map((item) => (
+            <article class="depth-link-card">
+              <p class="terminal-label">&gt; {item.label}</p>
+              <h3><a href={item.href}>{item.title}</a></h3>
+              <p>{item.body}</p>
+            </article>
+          ))
+        }
+      </div>
+    </section>
 
-  <section class="shell section-block compact-evidence">
-    <div class="section-heading">
-      <div>
-        <p class="terminal-label">&gt; ballot_path_sources</p>
-        <h2>Ballot Path Evidence</h2>
+    <section class="section-block compact-evidence">
+      <div class="section-heading">
+        <div>
+          <p class="terminal-label">&gt; ballot_path_sources</p>
+          <h2>Ballot Path Evidence</h2>
+        </div>
+        <a class="text-link" href="/details/">Open details</a>
       </div>
-      <a class="text-link" href="/details/">Open details</a>
-    </div>
-    <p>A legislative constitutional amendment would still need to move through the constitutional-amendment path and receive voter approval before changing the Florida Constitution.</p>
-    <div class="source-row">
-      {ballotSources.map((source) => <SourceLink source={source} compact />)}
-    </div>
-  </section>
+      <p>A legislative constitutional amendment would still need to move through the constitutional-amendment path and receive voter approval before changing the Florida Constitution.</p>
+      <div class="source-row">
+        {ballotSources.map((source) => <SourceLink source={source} compact />)}
+      </div>
+    </section>
+  </div>
 </BaseLayout>

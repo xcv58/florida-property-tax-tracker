@@ -26,6 +26,10 @@ These colors must not imply support or opposition to a proposal.
 
 The monthly runway should show time and current posture. The detailed procedural path should preserve dependencies and source-heavy context.
 
+## Preferences
+
+The header includes a theme selector and language selector. Theme defaults to system preference. Spanish translations live in `/src/utils/translations.ts`; update that file when adding user-facing English copy.
+
 ## Before Editing
 
 ```sh
@@ -82,6 +86,8 @@ GitHub Pages backup publishes from the GitHub Pages workflow.
 - Current status is not overstated.
 - Homepage remains a high-level overview, not a full source dossier.
 - Homepage runway uses month-scale checkpoints and does not imply future action is certain.
+- Theme controls work in system, light, and dark mode.
+- Language controls work in English and Spanish.
 - Dead bills are not shown as active.
 - County estimates identify source and proposal version.
 - Build passes.

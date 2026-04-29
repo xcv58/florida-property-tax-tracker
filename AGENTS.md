@@ -35,6 +35,13 @@ Do not use green to imply support or red to imply opposition.
 
 The homepage runway lives in `/data/overview.json` under `monthly_runway`. Treat future months as watch checkpoints, not predictions. Keep the numbered dependency path for detailed pages.
 
+## Theme And Language
+
+- Keep light, dark, and system theme modes working. System mode should honor `prefers-color-scheme`.
+- Keep English and Spanish available from the header language picker.
+- Official source titles may remain in their original language. Translate tracker UI, summaries, labels, and explanatory copy.
+- Add new translated UI strings to `/src/utils/translations.ts` when adding user-facing copy.
+
 ## Standard Update Process
 
 1. Read `/data/watchlist.json`.

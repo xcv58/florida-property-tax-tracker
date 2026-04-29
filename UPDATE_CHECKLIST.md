@@ -10,5 +10,8 @@
 8. Confirm dead proposals are not shown as active.
 9. Confirm county estimates identify source type and proposal version.
 10. Confirm the homepage remains high-level and deeper details remain on `/details/`, `/timeline/`, `/counties/`, or `/sources/`.
-11. Run `npm run check`.
-12. Commit with a clear message.
+11. Confirm lower homepage sections share the same centered shell as the runway.
+12. Confirm theme controls work in system, light, and dark mode.
+13. Confirm Spanish language mode translates new user-facing copy.
+14. Run `npm run check`.
+15. Commit with a clear message.

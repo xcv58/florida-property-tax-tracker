@@ -23,7 +23,13 @@ const statusClass = trackerStatus.current_status_label.toLowerCase().replaceAll(
         <span class="status-dot" aria-hidden="true"></span>
         <span>Current status</span>
         <strong>{trackerStatus.current_status_label}</strong>
-        {hidePanel && <span class="status-date">Verified {trackerStatus.last_verified}</span>}
+        {
+          hidePanel && (
+            <span class="status-date">
+              <span>Verified</span> <time datetime={trackerStatus.last_verified}>{trackerStatus.last_verified}</time>
+            </span>
+          )
+        }
       </div>
       <p class="hero-summary">{trackerStatus.current_status_summary}</p>
     </div>
@@ -49,14 +55,20 @@ const statusClass = trackerStatus.current_status_label.toLowerCase().replaceAll(
   {
     sourceMode === 'summary' ? (
       <div class="shell hero-source-summary">
-        <a class="source-more-link" href="/details/">View {heroSources.length} source-backed status records</a>
+        <a class="source-more-link" href="/details/" data-i18n-template="sourceStatusRecords" data-count={heroSources.length} data-i18n-default={`View ${heroSources.length} source-backed status records`}>
+          View {heroSources.length} source-backed status records
+        </a>
       </div>
     ) : (
       <div class="shell hero-sources">
         <p>Source records for this status</p>
         <div class="source-row">
           {visibleSources.map((source) => <SourceLink source={source} compact />)}
-          {hiddenSourceCount > 0 && <a class="source-more-link" href="/sources/">+ {hiddenSourceCount} more source records</a>}
+          {hiddenSourceCount > 0 && (
+            <a class="source-more-link" href="/sources/" data-i18n-template="moreSourceRecords" data-count={hiddenSourceCount} data-i18n-default={`+ ${hiddenSourceCount} more source records`}>
+              + {hiddenSourceCount} more source records
+            </a>
+          )}
         </div>
       </div>
     )

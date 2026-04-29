@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import PreferenceControls from '../components/PreferenceControls.astro';
+import { translationTemplates, translations } from '../utils/translations';
 import { correctionUrl, site } from '../utils/site';
 
 interface Props {
@@ -29,6 +31,21 @@ const navItems = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <script is:inline>
+      (() => {
+        try {
+          const theme = localStorage.getItem('fptt-theme') || 'system';
+          const language = localStorage.getItem('fptt-language') || 'en';
+          if (theme === 'light' || theme === 'dark') {
+            document.documentElement.dataset.theme = theme;
+          }
+          document.documentElement.lang = language;
+          if (language !== 'en') document.documentElement.dataset.lang = language;
+        } catch {
+          document.documentElement.lang = 'en';
+        }
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <title>{title}</title>
@@ -59,6 +76,7 @@ const navItems = [
             ))
           }
         </nav>
+        <PreferenceControls />
       </div>
     </header>
     <main id="main">
@@ -74,5 +92,135 @@ const navItems = [
         <a href={correctionUrl}>See an error? Submit a correction with a source.</a>
       </div>
     </footer>
+    <script define:vars={{ translations, translationTemplates }}>
+      (() => {
+        const themeSelect = document.querySelector('[data-theme-select]');
+        const languageSelect = document.querySelector('[data-language-select]');
+        const textOriginals = new WeakMap();
+        const attrOriginals = new WeakMap();
+        const attrNames = ['aria-label', 'placeholder', 'title', 'data-label'];
+
+        function storedValue(key, fallback) {
+          try {
+            return localStorage.getItem(key) || fallback;
+          } catch {
+            return fallback;
+          }
+        }
+
+        function setStoredValue(key, value) {
+          try {
+            localStorage.setItem(key, value);
+          } catch {
+            // Ignore storage failures; controls still work for the current page.
+          }
+        }
+
+        function applyTheme(theme) {
+          if (theme === 'light' || theme === 'dark') {
+            document.documentElement.dataset.theme = theme;
+          } else {
+            delete document.documentElement.dataset.theme;
+          }
+          if (themeSelect) themeSelect.value = theme;
+        }
+
+        function normalize(text) {
+          return text.replace(/\s+/g, ' ').trim();
+        }
+
+        function withOriginalWhitespace(original, translated) {
+          const leading = original.match(/^\s*/)?.[0] ?? '';
+          const trailing = original.match(/\s*$/)?.[0] ?? '';
+          return `${leading}${translated}${trailing}`;
+        }
+
+        function translateTextNodes(language) {
+          const dictionary = translations[language] ?? {};
+          const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              if (!node.nodeValue || !normalize(node.nodeValue)) return NodeFilter.FILTER_REJECT;
+              const parent = node.parentElement;
+              if (!parent) return NodeFilter.FILTER_REJECT;
+              if (parent.closest('script, style, textarea, [data-no-translate]')) {
+                return NodeFilter.FILTER_REJECT;
+              }
+              return NodeFilter.FILTER_ACCEPT;
+            },
+          });
+
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          nodes.forEach((node) => {
+            if (!textOriginals.has(node)) textOriginals.set(node, node.nodeValue ?? '');
+            const original = textOriginals.get(node) ?? '';
+            const key = normalize(original);
+            const translated = language === 'en' ? key : dictionary[key];
+            node.nodeValue = translated ? withOriginalWhitespace(original, translated) : original;
+          });
+        }
+
+        function translateAttributes(language) {
+          const dictionary = translations[language] ?? {};
+          attrNames.forEach((attr) => {
+            document.querySelectorAll(`[${attr}]`).forEach((element) => {
+              let originalMap = attrOriginals.get(element);
+              if (!originalMap) {
+                originalMap = {};
+                attrOriginals.set(element, originalMap);
+              }
+              if (!originalMap[attr]) originalMap[attr] = element.getAttribute(attr) || '';
+              const original = originalMap[attr];
+              const key = normalize(original);
+              const translated = language === 'en' ? key : dictionary[key];
+              element.setAttribute(attr, translated || original);
+            });
+          });
+        }
+
+        function applyTemplates(language) {
+          const templates = translationTemplates[language] ?? {};
+          document.querySelectorAll('[data-i18n-template]').forEach((element) => {
+            const template = element.dataset.i18nTemplate;
+            const count = element.dataset.count || '';
+            if (language === 'en') {
+              element.textContent = element.dataset.i18nDefault || element.textContent;
+              return;
+            }
+            if (template && templates[template]) {
+              element.textContent = templates[template].replace('{count}', count);
+            }
+          });
+        }
+
+        function applyLanguage(language) {
+          const nextLanguage = translations[language] || language === 'en' ? language : 'en';
+          document.documentElement.lang = nextLanguage;
+          if (nextLanguage === 'en') delete document.documentElement.dataset.lang;
+          else document.documentElement.dataset.lang = nextLanguage;
+          if (languageSelect) languageSelect.value = nextLanguage;
+          translateTextNodes(nextLanguage);
+          translateAttributes(nextLanguage);
+          applyTemplates(nextLanguage);
+        }
+
+        const initialTheme = storedValue('fptt-theme', 'system');
+        const initialLanguage = storedValue('fptt-language', 'en');
+        applyTheme(initialTheme);
+        applyLanguage(initialLanguage);
+
+        themeSelect?.addEventListener('change', () => {
+          const nextTheme = themeSelect.value;
+          setStoredValue('fptt-theme', nextTheme);
+          applyTheme(nextTheme);
+        });
+
+        languageSelect?.addEventListener('change', () => {
+          const nextLanguage = languageSelect.value;
+          setStoredValue('fptt-language', nextLanguage);
+          applyLanguage(nextLanguage);
+        });
+      })();
+    </script>
   </body>
 </html>
