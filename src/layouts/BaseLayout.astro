@@ -105,7 +105,7 @@ const navItems = [
     </button>
     <script define:vars={{ translations, translationTemplates }}>
       (() => {
-        const themeSelect = document.querySelector('[data-theme-select]');
+        const themeButtons = [...document.querySelectorAll('[data-theme-button]')];
         const languageSelect = document.querySelector('[data-language-select]');
         const backToTopButton = document.querySelector('[data-back-to-top]');
         const textOriginals = new WeakMap();
@@ -134,7 +134,11 @@ const navItems = [
           } else {
             delete document.documentElement.dataset.theme;
           }
-          if (themeSelect) themeSelect.value = theme;
+          themeButtons.forEach((button) => {
+            const isActive = button.dataset.themeValue === theme;
+            button.classList.toggle('is-active', isActive);
+            button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+          });
         }
 
         function normalize(text) {
@@ -221,10 +225,12 @@ const navItems = [
         applyTheme(initialTheme);
         applyLanguage(initialLanguage);
 
-        themeSelect?.addEventListener('change', () => {
-          const nextTheme = themeSelect.value;
-          setStoredValue('fptt-theme', nextTheme);
-          applyTheme(nextTheme);
+        themeButtons.forEach((button) => {
+          button.addEventListener('click', () => {
+            const nextTheme = button.dataset.themeValue || 'system';
+            setStoredValue('fptt-theme', nextTheme);
+            applyTheme(nextTheme);
+          });
         });
 
         languageSelect?.addEventListener('change', () => {

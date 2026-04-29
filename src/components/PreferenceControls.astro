@@ -2,16 +2,41 @@
 ---
 
 <div class="preference-controls" aria-label="Display preferences">
-  <label class="preference-control preference-control--theme">
-    <span>Theme</span>
-    <select data-theme-select aria-label="Theme">
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select>
-  </label>
+  <div class="theme-toggle" role="group" aria-label="Theme">
+    <span class="preference-label">Theme</span>
+    <button
+      type="button"
+      data-theme-button
+      data-theme-value="system"
+      aria-label="System"
+      aria-pressed="true"
+    >
+      <span class="theme-label">System</span>
+      <span class="theme-short" aria-hidden="true">Sys</span>
+    </button>
+    <button
+      type="button"
+      data-theme-button
+      data-theme-value="light"
+      aria-label="Light"
+      aria-pressed="false"
+    >
+      <span class="theme-label">Light</span>
+      <span class="theme-short" aria-hidden="true">Lt</span>
+    </button>
+    <button
+      type="button"
+      data-theme-button
+      data-theme-value="dark"
+      aria-label="Dark"
+      aria-pressed="false"
+    >
+      <span class="theme-label">Dark</span>
+      <span class="theme-short" aria-hidden="true">Dk</span>
+    </button>
+  </div>
   <label class="preference-control preference-control--language">
-    <span>Language</span>
+    <span class="preference-label">Language</span>
     <select data-language-select aria-label="Language">
       <option value="en">English</option>
       <option value="es">Español</option>
