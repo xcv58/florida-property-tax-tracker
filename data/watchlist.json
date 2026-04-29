@@ -1,12 +1,12 @@
 {
   "official_legislative": [
     {
-      "label": "Florida Senate bill pages",
-      "url": "https://www.flsenate.gov/Session/Bills"
+      "label": "Florida Senate 2026 Senate bill list",
+      "url": "https://www.flsenate.gov/Session/Bills/2026"
     },
     {
-      "label": "Florida House bill pages",
-      "url": "https://www.myfloridahouse.gov/Sections/Bills/bills.aspx"
+      "label": "Florida Senate 2026 House bill list",
+      "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House"
     },
     {
       "label": "Florida Senate calendars and bill actions",
@@ -15,6 +15,10 @@
     {
       "label": "Florida Senate Special Session D update memo",
       "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf"
+    },
+    {
+      "label": "Florida Senate Special Session D memo and information",
+      "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf"
     }
   ],
   "official_executive": [

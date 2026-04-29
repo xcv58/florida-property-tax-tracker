@@ -60,7 +60,10 @@
     "claim_type": "legislative_status",
     "date": "2026-04-28",
     "status": "confirmed",
-    "source_ids": ["flsenate-bill-actions-2026-04-28", "flsenate-special-session-d-update-2026-04-24"],
+    "source_ids": [
+      "flsenate-bill-actions-2026-04-28",
+      "flsenate-special-session-d-update-2026-04-24"
+    ],
     "display_context": "homepage",
     "last_verified": "2026-04-28",
     "notes": "This tracker treats the official bill-actions list and the April 24 Senate memo as the source of truth for the listed Special Session D items reviewed on April 28, 2026."
@@ -93,7 +96,10 @@
     "claim_type": "ballot_path",
     "date": "2026-04-28",
     "status": "confirmed",
-    "source_ids": ["fl-dos-constitutional-amendments", "flsenate-constitution-article-xi"],
+    "source_ids": [
+      "fl-dos-constitutional-amendments",
+      "flsenate-constitution-article-xi"
+    ],
     "display_context": "homepage",
     "last_verified": "2026-04-28",
     "notes": "Used to describe the ballot path for a legislative property-tax amendment."
@@ -104,7 +110,10 @@
     "claim_type": "ballot_path",
     "date": "2026-04-28",
     "status": "confirmed",
-    "source_ids": ["fl-dos-constitutional-amendments", "flsenate-constitution-article-xi"],
+    "source_ids": [
+      "fl-dos-constitutional-amendments",
+      "flsenate-constitution-article-xi"
+    ],
     "display_context": "homepage",
     "last_verified": "2026-04-28",
     "notes": "Used for voter-approval threshold explanation."

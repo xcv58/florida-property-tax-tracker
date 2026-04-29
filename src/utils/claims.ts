@@ -1,5 +1,5 @@
-import claimsData from '../../data/claims.json';
-import { getSources } from './sources';
+import claimsData from "../../data/claims.json";
+import { getSources } from "./sources";
 
 export type Claim = (typeof claimsData)[number];
 

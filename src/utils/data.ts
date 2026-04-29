@@ -1,11 +1,11 @@
-import statusData from '../../data/status.json';
-import timelineData from '../../data/timeline.json';
-import proposalsData from '../../data/proposals.json';
-import countiesData from '../../data/counties.json';
-import updateLogData from '../../data/update-log.json';
-import glossaryData from '../../data/glossary.json';
-import { claims, claimById, getClaims, getClaimSources } from './claims';
-import { getSources, sourceById, sources, sourceTypeLabel } from './sources';
+import statusData from "../../data/status.json";
+import timelineData from "../../data/timeline.json";
+import proposalsData from "../../data/proposals.json";
+import countiesData from "../../data/counties.json";
+import updateLogData from "../../data/update-log.json";
+import glossaryData from "../../data/glossary.json";
+import { claims, claimById, getClaims, getClaimSources } from "./claims";
+import { getSources, sourceById, sources, sourceTypeLabel } from "./sources";
 
 export const status = statusData;
 export const timeline = timelineData;

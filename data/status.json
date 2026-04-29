@@ -18,22 +18,32 @@
     {
       "field": "current_status_summary",
       "sentence": "No tracked property tax elimination proposal appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker.",
-      "claim_ids": ["claim-special-session-d-bill-actions-no-property-tax-2026-04-28"]
+      "claim_ids": [
+        "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
+      ]
     },
     {
       "field": "current_status_summary",
       "sentence": "CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.",
-      "claim_ids": ["claim-hjr203-house-passed-80-30", "claim-hjr203-died-senate-appropriations"]
+      "claim_ids": [
+        "claim-hjr203-house-passed-80-30",
+        "claim-hjr203-died-senate-appropriations"
+      ]
     },
     {
       "field": "current_status_summary",
       "sentence": "The issue could return through a later special session or a new joint resolution.",
-      "claim_ids": ["claim-special-sessions-can-be-called-later", "claim-constitutional-amendment-legislative-path"]
+      "claim_ids": [
+        "claim-special-sessions-can-be-called-later",
+        "claim-constitutional-amendment-legislative-path"
+      ]
     },
     {
       "field": "latest_update",
       "sentence": "The April 28, 2026 Special Session D bill-actions list reviewed for this tracker did not include a tracked property tax elimination proposal.",
-      "claim_ids": ["claim-special-session-d-bill-actions-no-property-tax-2026-04-28"]
+      "claim_ids": [
+        "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
+      ]
     },
     {
       "field": "expected_next",

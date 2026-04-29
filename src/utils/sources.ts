@@ -1,4 +1,4 @@
-import sourcesData from '../../data/sources.json';
+import sourcesData from "../../data/sources.json";
 
 export type Source = (typeof sourcesData)[number];
 
@@ -12,9 +12,9 @@ export function getSources(sourceIds: string[] = []): Source[] {
 }
 
 export function sourceTypeLabel(sourceType: string | null | undefined): string {
-  if (!sourceType) return 'Not sourced';
+  if (!sourceType) return "Not sourced";
   return sourceType
-    .split('_')
+    .split("_")
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(' ');
+    .join(" ");
 }

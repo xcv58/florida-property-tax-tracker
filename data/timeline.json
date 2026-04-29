@@ -62,7 +62,9 @@
       "flsenate-bill-actions-2026-04-28",
       "flsenate-special-session-d-update-2026-04-24"
     ],
-    "claim_ids": ["claim-special-session-d-bill-actions-no-property-tax-2026-04-28"],
+    "claim_ids": [
+      "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
+    ],
     "category": "legislative"
   }
 ]

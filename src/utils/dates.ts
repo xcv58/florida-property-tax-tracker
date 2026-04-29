@@ -1,5 +1,5 @@
 export function formatDate(date: string | null | undefined): string {
-  if (!date) return 'Not dated';
+  if (!date) return "Not dated";
   return date;
 }
 

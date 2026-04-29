@@ -22,7 +22,7 @@ const sourcedCountyEstimateCount = counties.filter((county) => county.estimated_
   <StatusHero />
   <section class="shell status-card-grid" aria-label="Tracker status cards">
     <StatusCard label="current_status" value="STALLED" explanation="No tracked property-tax elimination vehicle is shown as active in the current tracker data." severity="stalled" />
-    <StatusCard label="last_verified" value={status.last_verified} explanation="Official source records were reviewed for the initial scaffold." severity="confirmed" />
+    <StatusCard label="last_verified" value={status.last_verified} explanation="Official source records were reviewed and validation passed." severity="confirmed" />
     <StatusCard label="next_action" value="WATCHING" explanation="Monitor special-session calls, new joint resolutions, committee agendas, and ballot records." severity="watching" />
     <StatusCard label="ballot_path" value="JOINT RESOLUTION + VOTERS" explanation="A legislative constitutional amendment would still require voter approval." severity="neutral" />
     <StatusCard label="active_proposals" value={String(activeProposalCount)} explanation="Dead and historical proposals remain visible for context." severity={activeProposalCount ? 'watching' : 'confirmed'} />

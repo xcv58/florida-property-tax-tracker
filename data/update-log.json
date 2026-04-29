@@ -2,7 +2,7 @@
   {
     "date": "2026-04-28",
     "what_changed": [
-      "Created initial tracker data scaffold.",
+      "Published the initial tracker data set.",
       "Added official source records for CS/CS/HJR 203, Special Session D materials, constitutional amendment procedure, and Department of State ballot-path guidance.",
       "Set current status to Stalled based on the April 28, 2026 official bill-actions review and the March 13, 2026 HJR 203 final action."
     ],
@@ -30,7 +30,7 @@
     ],
     "claims_revised": [],
     "claims_retired": [],
-    "automation_run_id": "manual-initial-scaffold",
-    "git_commit": null
+    "automation_run_id": "manual-initial-publication",
+    "git_commit": "52b3e4d"
   }
 ]

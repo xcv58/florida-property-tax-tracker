@@ -25,7 +25,7 @@ const { items = defaultUpdateLog } = Astro.props;
               <div><dt>Sources added</dt><dd>{entry.source_ids_added.length}</dd></div>
               <div><dt>Claims added</dt><dd>{entry.claims_added.length}</dd></div>
               <div><dt>Automation run</dt><dd>{entry.automation_run_id}</dd></div>
-              <div><dt>Commit</dt><dd>{entry.git_commit ?? 'Not committed yet'}</dd></div>
+              <div><dt>Commit</dt><dd>{entry.git_commit ?? 'Pending'}</dd></div>
             </dl>
           </article>
         ))
