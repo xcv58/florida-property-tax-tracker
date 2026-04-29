@@ -15,7 +15,7 @@ The site tracks:
 
 ## Site Structure
 
-- `/` is the overview dashboard: current status, a visual procedural path, known unknowns, and links to deeper views.
+- `/` is the overview dashboard: current status, a monthly ballot runway, known unknowns, and links to deeper views.
 - `/details/` is the secondary legislative dossier: source-backed claims, proposal history, and the full timeline.
 - `/timeline/` shows the dependency map plus chronological events.
 - `/counties/` is the advanced county data view and remains conservative until estimates are version-labeled.
@@ -29,6 +29,8 @@ Status colors describe procedural posture, not policy preference:
 - Yellow: watching or uncertain.
 - Red: blocked, dead, or not currently moving.
 - Gray: later checkpoint not reached.
+
+The homepage runway uses a month-scale view. Future months are checkpoints to watch, not predictions that a proposal will advance.
 
 ## Core Rule
 

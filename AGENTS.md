@@ -17,7 +17,7 @@ You are working on Florida Property Tax Tracker, a neutral static civic tracker 
 
 ## Information Architecture
 
-- Keep `/` simple and high-level: current status, procedural path, known unknowns, and links to deeper views.
+- Keep `/` simple and high-level: current status, the monthly ballot runway, known unknowns, and links to deeper views.
 - Use `/details/` for the secondary legislative dossier: claims, proposal history, and expanded timeline context.
 - Use `/counties/` for advanced county data and keep estimates blank until version-labeled sources exist.
 - Use `/sources/` for the full source library rather than crowding the homepage with every source chip.
@@ -32,6 +32,8 @@ Colors are procedural, not advocacy language:
 - Gray means a later checkpoint has not been reached.
 
 Do not use green to imply support or red to imply opposition.
+
+The homepage runway lives in `/data/overview.json` under `monthly_runway`. Treat future months as watch checkpoints, not predictions. Keep the numbered dependency path for detailed pages.
 
 ## Standard Update Process
 

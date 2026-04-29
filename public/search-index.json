@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T01:32:37.117Z",
+  "generated_at": "2026-04-29T02:19:59.811Z",
   "counties": [
     {
       "title": "Alachua",
@@ -448,6 +448,36 @@
       "title": "Ballot listing not reached",
       "type": "overview",
       "text": "Future checkpoint Ballot Ballot listing not reached A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution. The Department of State ballot step comes after a measure advances through the required constitutional-amendment path. not_started"
+    },
+    {
+      "title": "House vehicle filed",
+      "type": "runway",
+      "text": "Before 2026 Oct. 16, 2025 House vehicle filed HJR 203 entered the 2026 regular-session bill record. completed"
+    },
+    {
+      "title": "House passed; Senate received",
+      "type": "runway",
+      "text": "February Feb. 19, 2026 House passed; Senate received CS/CS/HJR 203 passed the House and was referred to Senate Appropriations. completed"
+    },
+    {
+      "title": "Regular-session path ended",
+      "type": "runway",
+      "text": "March Mar. 13, 2026 Regular-session path ended CS/CS/HJR 203 died in Senate Appropriations. blocked"
+    },
+    {
+      "title": "No Special Session D vehicle found",
+      "type": "runway",
+      "text": "April Apr. 28, 2026 No Special Session D vehicle found The reviewed bill-actions list did not show a tracked property-tax elimination proposal. watching"
+    },
+    {
+      "title": "Possible new legislative vehicle",
+      "type": "runway",
+      "text": "May-Jul Watching window Possible new legislative vehicle A future special-session call, HJR, or SJR would need official source support before this tracker marks a vehicle active. watching"
+    },
+    {
+      "title": "Ballot and voter approval checkpoints",
+      "type": "runway",
+      "text": "Aug-Nov Not reached Ballot and voter approval checkpoints A constitutional-amendment path would still require voter approval before any constitutional change. not_started"
     }
   ]
 }

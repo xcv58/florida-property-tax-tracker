@@ -259,6 +259,20 @@ updateLog.forEach((entry) => {
 scanBannedLanguage("data/status.json", status);
 overview.brief && checkClaimIds("overview.brief", overview.brief.claim_ids);
 overview.brief && checkSourceIds("overview.brief", overview.brief.source_ids);
+if (overview.monthly_runway) {
+  if (!isIsoDate(overview.monthly_runway.as_of))
+    errors.push("overview.monthly_runway.as_of must be an ISO date");
+  checkSourceIds("overview.monthly_runway", overview.monthly_runway.source_ids);
+  overview.monthly_runway.months?.forEach((item: any) => {
+    if (!item.id) errors.push("Overview monthly runway item is missing id");
+    if (!validOverviewStatuses.has(item.status))
+      errors.push(
+        `${item.id} has invalid monthly runway status: ${item.status}`,
+      );
+    checkSourceIds(`Overview monthly runway ${item.id}`, item.source_ids);
+    checkClaimIds(`Overview monthly runway ${item.id}`, item.claim_ids);
+  });
+}
 overview.path_steps?.forEach((step: any) => {
   if (!step.id) errors.push("Overview path step is missing id");
   if (!validOverviewStatuses.has(step.status))

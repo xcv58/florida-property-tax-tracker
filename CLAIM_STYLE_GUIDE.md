@@ -59,6 +59,8 @@ Use color only to describe process:
 
 Do not write copy that makes green mean "good" or red mean "bad." Pair color with text labels so status does not rely on color alone.
 
+For the monthly runway, use exact month/date labels such as "Feb. 19, 2026" or "Apr. 28, 2026." Future month ranges should say "watching window" or "not reached," not "upcoming approval" or other language that implies a result.
+
 Avoid:
 
 - killed, unless quoting a source

@@ -1,4 +1,5 @@
 ---
+import BallotRunway from '../components/BallotRunway.astro';
 import PathTimeline from '../components/PathTimeline.astro';
 import Timeline from '../components/Timeline.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -11,6 +12,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <p>Chronological source-backed events for active, dead, and related proposals.</p>
   </div>
   <div class="shell">
+    <BallotRunway title="Monthly Ballot Runway" />
     <PathTimeline title="Procedural Dependency Map" />
     <Timeline />
   </div>

@@ -9,6 +9,8 @@ function readJson<T>(file: string): T {
   return JSON.parse(readFileSync(path.join(root, file), "utf8")) as T;
 }
 
+const overview = readJson<any>("data/overview.json");
+
 const index = {
   generated_at: new Date().toISOString(),
   counties: readJson<any[]>("data/counties.json").map((county) => ({
@@ -31,11 +33,18 @@ const index = {
     type: "timeline",
     text: `${item.date} ${item.title} ${item.summary} ${item.importance}`,
   })),
-  overview: readJson<any>("data/overview.json").path_steps.map((item: any) => ({
-    title: item.title,
-    type: "overview",
-    text: `${item.date} ${item.label} ${item.title} ${item.description} ${item.dependency} ${item.status}`,
-  })),
+  overview: [
+    ...overview.path_steps.map((item: any) => ({
+      title: item.title,
+      type: "overview",
+      text: `${item.date} ${item.label} ${item.title} ${item.description} ${item.dependency} ${item.status}`,
+    })),
+    ...overview.monthly_runway.months.map((item: any) => ({
+      title: item.title,
+      type: "runway",
+      text: `${item.month} ${item.range} ${item.title} ${item.summary} ${item.status}`,
+    })),
+  ],
 };
 
 writeFileSync(

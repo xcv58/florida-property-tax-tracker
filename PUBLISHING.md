@@ -41,4 +41,4 @@ git commit -m "Update tracker"
 git push
 ```
 
-Before publishing, confirm the homepage is still an overview and that detailed source-heavy material remains on `/details/`, `/timeline/`, `/counties/`, or `/sources/`. Check that procedural colors still mean green completed, yellow watching or uncertain, red blocked or dead, and gray not reached.
+Before publishing, confirm the homepage is still an overview and that detailed source-heavy material remains on `/details/`, `/timeline/`, `/counties/`, or `/sources/`. Check that procedural colors still mean green completed, yellow watching or uncertain, red blocked or dead, and gray not reached. Confirm the monthly runway uses source-backed dates and does not present future checkpoints as expected outcomes.

@@ -1,5 +1,5 @@
 ---
-import PathTimeline from '../components/PathTimeline.astro';
+import BallotRunway from '../components/BallotRunway.astro';
 import SourceLink from '../components/SourceLink.astro';
 import StatusHero from '../components/StatusHero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -13,7 +13,7 @@ const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-
   <StatusHero maxSources={3} sourceMode="summary" hidePanel />
 
   <div class="shell">
-    <PathTimeline compact title="Current Path To Ballot" />
+    <BallotRunway compact />
   </div>
 
   <section class="shell overview-grid" aria-label="Current tracker overview">

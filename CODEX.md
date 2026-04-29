@@ -8,7 +8,7 @@ This is an Astro static site. Facts live in `/data`. UI lives in `/src`.
 
 ## Page Roles
 
-- `/` is the public overview dashboard. Keep it concise and visually scannable.
+- `/` is the public overview dashboard. Keep it concise and visually scannable, with the monthly ballot runway as the main global view.
 - `/details/` is the secondary dossier for readers who want claims, proposal history, and timeline context.
 - `/counties/` is the advanced data page for county impacts.
 - `/sources/` is the source library.
@@ -23,6 +23,8 @@ Use procedural colors consistently:
 - Gray: later checkpoint not reached.
 
 These colors must not imply support or opposition to a proposal.
+
+The monthly runway should show time and current posture. The detailed procedural path should preserve dependencies and source-heavy context.
 
 ## Before Editing
 
@@ -49,7 +51,7 @@ Check:
 - Were claims updated?
 - Are any claims marked `needs_review`?
 - Did the homepage summary change?
-- Did the overview path in `/data/overview.json` change?
+- Did the monthly runway or overview path in `/data/overview.json` change?
 - Did timeline entries get added?
 - Did county data change?
 
@@ -79,6 +81,7 @@ GitHub Pages backup publishes from the GitHub Pages workflow.
 - Homepage last verified date is correct.
 - Current status is not overstated.
 - Homepage remains a high-level overview, not a full source dossier.
+- Homepage runway uses month-scale checkpoints and does not imply future action is certain.
 - Dead bills are not shown as active.
 - County estimates identify source and proposal version.
 - Build passes.

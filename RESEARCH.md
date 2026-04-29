@@ -42,6 +42,8 @@ Use plain English, short sentences, exact dates, and source-backed claims. Avoid
 
 ## How To Update The Procedural Path
 
+The homepage runway should show monthly posture from the source record. Use exact dates inside each month card, and make future months watch checkpoints rather than predictions. Update `monthly_runway.as_of` only after a successful source check.
+
 The overview path should show dependencies in order. A step may be green only when the official record shows it is complete. A step should be red when the tracked vehicle is blocked, dead, or no longer moving. A step should be yellow when the tracker is watching for a new filing, call, agenda, or source. A step should be gray when it is a later checkpoint that has not been reached.
 
 If a new vehicle appears, preserve the HJR 203 history and add a new path or proposal entry rather than making HJR 203 look active again.

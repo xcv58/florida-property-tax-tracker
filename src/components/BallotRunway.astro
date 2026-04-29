@@ -1,0 +1,81 @@
+---
+import { getSources, overview } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const {
+  runway = overview.monthly_runway,
+  compact = false,
+  title = overview.monthly_runway.heading,
+} = Astro.props;
+
+const runwaySources = getSources(runway.source_ids ?? []);
+---
+
+<section class:list={['section-block', 'runway-section', compact && 'runway-section--compact']} aria-labelledby="ballot-runway-heading">
+  <div class="section-heading runway-heading">
+    <div>
+      <p class="terminal-label">&gt; {runway.eyebrow}</p>
+      <h2 id="ballot-runway-heading">{title}</h2>
+    </div>
+    <p class="section-kicker">{runway.scale_note}</p>
+  </div>
+
+  <div class="runway-meta" aria-label="Runway status metadata">
+    <p>
+      <span>{runway.current_label}</span>
+      <strong>{runway.as_of}</strong>
+    </p>
+    <p>
+      <span>Next watch</span>
+      <strong>{runway.next_watch}</strong>
+    </p>
+  </div>
+
+  <div class="runway-calendar" aria-label="2026 monthly scale">
+    {
+      runway.axis_months.map((month) => (
+        <span class:list={['runway-calendar-tick', month === runway.current_month && 'is-current']}>
+          <span class="runway-calendar-dot" aria-hidden="true"></span>
+          <span>{month}</span>
+        </span>
+      ))
+    }
+  </div>
+
+  <ol class="runway-track" aria-label="Monthly ballot path status">
+    {
+      runway.months.map((item) => (
+        <li class:list={['runway-month', `runway-month--${item.status}`, item.is_current && 'is-current']}>
+          <div class="runway-axis" aria-hidden="true">
+            <span class="runway-month-label">{item.month}</span>
+            <span class="runway-marker"></span>
+          </div>
+          <article class="runway-card">
+            <div class="runway-card-topline">
+              <span class="runway-range">{item.range}</span>
+              <span class={`status-key status-key--${item.status}`}>{item.status_label}</span>
+            </div>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            {item.is_current && <span class="runway-now">Current checkpoint</span>}
+            {!compact && (
+              <div class="source-row">
+                {getSources(item.source_ids ?? []).map((source) => <SourceLink source={source} compact />)}
+              </div>
+            )}
+          </article>
+        </li>
+      ))
+    }
+  </ol>
+
+  {compact && runwaySources.length > 0 && (
+    <div class="runway-source-summary">
+      <p class="terminal-label">&gt; primary_sources</p>
+      <div class="source-row source-row--trimmed">
+        {runwaySources.slice(0, 4).map((source) => <SourceLink source={source} compact />)}
+        {runwaySources.length > 4 && <a class="source-more-link" href="/sources/">+{runwaySources.length - 4} more source records</a>}
+      </div>
+    </div>
+  )}
+</section>

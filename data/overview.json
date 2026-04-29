@@ -36,6 +36,130 @@
       "meaning": "Later checkpoint not reached"
     }
   ],
+  "monthly_runway": {
+    "eyebrow": "monthly_runway",
+    "heading": "Current Path To Ballot",
+    "as_of": "2026-04-28",
+    "scale_note": "Monthly scale; future months are checkpoints to watch, not predictions.",
+    "current_label": "Last verified",
+    "current_month": "Apr",
+    "axis_months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "next_watch": "New special session call, new HJR or SJR filing, committee agenda, or ballot record",
+    "source_ids": [
+      "flsenate-hjr203-2026",
+      "flsenate-bill-actions-2026-04-28",
+      "flsenate-special-session-d-update-2026-04-24",
+      "flsenate-session-overview",
+      "fl-dos-constitutional-amendments",
+      "flsenate-constitution-article-xi"
+    ],
+    "months": [
+      {
+        "id": "before-2026",
+        "month": "Before 2026",
+        "range": "Oct. 16, 2025",
+        "title": "House vehicle filed",
+        "summary": "HJR 203 entered the 2026 regular-session bill record.",
+        "status": "completed",
+        "status_label": "Completed",
+        "is_current": false,
+        "source_ids": ["flsenate-hjr203-2026"],
+        "claim_ids": ["claim-hjr203-proposed-homestead-nonschool-exemption"]
+      },
+      {
+        "id": "february-house-senate",
+        "month": "February",
+        "range": "Feb. 19, 2026",
+        "title": "House passed; Senate received",
+        "summary": "CS/CS/HJR 203 passed the House and was referred to Senate Appropriations.",
+        "status": "completed",
+        "status_label": "Completed",
+        "is_current": false,
+        "source_ids": ["flsenate-hjr203-2026"],
+        "claim_ids": [
+          "claim-hjr203-house-passed-80-30",
+          "claim-hjr203-received-senate-referred-appropriations"
+        ]
+      },
+      {
+        "id": "march-regular-session-ended",
+        "month": "March",
+        "range": "Mar. 13, 2026",
+        "title": "Regular-session path ended",
+        "summary": "CS/CS/HJR 203 died in Senate Appropriations.",
+        "status": "blocked",
+        "status_label": "Blocked/dead",
+        "is_current": false,
+        "source_ids": ["flsenate-hjr203-2026"],
+        "claim_ids": ["claim-hjr203-died-senate-appropriations"]
+      },
+      {
+        "id": "april-special-session-review",
+        "month": "April",
+        "range": "Apr. 28, 2026",
+        "title": "No Special Session D vehicle found",
+        "summary": "The reviewed bill-actions list did not show a tracked property-tax elimination proposal.",
+        "status": "watching",
+        "status_label": "Watching",
+        "is_current": true,
+        "source_ids": [
+          "flsenate-bill-actions-2026-04-28",
+          "flsenate-special-session-d-update-2026-04-24"
+        ],
+        "claim_ids": [
+          "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
+        ]
+      },
+      {
+        "id": "may-july-watch-window",
+        "month": "May-Jul",
+        "range": "Watching window",
+        "title": "Possible new legislative vehicle",
+        "summary": "A future special-session call, HJR, or SJR would need official source support before this tracker marks a vehicle active.",
+        "status": "watching",
+        "status_label": "Watching",
+        "is_current": false,
+        "source_ids": [
+          "flsenate-session-overview",
+          "flsenate-constitution-article-xi"
+        ],
+        "claim_ids": [
+          "claim-special-sessions-can-be-called-later",
+          "claim-constitutional-amendment-legislative-path"
+        ]
+      },
+      {
+        "id": "august-november-ballot-checkpoints",
+        "month": "Aug-Nov",
+        "range": "Not reached",
+        "title": "Ballot and voter approval checkpoints",
+        "summary": "A constitutional-amendment path would still require voter approval before any constitutional change.",
+        "status": "not_started",
+        "status_label": "Not reached",
+        "is_current": false,
+        "source_ids": [
+          "fl-dos-constitutional-amendments",
+          "flsenate-constitution-article-xi"
+        ],
+        "claim_ids": [
+          "claim-constitutional-amendment-legislative-path",
+          "claim-constitutional-amendment-sixty-percent"
+        ]
+      }
+    ]
+  },
   "path_steps": [
     {
       "id": "hjr203-filed",
