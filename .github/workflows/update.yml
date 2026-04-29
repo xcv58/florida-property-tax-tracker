@@ -3,8 +3,15 @@ name: Automated tracker update
 on:
   workflow_dispatch:
   schedule:
+    # 10:15 UTC is early morning in Florida during daylight-saving time.
     - cron: "15 10 * * *"
-    - cron: "30 10 * * 1"
+
+concurrency:
+  group: automated-tracker-update
+  cancel-in-progress: false
+
+env:
+  TZ: America/New_York
 
 jobs:
   update:
@@ -30,14 +37,54 @@ jobs:
       - name: Run automated update
         run: npm run update:auto
 
+      - name: Create issue when watched sources changed
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("node:fs");
+            const report = JSON.parse(fs.readFileSync("reports/latest-update.json", "utf8"));
+            const changed = report.source_fetch?.changed ?? [];
+            if (!changed.length) return;
+
+            const sourceList = changed
+              .map((source) => `- ${source.label} (${source.category})\n  ${source.url}`)
+              .join("\n");
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Watched source change detected (${changed.length})`,
+              body: [
+                "The scheduled tracker update detected changed watched source content.",
+                "",
+                "The automation committed the fetch report and source hash manifest. Review the changed sources before changing confirmed claims unless the deterministic parser already made a safe update.",
+                "",
+                "Changed sources:",
+                sourceList,
+                "",
+                `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+              ].join("\n")
+            });
+
       - name: Commit changes if any
+        id: commit
         run: |
           git config user.name "florida-property-tax-tracker-bot"
           git config user.email "actions@github.com"
-          git add data public/archive reports public/search-index.json
-          git diff --cached --quiet || git commit -m "Automated tracker update"
+          sources_changed=$(node -e "const r=require('./reports/latest-update.json'); console.log(r.source_fetch?.sources_changed ?? 0)")
+          git add data public/archive public/search-index.json reports/source-cache-manifest.json
+          if [ "$sources_changed" != "0" ]; then
+            git add reports
+          fi
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Automated tracker update"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Push changes
+        if: steps.commit.outputs.changed == 'true'
         run: git push
 
       - name: Create issue on failure

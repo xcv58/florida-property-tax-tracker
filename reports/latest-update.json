@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-29T00:08:02.725Z",
+  "generated_at": "2026-04-29T13:40:47.622Z",
   "source_fetch": {
-    "generated_at": "2026-04-29T00:08:00.017Z",
+    "generated_at": "2026-04-29T13:40:44.819Z",
     "sources_checked": 11,
-    "sources_changed": 4,
+    "sources_changed": 0,
     "errors": [],
     "checked": [
       {
@@ -13,10 +13,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "89c2f511819df0ff33129befc92ff8cb26f202743e9546f6d7edb84ab1c0d1ea",
+        "hash": "10fb9e3da6e05a36568fca657fc738fb5fcb7aa063ed365c3957605ee0449fd1",
+        "raw_hash": "6b2df000e728cb25c1db4b96b3b6a4f7f43456a38885c2cc3a5868f8be441051",
+        "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-senate-bill-list.html",
-        "checked_at": "2026-04-29T00:07:38.379Z"
+        "checked_at": "2026-04-29T13:40:08.166Z"
       },
       {
         "label": "Florida Senate 2026 House bill list",
@@ -25,10 +27,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "8a766c9a850ab09b5b6e7f1ca4d9d83bf4ffdd64f63e236a3a858b1e957b8a12",
+        "hash": "5e9120ec259d7b9d07f68d3313d1418ffdaa6ee7bb890e8afe790a3dc6821f30",
+        "raw_hash": "6e714887e2484e1c5c7b78f88e9db228db7c13b2f95228ad290a98ef6a301a5c",
+        "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-house-bill-list.html",
-        "checked_at": "2026-04-29T00:07:40.108Z"
+        "checked_at": "2026-04-29T13:40:27.403Z"
       },
       {
         "label": "Florida Senate calendars and bill actions",
@@ -37,10 +41,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "c9b3697e800858f4e125c91b360e43765e86b5e6421e506887d876d8ca1781bf",
-        "changed_since_last_run": true,
+        "hash": "7c75304d50d1ad8f0741f34418e75182d929471779bfa4074bfb07dac081a573",
+        "raw_hash": "7a8c3f29cd9589032cefdadca50e467362bfc7eb5d67a13674a7ec4d92462e23",
+        "hash_strategy": "normalized_html_text_and_links",
+        "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-04-29T00:07:41.684Z"
+        "checked_at": "2026-04-29T13:40:29.839Z"
       },
       {
         "label": "Florida Senate Special Session D update memo",
@@ -50,9 +56,11 @@
         "ok": true,
         "content_type": "application/pdf",
         "hash": "63b78a98291eed983e3ad40f6676f6f14de219b97c537eee7fe366cb4e3c1029",
+        "raw_hash": "63b78a98291eed983e3ad40f6676f6f14de219b97c537eee7fe366cb4e3c1029",
+        "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-update-memo.pdf",
-        "checked_at": "2026-04-29T00:07:42.659Z"
+        "checked_at": "2026-04-29T13:40:32.154Z"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
@@ -62,9 +70,11 @@
         "ok": true,
         "content_type": "application/pdf",
         "hash": "489516547beb9ebfc116a3d271bfb848ed3c1c1048e24addeb345ba7c58d39eb",
+        "raw_hash": "489516547beb9ebfc116a3d271bfb848ed3c1c1048e24addeb345ba7c58d39eb",
+        "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-memo-and-information.pdf",
-        "checked_at": "2026-04-29T00:07:43.773Z"
+        "checked_at": "2026-04-29T13:40:33.168Z"
       },
       {
         "label": "Governor actions and proclamations",
@@ -73,10 +83,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html",
-        "hash": "1cef6014059b48672c5bdbcf229b9df27d94a6128b7045fab2ec64a8dfc6d114",
+        "hash": "59cf25466c8261731088a7599316f81a5d8b360ffd4e9f1b6e72c4462d89eb0e",
+        "raw_hash": "89e32689f97448ca456609536118731fa4d3e86680936734c83d4cd53a848cb8",
+        "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/governor-actions-and-proclamations.html",
-        "checked_at": "2026-04-29T00:07:49.718Z"
+        "checked_at": "2026-04-29T13:40:36.885Z"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
@@ -85,10 +97,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html;charset=UTF-8",
-        "hash": "a42ec5c0700a90a517e6a5ebc5231daba4394321dc4b7c4f66f2b5eda2ee46ec",
-        "changed_since_last_run": true,
+        "hash": "84273675ce4d2c86737d5322b0d1e8c35c9a0bdc991fe000a0c0ab41ffe16292",
+        "raw_hash": "15bdf92df623477b42a4c7d57136c555ca9bc67d0b85bc66a2002d14dfa6f7d2",
+        "hash_strategy": "normalized_html_text_and_links",
+        "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-office-of-economic-and-demographic-research.html",
-        "checked_at": "2026-04-29T00:07:53.140Z"
+        "checked_at": "2026-04-29T13:40:39.043Z"
       },
       {
         "label": "Florida Department of State constitutional amendments",
@@ -97,10 +111,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "adbcc3a265615bad0479601578f61888e26a05d26f713f33343c16facf037473",
-        "changed_since_last_run": true,
+        "hash": "b2c22ad0ed3f84b4c7206f9bf0ff06a8646094917b167ae2fc12be654b0aa4b0",
+        "raw_hash": "f3574b77676d8981bad4c99ca40d3d613b857c5e855fbfe8945385bd3c420fcf",
+        "hash_strategy": "normalized_html_text_and_links",
+        "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-department-of-state-constitutional-amendments.html",
-        "checked_at": "2026-04-29T00:07:55.485Z"
+        "checked_at": "2026-04-29T13:40:41.116Z"
       },
       {
         "label": "Constitutional initiatives database",
@@ -109,10 +125,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "7891222a2b49fa61c7b33b867b27152189b22c156de2a915b5a530f220b10e32",
-        "changed_since_last_run": true,
+        "hash": "dd89f29f3a43f51b9affa01dfc1d9610d69a133ac4a141ba060dc337e5d7da94",
+        "raw_hash": "d962ce7e38b4e5933709e84ce60a668ea99d9f30378449960dd537601857891a",
+        "hash_strategy": "normalized_html_text_and_links",
+        "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/constitutional-initiatives-database.html",
-        "checked_at": "2026-04-29T00:07:56.979Z"
+        "checked_at": "2026-04-29T13:40:41.540Z"
       },
       {
         "label": "Florida Association of Counties",
@@ -121,10 +139,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=UTF-8",
-        "hash": "e8db1d036146b1f792104a9cfa2f42511958d8c9cf5f0de703c400e6384e1664",
+        "hash": "053e6ff534b3c8cdb3ef64fc2b76bf5261487e1c65d140327203e7731ad9e46c",
+        "raw_hash": "e8db1d036146b1f792104a9cfa2f42511958d8c9cf5f0de703c400e6384e1664",
+        "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-association-of-counties.html",
-        "checked_at": "2026-04-29T00:07:58.259Z"
+        "checked_at": "2026-04-29T13:40:43.151Z"
       },
       {
         "label": "Florida League of Cities",
@@ -133,71 +153,28 @@
         "status": 403,
         "ok": false,
         "content_type": "text/html",
-        "hash": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+        "hash": "4969fd44a856f70608f7ffa8ac53fc2800a58d646bee240c0821878333634f36",
+        "raw_hash": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+        "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-league-of-cities.html",
-        "checked_at": "2026-04-29T00:07:59.682Z"
+        "checked_at": "2026-04-29T13:40:44.504Z"
       }
     ],
-    "changed": [
-      {
-        "label": "Florida Senate calendars and bill actions",
-        "url": "https://www.flsenate.gov/?Tab=BillActions",
-        "category": "official_legislative",
-        "status": 200,
-        "ok": true,
-        "content_type": "text/html; charset=utf-8",
-        "hash": "c9b3697e800858f4e125c91b360e43765e86b5e6421e506887d876d8ca1781bf",
-        "changed_since_last_run": true,
-        "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-04-29T00:07:41.684Z"
-      },
-      {
-        "label": "Florida Office of Economic and Demographic Research",
-        "url": "https://edr.state.fl.us",
-        "category": "official_fiscal",
-        "status": 200,
-        "ok": true,
-        "content_type": "text/html;charset=UTF-8",
-        "hash": "a42ec5c0700a90a517e6a5ebc5231daba4394321dc4b7c4f66f2b5eda2ee46ec",
-        "changed_since_last_run": true,
-        "cache_path": "tmp/source-cache/florida-office-of-economic-and-demographic-research.html",
-        "checked_at": "2026-04-29T00:07:53.140Z"
-      },
-      {
-        "label": "Florida Department of State constitutional amendments",
-        "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives",
-        "category": "official_election",
-        "status": 200,
-        "ok": true,
-        "content_type": "text/html; charset=utf-8",
-        "hash": "adbcc3a265615bad0479601578f61888e26a05d26f713f33343c16facf037473",
-        "changed_since_last_run": true,
-        "cache_path": "tmp/source-cache/florida-department-of-state-constitutional-amendments.html",
-        "checked_at": "2026-04-29T00:07:55.485Z"
-      },
-      {
-        "label": "Constitutional initiatives database",
-        "url": "https://constitutionalinitiatives.dos.fl.gov",
-        "category": "official_election",
-        "status": 200,
-        "ok": true,
-        "content_type": "text/html; charset=utf-8",
-        "hash": "7891222a2b49fa61c7b33b867b27152189b22c156de2a915b5a530f220b10e32",
-        "changed_since_last_run": true,
-        "cache_path": "tmp/source-cache/constitutional-initiatives-database.html",
-        "checked_at": "2026-04-29T00:07:56.979Z"
-      }
-    ]
+    "changed": []
   },
   "official_pages": {
-    "generated_at": "2026-04-29T00:08:00.541Z",
+    "generated_at": "2026-04-29T13:40:45.378Z",
     "pages": [
       {
         "label": "Florida Senate 2026 Senate bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026",
         "title": "Bill List  - The Florida Senate",
-        "headings": ["The Florida Senate", "Bills", "942 Bills Found"],
+        "headings": [
+          "The Florida Senate",
+          "Bills",
+          "942 Bills Found"
+        ],
         "mentions_property_tax": false,
         "mentions_special_session": false,
         "text_sample": "<img src=\"/usercontent/img/icons/TransparentDot.gif\" /> Skip to Navigation | Skip to Main Content | Skip to Site Map FLHouse.gov | Mobile Site Senate Tracker: Sign Up | Login Go to Bill: Session: 2026E 2026D 2026 2025 2025C 2025B 2025A 2024 Org. 2024 2023C 2023 2023B 2022A 2022 Org. 2022D 2022C 2022 2021B 2021A 2021 2020 Org. 2020 2019 I 2019 2018 Org. 2018 2017A 2017 2016 Org. 2016 2015C 2015B 2015A 2015 2014 Org. 2014A 2014 2013 2012 Org. 2012B 2012 2011 2010A 2010 Org. 2010C 2010 2009B 2009 2009A 2008 Org. 2008 2007D 2007C 2007B 2007 2007A 2006 Org. 2006 2005B 2005 2004A 2004 Org. 2004 2003E 2003D 2003C 2003B 2003A 2003 2002 Org. 2002E 2002D 2002 2001C 2001B 2001 2000A (Dec.) 2000 Org. 2000 2000A (Jan.) 1999 1998 Org 1998 Find Statutes: 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 Search <p class=\"right centertext redtext mar-bot0 width50\" style=\"margin-top:3em;\">Javascript must be enabled for site search.</p> The Florida Senate Home Senators Senator List Find Your Legislators District Maps Vote Disclosures Committees Committee List Committee Publications Session Bills Calendars J"
@@ -206,7 +183,11 @@
         "label": "Florida Senate 2026 House bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House",
         "title": "Bill List  - The Florida Senate",
-        "headings": ["The Florida Senate", "Bills", "955 Bills Found"],
+        "headings": [
+          "The Florida Senate",
+          "Bills",
+          "955 Bills Found"
+        ],
         "mentions_property_tax": true,
         "mentions_special_session": false,
         "text_sample": "<img src=\"/usercontent/img/icons/TransparentDot.gif\" /> Skip to Navigation | Skip to Main Content | Skip to Site Map FLHouse.gov | Mobile Site Senate Tracker: Sign Up | Login Go to Bill: Session: 2026E 2026D 2026 2025 2025C 2025B 2025A 2024 Org. 2024 2023C 2023 2023B 2022A 2022 Org. 2022D 2022C 2022 2021B 2021A 2021 2020 Org. 2020 2019 I 2019 2018 Org. 2018 2017A 2017 2016 Org. 2016 2015C 2015B 2015A 2015 2014 Org. 2014A 2014 2013 2012 Org. 2012B 2012 2011 2010A 2010 Org. 2010C 2010 2009B 2009 2009A 2008 Org. 2008 2007D 2007C 2007B 2007 2007A 2006 Org. 2006 2005B 2005 2004A 2004 Org. 2004 2003E 2003D 2003C 2003B 2003A 2003 2002 Org. 2002E 2002D 2002 2001C 2001B 2001 2000A (Dec.) 2000 Org. 2000 2000A (Jan.) 1999 1998 Org 1998 Find Statutes: 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 Search <p class=\"right centertext redtext mar-bot0 width50\" style=\"margin-top:3em;\">Javascript must be enabled for site search.</p> The Florida Senate Home Senators Senator List Find Your Legislators District Maps Vote Disclosures Committees Committee List Committee Publications Session Bills Calendars J"
@@ -214,10 +195,10 @@
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
-        "title": "Bill Actions for 4/28/2026 -\n    The Florida Senate",
+        "title": "Bill Actions for 4/29/2026 -\n    The Florida Senate",
         "headings": [
           "The Florida Senate",
-          "Tuesday, April 28, 2026 Open Calendar",
+          "Wednesday, April 29, 2026 Open Calendar",
           "Bill Actions",
           "Spotlights",
           "Current Wildfire Information",
@@ -248,7 +229,7 @@
         ],
         "mentions_property_tax": false,
         "mentions_special_session": false,
-        "text_sample": "Skip to Menu | Skip to Main Content April 28, 2026 Search Statutes: 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 Search Terms: Home Senate House Citator Statutes, Constitution, & Laws of Florida Florida Statutes Search & Browse Download Search Statutes Search Tips Florida Constitution Laws of Florida Legislative & Executive Branch Lobbyists Information Center Joint Legislative Committees & Other Entities Joint Administrative Procedures Committee (JAPC) Joint Committee on Public Counsel Oversight(JCPO) Joint Legislative Auditing Committee (JLAC) Joint Legislative Budget Commission (JLBC) Joint Select Committee on Collective Bargaining (JSCB) Office of Program Policy Analysis & Government Accountability (OPPAGA) Auditor General Commission on Ethics Economic and Demographic Research (EDR) Florida Historic Capitol Florida Government Efficiency Task Force Legislative Employment Legistore Links 404 - File or directory not found. <!-- body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;} fieldset{padding:0 15px 10px 15px;} h1{font-size:2.4em;mar"
+        "text_sample": "Skip to Menu | Skip to Main Content April 29, 2026 Search Statutes: 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 Search Terms: Home Senate House Citator Statutes, Constitution, & Laws of Florida Florida Statutes Search & Browse Download Search Statutes Search Tips Florida Constitution Laws of Florida Legislative & Executive Branch Lobbyists Information Center Joint Legislative Committees & Other Entities Joint Administrative Procedures Committee (JAPC) Joint Committee on Public Counsel Oversight(JCPO) Joint Legislative Auditing Committee (JLAC) Joint Legislative Budget Commission (JLBC) Joint Select Committee on Collective Bargaining (JSCB) Office of Program Policy Analysis & Government Accountability (OPPAGA) Auditor General Commission on Ethics Economic and Demographic Research (EDR) Florida Historic Capitol Florida Government Efficiency Task Force Legislative Employment Legistore Links 404 - File or directory not found. <!-- body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;} fieldset{padding:0 15px 10px 15px;} h1{font-size:2.4em;mar"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
@@ -282,7 +263,9 @@
         "label": "Constitutional initiatives database",
         "url": "https://constitutionalinitiatives.dos.fl.gov",
         "title": "Constitutional Initiatives",
-        "headings": ["Initiatives / Amendments / Revisions Database"],
+        "headings": [
+          "Initiatives / Amendments / Revisions Database"
+        ],
         "mentions_property_tax": true,
         "mentions_special_session": false,
         "text_sample": "Division of Elections Initiatives / Amendments / Revisions Database .table-responsive { overflow-x: auto !important; overflow-y: auto !important; max-height: none; } .dataTables_wrapper { overflow-x: auto; } The table below defaults to a list of constitutional amendments or initiatives that are actively seeking ballot position for the next regularly scheduled general election. To determine which of these constitutional amendments or initiatives have made ballot position, select 'YES' from the Made Ballot dropdown then select the button \"Run Query\". Year ALL 2028 2026 2024 2022 2020 2018 2016 2014 2012 2010 2008 2006 2004 2002 2000 1998 1996 1994 1992 1990 1988 1986 1984 1982 1980 1978 Please select a valid Year. Status Active Passed/Defeated Inactive ALL Please select a valid Status. Made Ballot YES Please select a valid Made Ballot. Title Looks good! Sponsor ALL \"Right Now\" is the Time to Legalize Recreational Marijuana Committee Abolish Abortion Florida (AAFL) Acupuncture for Florida All Voters Vote, Inc. Test American Family Political Committee of Florida Ax the Tax Ban Assault Weapons Now Citizens For A Fair Share, Inc. Citizens for a Safe Florida Citizens for Campaign and Gove"
@@ -316,7 +299,9 @@
         "label": "Florida League of Cities",
         "url": "https://www.flcities.com",
         "title": "403 Forbidden",
-        "headings": ["403 Forbidden"],
+        "headings": [
+          "403 Forbidden"
+        ],
         "mentions_property_tax": false,
         "mentions_special_session": false,
         "text_sample": "403 Forbidden nginx"
@@ -324,7 +309,7 @@
     ]
   },
   "pdfs": {
-    "generated_at": "2026-04-29T00:08:01.376Z",
+    "generated_at": "2026-04-29T13:40:46.224Z",
     "pdfs": [
       {
         "label": "Florida Senate Special Session D update memo",
@@ -343,7 +328,7 @@
     ]
   },
   "claim_updates": {
-    "generated_at": "2026-04-29T00:08:01.674Z",
+    "generated_at": "2026-04-29T13:40:46.505Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],

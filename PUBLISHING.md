@@ -17,13 +17,16 @@ GitHub Pages deploys the static build from `dist` using `.github/workflows/deplo
 
 ## Automated Publishing
 
-The scheduled update workflow runs source checks and builds the site.
+The scheduled update workflow in `.github/workflows/update.yml` runs once per day at 10:15 UTC. It fetches watched sources, compares them with the persisted hash manifest in `reports/source-cache-manifest.json`, validates data, rebuilds the search index, generates the latest update report, and builds the site.
 
 If validation passes:
 
 - Data changes are committed.
+- The source hash manifest is committed when changed.
+- Source-fetch reports are committed when watched source content changes.
 - Vercel deploys through the GitHub integration.
 - GitHub Pages can publish the backup build.
+- A GitHub issue is opened when watched source content changes and needs review.
 
 If validation fails:
 

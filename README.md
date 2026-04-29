@@ -60,6 +60,10 @@ npm run check
 npm run build
 ```
 
+## Scheduled Updates
+
+GitHub Actions runs the automated tracker update once per day at 10:15 UTC. The workflow fetches watched sources, compares them with `reports/source-cache-manifest.json`, commits validated changes when needed, and opens a GitHub issue when watched source content changes and requires review.
+
 ## GitHub CLI Setup
 
 ```sh

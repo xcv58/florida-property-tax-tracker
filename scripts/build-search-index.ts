@@ -12,7 +12,6 @@ function readJson<T>(file: string): T {
 const overview = readJson<any>("data/overview.json");
 
 const index = {
-  generated_at: new Date().toISOString(),
   counties: readJson<any[]>("data/counties.json").map((county) => ({
     title: county.county,
     type: "county",
