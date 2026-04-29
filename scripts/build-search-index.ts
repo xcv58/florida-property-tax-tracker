@@ -31,6 +31,11 @@ const index = {
     type: "timeline",
     text: `${item.date} ${item.title} ${item.summary} ${item.importance}`,
   })),
+  overview: readJson<any>("data/overview.json").path_steps.map((item: any) => ({
+    title: item.title,
+    type: "overview",
+    text: `${item.date} ${item.label} ${item.title} ${item.description} ${item.dependency} ${item.status}`,
+  })),
 };
 
 writeFileSync(

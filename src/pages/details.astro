@@ -1,0 +1,36 @@
+---
+import ClaimText from '../components/ClaimText.astro';
+import PathTimeline from '../components/PathTimeline.astro';
+import ProposalTable from '../components/ProposalTable.astro';
+import Timeline from '../components/Timeline.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getClaims, status } from '../utils/data';
+
+const statusClaims = getClaims(status.claim_ids);
+---
+
+<BaseLayout title="Details | Florida Property Tax Tracker" description="Source-backed legislative details, claims, proposal history, and timeline for Florida property tax elimination proposals.">
+  <div class="shell page-intro">
+    <p class="terminal-label">&gt; details</p>
+    <h1>Legislative Details</h1>
+    <p>The secondary view expands the overview into sourced claims, proposal history, dependencies, and chronological context.</p>
+  </div>
+  <div class="shell">
+    <PathTimeline title="Detailed Procedural Path" />
+
+    <section class="section-block">
+      <div class="section-heading">
+        <div>
+          <p class="terminal-label">&gt; source_backed_claims</p>
+          <h2>Core Claims</h2>
+        </div>
+      </div>
+      <div class="claim-grid claim-grid--balanced">
+        {statusClaims.map((claim) => <ClaimText claim={claim} />)}
+      </div>
+    </section>
+
+    <ProposalTable />
+    <Timeline />
+  </div>
+</BaseLayout>

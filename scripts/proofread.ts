@@ -16,6 +16,7 @@ const banned = [
 const discouraged = ["recently", "clearly proves", "obviously"];
 const files = [
   "data/status.json",
+  "data/overview.json",
   "data/claims.json",
   "data/timeline.json",
   "data/proposals.json",

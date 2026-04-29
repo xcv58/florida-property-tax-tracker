@@ -1,0 +1,45 @@
+---
+import { getSources, overview as defaultOverview } from '../utils/data';
+import SourceLink from './SourceLink.astro';
+
+const { steps = defaultOverview.path_steps, compact = false, title = 'Path To Ballot' } = Astro.props;
+---
+
+<section class:list={['section-block', 'path-section', compact && 'path-section--compact']} aria-labelledby="path-timeline-heading">
+  <div class="section-heading">
+    <div>
+      <p class="terminal-label">&gt; procedural_path</p>
+      <h2 id="path-timeline-heading">{title}</h2>
+    </div>
+    <p class="section-kicker">Colors describe procedural status, not a policy recommendation.</p>
+  </div>
+  <ol class="path-steps">
+    {
+      steps.map((step, index) => {
+        const stepSources = getSources(step.source_ids ?? []);
+        return (
+          <li class={`path-step path-step--${step.status}`}>
+            <div class="path-marker" aria-hidden="true">
+              <span>{String(index + 1).padStart(2, '0')}</span>
+            </div>
+            <article class="path-card">
+              <div class="path-card-topline">
+                <p class="terminal-label">{step.date}</p>
+                <span class={`status-key status-key--${step.status}`}>{step.status_label}</span>
+              </div>
+              <p class="path-label">{step.label}</p>
+              <h3>{step.title}</h3>
+              <p>{step.description}</p>
+              <p class="path-dependency"><strong>Dependency:</strong> {step.dependency}</p>
+              {!compact && stepSources.length > 0 && (
+                <div class="source-row">
+                  {stepSources.map((source) => <SourceLink source={source} compact />)}
+                </div>
+              )}
+            </article>
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>

@@ -13,11 +13,11 @@ const {
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://fl-tax.jenny.media').href;
 const navItems = [
-  ['Status', '/'],
-  ['Sources', '/sources/'],
+  ['Overview', '/'],
+  ['Details', '/details/'],
   ['Timeline', '/timeline/'],
-  ['Proposals', '/proposals/'],
   ['Counties', '/counties/'],
+  ['Sources', '/sources/'],
   ['Methodology', '/methodology/'],
   ['About', '/about/'],
 ];

@@ -1,4 +1,5 @@
 import statusData from "../../data/status.json";
+import overviewData from "../../data/overview.json";
 import timelineData from "../../data/timeline.json";
 import proposalsData from "../../data/proposals.json";
 import countiesData from "../../data/counties.json";
@@ -8,6 +9,7 @@ import { claims, claimById, getClaims, getClaimSources } from "./claims";
 import { getSources, sourceById, sources, sourceTypeLabel } from "./sources";
 
 export const status = statusData;
+export const overview = overviewData;
 export const timeline = timelineData;
 export const proposals = proposalsData;
 export const counties = countiesData;
@@ -26,6 +28,7 @@ export {
 };
 
 export type TimelineItem = (typeof timelineData)[number];
+export type OverviewPathStep = (typeof overviewData.path_steps)[number];
 export type Proposal = (typeof proposalsData)[number];
 export type County = (typeof countiesData)[number];
 export type UpdateLogEntry = (typeof updateLogData)[number];

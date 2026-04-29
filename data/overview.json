@@ -1,0 +1,176 @@
+{
+  "brief": {
+    "eyebrow": "overview",
+    "heading": "Where the 2026 path stands",
+    "body": "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. No tracked property-tax elimination vehicle appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker.",
+    "claim_ids": [
+      "claim-hjr203-house-passed-80-30",
+      "claim-hjr203-died-senate-appropriations",
+      "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
+    ],
+    "source_ids": [
+      "flsenate-hjr203-2026",
+      "flsenate-bill-actions-2026-04-28",
+      "flsenate-special-session-d-update-2026-04-24"
+    ]
+  },
+  "status_legend": [
+    {
+      "status": "completed",
+      "label": "Green",
+      "meaning": "Completed procedural step"
+    },
+    {
+      "status": "watching",
+      "label": "Yellow",
+      "meaning": "Watching or uncertain"
+    },
+    {
+      "status": "blocked",
+      "label": "Red",
+      "meaning": "Blocked, dead, or not currently moving"
+    },
+    {
+      "status": "not_started",
+      "label": "Gray",
+      "meaning": "Later checkpoint not reached"
+    }
+  ],
+  "path_steps": [
+    {
+      "id": "hjr203-filed",
+      "date": "2025-10-16",
+      "label": "Filed",
+      "title": "HJR 203 entered the House record",
+      "description": "The House property-tax proposal that became CS/CS/HJR 203 was filed for the 2026 regular session.",
+      "dependency": "This created the primary House vehicle tracked in the elimination debate.",
+      "status": "completed",
+      "status_label": "Completed",
+      "source_ids": ["flsenate-hjr203-2026"],
+      "claim_ids": ["claim-hjr203-proposed-homestead-nonschool-exemption"]
+    },
+    {
+      "id": "hjr203-house-passed",
+      "date": "2026-02-19",
+      "label": "House",
+      "title": "House approval completed",
+      "description": "CS/CS/HJR 203 passed the Florida House by an 80-30 vote.",
+      "dependency": "A legislative constitutional amendment also needed Senate approval before any ballot step.",
+      "status": "completed",
+      "status_label": "Completed",
+      "source_ids": ["flsenate-hjr203-2026"],
+      "claim_ids": [
+        "claim-hjr203-house-passed-80-30",
+        "claim-constitutional-amendment-legislative-path"
+      ]
+    },
+    {
+      "id": "hjr203-senate-appropriations",
+      "date": "2026-03-13",
+      "label": "Senate",
+      "title": "Senate path blocked",
+      "description": "CS/CS/HJR 203 died in Senate Appropriations.",
+      "dependency": "This ended the regular-session path for that specific House proposal.",
+      "status": "blocked",
+      "status_label": "Blocked/dead",
+      "source_ids": ["flsenate-hjr203-2026"],
+      "claim_ids": ["claim-hjr203-died-senate-appropriations"]
+    },
+    {
+      "id": "special-session-vehicle",
+      "date": "2026-04-28",
+      "label": "Vehicle",
+      "title": "No Special Session D vehicle identified",
+      "description": "No tracked property-tax elimination proposal appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker.",
+      "dependency": "A new special session call, HJR, or SJR would be needed to reopen a legislative route.",
+      "status": "watching",
+      "status_label": "Watching",
+      "source_ids": [
+        "flsenate-bill-actions-2026-04-28",
+        "flsenate-special-session-d-update-2026-04-24"
+      ],
+      "claim_ids": [
+        "claim-special-session-d-bill-actions-no-property-tax-2026-04-28",
+        "claim-special-sessions-can-be-called-later"
+      ]
+    },
+    {
+      "id": "ballot-listing",
+      "date": "Future checkpoint",
+      "label": "Ballot",
+      "title": "Ballot listing not reached",
+      "description": "A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution.",
+      "dependency": "The Department of State ballot step comes after a measure advances through the required constitutional-amendment path.",
+      "status": "not_started",
+      "status_label": "Not reached",
+      "source_ids": [
+        "fl-dos-constitutional-amendments",
+        "flsenate-constitution-article-xi"
+      ],
+      "claim_ids": [
+        "claim-constitutional-amendment-legislative-path",
+        "claim-constitutional-amendment-sixty-percent"
+      ]
+    }
+  ],
+  "next_panels": [
+    {
+      "label": "What changed",
+      "value": "House path blocked",
+      "body": "HJR 203 passed one chamber but died in Senate Appropriations during the regular session.",
+      "status": "blocked",
+      "claim_ids": [
+        "claim-hjr203-house-passed-80-30",
+        "claim-hjr203-died-senate-appropriations"
+      ],
+      "source_ids": ["flsenate-hjr203-2026"]
+    },
+    {
+      "label": "What to watch",
+      "value": "New vehicle",
+      "body": "Watch for a new special session proclamation, new HJR or SJR filing, committee agenda, or ballot record.",
+      "status": "watching",
+      "claim_ids": [
+        "claim-special-sessions-can-be-called-later",
+        "claim-constitutional-amendment-legislative-path"
+      ],
+      "source_ids": [
+        "flsenate-session-overview",
+        "flsenate-constitution-article-xi"
+      ]
+    },
+    {
+      "label": "Data depth",
+      "value": "County data pending",
+      "body": "County comparisons stay separate from the overview until a proposal version, source type, and verification date are available.",
+      "status": "watching",
+      "claim_ids": [],
+      "source_ids": []
+    }
+  ],
+  "known_unknowns": [
+    "No active tracked elimination vehicle is shown in the current tracker data.",
+    "A future proposal may differ from CS/CS/HJR 203 and should be tracked as a separate vehicle.",
+    "County-impact comparisons need version-labeled sources before they should be treated as comparable."
+  ],
+  "depth_links": [
+    {
+      "title": "Details",
+      "href": "/details/",
+      "body": "Read the source-backed legislative dossier, claims, proposal history, and full timeline.",
+      "label": "Secondary view"
+    },
+    {
+      "title": "Timeline",
+      "href": "/timeline/",
+      "body": "Follow the chronological record and dependencies behind each procedural checkpoint.",
+      "label": "Global view"
+    },
+    {
+      "title": "Counties",
+      "href": "/counties/",
+      "body": "Use the advanced county table once version-labeled impact estimates are available.",
+      "label": "Advanced view"
+    }
+  ]
+}

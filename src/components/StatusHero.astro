@@ -3,42 +3,62 @@ import { getClaims, getSources, status as defaultStatus } from '../utils/data';
 import SourceLink from './SourceLink.astro';
 
 const trackerStatus = Astro.props.status ?? defaultStatus;
+const maxSources = Astro.props.maxSources ?? Number.POSITIVE_INFINITY;
+const sourceMode = Astro.props.sourceMode ?? 'chips';
+const hidePanel = Astro.props.hidePanel ?? false;
 const heroClaims = getClaims(trackerStatus.claim_ids);
 const sourceIds = Array.from(new Set(heroClaims.flatMap((claim) => claim.source_ids)));
 const heroSources = getSources(sourceIds);
+const visibleSources = heroSources.slice(0, maxSources);
+const hiddenSourceCount = Math.max(heroSources.length - visibleSources.length, 0);
+const statusClass = trackerStatus.current_status_label.toLowerCase().replaceAll(' ', '_');
 ---
 
 <section class="hero-section">
-  <div class="shell hero-grid">
+  <div class:list={['shell', 'hero-grid', hidePanel && 'hero-grid--single']}>
     <div class="hero-copy">
       <h1>{trackerStatus.site_title}</h1>
       <p class="hero-subtitle">{trackerStatus.subtitle}</p>
-      <div class="status-strip" aria-label="Current tracker status">
+      <div class={`status-strip status-strip--${statusClass}`} aria-label="Current tracker status">
         <span class="status-dot" aria-hidden="true"></span>
         <span>Current status</span>
         <strong>{trackerStatus.current_status_label}</strong>
+        {hidePanel && <span class="status-date">Verified {trackerStatus.last_verified}</span>}
       </div>
       <p class="hero-summary">{trackerStatus.current_status_summary}</p>
     </div>
-    <aside class="hero-panel" aria-label="Current verification details">
-      <div>
-        <p class="terminal-label">&gt; last_verified</p>
-        <strong>{trackerStatus.last_verified}</strong>
-      </div>
-      <div>
-        <p class="terminal-label">&gt; latest_update</p>
-        <p>{trackerStatus.latest_update}</p>
-      </div>
-      <div>
-        <p class="terminal-label">&gt; expected_next</p>
-        <p>{trackerStatus.expected_next}</p>
-      </div>
-    </aside>
+    {
+      !hidePanel && (
+        <aside class="hero-panel" aria-label="Current verification details">
+          <div>
+            <p class="terminal-label">&gt; last_verified</p>
+            <strong>{trackerStatus.last_verified}</strong>
+          </div>
+          <div>
+            <p class="terminal-label">&gt; latest_update</p>
+            <p>{trackerStatus.latest_update}</p>
+          </div>
+          <div>
+            <p class="terminal-label">&gt; expected_next</p>
+            <p>{trackerStatus.expected_next}</p>
+          </div>
+        </aside>
+      )
+    }
   </div>
-  <div class="shell hero-sources">
-    <p>Source records for this status</p>
-    <div class="source-row">
-      {heroSources.map((source) => <SourceLink source={source} compact />)}
-    </div>
-  </div>
+  {
+    sourceMode === 'summary' ? (
+      <div class="shell hero-source-summary">
+        <a class="source-more-link" href="/details/">View {heroSources.length} source-backed status records</a>
+      </div>
+    ) : (
+      <div class="shell hero-sources">
+        <p>Source records for this status</p>
+        <div class="source-row">
+          {visibleSources.map((source) => <SourceLink source={source} compact />)}
+          {hiddenSourceCount > 0 && <a class="source-more-link" href="/sources/">+ {hiddenSourceCount} more source records</a>}
+        </div>
+      </div>
+    )
+  }
 </section>

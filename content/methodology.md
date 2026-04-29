@@ -10,6 +10,14 @@ The tracker prefers official legislative, election, fiscal, and executive source
 
 Every displayed factual claim must map to at least one source ID in `/data/sources.json`. Claims can be confirmed, likely, disputed, outdated, retired, or needs review. Historical claims are preserved when proposal status changes.
 
+## Page Roles
+
+The homepage is a high-level overview for quick readers. The details page expands the legislative record, claims, proposals, and timeline. The county page is an advanced data view and does not compare county impacts until the tracker has version-labeled sources.
+
+## Procedural Colors
+
+Green means a completed procedural step. Yellow means watching or uncertain. Red means blocked, dead, or not currently moving. Gray means a later checkpoint has not been reached. These colors describe process only and do not indicate support or opposition.
+
 ## Automation
 
 The automated update workflow fetches watched sources, detects changed pages or PDFs, validates claim/source relationships, runs proofreading checks, builds the static site, and prepares an update report. Ambiguous changes are marked `needs_review` rather than published as confirmed.

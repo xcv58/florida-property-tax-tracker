@@ -13,6 +13,23 @@ The site tracks:
 - Source documents.
 - Update history.
 
+## Site Structure
+
+- `/` is the overview dashboard: current status, a visual procedural path, known unknowns, and links to deeper views.
+- `/details/` is the secondary legislative dossier: source-backed claims, proposal history, and the full timeline.
+- `/timeline/` shows the dependency map plus chronological events.
+- `/counties/` is the advanced county data view and remains conservative until estimates are version-labeled.
+- `/sources/` is the source library.
+
+## Procedural Colors
+
+Status colors describe procedural posture, not policy preference:
+
+- Green: completed step.
+- Yellow: watching or uncertain.
+- Red: blocked, dead, or not currently moving.
+- Gray: later checkpoint not reached.
+
 ## Core Rule
 
 No claim appears on the site without a source.

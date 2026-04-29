@@ -31,6 +31,7 @@ type Claim = {
 const sources = readJson<Source[]>("data/sources.json");
 const claims = readJson<Claim[]>("data/claims.json");
 const status = readJson<any>("data/status.json");
+const overview = readJson<any>("data/overview.json");
 const timeline = readJson<any[]>("data/timeline.json");
 const proposals = readJson<any[]>("data/proposals.json");
 const counties = readJson<any[]>("data/counties.json");
@@ -79,6 +80,12 @@ const validTimelineCategories = new Set([
   "stakeholder",
   "media",
   "other",
+]);
+const validOverviewStatuses = new Set([
+  "completed",
+  "watching",
+  "blocked",
+  "not_started",
 ]);
 const bannedLanguage = [
   "scam",
@@ -250,6 +257,22 @@ updateLog.forEach((entry) => {
 });
 
 scanBannedLanguage("data/status.json", status);
+overview.brief && checkClaimIds("overview.brief", overview.brief.claim_ids);
+overview.brief && checkSourceIds("overview.brief", overview.brief.source_ids);
+overview.path_steps?.forEach((step: any) => {
+  if (!step.id) errors.push("Overview path step is missing id");
+  if (!validOverviewStatuses.has(step.status))
+    errors.push(`${step.id} has invalid overview status: ${step.status}`);
+  checkSourceIds(`Overview path step ${step.id}`, step.source_ids);
+  checkClaimIds(`Overview path step ${step.id}`, step.claim_ids);
+});
+overview.next_panels?.forEach((panel: any) => {
+  if (!validOverviewStatuses.has(panel.status))
+    errors.push(`${panel.label} has invalid overview status: ${panel.status}`);
+  checkSourceIds(`Overview panel ${panel.label}`, panel.source_ids);
+  checkClaimIds(`Overview panel ${panel.label}`, panel.claim_ids);
+});
+scanBannedLanguage("data/overview.json", overview);
 scanBannedLanguage("data/claims.json", claims);
 scanBannedLanguage("data/timeline.json", timeline);
 scanBannedLanguage("data/proposals.json", proposals);

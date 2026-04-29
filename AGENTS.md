@@ -15,6 +15,24 @@ You are working on Florida Property Tax Tracker, a neutral static civic tracker 
 9. Do not bury facts inside Astro components.
 10. Update data files first, then components only if display changes are needed.
 
+## Information Architecture
+
+- Keep `/` simple and high-level: current status, procedural path, known unknowns, and links to deeper views.
+- Use `/details/` for the secondary legislative dossier: claims, proposal history, and expanded timeline context.
+- Use `/counties/` for advanced county data and keep estimates blank until version-labeled sources exist.
+- Use `/sources/` for the full source library rather than crowding the homepage with every source chip.
+
+## Procedural Color Rules
+
+Colors are procedural, not advocacy language:
+
+- Green means a step is completed.
+- Yellow means watching or uncertain.
+- Red means blocked, dead, or not currently moving.
+- Gray means a later checkpoint has not been reached.
+
+Do not use green to imply support or red to imply opposition.
+
 ## Standard Update Process
 
 1. Read `/data/watchlist.json`.

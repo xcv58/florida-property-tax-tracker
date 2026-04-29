@@ -48,6 +48,17 @@ Use:
 - replaced
 - needs review
 
+## Procedural Color Language
+
+Use color only to describe process:
+
+- Green: completed step.
+- Yellow: watching or uncertain.
+- Red: blocked, dead, or not currently moving.
+- Gray: later checkpoint not reached.
+
+Do not write copy that makes green mean "good" or red mean "bad." Pair color with text labels so status does not rely on color alone.
+
 Avoid:
 
 - killed, unless quoting a source

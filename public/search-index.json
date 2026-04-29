@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T00:08:02.466Z",
+  "generated_at": "2026-04-29T01:32:37.117Z",
   "counties": [
     {
       "title": "Alachua",
@@ -421,6 +421,33 @@
       "title": "Special Session D bill-actions list showed no tracked property-tax elimination proposal",
       "type": "timeline",
       "text": "2026-04-28 Special Session D bill-actions list showed no tracked property-tax elimination proposal The April 28 Senate bill-actions list reviewed for this tracker showed Special Session D activity on redistricting, AI, public records, medical freedom, and state reapportionment items. This supports the current status label that no tracked property-tax elimination proposal was active on that reviewed list."
+    }
+  ],
+  "overview": [
+    {
+      "title": "HJR 203 entered the House record",
+      "type": "overview",
+      "text": "2025-10-16 Filed HJR 203 entered the House record The House property-tax proposal that became CS/CS/HJR 203 was filed for the 2026 regular session. This created the primary House vehicle tracked in the elimination debate. completed"
+    },
+    {
+      "title": "House approval completed",
+      "type": "overview",
+      "text": "2026-02-19 House House approval completed CS/CS/HJR 203 passed the Florida House by an 80-30 vote. A legislative constitutional amendment also needed Senate approval before any ballot step. completed"
+    },
+    {
+      "title": "Senate path blocked",
+      "type": "overview",
+      "text": "2026-03-13 Senate Senate path blocked CS/CS/HJR 203 died in Senate Appropriations. This ended the regular-session path for that specific House proposal. blocked"
+    },
+    {
+      "title": "No Special Session D vehicle identified",
+      "type": "overview",
+      "text": "2026-04-28 Vehicle No Special Session D vehicle identified No tracked property-tax elimination proposal appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
+      "title": "Ballot listing not reached",
+      "type": "overview",
+      "text": "Future checkpoint Ballot Ballot listing not reached A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution. The Department of State ballot step comes after a measure advances through the required constitutional-amendment path. not_started"
     }
   ]
 }
