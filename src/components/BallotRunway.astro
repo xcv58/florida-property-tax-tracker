@@ -1,5 +1,6 @@
 ---
 import { getSources, overview } from '../utils/data';
+import { withBase } from '../utils/site';
 import SourceLink from './SourceLink.astro';
 
 const {
@@ -75,7 +76,7 @@ const runwaySources = getSources(runway.source_ids ?? []);
       <div class="source-row source-row--trimmed">
         {runwaySources.slice(0, 4).map((source) => <SourceLink source={source} compact />)}
         {runwaySources.length > 4 && (
-          <a class="source-more-link" href="/sources/" data-i18n-template="moreSourceRecords" data-count={runwaySources.length - 4} data-i18n-default={`+ ${runwaySources.length - 4} more source records`}>
+          <a class="source-more-link" href={withBase('/sources/')} data-i18n-template="moreSourceRecords" data-count={runwaySources.length - 4} data-i18n-default={`+ ${runwaySources.length - 4} more source records`}>
             + {runwaySources.length - 4} more source records
           </a>
         )}

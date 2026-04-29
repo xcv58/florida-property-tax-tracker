@@ -4,6 +4,7 @@ import SourceLink from '../components/SourceLink.astro';
 import StatusHero from '../components/StatusHero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getSources, overview } from '../utils/data';
+import { withBase } from '../utils/site';
 
 const briefSources = getSources(overview.brief.source_ids);
 const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-constitution-article-xi']);
@@ -80,7 +81,7 @@ const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-
           overview.depth_links.map((item) => (
             <article class="depth-link-card">
               <p class="terminal-label">&gt; {item.label}</p>
-              <h3><a href={item.href}>{item.title}</a></h3>
+              <h3><a href={withBase(item.href)}>{item.title}</a></h3>
               <p>{item.body}</p>
             </article>
           ))
@@ -94,7 +95,7 @@ const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-
           <p class="terminal-label">&gt; ballot_path_sources</p>
           <h2>Ballot Path Evidence</h2>
         </div>
-        <a class="text-link" href="/details/">Open details</a>
+        <a class="text-link" href={withBase('/details/')}>Open details</a>
       </div>
       <p>A legislative constitutional amendment would still need to move through the constitutional-amendment path and receive voter approval before changing the Florida Constitution.</p>
       <div class="source-row">

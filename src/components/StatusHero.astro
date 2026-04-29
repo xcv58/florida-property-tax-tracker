@@ -1,5 +1,6 @@
 ---
 import { getClaims, getSources, status as defaultStatus } from '../utils/data';
+import { withBase } from '../utils/site';
 import SourceLink from './SourceLink.astro';
 
 const trackerStatus = Astro.props.status ?? defaultStatus;
@@ -55,7 +56,7 @@ const statusClass = trackerStatus.current_status_label.toLowerCase().replaceAll(
   {
     sourceMode === 'summary' ? (
       <div class="shell hero-source-summary">
-        <a class="source-more-link" href="/details/" data-i18n-template="sourceStatusRecords" data-count={heroSources.length} data-i18n-default={`View ${heroSources.length} source-backed status records`}>
+        <a class="source-more-link" href={withBase('/details/')} data-i18n-template="sourceStatusRecords" data-count={heroSources.length} data-i18n-default={`View ${heroSources.length} source-backed status records`}>
           View {heroSources.length} source-backed status records
         </a>
       </div>
@@ -65,7 +66,7 @@ const statusClass = trackerStatus.current_status_label.toLowerCase().replaceAll(
         <div class="source-row">
           {visibleSources.map((source) => <SourceLink source={source} compact />)}
           {hiddenSourceCount > 0 && (
-            <a class="source-more-link" href="/sources/" data-i18n-template="moreSourceRecords" data-count={hiddenSourceCount} data-i18n-default={`+ ${hiddenSourceCount} more source records`}>
+            <a class="source-more-link" href={withBase('/sources/')} data-i18n-template="moreSourceRecords" data-count={hiddenSourceCount} data-i18n-default={`+ ${hiddenSourceCount} more source records`}>
               + {hiddenSourceCount} more source records
             </a>
           )}

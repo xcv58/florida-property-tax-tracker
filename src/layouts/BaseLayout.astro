@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import PreferenceControls from '../components/PreferenceControls.astro';
 import { translationTemplates, translations } from '../utils/translations';
-import { correctionUrl, site } from '../utils/site';
+import { correctionUrl, site, withBase, withoutBase } from '../utils/site';
 
 interface Props {
   title?: string;
@@ -23,6 +23,7 @@ const navItems = [
   ['Methodology', '/methodology/'],
   ['About', '/about/'],
 ];
+const currentPath = withoutBase(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -46,8 +47,8 @@ const navItems = [
         }
       })();
     </script>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="icon" href={withBase('/favicon.ico')} />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -60,7 +61,7 @@ const navItems = [
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href="/" aria-label="Florida Property Tax Tracker home">
+        <a class="brand" href={withBase('/')} aria-label="Florida Property Tax Tracker home">
           <span class="brand-mark" aria-hidden="true">FL</span>
           <span>
             <strong>Florida Property Tax Tracker</strong>
@@ -70,7 +71,7 @@ const navItems = [
         <nav class="site-nav" aria-label="Primary navigation">
           {
             navItems.map(([label, href]) => (
-              <a href={href} class={Astro.url.pathname === href ? 'is-active' : ''}>
+              <a href={withBase(href)} class={currentPath === href ? 'is-active' : ''}>
                 {label}
               </a>
             ))

@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_SITE_URL: https://xcv58.github.io
+      PUBLIC_BASE_PATH: /florida-property-tax-tracker
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -27,6 +30,9 @@ jobs:
         with:
           node-version: "22"
           cache: "npm"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: npm ci
