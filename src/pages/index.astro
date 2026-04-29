@@ -3,14 +3,34 @@ import BallotRunway from '../components/BallotRunway.astro';
 import SourceLink from '../components/SourceLink.astro';
 import StatusHero from '../components/StatusHero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getSources, overview } from '../utils/data';
-import { withBase } from '../utils/site';
+import { getSources, overview, status } from '../utils/data';
+import { site, withBase } from '../utils/site';
 
 const briefSources = getSources(overview.brief.source_ids);
 const ballotSources = getSources(['fl-dos-constitutional-amendments', 'flsenate-constitution-article-xi']);
+const trackerDataset = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Florida Property Tax Tracker data',
+  description: site.description,
+  url: site.url,
+  dateModified: status.last_verified,
+  keywords: [
+    'Florida property tax',
+    'HJR 203',
+    'constitutional amendment',
+    'Florida Legislature',
+    'county impact data',
+  ],
+  creator: {
+    '@type': 'Organization',
+    name: site.name,
+    url: site.url,
+  },
+};
 ---
 
-<BaseLayout>
+<BaseLayout jsonLd={trackerDataset}>
   <StatusHero maxSources={3} sourceMode="summary" hidePanel />
 
   <div class="shell">

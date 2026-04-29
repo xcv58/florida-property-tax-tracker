@@ -20,7 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PUBLIC_SITE_URL: https://xcv58.github.io
+      PUBLIC_CANONICAL_URL: https://fl-tax.jenny.media
       PUBLIC_BASE_PATH: /florida-property-tax-tracker
+      PUBLIC_INDEXING: "false"
     steps:
       - name: Check out repo
         uses: actions/checkout@v6

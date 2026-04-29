@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Florida Property Tax Tracker</title>
+  <desc id="desc">Neutral civic tracker for Florida property tax proposals and related reforms.</desc>
+  <rect width="1200" height="630" fill="#f8f6ee"/>
+  <rect x="54" y="54" width="1092" height="522" rx="28" fill="#ffffff" stroke="#d9d0c0" stroke-width="3"/>
+  <rect x="94" y="94" width="98" height="98" rx="18" fill="#101413"/>
+  <text x="143" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#ffffff">FL</text>
+  <text x="94" y="282" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800" letter-spacing="-1" fill="#101413">Florida Property</text>
+  <text x="94" y="374" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800" letter-spacing="-1" fill="#101413">Tax Tracker</text>
+  <text x="96" y="442" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#46524d">Tracking Florida's 2026 property tax proposals</text>
+  <text x="96" y="487" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#46524d">and related reforms with source-backed status.</text>
+  <g transform="translate(94 526)">
+    <circle cx="14" cy="14" r="10" fill="#b05a46"/>
+    <text x="38" y="23" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#693225">Neutral. Source-driven. Updated from official records.</text>
+  </g>
+</svg>

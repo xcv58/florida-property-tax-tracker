@@ -4,6 +4,12 @@
 
 Vercel deploys the Astro static site from the main branch after the GitHub repository is connected.
 
+Canonical production URL:
+
+```text
+https://fl-tax.jenny.media/
+```
+
 Recommended Vercel settings:
 
 - Framework preset: Astro
@@ -14,6 +20,35 @@ Recommended Vercel settings:
 ## Backup Deployment
 
 GitHub Pages deploys the static build from `dist` using `.github/workflows/deploy-github-pages.yml`.
+
+Backup URL:
+
+```text
+https://xcv58.github.io/florida-property-tax-tracker/
+```
+
+The backup build uses:
+
+- `PUBLIC_SITE_URL=https://xcv58.github.io`
+- `PUBLIC_BASE_PATH=/florida-property-tax-tracker`
+- `PUBLIC_CANONICAL_URL=https://fl-tax.jenny.media`
+- `PUBLIC_INDEXING=false`
+
+That keeps backup links working under the GitHub Pages project path while telling search engines that `fl-tax.jenny.media` is the canonical publication.
+
+## SEO Artifacts
+
+The production build generates:
+
+- `/sitemap.xml`
+- `/robots.txt`
+- `/feed.xml`
+- `/site.webmanifest`
+- Open Graph and Twitter card metadata
+- JSON-LD `WebSite`, `WebPage`, and homepage `Dataset` records
+- `/404.html` marked `noindex`
+
+The social preview image is `/og-image.png`, generated from `/og-image.svg`. Keep it neutral and avoid hardcoding time-sensitive status claims unless the image is updated with the same release.
 
 ## Automated Publishing
 
@@ -44,4 +79,25 @@ git commit -m "Update tracker"
 git push
 ```
 
-Before publishing, confirm the homepage is still an overview and that detailed source-heavy material remains on `/details/`, `/timeline/`, `/counties/`, or `/sources/`. Check that procedural colors still mean green completed, yellow watching or uncertain, red blocked or dead, and gray not reached. Confirm the monthly runway uses source-backed dates and does not present future checkpoints as expected outcomes. Check system, light, and dark themes, and spot-check Spanish language mode before pushing.
+`npm run build` also runs the SEO validation script after Astro writes `dist`.
+
+Before publishing, confirm:
+
+- The homepage is still an overview and detailed source-heavy material remains on `/details/`, `/timeline/`, `/counties/`, or `/sources/`.
+- Procedural colors still mean green completed, yellow watching or uncertain, red blocked or dead, and gray not reached.
+- The monthly runway uses source-backed dates and does not present future checkpoints as expected outcomes.
+- `/robots.txt` allows indexing on the Vercel build and points to `https://fl-tax.jenny.media/sitemap.xml`.
+- `/sitemap.xml` contains only canonical `fl-tax.jenny.media` URLs.
+- GitHub Pages backup remains noindexed.
+- System, light, and dark themes still work.
+- English and Spanish language modes still work.
+- Correction links open the GitHub issue template chooser.
+
+After deployment, verify:
+
+```sh
+curl -I https://fl-tax.jenny.media/
+curl https://fl-tax.jenny.media/robots.txt
+curl https://fl-tax.jenny.media/sitemap.xml
+curl https://fl-tax.jenny.media/feed.xml
+```

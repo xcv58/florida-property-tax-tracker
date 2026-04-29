@@ -78,10 +78,15 @@ Vercel publishes automatically from the main branch after the repository is conn
 
 GitHub Pages backup publishes from the GitHub Pages workflow.
 
+The canonical public domain is `https://fl-tax.jenny.media/`. Keep GitHub Pages as a noindexed backup so it does not compete with the primary domain in search results.
+
 ## Final Checklist
 
 - No unsourced claims.
 - All source IDs resolve.
+- SEO validation passes after build.
+- Canonical URLs point to `https://fl-tax.jenny.media/`.
+- `robots.txt`, `sitemap.xml`, `feed.xml`, and social metadata are present.
 - Homepage last verified date is correct.
 - Current status is not overstated.
 - Homepage remains a high-level overview, not a full source dossier.

@@ -2,6 +2,10 @@
 
 A neutral static civic tracker for Florida's 2026 property tax elimination proposals and materially related reforms.
 
+Live site: https://fl-tax.jenny.media/
+
+Backup: https://xcv58.github.io/florida-property-tax-tracker/
+
 The site tracks:
 
 - Current legislative status.
@@ -91,6 +95,28 @@ Use Vercel's GitHub integration as the primary deployment:
 - Install command: `npm ci`
 
 GitHub Pages backup deployment is available through `.github/workflows/deploy-github-pages.yml`.
+
+## SEO And Publishing
+
+The canonical public domain is `https://fl-tax.jenny.media/`.
+
+The production build includes:
+
+- `sitemap.xml`
+- `robots.txt`
+- `feed.xml`
+- Open Graph and Twitter card metadata
+- JSON-LD structured data
+- `site.webmanifest`
+- A noindex 404 page
+
+GitHub Pages is a backup deployment and is built with `PUBLIC_INDEXING=false` so it does not compete with the canonical domain in search results.
+
+Run the launch checks before publishing:
+
+```sh
+npm run check
+```
 
 ## Contributing
 

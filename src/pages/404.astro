@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/site';
+---
+
+<BaseLayout title="Page Not Found | Florida Property Tax Tracker" description="The requested Florida Property Tax Tracker page could not be found." noindex>
+  <div class="shell page-intro">
+    <p class="terminal-label">&gt; 404</p>
+    <h1>Page Not Found</h1>
+    <p>The page may have moved, or the link may be incomplete.</p>
+    <p><a class="text-link" href={withBase('/')}>Return to the tracker overview</a></p>
+  </div>
+</BaseLayout>

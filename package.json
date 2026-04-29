@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "npm run validate:data && astro build",
+    "postbuild": "npm run validate:seo",
     "preview": "astro preview",
     "astro": "astro",
     "fetch:sources": "tsx scripts/fetch-sources.ts",
@@ -17,6 +18,7 @@
     "proofread": "tsx scripts/proofread.ts",
     "build:search": "tsx scripts/build-search-index.ts",
     "generate:report": "tsx scripts/generate-report.ts",
+    "validate:seo": "tsx scripts/validate-seo.ts",
     "update:auto": "npm run fetch:sources && npm run parse:sources && npm run update:claims && npm run validate:data && npm run proofread && npm run build:search && npm run generate:report && npm run build",
     "format": "prettier --write .",
     "check": "npm run validate:data && npm run proofread && npm run build"

@@ -42,6 +42,14 @@ The homepage runway lives in `/data/overview.json` under `monthly_runway`. Treat
 - Official source titles may remain in their original language. Translate tracker UI, summaries, labels, and explanatory copy.
 - Add new translated UI strings to `/src/utils/translations.ts` when adding user-facing copy.
 
+## SEO And Publishing
+
+- The canonical production domain is `https://fl-tax.jenny.media/`.
+- GitHub Pages is a backup deployment and should remain noindexed.
+- Keep `/sitemap.xml`, `/robots.txt`, `/feed.xml`, Open Graph/Twitter metadata, JSON-LD, and `/site.webmanifest` working.
+- Do not hardcode time-sensitive status claims in social images unless the image is updated with the same factual release.
+- Run `npm run build` before publishing; it also runs SEO validation after Astro writes `dist`.
+
 ## Standard Update Process
 
 1. Read `/data/watchlist.json`.
