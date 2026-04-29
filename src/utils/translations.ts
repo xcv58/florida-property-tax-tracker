@@ -22,6 +22,8 @@ export const translations = {
     "Florida Property Tax Tracker home":
       "Inicio del Rastreador de Impuestos a la Propiedad de Florida",
     "Skip to main content": "Saltar al contenido principal",
+    "Back to top": "Volver arriba",
+    Top: "Arriba",
 
     "Tracking Florida's 2026 property tax elimination proposals and related reforms":
       "Seguimiento de las propuestas de 2026 para eliminar impuestos a la propiedad en Florida y reformas relacionadas",

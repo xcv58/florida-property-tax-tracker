@@ -318,11 +318,12 @@ dd {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
-  gap: 0.35rem;
+  gap: 0.4rem;
 }
 
 .preference-control {
-  display: grid;
+  --control-icon-size: 1rem;
+  display: inline-flex;
   position: relative;
 }
 
@@ -337,12 +338,79 @@ dd {
 }
 
 .preference-control select {
-  background: var(--surface);
+  appearance: none;
+  background:
+    linear-gradient(180deg, var(--surface-strong), var(--surface)),
+    var(--surface);
+  border-color: color-mix(in srgb, var(--border), var(--ink) 9%);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 0
+    color-mix(in srgb, var(--surface-strong), transparent 20%);
   color: var(--ink);
-  font-size: 0.88rem;
-  min-height: 2.05rem;
-  min-width: 5.35rem;
-  padding: 0.28rem 0.45rem;
+  cursor: pointer;
+  font-size: 0.84rem;
+  font-weight: 760;
+  min-height: 2rem;
+  min-width: 5.45rem;
+  padding: 0.3rem 1.6rem 0.3rem 1.95rem;
+}
+
+.preference-control::before,
+.preference-control::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.preference-control::before {
+  left: 0.65rem;
+  transform: translateY(-50%);
+}
+
+.preference-control::after {
+  border-bottom: 1.5px solid currentColor;
+  border-right: 1.5px solid currentColor;
+  color: var(--muted);
+  height: 0.38rem;
+  right: 0.7rem;
+  transform: translateY(-65%) rotate(45deg);
+  width: 0.38rem;
+}
+
+.preference-control--theme::before {
+  background: linear-gradient(
+    90deg,
+    var(--ink) 0 48%,
+    var(--surface-strong) 48% 100%
+  );
+  border: 1.5px solid var(--muted);
+  border-radius: 50%;
+  height: 0.78rem;
+  width: 0.78rem;
+}
+
+.preference-control--language::before {
+  color: var(--accent-ink);
+  content: "A";
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.preference-control:hover select {
+  border-color: color-mix(in srgb, var(--accent), var(--border) 35%);
+  color: var(--ink);
+}
+
+.preference-control:focus-within select {
+  border-color: var(--accent);
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--accent), transparent 78%),
+    inset 0 1px 0 color-mix(in srgb, var(--surface-strong), transparent 20%);
+  outline: none;
 }
 
 html[data-lang="es"] .header-inner {
@@ -1399,6 +1467,53 @@ html[data-lang="es"] .site-nav {
   margin: 0;
 }
 
+.back-to-top {
+  align-items: center;
+  background: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--ink), var(--surface) 28%);
+  border-radius: 999px;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  box-shadow: var(--shadow);
+  color: var(--surface);
+  display: inline-flex;
+  font-size: 0.84rem;
+  font-weight: 850;
+  gap: 0.42rem;
+  opacity: 0;
+  padding: 0.65rem 0.8rem;
+  pointer-events: none;
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  transform: translateY(0.8rem);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+  z-index: 6;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--accent-ink);
+}
+
+.back-to-top:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent), transparent 55%);
+  outline-offset: 3px;
+}
+
+.back-to-top-arrow {
+  border-left: 2px solid currentColor;
+  border-top: 2px solid currentColor;
+  height: 0.42rem;
+  transform: translateY(0.12rem) rotate(45deg);
+  width: 0.42rem;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -1658,7 +1773,9 @@ html[data-lang="es"] .site-nav {
 
   .preference-control select {
     min-height: 1.95rem;
-    min-width: 5rem;
+    min-width: 5.2rem;
+    padding-bottom: 0.28rem;
+    padding-top: 0.28rem;
     width: auto;
   }
 
@@ -1691,6 +1808,13 @@ html[data-lang="es"] .site-nav {
   .filter-control select,
   .small-button {
     width: 100%;
+  }
+
+  .back-to-top {
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    font-size: 0.78rem;
+    padding: 0.58rem 0.7rem;
+    right: max(0.75rem, env(safe-area-inset-right));
   }
 
   .runway-month {

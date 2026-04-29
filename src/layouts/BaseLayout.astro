@@ -92,10 +92,22 @@ const navItems = [
         <a href={correctionUrl}>See an error? Submit a correction with a source.</a>
       </div>
     </footer>
+    <button
+      class="back-to-top"
+      type="button"
+      aria-label="Back to top"
+      aria-hidden="true"
+      tabindex="-1"
+      data-back-to-top
+    >
+      <span class="back-to-top-arrow" aria-hidden="true"></span>
+      <span>Top</span>
+    </button>
     <script define:vars={{ translations, translationTemplates }}>
       (() => {
         const themeSelect = document.querySelector('[data-theme-select]');
         const languageSelect = document.querySelector('[data-language-select]');
+        const backToTopButton = document.querySelector('[data-back-to-top]');
         const textOriginals = new WeakMap();
         const attrOriginals = new WeakMap();
         const attrNames = ['aria-label', 'placeholder', 'title', 'data-label'];
@@ -220,6 +232,27 @@ const navItems = [
           setStoredValue('fptt-language', nextLanguage);
           applyLanguage(nextLanguage);
         });
+
+        if (backToTopButton) {
+          const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+          function updateBackToTop() {
+            const isVisible = window.scrollY > 480;
+            backToTopButton.classList.toggle('is-visible', isVisible);
+            backToTopButton.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+            backToTopButton.tabIndex = isVisible ? 0 : -1;
+          }
+
+          backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+              top: 0,
+              behavior: prefersReducedMotion.matches ? 'auto' : 'smooth',
+            });
+          });
+
+          updateBackToTop();
+          window.addEventListener('scroll', updateBackToTop, { passive: true });
+        }
       })();
     </script>
   </body>
