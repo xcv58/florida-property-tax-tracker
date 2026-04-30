@@ -42,6 +42,10 @@ ${sourceFetch ? sourceFetch.sources_checked : 0}
 
 ${sourceFetch ? sourceFetch.sources_changed : 0}
 
+## Fetch Errors
+
+${sourceFetch ? sourceFetch.errors?.length ?? 0 : 0}
+
 ## Claims
 
 - Added: ${claimUpdates?.claims_added?.length ?? 0}

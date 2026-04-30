@@ -76,7 +76,8 @@ function comparableHtml(html: string): string {
 const sources = Object.entries(watchlist).flatMap(([category, items]) =>
   items.map((item) => ({ ...item, category })),
 );
-const manifest: Record<string, string> = {};
+// Start from the previous manifest so a fetch failure doesn't wipe our baseline.
+const manifest: Record<string, string> = { ...previousManifest };
 const checked: any[] = [];
 const changed: any[] = [];
 const errors: any[] = [];
