@@ -6,7 +6,7 @@ const root = process.cwd();
 const sourceId = process.argv[2];
 
 if (!sourceId) {
-  console.error("Usage: npm exec tsx scripts/archive-source.ts <source-id>");
+  console.error("Usage: node --import tsx scripts/archive-source.ts <source-id>");
   process.exit(1);
 }
 
