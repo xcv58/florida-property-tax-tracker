@@ -66,5 +66,15 @@
       "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
     ],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-01-special-session-d-adjourned",
+    "date": "2026-05-01",
+    "title": "Florida Senate bill-actions page noted Special Session D adjourned",
+    "summary": "The May 1 Florida Senate bill-actions page stated that Special Session D had adjourned sine die and reported no bill actions that day.",
+    "importance": "This confirms the Special Session D checkpoint closed without a tracked property-tax elimination vehicle appearing in the reviewed bill-actions record.",
+    "source_ids": ["flsenate-bill-actions-2026-05-01"],
+    "claim_ids": ["claim-special-session-d-adjourned-sine-die-2026-05-01"],
+    "category": "legislative"
   }
 ]

@@ -7,7 +7,7 @@
     "status": "confirmed",
     "source_ids": ["flsenate-hjr203-2026"],
     "display_context": "proposal",
-    "last_verified": "2026-04-28",
+    "last_verified": "2026-05-01",
     "notes": "The Senate bill page summary describes the proposed homestead exemption and non-school ad valorem scope."
   },
   {
@@ -18,7 +18,7 @@
     "status": "confirmed",
     "source_ids": ["flsenate-hjr203-2026"],
     "display_context": "timeline",
-    "last_verified": "2026-04-28",
+    "last_verified": "2026-05-01",
     "notes": "The official bill history lists the House third-reading passage and the vote history lists 80 Yeas and 30 Nays."
   },
   {
@@ -29,7 +29,7 @@
     "status": "confirmed",
     "source_ids": ["flsenate-hjr203-2026"],
     "display_context": "timeline",
-    "last_verified": "2026-04-28",
+    "last_verified": "2026-05-01",
     "notes": "The official bill history lists Senate receipt and referral to Appropriations."
   },
   {
@@ -40,7 +40,7 @@
     "status": "confirmed",
     "source_ids": ["flsenate-hjr203-2026"],
     "display_context": "homepage",
-    "last_verified": "2026-04-28",
+    "last_verified": "2026-05-01",
     "notes": "The official bill page lists the last action as Senate - Died in Appropriations."
   },
   {
@@ -67,6 +67,17 @@
     "display_context": "homepage",
     "last_verified": "2026-04-28",
     "notes": "This tracker treats the official bill-actions list and the April 24 Senate memo as the source of truth for the listed Special Session D items reviewed on April 28, 2026."
+  },
+  {
+    "id": "claim-special-session-d-adjourned-sine-die-2026-05-01",
+    "claim": "The Florida Senate bill-actions page for May 1, 2026 stated that Special Session D had adjourned sine die and reported no bill actions that day.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-01",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-01"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-01",
+    "notes": "The bill-actions page includes a Special Session D adjournment status line and lists no bill actions on May 1, 2026."
   },
   {
     "id": "claim-special-session-d-redistricting-purpose",

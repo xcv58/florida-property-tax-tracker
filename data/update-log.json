@@ -32,5 +32,24 @@
     "claims_retired": [],
     "automation_run_id": "manual-initial-publication",
     "git_commit": "52b3e4d"
+  },
+  {
+    "date": "2026-05-01",
+    "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 1, 2026, which stated Special Session D had adjourned sine die and listed no bill actions that day.",
+      "Added a new official source record and claim for the May 1, 2026 bill-actions update.",
+      "Updated the homepage last_verified date and added a timeline checkpoint; current status remains Stalled."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-05-01"],
+    "claims_added": ["claim-special-session-d-adjourned-sine-die-2026-05-01"],
+    "claims_revised": [
+      "claim-hjr203-proposed-homestead-nonschool-exemption",
+      "claim-hjr203-house-passed-80-30",
+      "claim-hjr203-received-senate-referred-appropriations",
+      "claim-hjr203-died-senate-appropriations"
+    ],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-01",
+    "git_commit": null
   }
 ]

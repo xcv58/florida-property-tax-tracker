@@ -7,7 +7,7 @@
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-04-28",
+    "accessed_date": "2026-05-01",
     "description": "Official bill page for CS/CS/HJR 203, including bill history, related bills, text, analyses, vote history, and last action.",
     "reliability_notes": "Primary official source for HJR 203 bill status and House floor vote."
   },
@@ -48,6 +48,18 @@
     "reliability_notes": "Primary official source for bills moving on the April 28, 2026 Senate bill-actions page."
   },
   {
+    "id": "flsenate-bill-actions-2026-05-01",
+    "title": "Florida Senate Bill Actions for May 1, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-01",
+    "accessed_date": "2026-05-01",
+    "description": "Official Senate bill-actions page indicating Special Session D had adjourned sine die and showing no bill actions for May 1, 2026.",
+    "reliability_notes": "Primary official source for the May 1, 2026 Senate bill-actions status line and listed bill actions."
+  },
+  {
     "id": "flsenate-redistricting-2026d",
     "title": "Florida Senate Redistricting Page: Special Session 2026-D",
     "url": "https://www.flsenate.gov/Session/Redistricting/Congressional",
@@ -67,7 +79,7 @@
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-04-28",
+    "accessed_date": "2026-05-01",
     "description": "Official Senate overview of regular sessions, special sessions, calendars, reports, and other legislative process materials.",
     "reliability_notes": "Official explanatory source for legislative session mechanics."
   },
@@ -79,7 +91,7 @@
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-04-28",
+    "accessed_date": "2026-05-01",
     "description": "Official Florida Senate publication of Article XI of the Florida Constitution.",
     "reliability_notes": "Primary official source for constitutional amendment procedure."
   },
@@ -91,7 +103,7 @@
     "source_type": "official_election",
     "publisher": "Florida Department of State, Division of Elections",
     "published_date": "2026-03-12",
-    "accessed_date": "2026-04-28",
+    "accessed_date": "2026-05-01",
     "description": "Department of State overview of proposed constitutional amendments and initiatives, including the 60 percent voter-approval requirement.",
     "reliability_notes": "Official election source for ballot-path explanation."
   }
