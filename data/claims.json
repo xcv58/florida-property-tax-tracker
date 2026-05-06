@@ -80,6 +80,17 @@
     "notes": "The bill-actions page includes a Special Session D adjournment status line and lists no bill actions on May 1, 2026."
   },
   {
+    "id": "claim-flsenate-bill-actions-no-actions-2026-05-05",
+    "claim": "The Florida Senate bill-actions page for May 5, 2026 reported no bill actions that day.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-05",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-05"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-06",
+    "notes": "The date-specific bill-actions page for May 5, 2026 listed no bill actions."
+  },
+  {
     "id": "claim-special-session-d-redistricting-purpose",
     "claim": "The Florida Senate redistricting page describes Special Session 2026-D as centered on congressional redistricting materials and a plan transmitted by the Executive Office of the Governor.",
     "claim_type": "legislative_status",

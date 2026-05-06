@@ -60,6 +60,18 @@
     "reliability_notes": "Primary official source for the May 1, 2026 Senate bill-actions status line and listed bill actions."
   },
   {
+    "id": "flsenate-bill-actions-2026-05-05",
+    "title": "Florida Senate Bill Actions for May 5, 2026",
+    "url": "https://www.flsenate.gov/Home/05-05-2026?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-05",
+    "accessed_date": "2026-05-06",
+    "description": "Official Senate bill-actions page for May 5, 2026, reporting no bill actions that day.",
+    "reliability_notes": "Primary official source for the listed bill actions on May 5, 2026."
+  },
+  {
     "id": "flsenate-redistricting-2026d",
     "title": "Florida Senate Redistricting Page: Special Session 2026-D",
     "url": "https://www.flsenate.gov/Session/Redistricting/Congressional",
