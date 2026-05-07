@@ -72,6 +72,30 @@
     "reliability_notes": "Primary official source for the listed bill actions on May 5, 2026."
   },
   {
+    "id": "flsenate-special-session-e-joint-proclamation-2026-05-06",
+    "title": "2026 Special Session E Joint Proclamation (PDF)",
+    "url": "https://www.flsenate.gov/PublishedContent/Home/CalendarLinks/Links/2026_E___Joint_Proclamation.pdf",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-06",
+    "accessed_date": "2026-05-07",
+    "description": "Joint proclamation PDF linked from Florida Senate calendar links for Special Session E.",
+    "reliability_notes": "Official Florida Senate-hosted PDF link for Special Session E."
+  },
+  {
+    "id": "flsenate-bill-actions-2026-05-07",
+    "title": "Florida Senate Bill Actions for May 7, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-07",
+    "accessed_date": "2026-05-07",
+    "description": "Official Senate bill-actions page for May 7, 2026, reporting no bill actions and displaying the Special Session E convening notice.",
+    "reliability_notes": "Primary official source for the May 7, 2026 bill-actions page status line and special-session convening notice."
+  },
+  {
     "id": "flsenate-redistricting-2026d",
     "title": "Florida Senate Redistricting Page: Special Session 2026-D",
     "url": "https://www.flsenate.gov/Session/Redistricting/Congressional",

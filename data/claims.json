@@ -91,6 +91,31 @@
     "notes": "The date-specific bill-actions page for May 5, 2026 listed no bill actions."
   },
   {
+    "id": "claim-flsenate-bill-actions-no-actions-2026-05-07",
+    "claim": "The Florida Senate bill-actions page for May 7, 2026 reported no bill actions that day.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-07",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-07"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-07",
+    "notes": "The Florida Senate bill-actions page for May 7, 2026 listed no bill actions."
+  },
+  {
+    "id": "claim-special-session-e-convenes-2026-05-12",
+    "claim": "The Florida Senate bill-actions page for May 7, 2026 stated the Senate will convene on Tuesday, May 12, 2026, at 10:00 AM for Special Session E.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-07",
+    "status": "confirmed",
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-07",
+      "flsenate-special-session-e-joint-proclamation-2026-05-06"
+    ],
+    "display_context": "homepage",
+    "last_verified": "2026-05-07",
+    "notes": "This tracker treats the bill-actions page notice and linked joint proclamation PDF as the official source record for the Special Session E convening notice."
+  },
+  {
     "id": "claim-special-session-d-redistricting-purpose",
     "claim": "The Florida Senate redistricting page describes Special Session 2026-D as centered on congressional redistricting materials and a plan transmitted by the Executive Office of the Governor.",
     "claim_type": "legislative_status",

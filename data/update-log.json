@@ -65,5 +65,25 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-06",
     "git_commit": null
+  },
+  {
+    "date": "2026-05-07",
+      "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 7, 2026, which reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.",
+      "Added new official source records and claims for the May 7 bill-actions check and Special Session E convening notice.",
+      "Updated the homepage last_verified date; current status remains Stalled."
+    ],
+    "source_ids_added": [
+      "flsenate-bill-actions-2026-05-07",
+      "flsenate-special-session-e-joint-proclamation-2026-05-06"
+    ],
+    "claims_added": [
+      "claim-flsenate-bill-actions-no-actions-2026-05-07",
+      "claim-special-session-e-convenes-2026-05-12"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-07",
+    "git_commit": null
   }
 ]

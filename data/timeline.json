@@ -86,5 +86,21 @@
     "source_ids": ["flsenate-bill-actions-2026-05-05"],
     "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-05"],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-07-bill-actions-none-special-session-e",
+    "date": "2026-05-07",
+    "title": "Florida Senate bill-actions page reported no bill actions; Special Session E scheduled",
+    "summary": "The May 7 Florida Senate bill-actions page reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint and confirms a new special-session convening date to watch for whether any tracked property-tax elimination vehicle appears in official records.",
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-07",
+      "flsenate-special-session-e-joint-proclamation-2026-05-06"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-actions-2026-05-07",
+      "claim-special-session-e-convenes-2026-05-12"
+    ],
+    "category": "legislative"
   }
 ]
