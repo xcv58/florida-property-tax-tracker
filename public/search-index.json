@@ -358,6 +358,31 @@
       "text": "flsenate-bill-actions-2026-04-28 Florida Senate Bill Actions for April 28, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for May 1, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-01 Florida Senate Bill Actions for May 1, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Bill Actions for May 5, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-05 Florida Senate Bill Actions for May 5, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "2026 Special Session E Joint Proclamation (PDF)",
+      "type": "source",
+      "text": "flsenate-special-session-e-joint-proclamation-2026-05-06 2026 Special Session E Joint Proclamation (PDF) Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Bill Actions for May 7, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-07 Florida Senate Bill Actions for May 7, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Bill Actions for May 10, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-10 Florida Senate Bill Actions for May 10, 2026 Florida Senate official_legislative"
+    },
+    {
       "title": "Florida Senate Redistricting Page: Special Session 2026-D",
       "type": "source",
       "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
@@ -420,6 +445,26 @@
       "title": "Special Session D bill-actions list showed no tracked property-tax elimination proposal",
       "type": "timeline",
       "text": "2026-04-28 Special Session D bill-actions list showed no tracked property-tax elimination proposal The April 28 Senate bill-actions list reviewed for this tracker showed Special Session D activity on redistricting, AI, public records, medical freedom, and state reapportionment items. This supports the current status label that no tracked property-tax elimination proposal was active on that reviewed list."
+    },
+    {
+      "title": "Florida Senate bill-actions page noted Special Session D adjourned",
+      "type": "timeline",
+      "text": "2026-05-01 Florida Senate bill-actions page noted Special Session D adjourned The May 1 Florida Senate bill-actions page stated that Special Session D had adjourned sine die and reported no bill actions that day. This confirms the Special Session D checkpoint closed without a tracked property-tax elimination vehicle appearing in the reviewed bill-actions record."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-05 Florida Senate bill-actions page reported no bill actions The May 5 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions; Special Session E scheduled",
+      "type": "timeline",
+      "text": "2026-05-07 Florida Senate bill-actions page reported no bill actions; Special Session E scheduled The May 7 Florida Senate bill-actions page reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E. This refreshes the tracker’s last-verified checkpoint and confirms a new special-session convening date to watch for whether any tracked property-tax elimination vehicle appears in official records."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-10 Florida Senate bill-actions page reported no bill actions The May 10 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
     }
   ],
   "overview": [
@@ -442,6 +487,21 @@
       "title": "No Special Session D vehicle identified",
       "type": "overview",
       "text": "2026-04-28 Vehicle No Special Session D vehicle identified No tracked property-tax elimination proposal appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
+      "title": "Special Session D adjourned",
+      "type": "overview",
+      "text": "2026-05-01 Session Special Session D adjourned The Florida Senate bill-actions page for May 1, 2026 stated that Special Session D had adjourned sine die and reported no bill actions that day. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
+      "title": "No bill actions listed",
+      "type": "overview",
+      "text": "2026-05-07 Check No bill actions listed The Florida Senate bill-actions page for May 7, 2026 reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
+      "title": "No bill actions listed",
+      "type": "overview",
+      "text": "2026-05-10 Check No bill actions listed The Florida Senate bill-actions page for May 10, 2026 reported no bill actions that day. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
     },
     {
       "title": "Ballot listing not reached",
@@ -467,6 +527,11 @@
       "title": "No Special Session D vehicle found",
       "type": "runway",
       "text": "April Apr. 28, 2026 No Special Session D vehicle found The reviewed bill-actions list did not show a tracked property-tax elimination proposal. watching"
+    },
+    {
+      "title": "No bill actions reported",
+      "type": "runway",
+      "text": "May May 10, 2026 No bill actions reported The Florida Senate bill-actions page for May 10, 2026 reported no bill actions that day and the Special Session E convening notice remained posted. watching"
     },
     {
       "title": "Possible new legislative vehicle",
