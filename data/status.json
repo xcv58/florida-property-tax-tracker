@@ -2,12 +2,12 @@
   "site_title": "Florida Property Tax Tracker",
   "subtitle": "Tracking Florida's 2026 property tax elimination proposals and related reforms",
   "current_status_label": "Stalled",
-  "current_status_summary": "The May 10, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day. Florida Senate bill-actions notices reviewed for this tracker stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session. The issue could return through a later special session or a new joint resolution.",
-  "last_verified": "2026-05-10",
-  "latest_update": "The May 10, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
+  "current_status_summary": "The May 11, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day. Florida Senate bill-actions notices reviewed for this tracker stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session. The issue could return through a later special session or a new joint resolution.",
+  "last_verified": "2026-05-11",
+  "latest_update": "The May 11, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
   "expected_next": "Watch for Special Session E agendas or bill actions, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
   "claim_ids": [
-    "claim-flsenate-bill-actions-no-actions-2026-05-10",
+    "claim-flsenate-bill-actions-no-actions-2026-05-11",
     "claim-special-session-e-convenes-2026-05-12",
     "claim-hjr203-house-passed-80-30",
     "claim-hjr203-died-senate-appropriations",
@@ -18,9 +18,9 @@
   "sentence_claim_ids": [
     {
       "field": "current_status_summary",
-      "sentence": "The May 10, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
+      "sentence": "The May 11, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-actions-2026-05-10"
+        "claim-flsenate-bill-actions-no-actions-2026-05-11"
       ]
     },
     {
@@ -48,9 +48,9 @@
     },
     {
       "field": "latest_update",
-      "sentence": "The May 10, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
+      "sentence": "The May 11, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-actions-2026-05-10"
+        "claim-flsenate-bill-actions-no-actions-2026-05-11"
       ]
     },
     {
