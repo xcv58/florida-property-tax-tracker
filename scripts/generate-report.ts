@@ -15,9 +15,10 @@ const sourceFetch = readOptional("tmp/source-fetch-report.json");
 const officialPages = readOptional("tmp/official-page-parse.json");
 const pdfs = readOptional("tmp/pdf-parse-report.json");
 const claimUpdates = readOptional("tmp/claim-update-report.json");
-const latestUpdate = JSON.parse(
+const updateLog = JSON.parse(
   readFileSync(path.join(root, "data/update-log.json"), "utf8"),
-)[0];
+);
+const latestUpdate = Array.isArray(updateLog) ? updateLog.at(-1) : null;
 
 const report = {
   generated_at: new Date().toISOString(),

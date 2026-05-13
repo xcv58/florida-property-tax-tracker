@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-11T10:38:22.836Z",
+  "generated_at": "2026-05-13T10:40:09.066Z",
   "source_fetch": {
-    "generated_at": "2026-05-11T10:32:51.249Z",
+    "generated_at": "2026-05-13T10:32:35.160Z",
     "sources_checked": 0,
     "sources_changed": 0,
     "errors": [
@@ -9,77 +9,77 @@
         "label": "Florida Senate 2026 Senate bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026",
         "category": "official_legislative",
-        "checked_at": "2026-05-11T10:32:51.227Z",
+        "checked_at": "2026-05-13T10:32:35.137Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate 2026 House bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House",
         "category": "official_legislative",
-        "checked_at": "2026-05-11T10:32:51.242Z",
+        "checked_at": "2026-05-13T10:32:35.152Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
         "category": "official_legislative",
-        "checked_at": "2026-05-11T10:32:51.244Z",
+        "checked_at": "2026-05-13T10:32:35.154Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D update memo",
         "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-11T10:32:51.245Z",
+        "checked_at": "2026-05-13T10:32:35.155Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
         "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-11T10:32:51.245Z",
+        "checked_at": "2026-05-13T10:32:35.156Z",
         "error": "fetch failed"
       },
       {
         "label": "Governor actions and proclamations",
         "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/",
         "category": "official_executive",
-        "checked_at": "2026-05-11T10:32:51.246Z",
+        "checked_at": "2026-05-13T10:32:35.156Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
         "url": "https://edr.state.fl.us",
         "category": "official_fiscal",
-        "checked_at": "2026-05-11T10:32:51.246Z",
+        "checked_at": "2026-05-13T10:32:35.157Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Department of State constitutional amendments",
         "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives",
         "category": "official_election",
-        "checked_at": "2026-05-11T10:32:51.247Z",
+        "checked_at": "2026-05-13T10:32:35.157Z",
         "error": "fetch failed"
       },
       {
         "label": "Constitutional initiatives database",
         "url": "https://constitutionalinitiatives.dos.fl.gov",
         "category": "official_election",
-        "checked_at": "2026-05-11T10:32:51.247Z",
+        "checked_at": "2026-05-13T10:32:35.158Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Association of Counties",
         "url": "https://www.fl-counties.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-11T10:32:51.248Z",
+        "checked_at": "2026-05-13T10:32:35.159Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida League of Cities",
         "url": "https://www.flcities.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-11T10:32:51.248Z",
+        "checked_at": "2026-05-13T10:32:35.159Z",
         "error": "fetch failed"
       }
     ],
@@ -87,15 +87,15 @@
     "changed": []
   },
   "official_pages": {
-    "generated_at": "2026-05-11T10:34:00.021Z",
+    "generated_at": "2026-05-13T10:32:54.663Z",
     "pages": []
   },
   "pdfs": {
-    "generated_at": "2026-05-11T10:34:00.555Z",
+    "generated_at": "2026-05-13T10:32:55.534Z",
     "pdfs": []
   },
   "claim_updates": {
-    "generated_at": "2026-05-11T10:34:02.916Z",
+    "generated_at": "2026-05-13T10:33:02.125Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],
@@ -106,38 +106,22 @@
     ]
   },
   "latest_update_log_entry": {
-    "date": "2026-04-28",
+    "date": "2026-05-13",
     "what_changed": [
-      "Published the initial tracker data set.",
-      "Added official source records for CS/CS/HJR 203, Special Session D materials, constitutional amendment procedure, and Department of State ballot-path guidance.",
-      "Set current status to Stalled based on the April 28, 2026 official bill-actions review and the March 13, 2026 HJR 203 final action."
+      "Reviewed the Florida Senate bill-actions page for May 13, 2026, which reported no bill actions that day.",
+      "Added a new official source record and claim for the May 13, 2026 bill-actions check.",
+      "Updated the homepage last_verified date; current status remains Stalled."
     ],
     "source_ids_added": [
-      "flsenate-hjr203-2026",
-      "flsenate-special-session-d-memo-2026-04-15",
-      "flsenate-special-session-d-update-2026-04-24",
-      "flsenate-bill-actions-2026-04-28",
-      "flsenate-redistricting-2026d",
-      "flsenate-session-overview",
-      "flsenate-constitution-article-xi",
-      "fl-dos-constitutional-amendments"
+      "flsenate-bill-actions-2026-05-13"
     ],
     "claims_added": [
-      "claim-hjr203-proposed-homestead-nonschool-exemption",
-      "claim-hjr203-house-passed-80-30",
-      "claim-hjr203-received-senate-referred-appropriations",
-      "claim-hjr203-died-senate-appropriations",
-      "claim-special-session-d-legislation-2026-04-24",
-      "claim-special-session-d-bill-actions-no-property-tax-2026-04-28",
-      "claim-special-session-d-redistricting-purpose",
-      "claim-special-sessions-can-be-called-later",
-      "claim-constitutional-amendment-legislative-path",
-      "claim-constitutional-amendment-sixty-percent"
+      "claim-flsenate-bill-actions-no-actions-2026-05-13"
     ],
     "claims_revised": [],
     "claims_retired": [],
-    "automation_run_id": "manual-initial-publication",
-    "git_commit": "52b3e4d"
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-13",
+    "git_commit": null
   },
   "build_status": "not run by generate-report",
   "deployment_status": "handled by hosting workflow"
