@@ -141,5 +141,19 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-13",
     "git_commit": "5160b47"
+  },
+  {
+    "date": "2026-05-14",
+    "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 14, 2026, which reported no bill actions that day.",
+      "Added a new official source record and claim for the May 14, 2026 bill-actions check.",
+      "Updated the homepage last_verified date; current status remains Stalled."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-05-14"],
+    "claims_added": ["claim-flsenate-bill-actions-no-actions-2026-05-14"],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-14",
+    "git_commit": null
   }
 ]

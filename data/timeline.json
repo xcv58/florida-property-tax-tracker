@@ -142,5 +142,15 @@
     "source_ids": ["flsenate-bill-actions-2026-05-13"],
     "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-13"],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-14-bill-actions-none",
+    "date": "2026-05-14",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 14 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-14"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-14"],
+    "category": "legislative"
   }
 ]
