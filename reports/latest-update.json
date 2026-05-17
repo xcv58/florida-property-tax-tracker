@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-16T10:42:58.374Z",
+  "generated_at": "2026-05-17T10:35:52.902Z",
   "source_fetch": {
-    "generated_at": "2026-05-16T10:39:19.929Z",
+    "generated_at": "2026-05-17T10:35:09.075Z",
     "sources_checked": 0,
     "sources_changed": 0,
     "errors": [
@@ -9,77 +9,77 @@
         "label": "Florida Senate 2026 Senate bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026",
         "category": "official_legislative",
-        "checked_at": "2026-05-16T10:39:19.908Z",
+        "checked_at": "2026-05-17T10:35:09.054Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate 2026 House bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House",
         "category": "official_legislative",
-        "checked_at": "2026-05-16T10:39:19.922Z",
+        "checked_at": "2026-05-17T10:35:09.069Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
         "category": "official_legislative",
-        "checked_at": "2026-05-16T10:39:19.924Z",
+        "checked_at": "2026-05-17T10:35:09.070Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D update memo",
         "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-16T10:39:19.925Z",
+        "checked_at": "2026-05-17T10:35:09.071Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
         "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-16T10:39:19.926Z",
+        "checked_at": "2026-05-17T10:35:09.072Z",
         "error": "fetch failed"
       },
       {
         "label": "Governor actions and proclamations",
         "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/",
         "category": "official_executive",
-        "checked_at": "2026-05-16T10:39:19.926Z",
+        "checked_at": "2026-05-17T10:35:09.072Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
         "url": "https://edr.state.fl.us",
         "category": "official_fiscal",
-        "checked_at": "2026-05-16T10:39:19.927Z",
+        "checked_at": "2026-05-17T10:35:09.073Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Department of State constitutional amendments",
         "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives",
         "category": "official_election",
-        "checked_at": "2026-05-16T10:39:19.927Z",
+        "checked_at": "2026-05-17T10:35:09.073Z",
         "error": "fetch failed"
       },
       {
         "label": "Constitutional initiatives database",
         "url": "https://constitutionalinitiatives.dos.fl.gov",
         "category": "official_election",
-        "checked_at": "2026-05-16T10:39:19.928Z",
+        "checked_at": "2026-05-17T10:35:09.074Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Association of Counties",
         "url": "https://www.fl-counties.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-16T10:39:19.928Z",
+        "checked_at": "2026-05-17T10:35:09.074Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida League of Cities",
         "url": "https://www.flcities.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-16T10:39:19.929Z",
+        "checked_at": "2026-05-17T10:35:09.075Z",
         "error": "fetch failed"
       }
     ],
@@ -87,15 +87,15 @@
     "changed": []
   },
   "official_pages": {
-    "generated_at": "2026-05-16T10:39:38.053Z",
+    "generated_at": "2026-05-17T10:35:29.344Z",
     "pages": []
   },
   "pdfs": {
-    "generated_at": "2026-05-16T10:39:38.621Z",
+    "generated_at": "2026-05-17T10:35:29.973Z",
     "pdfs": []
   },
   "claim_updates": {
-    "generated_at": "2026-05-16T10:39:41.507Z",
+    "generated_at": "2026-05-17T10:35:33.669Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],

@@ -398,6 +398,16 @@
       "text": "flsenate-bill-actions-2026-05-13 Florida Senate Bill Actions for May 13, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for May 14, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-14 Florida Senate Bill Actions for May 14, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "Florida Senate Bill Actions for May 16, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-16 Florida Senate Bill Actions for May 16, 2026 Florida Senate official_legislative"
+    },
+    {
       "title": "Florida Senate Redistricting Page: Special Session 2026-D",
       "type": "source",
       "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
@@ -495,6 +505,16 @@
       "title": "Florida Senate bill-actions page reported no bill actions",
       "type": "timeline",
       "text": "2026-05-13 Florida Senate bill-actions page reported no bill actions The May 13 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-14 Florida Senate bill-actions page reported no bill actions The May 14 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-16 Florida Senate bill-actions page reported no bill actions The May 16 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
     }
   ],
   "overview": [
@@ -549,6 +569,16 @@
       "text": "2026-05-13 Check No bill actions listed The Florida Senate bill-actions page for May 13, 2026 reported no bill actions that day. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
     },
     {
+      "title": "No bill actions listed",
+      "type": "overview",
+      "text": "2026-05-14 Check No bill actions listed The Florida Senate bill-actions page for May 14, 2026 reported no bill actions that day. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
+      "title": "No bill actions listed",
+      "type": "overview",
+      "text": "2026-05-16 Check No bill actions listed The Florida Senate bill-actions page for May 16, 2026 reported no bill actions that day. A new special session call, HJR, or SJR would be needed to reopen a legislative route. watching"
+    },
+    {
       "title": "Ballot listing not reached",
       "type": "overview",
       "text": "Future checkpoint Ballot Ballot listing not reached A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution. The Department of State ballot step comes after a measure advances through the required constitutional-amendment path. not_started"
@@ -576,7 +606,7 @@
     {
       "title": "No bill actions reported",
       "type": "runway",
-      "text": "May May 10, 2026 No bill actions reported The Florida Senate bill-actions page for May 10, 2026 reported no bill actions that day and the Special Session E convening notice remained posted. watching"
+      "text": "May May 16, 2026 No bill actions reported The Florida Senate bill-actions page for May 16, 2026 reported no bill actions that day. watching"
     },
     {
       "title": "Possible new legislative vehicle",
