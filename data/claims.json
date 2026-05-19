@@ -44,6 +44,28 @@
     "notes": "The official bill page lists the last action as Senate - Died in Appropriations."
   },
   {
+    "id": "claim-hjr201-proposed-homestead-nonschool-exemption",
+    "claim": "HJR 201 proposed a Florida constitutional amendment to exempt homestead property from all ad valorem taxation other than school district levies beginning in a specified year.",
+    "claim_type": "proposal_scope",
+    "date": "2025-10-16",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr201-2026"],
+    "display_context": "proposal",
+    "last_verified": "2026-05-19",
+    "notes": "The official bill page summary describes the proposed homestead exemption and non-school ad valorem scope."
+  },
+  {
+    "id": "claim-hjr201-died-house-ways-and-means",
+    "claim": "HJR 201 died in the House Ways & Means Committee on March 13, 2026.",
+    "claim_type": "legislative_status",
+    "date": "2026-03-13",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr201-2026"],
+    "display_context": "timeline",
+    "last_verified": "2026-05-19",
+    "notes": "The official bill page lists the last action as House - Died in Ways & Means Committee."
+  },
+  {
     "id": "claim-special-session-d-legislation-2026-04-24",
     "claim": "The April 24, 2026 Senate memo described expected Special Session D legislation on congressional redistricting, artificial intelligence, public records, and medical freedom.",
     "claim_type": "legislative_status",
@@ -166,6 +188,17 @@
     "display_context": "homepage",
     "last_verified": "2026-05-16",
     "notes": "The Florida Senate bill-actions page for May 16, 2026 listed no bill actions."
+  },
+  {
+    "id": "claim-flsenate-bill-actions-no-actions-2026-05-19",
+    "claim": "The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-19",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-19"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-19",
+    "notes": "The Florida Senate bill-actions page for May 19, 2026 listed no bill actions."
   },
   {
     "id": "claim-special-session-e-convenes-2026-05-12",

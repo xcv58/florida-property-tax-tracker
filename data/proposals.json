@@ -20,6 +20,25 @@
     ]
   },
   {
+    "id": "hjr201-2026",
+    "name": "HJR 201",
+    "title": "Elimination of Non-school Property Tax for Homesteads",
+    "session": "2026",
+    "proposal_type": "constitutional_amendment",
+    "chamber": "House",
+    "sponsor": "Steele, Miller",
+    "status": "dead",
+    "last_action_date": "2026-03-13",
+    "last_action": "Died in Ways & Means Committee",
+    "current_relevance": "Related House-filed elimination proposal; did not advance past Ways & Means during the 2026 regular session.",
+    "material_to_elimination_debate": true,
+    "source_ids": ["flsenate-hjr201-2026"],
+    "claim_ids": [
+      "claim-hjr201-proposed-homestead-nonschool-exemption",
+      "claim-hjr201-died-house-ways-and-means"
+    ]
+  },
+  {
     "id": "related-house-property-tax-proposals-2026",
     "name": "Related 2026 House proposals",
     "title": "Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203",

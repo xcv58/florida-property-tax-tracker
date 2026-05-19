@@ -43,6 +43,16 @@
     "category": "legislative"
   },
   {
+    "id": "timeline-2026-03-13-hjr201-died",
+    "date": "2026-03-13",
+    "title": "HJR 201 died in House Ways & Means Committee",
+    "summary": "HJR 201 did not advance through House Ways & Means before the end of the 2026 regular session.",
+    "importance": "This ended the regular-session path for another homestead non-school ad valorem elimination proposal.",
+    "source_ids": ["flsenate-hjr201-2026"],
+    "claim_ids": ["claim-hjr201-died-house-ways-and-means"],
+    "category": "legislative"
+  },
+  {
     "id": "timeline-2026-04-24-special-session-d-memo",
     "date": "2026-04-24",
     "title": "Senate memo described Special Session D legislation",
@@ -161,6 +171,16 @@
     "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
     "source_ids": ["flsenate-bill-actions-2026-05-16"],
     "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-16"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-19-bill-actions-none",
+    "date": "2026-05-19",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 19 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-19"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-19"],
     "category": "legislative"
   }
 ]

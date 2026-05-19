@@ -343,6 +343,11 @@
       "text": "flsenate-hjr203-2026 Florida Senate Bill Page: CS/CS/HJR 203, 2026 Session Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Page: HJR 201, 2026 Session",
+      "type": "source",
+      "text": "flsenate-hjr201-2026 Florida Senate Bill Page: HJR 201, 2026 Session Florida Senate official_legislative"
+    },
+    {
       "title": "Special Session D Memo and Information",
       "type": "source",
       "text": "flsenate-special-session-d-memo-2026-04-15 Special Session D Memo and Information Florida Senate President's Office official_legislative"
@@ -408,6 +413,11 @@
       "text": "flsenate-bill-actions-2026-05-16 Florida Senate Bill Actions for May 16, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for May 19, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-19 Florida Senate Bill Actions for May 19, 2026 Florida Senate official_legislative"
+    },
+    {
       "title": "Florida Senate Redistricting Page: Special Session 2026-D",
       "type": "source",
       "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
@@ -435,6 +445,11 @@
       "text": "CS/CS/HJR 203 Elimination of Non-school Property for Homesteads dead Central House-passed proposal in the 2026 property tax elimination debate."
     },
     {
+      "title": "HJR 201",
+      "type": "proposal",
+      "text": "HJR 201 Elimination of Non-school Property Tax for Homesteads dead Related House-filed elimination proposal; did not advance past Ways & Means during the 2026 regular session."
+    },
+    {
       "title": "Related 2026 House proposals",
       "type": "proposal",
       "text": "Related 2026 House proposals Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203 historical_context_only Relevant as comparison proposals, but not active vehicles for the current status summary."
@@ -460,6 +475,11 @@
       "title": "CS/CS/HJR 203 died in Senate Appropriations",
       "type": "timeline",
       "text": "2026-03-13 CS/CS/HJR 203 died in Senate Appropriations The House-passed property-tax proposal did not advance through the Senate before the end of the regular session. This ended the regular-session path for CS/CS/HJR 203."
+    },
+    {
+      "title": "HJR 201 died in House Ways & Means Committee",
+      "type": "timeline",
+      "text": "2026-03-13 HJR 201 died in House Ways & Means Committee HJR 201 did not advance through House Ways & Means before the end of the 2026 regular session. This ended the regular-session path for another homestead non-school ad valorem elimination proposal."
     },
     {
       "title": "Senate memo described Special Session D legislation",
@@ -515,6 +535,11 @@
       "title": "Florida Senate bill-actions page reported no bill actions",
       "type": "timeline",
       "text": "2026-05-16 Florida Senate bill-actions page reported no bill actions The May 16 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-19 Florida Senate bill-actions page reported no bill actions The May 19 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
     }
   ],
   "overview": [
@@ -606,7 +631,7 @@
     {
       "title": "No bill actions reported",
       "type": "runway",
-      "text": "May May 16, 2026 No bill actions reported The Florida Senate bill-actions page for May 16, 2026 reported no bill actions that day. watching"
+      "text": "May May 19, 2026 No bill actions reported The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day. watching"
     },
     {
       "title": "Possible new legislative vehicle",

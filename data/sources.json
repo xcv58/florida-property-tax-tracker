@@ -12,6 +12,18 @@
     "reliability_notes": "Primary official source for HJR 203 bill status and House floor vote."
   },
   {
+    "id": "flsenate-hjr201-2026",
+    "title": "Florida Senate Bill Page: HJR 201, 2026 Session",
+    "url": "https://www.flsenate.gov/Session/Bill/2026/201",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": null,
+    "accessed_date": "2026-05-19",
+    "description": "Official bill page for HJR 201, including bill history, related bills, text, analyses, and last action.",
+    "reliability_notes": "Primary official source for HJR 201 bill status and committee history."
+  },
+  {
     "id": "flsenate-special-session-d-memo-2026-04-15",
     "title": "Special Session D Memo and Information",
     "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf",
@@ -166,6 +178,18 @@
     "accessed_date": "2026-05-16",
     "description": "Official Senate bill-actions page for May 16, 2026, reporting no bill actions that day.",
     "reliability_notes": "Primary official source for the May 16, 2026 bill-actions page status line."
+  },
+  {
+    "id": "flsenate-bill-actions-2026-05-19",
+    "title": "Florida Senate Bill Actions for May 19, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-19",
+    "accessed_date": "2026-05-19",
+    "description": "Official Senate bill-actions page for May 19, 2026, reporting no bill actions that day.",
+    "reliability_notes": "Primary official source for the May 19, 2026 bill-actions page status line."
   },
   {
     "id": "flsenate-redistricting-2026d",
