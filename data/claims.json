@@ -201,6 +201,17 @@
     "notes": "The Florida Senate bill-actions page for May 19, 2026 listed no bill actions."
   },
   {
+    "id": "claim-flsenate-bill-actions-no-actions-2026-05-20",
+    "claim": "The Florida Senate bill-actions page for May 20, 2026 reported no bill actions that day.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-20",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-20"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-20",
+    "notes": "The Florida Senate bill-actions page for May 20, 2026 listed no bill actions."
+  },
+  {
     "id": "claim-special-session-e-convenes-2026-05-12",
     "claim": "Florida Senate bill-actions notices reviewed for this tracker stated the Senate will convene on Tuesday, May 12, 2026, at 10:00 AM for Special Session E.",
     "claim_type": "legislative_status",

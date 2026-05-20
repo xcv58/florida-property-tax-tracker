@@ -418,6 +418,11 @@
       "text": "flsenate-bill-actions-2026-05-19 Florida Senate Bill Actions for May 19, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for May 20, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-20 Florida Senate Bill Actions for May 20, 2026 Florida Senate official_legislative"
+    },
+    {
       "title": "Florida Senate Redistricting Page: Special Session 2026-D",
       "type": "source",
       "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
@@ -540,6 +545,11 @@
       "title": "Florida Senate bill-actions page reported no bill actions",
       "type": "timeline",
       "text": "2026-05-19 Florida Senate bill-actions page reported no bill actions The May 19 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
+    },
+    {
+      "title": "Florida Senate bill-actions page reported no bill actions",
+      "type": "timeline",
+      "text": "2026-05-20 Florida Senate bill-actions page reported no bill actions The May 20 Florida Senate bill-actions page reported no bill actions that day. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle."
     }
   ],
   "overview": [
@@ -631,7 +641,7 @@
     {
       "title": "No bill actions reported",
       "type": "runway",
-      "text": "May May 19, 2026 No bill actions reported The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day. watching"
+      "text": "May May 20, 2026 No bill actions reported The Florida Senate bill-actions page for May 20, 2026 reported no bill actions that day. watching"
     },
     {
       "title": "Possible new legislative vehicle",
