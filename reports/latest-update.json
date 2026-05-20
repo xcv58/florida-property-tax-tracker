@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T10:36:54.885Z",
+  "generated_at": "2026-05-20T10:40:24.951Z",
   "source_fetch": {
     "generated_at": "2026-05-20T10:32:21.111Z",
     "sources_checked": 0,
@@ -121,7 +121,7 @@
     "claims_revised": [],
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-20",
-    "git_commit": null
+    "git_commit": "dd3cd0c"
   },
   "build_status": "not run by generate-report",
   "deployment_status": "handled by hosting workflow"
