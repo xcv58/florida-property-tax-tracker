@@ -2,15 +2,15 @@
   "brief": {
     "eyebrow": "overview",
     "heading": "Where the 2026 path stands",
-    "body": "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. The May 22, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
+    "body": "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. The May 24, 2026 Florida Senate bill-actions page reviewed for this tracker reported no bill actions that day.",
     "claim_ids": [
       "claim-hjr203-house-passed-80-30",
       "claim-hjr203-died-senate-appropriations",
-      "claim-flsenate-bill-actions-no-actions-2026-05-22"
+      "claim-flsenate-bill-actions-no-actions-2026-05-24"
     ],
     "source_ids": [
       "flsenate-hjr203-2026",
-      "flsenate-bill-actions-2026-05-22"
+      "flsenate-bill-actions-2026-05-24"
     ]
   },
   "status_legend": [
@@ -38,7 +38,7 @@
   "monthly_runway": {
     "eyebrow": "monthly_runway",
     "heading": "Current Path To Ballot",
-    "as_of": "2026-05-22",
+    "as_of": "2026-05-24",
     "scale_note": "Monthly scale; future months are checkpoints to watch, not predictions.",
     "current_label": "Last verified",
     "current_month": "May",
@@ -58,7 +58,7 @@
     "next_watch": "Special Session E agendas or bill actions, new HJR or SJR filing, committee agenda, or ballot record",
     "source_ids": [
       "flsenate-hjr203-2026",
-      "flsenate-bill-actions-2026-05-22",
+      "flsenate-bill-actions-2026-05-24",
       "flsenate-special-session-e-joint-proclamation-2026-05-06",
       "flsenate-session-overview",
       "fl-dos-constitutional-amendments",
@@ -124,14 +124,14 @@
       {
         "id": "may-special-session-adjourned",
         "month": "May",
-        "range": "May 22, 2026",
+        "range": "May 24, 2026",
         "title": "No bill actions reported",
-        "summary": "The Florida Senate bill-actions page for May 22, 2026 reported no bill actions that day.",
+        "summary": "The Florida Senate bill-actions page for May 24, 2026 reported no bill actions that day.",
         "status": "watching",
         "status_label": "Watching",
         "is_current": true,
-        "source_ids": ["flsenate-bill-actions-2026-05-22"],
-        "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-22"]
+        "source_ids": ["flsenate-bill-actions-2026-05-24"],
+        "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-24"]
       },
       {
         "id": "may-july-watch-window",
@@ -350,6 +350,66 @@
       "source_ids": ["flsenate-bill-actions-2026-05-16"],
       "claim_ids": [
         "claim-flsenate-bill-actions-no-actions-2026-05-16",
+        "claim-special-sessions-can-be-called-later"
+      ]
+    },
+    {
+      "id": "bill-actions-2026-05-19",
+      "date": "2026-05-19",
+      "label": "Check",
+      "title": "No bill actions listed",
+      "description": "The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day.",
+      "dependency": "A new special session call, HJR, or SJR would be needed to reopen a legislative route.",
+      "status": "watching",
+      "status_label": "Watching",
+      "source_ids": ["flsenate-bill-actions-2026-05-19"],
+      "claim_ids": [
+        "claim-flsenate-bill-actions-no-actions-2026-05-19",
+        "claim-special-sessions-can-be-called-later"
+      ]
+    },
+    {
+      "id": "bill-actions-2026-05-20",
+      "date": "2026-05-20",
+      "label": "Check",
+      "title": "No bill actions listed",
+      "description": "The Florida Senate bill-actions page for May 20, 2026 reported no bill actions that day.",
+      "dependency": "A new special session call, HJR, or SJR would be needed to reopen a legislative route.",
+      "status": "watching",
+      "status_label": "Watching",
+      "source_ids": ["flsenate-bill-actions-2026-05-20"],
+      "claim_ids": [
+        "claim-flsenate-bill-actions-no-actions-2026-05-20",
+        "claim-special-sessions-can-be-called-later"
+      ]
+    },
+    {
+      "id": "bill-actions-2026-05-22",
+      "date": "2026-05-22",
+      "label": "Check",
+      "title": "No bill actions listed",
+      "description": "The Florida Senate bill-actions page for May 22, 2026 reported no bill actions that day.",
+      "dependency": "A new special session call, HJR, or SJR would be needed to reopen a legislative route.",
+      "status": "watching",
+      "status_label": "Watching",
+      "source_ids": ["flsenate-bill-actions-2026-05-22"],
+      "claim_ids": [
+        "claim-flsenate-bill-actions-no-actions-2026-05-22",
+        "claim-special-sessions-can-be-called-later"
+      ]
+    },
+    {
+      "id": "bill-actions-2026-05-24",
+      "date": "2026-05-24",
+      "label": "Check",
+      "title": "No bill actions listed",
+      "description": "The Florida Senate bill-actions page for May 24, 2026 reported no bill actions that day.",
+      "dependency": "A new special session call, HJR, or SJR would be needed to reopen a legislative route.",
+      "status": "watching",
+      "status_label": "Watching",
+      "source_ids": ["flsenate-bill-actions-2026-05-24"],
+      "claim_ids": [
+        "claim-flsenate-bill-actions-no-actions-2026-05-24",
         "claim-special-sessions-can-be-called-later"
       ]
     },
