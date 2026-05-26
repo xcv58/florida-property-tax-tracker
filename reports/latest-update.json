@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T22:39:51.402Z",
+  "generated_at": "2026-05-26T22:38:12.079Z",
   "source_fetch": {
-    "generated_at": "2026-05-25T22:33:27.824Z",
+    "generated_at": "2026-05-26T22:33:12.257Z",
     "sources_checked": 0,
     "sources_changed": 0,
     "errors": [
@@ -9,77 +9,77 @@
         "label": "Florida Senate 2026 Senate bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026",
         "category": "official_legislative",
-        "checked_at": "2026-05-25T22:33:27.801Z",
+        "checked_at": "2026-05-26T22:33:12.236Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate 2026 House bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House",
         "category": "official_legislative",
-        "checked_at": "2026-05-25T22:33:27.816Z",
+        "checked_at": "2026-05-26T22:33:12.250Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
         "category": "official_legislative",
-        "checked_at": "2026-05-25T22:33:27.818Z",
+        "checked_at": "2026-05-26T22:33:12.251Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D update memo",
         "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-25T22:33:27.819Z",
+        "checked_at": "2026-05-26T22:33:12.252Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
         "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-25T22:33:27.819Z",
+        "checked_at": "2026-05-26T22:33:12.253Z",
         "error": "fetch failed"
       },
       {
         "label": "Governor actions and proclamations",
         "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/",
         "category": "official_executive",
-        "checked_at": "2026-05-25T22:33:27.820Z",
+        "checked_at": "2026-05-26T22:33:12.254Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
         "url": "https://edr.state.fl.us",
         "category": "official_fiscal",
-        "checked_at": "2026-05-25T22:33:27.820Z",
+        "checked_at": "2026-05-26T22:33:12.254Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Department of State constitutional amendments",
         "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives",
         "category": "official_election",
-        "checked_at": "2026-05-25T22:33:27.821Z",
+        "checked_at": "2026-05-26T22:33:12.255Z",
         "error": "fetch failed"
       },
       {
         "label": "Constitutional initiatives database",
         "url": "https://constitutionalinitiatives.dos.fl.gov",
         "category": "official_election",
-        "checked_at": "2026-05-25T22:33:27.822Z",
+        "checked_at": "2026-05-26T22:33:12.255Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Association of Counties",
         "url": "https://www.fl-counties.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-25T22:33:27.822Z",
+        "checked_at": "2026-05-26T22:33:12.256Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida League of Cities",
         "url": "https://www.flcities.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-25T22:33:27.823Z",
+        "checked_at": "2026-05-26T22:33:12.256Z",
         "error": "fetch failed"
       }
     ],
@@ -87,15 +87,15 @@
     "changed": []
   },
   "official_pages": {
-    "generated_at": "2026-05-25T22:33:50.262Z",
+    "generated_at": "2026-05-26T22:33:15.791Z",
     "pages": []
   },
   "pdfs": {
-    "generated_at": "2026-05-25T22:33:50.876Z",
+    "generated_at": "2026-05-26T22:33:16.382Z",
     "pdfs": []
   },
   "claim_updates": {
-    "generated_at": "2026-05-25T22:33:54.643Z",
+    "generated_at": "2026-05-26T22:33:16.559Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],
@@ -106,22 +106,23 @@
     ]
   },
   "latest_update_log_entry": {
-    "date": "2026-05-25",
+    "date": "2026-05-26",
     "what_changed": [
-      "Reviewed the Florida Senate bill-actions page for May 25, 2026, which reported no bill actions that day.",
-      "Added a new official source record and claim for the May 25, 2026 bill-actions check.",
-      "Updated the homepage last_verified date; current status remains Stalled."
+      "Reviewed the Florida Senate bill-actions page for May 26, 2026, which listed multiple bill actions; this tracker did not identify a tracked property-tax elimination proposal on that list.",
+      "Recorded the bill-actions page convening notice stating the Senate will convene on May 29, 2026, at 9:00 a.m., or upon the call of the President.",
+      "Added a new official source record and claims for the May 26, 2026 bill-actions check; updated the homepage last_verified date; current status remains Stalled."
     ],
     "source_ids_added": [
-      "flsenate-bill-actions-2026-05-25"
+      "flsenate-bill-actions-2026-05-26"
     ],
     "claims_added": [
-      "claim-flsenate-bill-actions-no-actions-2026-05-25"
+      "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-26",
+      "claim-senate-will-convene-2026-05-29-0900"
     ],
     "claims_revised": [],
     "claims_retired": [],
-    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-25",
-    "git_commit": "016606e"
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-26",
+    "git_commit": ""
   },
   "build_status": "not run by generate-report",
   "deployment_status": "handled by hosting workflow"

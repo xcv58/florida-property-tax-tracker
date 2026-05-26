@@ -222,5 +222,18 @@
     "source_ids": ["flsenate-bill-actions-2026-05-25"],
     "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-25"],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-26-bill-actions-listed",
+    "date": "2026-05-26",
+    "title": "Florida Senate bill-actions page listed bill actions",
+    "summary": "The May 26 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice.",
+    "source_ids": ["flsenate-bill-actions-2026-05-26"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-26",
+      "claim-senate-will-convene-2026-05-29-0900"
+    ],
+    "category": "legislative"
   }
 ]
