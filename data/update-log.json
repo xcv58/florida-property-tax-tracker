@@ -264,5 +264,19 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-26",
     "git_commit": "61e53a9"
+  },
+  {
+    "date": "2026-05-27",
+    "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 27, 2026, which listed multiple bill actions; this tracker did not identify a tracked property-tax elimination proposal on that list.",
+      "Noted the bill-actions page continued to display the May 29, 2026 Senate convening notice.",
+      "Added a new official source record and claim for the May 27, 2026 bill-actions check; updated the homepage last_verified date; current status remains Stalled."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-05-27"],
+    "claims_added": ["claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27"],
+    "claims_revised": ["claim-senate-will-convene-2026-05-29-0900"],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-27",
+    "git_commit": null
   }
 ]

@@ -256,15 +256,29 @@
     "notes": "The May 26, 2026 bill-actions list displayed multiple bills and did not display HJR or SJR entries associated with this tracker’s property tax elimination proposals."
   },
   {
+    "id": "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27",
+    "claim": "The Florida Senate bill-actions page for May 27, 2026 listed multiple bill actions and no tracked property tax elimination proposal appeared on that list.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-27",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-27"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-27",
+    "notes": "The May 27, 2026 bill-actions list displayed multiple bills and did not display HJR or SJR entries associated with this tracker’s property tax elimination proposals."
+  },
+  {
     "id": "claim-senate-will-convene-2026-05-29-0900",
-    "claim": "The Florida Senate bill-actions page for May 26, 2026 displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President.",
+    "claim": "Florida Senate bill-actions notices reviewed for this tracker displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President.",
     "claim_type": "legislative_status",
     "date": "2026-05-26",
     "status": "confirmed",
-    "source_ids": ["flsenate-bill-actions-2026-05-26"],
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-26",
+      "flsenate-bill-actions-2026-05-27"
+    ],
     "display_context": "homepage",
-    "last_verified": "2026-05-26",
-    "notes": "The convening notice appeared above the bill-actions list on the May 26, 2026 page view."
+    "last_verified": "2026-05-27",
+    "notes": "The convening notice appeared above the bill-actions list on the May 26 and May 27, 2026 page views."
   },
   {
     "id": "claim-special-session-e-convenes-2026-05-12",
