@@ -448,6 +448,21 @@
       "text": "flsenate-bill-actions-2026-05-27 Florida Senate Bill Actions for May 27, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for May 28, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-05-28 Florida Senate Bill Actions for May 28, 2026 Florida Senate official_legislative"
+    },
+    {
+      "title": "2026 Special Session F Governor's Proclamation (PDF)",
+      "type": "source",
+      "text": "flsenate-special-session-f-governor-proclamation-2026-05-27 2026 Special Session F Governor's Proclamation (PDF) Executive Office of the Governor, State of Florida official_executive"
+    },
+    {
+      "title": "Governor Press Release: Special Session on Property Tax Relief and “Save Our Homes from Excessive Property Taxes”",
+      "type": "source",
+      "text": "flgov-press-release-special-session-property-tax-2026-05-27 Governor Press Release: Special Session on Property Tax Relief and “Save Our Homes from Excessive Property Taxes” Executive Office of the Governor, State of Florida official_executive"
+    },
+    {
       "title": "Florida Senate Redistricting Page: Special Session 2026-D",
       "type": "source",
       "text": "flsenate-redistricting-2026d Florida Senate Redistricting Page: Special Session 2026-D Florida Senate official_legislative"
@@ -483,6 +498,16 @@
       "title": "Related 2026 House proposals",
       "type": "proposal",
       "text": "Related 2026 House proposals Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203 historical_context_only Relevant as comparison proposals, but not active vehicles for the current status summary."
+    },
+    {
+      "title": "S 2F",
+      "type": "proposal",
+      "text": "S 2F Save our Homes from Excessive Property Taxes active Special Session 2026-F joint-resolution vehicle listed on the Florida Senate bill-actions page."
+    },
+    {
+      "title": "S 4F",
+      "type": "proposal",
+      "text": "S 4F Property Tax Administration active Special Session 2026-F implementing bill listed on the Florida Senate bill-actions page."
     }
   ],
   "timeline": [
@@ -600,6 +625,16 @@
       "title": "Florida Senate bill-actions page listed bill actions",
       "type": "timeline",
       "text": "2026-05-27 Florida Senate bill-actions page listed bill actions The May 27 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list. This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice."
+    },
+    {
+      "title": "Governor proclamation called Special Session 2026-F",
+      "type": "timeline",
+      "text": "2026-05-27 Governor proclamation called Special Session 2026-F A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence June 1, 2026 at 10:00 a.m. and extend no later than June 3, 2026 at 11:59 p.m. This created a new official special-session runway that could introduce new property-tax vehicles outside the regular-session bill record."
+    },
+    {
+      "title": "Special Session 2026-F property-tax bills listed on bill actions",
+      "type": "timeline",
+      "text": "2026-05-28 Special Session 2026-F property-tax bills listed on bill actions The May 28 Florida Senate bill-actions page listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations. This is the first bill-actions checkpoint in this tracker’s log showing Special Session 2026-F property-tax vehicles listed as moving."
     }
   ],
   "overview": [
@@ -719,14 +754,19 @@
       "text": "April Apr. 28, 2026 No Special Session D vehicle found The reviewed bill-actions list did not show a tracked property-tax elimination proposal. watching"
     },
     {
-      "title": "Bill actions listed",
+      "title": "Special Session 2026-F bills listed",
       "type": "runway",
-      "text": "May May 26, 2026 Bill actions listed The Florida Senate bill-actions page for May 26, 2026 listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list. watching"
+      "text": "May May 28, 2026 Special Session 2026-F bills listed The Florida Senate bill-actions page for May 28, 2026 listed Special Session 2026-F items S 2F and S 4F as filed and referred. watching"
     },
     {
-      "title": "Possible new legislative vehicle",
+      "title": "Special Session 2026-F scheduled",
       "type": "runway",
-      "text": "May-Jul Watching window Possible new legislative vehicle A future special-session call, HJR, or SJR would need official source support before this tracker marks a vehicle active. watching"
+      "text": "June Jun. 1-3, 2026 Special Session 2026-F scheduled A Governor proclamation stated Special Session 2026-F would run June 1-3, 2026. watching"
+    },
+    {
+      "title": "Watch for additional filings and committee movement",
+      "type": "runway",
+      "text": "Jun-Jul Watching window Watch for additional filings and committee movement Additional special-session bills, new regular-session filings, or committee agendas would need official source support before this tracker marks a vehicle moving beyond filing. watching"
     },
     {
       "title": "Ballot and voter approval checkpoints",

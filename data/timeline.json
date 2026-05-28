@@ -248,5 +248,28 @@
       "claim-senate-will-convene-2026-05-29-0900"
     ],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-27-special-session-f-proclaimed",
+    "date": "2026-05-27",
+    "title": "Governor proclamation called Special Session 2026-F",
+    "summary": "A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence June 1, 2026 at 10:00 a.m. and extend no later than June 3, 2026 at 11:59 p.m.",
+    "importance": "This created a new official special-session runway that could introduce new property-tax vehicles outside the regular-session bill record.",
+    "source_ids": ["flsenate-special-session-f-governor-proclamation-2026-05-27"],
+    "claim_ids": ["claim-special-session-f-proclaimed-2026-06-01"],
+    "category": "executive"
+  },
+  {
+    "id": "timeline-2026-05-28-bill-actions-s2f-s4f-listed",
+    "date": "2026-05-28",
+    "title": "Special Session 2026-F property-tax bills listed on bill actions",
+    "summary": "The May 28 Florida Senate bill-actions page listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+    "importance": "This is the first bill-actions checkpoint in this tracker’s log showing Special Session 2026-F property-tax vehicles listed as moving.",
+    "source_ids": ["flsenate-bill-actions-2026-05-28"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-senate-will-convene-2026-05-29-0900"
+    ],
+    "category": "legislative"
   }
 ]

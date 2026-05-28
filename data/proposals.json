@@ -53,5 +53,46 @@
     "material_to_elimination_debate": true,
     "source_ids": ["flsenate-hjr203-2026"],
     "claim_ids": ["claim-hjr203-died-senate-appropriations"]
+  },
+  {
+    "id": "s2f-2026f",
+    "name": "S 2F",
+    "title": "Save our Homes from Excessive Property Taxes",
+    "session": "2026F",
+    "proposal_type": "constitutional_amendment",
+    "chamber": "Senate",
+    "sponsor": "Avila",
+    "status": "active",
+    "last_action_date": "2026-05-28",
+    "last_action": "Filed; referred to Appropriations (per bill-actions listing)",
+    "current_relevance": "Special Session 2026-F joint-resolution vehicle listed on the Florida Senate bill-actions page.",
+    "material_to_elimination_debate": true,
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-28",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-special-session-f-proclaimed-2026-06-01"
+    ]
+  },
+  {
+    "id": "s4f-2026f",
+    "name": "S 4F",
+    "title": "Property Tax Administration",
+    "session": "2026F",
+    "proposal_type": "related_property_tax_reform",
+    "chamber": "Senate",
+    "sponsor": "Avila",
+    "status": "active",
+    "last_action_date": "2026-05-28",
+    "last_action": "Filed; referred to Appropriations (per bill-actions listing)",
+    "current_relevance": "Special Session 2026-F implementing bill listed on the Florida Senate bill-actions page.",
+    "material_to_elimination_debate": true,
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-28",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27"
+    ],
+    "claim_ids": ["claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28"]
   }
 ]

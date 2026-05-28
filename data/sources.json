@@ -264,6 +264,42 @@
     "reliability_notes": "Primary official source for the May 27, 2026 bill-actions list and convening notice."
   },
   {
+    "id": "flsenate-bill-actions-2026-05-28",
+    "title": "Florida Senate Bill Actions for May 28, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-28",
+    "accessed_date": "2026-05-28",
+    "description": "Official Senate bill-actions page for May 28, 2026, listing Special Session 2026-F bills including S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) and displaying a May 29, 2026 convening notice.",
+    "reliability_notes": "Primary official source for the May 28, 2026 bill-actions list and any convening notice displayed above the list."
+  },
+  {
+    "id": "flsenate-special-session-f-governor-proclamation-2026-05-27",
+    "title": "2026 Special Session F Governor's Proclamation (PDF)",
+    "url": "https://www.flsenate.gov/PublishedContent/Home/CalendarLinks/Links/2026_F___Governor_s_Proclamation.pdf",
+    "archive_path": null,
+    "source_type": "official_executive",
+    "publisher": "Executive Office of the Governor, State of Florida",
+    "published_date": "2026-05-27",
+    "accessed_date": "2026-05-28",
+    "description": "Governor proclamation PDF linked from Florida Senate calendar links calling Special Session 2026-F and listing the stated purposes of the session.",
+    "reliability_notes": "Primary official source for Special Session 2026-F call dates and stated purposes."
+  },
+  {
+    "id": "flgov-press-release-special-session-property-tax-2026-05-27",
+    "title": "Governor Press Release: Special Session on Property Tax Relief and “Save Our Homes from Excessive Property Taxes”",
+    "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-special-session-property-tax-relief-unveils-save",
+    "archive_path": null,
+    "source_type": "official_executive",
+    "publisher": "Executive Office of the Governor, State of Florida",
+    "published_date": "2026-05-27",
+    "accessed_date": "2026-05-28",
+    "description": "Governor press release describing the stated purpose of a proposed special session during the week of June 1, 2026 and describing a proposal titled “Save Our Homes from Excessive Property Taxes.”",
+    "reliability_notes": "Official executive-branch press release; treated as a statement of the Governor’s described proposal and goals (not a substitute for bill text)."
+  },
+  {
     "id": "flsenate-redistricting-2026d",
     "title": "Florida Senate Redistricting Page: Special Session 2026-D",
     "url": "https://www.flsenate.gov/Session/Redistricting/Congressional",

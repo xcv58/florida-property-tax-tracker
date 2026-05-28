@@ -1,15 +1,15 @@
 {
   "site_title": "Florida Property Tax Tracker",
   "subtitle": "Tracking Florida's 2026 property tax elimination proposals and related reforms",
-  "current_status_label": "Stalled",
-  "current_status_summary": "The May 27, 2026 Florida Senate bill-actions page reviewed for this tracker listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list. The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President. Earlier Florida Senate bill-actions notices reviewed for this tracker stated the Senate would convene on May 12, 2026, at 10:00 AM for Special Session E. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session. The issue could return through a later special session or a new joint resolution.",
-  "last_verified": "2026-05-27",
-  "latest_update": "The May 27, 2026 Florida Senate bill-actions page reviewed for this tracker listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list.",
-  "expected_next": "Watch for updates to the May 29, 2026 Senate convening notice, Special Session E agendas or bill actions, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
+  "current_status_label": "Watching",
+  "current_status_summary": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations. The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 AM, or upon the call of the President. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session. The issue could return through a later special session or a new joint resolution.",
+  "last_verified": "2026-05-28",
+  "latest_update": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F and S 4F as filed and referred.",
+  "expected_next": "Watch for Special Session 2026-F agendas or bill actions, updates to the May 29, 2026 Senate convening notice, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
   "claim_ids": [
-    "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27",
+    "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
     "claim-senate-will-convene-2026-05-29-0900",
-    "claim-special-session-e-convenes-2026-05-12",
+    "claim-special-session-f-proclaimed-2026-06-01",
     "claim-hjr203-house-passed-80-30",
     "claim-hjr203-died-senate-appropriations",
     "claim-special-sessions-can-be-called-later",
@@ -19,24 +19,22 @@
   "sentence_claim_ids": [
     {
       "field": "current_status_summary",
-      "sentence": "The May 27, 2026 Florida Senate bill-actions page reviewed for this tracker listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list.",
+      "sentence": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27"
+        "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28"
       ]
     },
     {
       "field": "current_status_summary",
-      "sentence": "The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President.",
+      "sentence": "The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 AM, or upon the call of the President.",
       "claim_ids": [
         "claim-senate-will-convene-2026-05-29-0900"
       ]
     },
     {
       "field": "current_status_summary",
-      "sentence": "Earlier Florida Senate bill-actions notices reviewed for this tracker stated the Senate would convene on May 12, 2026, at 10:00 AM for Special Session E.",
-      "claim_ids": [
-        "claim-special-session-e-convenes-2026-05-12"
-      ]
+      "sentence": "A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026.",
+      "claim_ids": ["claim-special-session-f-proclaimed-2026-06-01"]
     },
     {
       "field": "current_status_summary",
@@ -56,17 +54,17 @@
     },
     {
       "field": "latest_update",
-      "sentence": "The May 27, 2026 Florida Senate bill-actions page reviewed for this tracker listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list.",
+      "sentence": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F and S 4F as filed and referred.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27"
+        "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28"
       ]
     },
     {
       "field": "expected_next",
-      "sentence": "Watch for updates to the May 29, 2026 Senate convening notice, Special Session E agendas or bill actions, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
+      "sentence": "Watch for Special Session 2026-F agendas or bill actions, updates to the May 29, 2026 Senate convening notice, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
       "claim_ids": [
+        "claim-special-session-f-proclaimed-2026-06-01",
         "claim-senate-will-convene-2026-05-29-0900",
-        "claim-special-session-e-convenes-2026-05-12",
         "claim-special-sessions-can-be-called-later",
         "claim-constitutional-amendment-legislative-path",
         "claim-constitutional-amendment-sixty-percent"

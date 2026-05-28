@@ -267,6 +267,39 @@
     "notes": "The May 27, 2026 bill-actions list displayed multiple bills and did not display HJR or SJR entries associated with this tracker’s property tax elimination proposals."
   },
   {
+    "id": "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+    "claim": "The Florida Senate bill-actions page for May 28, 2026 listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-28",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-28"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-28",
+    "notes": "This tracker treats the bill-actions list as the source record for which bills were listed as moving on May 28, 2026."
+  },
+  {
+    "id": "claim-special-session-f-proclaimed-2026-06-01",
+    "claim": "A Governor proclamation for Special Session 2026-F stated the Legislature is convened in special session commencing at 10:00 a.m. on Monday, June 1, 2026, and extending no later than 11:59 p.m. on Wednesday, June 3, 2026.",
+    "claim_type": "executive_action",
+    "date": "2026-05-28",
+    "status": "confirmed",
+    "source_ids": ["flsenate-special-session-f-governor-proclamation-2026-05-27"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-28",
+    "notes": "This claim records the special-session call window as stated in the Governor proclamation PDF."
+  },
+  {
+    "id": "claim-flgov-press-release-described-save-our-homes-2026-05-27",
+    "claim": "A Governor press release dated May 27, 2026 described a proposal titled “Save Our Homes from Excessive Property Taxes” and said it would be considered during an upcoming special session during the week of June 1.",
+    "claim_type": "executive_statement",
+    "date": "2026-05-28",
+    "status": "confirmed",
+    "source_ids": ["flgov-press-release-special-session-property-tax-2026-05-27"],
+    "display_context": "details",
+    "last_verified": "2026-05-28",
+    "notes": "Stored as an official executive-branch statement; this tracker relies on bill text and official bill pages for operative legal details."
+  },
+  {
     "id": "claim-senate-will-convene-2026-05-29-0900",
     "claim": "Florida Senate bill-actions notices reviewed for this tracker displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President.",
     "claim_type": "legislative_status",
@@ -274,11 +307,12 @@
     "status": "confirmed",
     "source_ids": [
       "flsenate-bill-actions-2026-05-26",
-      "flsenate-bill-actions-2026-05-27"
+      "flsenate-bill-actions-2026-05-27",
+      "flsenate-bill-actions-2026-05-28"
     ],
     "display_context": "homepage",
-    "last_verified": "2026-05-27",
-    "notes": "The convening notice appeared above the bill-actions list on the May 26 and May 27, 2026 page views."
+    "last_verified": "2026-05-28",
+    "notes": "The convening notice appeared above the bill-actions list on the May 26, May 27, and May 28, 2026 page views."
   },
   {
     "id": "claim-special-session-e-convenes-2026-05-12",

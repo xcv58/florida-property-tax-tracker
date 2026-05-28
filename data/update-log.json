@@ -278,5 +278,27 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-27",
     "git_commit": "f11baa3"
+  },
+  {
+    "date": "2026-05-28",
+    "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 28, 2026, which listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+      "Added an official source record for the Governor proclamation calling Special Session 2026-F (June 1-3, 2026) and updated the homepage status to Watching to reflect an active special-session runway.",
+      "Added new proposal records for S 2F and S 4F based on the bill-actions listing and updated the May runway checkpoint to reference the May 28 list."
+    ],
+    "source_ids_added": [
+      "flsenate-bill-actions-2026-05-28",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27",
+      "flgov-press-release-special-session-property-tax-2026-05-27"
+    ],
+    "claims_added": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-special-session-f-proclaimed-2026-06-01",
+      "claim-flgov-press-release-described-save-our-homes-2026-05-27"
+    ],
+    "claims_revised": ["claim-senate-will-convene-2026-05-29-0900"],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-28",
+    "git_commit": null
   }
 ]

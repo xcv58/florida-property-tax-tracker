@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-27T22:35:56.134Z",
+  "generated_at": "2026-05-28T22:41:09.146Z",
   "source_fetch": {
-    "generated_at": "2026-05-27T22:30:47.480Z",
+    "generated_at": "2026-05-28T22:30:52.577Z",
     "sources_checked": 0,
     "sources_changed": 0,
     "errors": [
@@ -9,77 +9,77 @@
         "label": "Florida Senate 2026 Senate bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026",
         "category": "official_legislative",
-        "checked_at": "2026-05-27T22:30:47.459Z",
+        "checked_at": "2026-05-28T22:30:52.555Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate 2026 House bill list",
         "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House",
         "category": "official_legislative",
-        "checked_at": "2026-05-27T22:30:47.473Z",
+        "checked_at": "2026-05-28T22:30:52.570Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
         "category": "official_legislative",
-        "checked_at": "2026-05-27T22:30:47.475Z",
+        "checked_at": "2026-05-28T22:30:52.572Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D update memo",
         "url": "https://www.flsenate.gov/PublishedContent/Offices/President/4_24_26_Memo_Re_Update_Regarding_Special_Session_D_Legislation.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-27T22:30:47.476Z",
+        "checked_at": "2026-05-28T22:30:52.573Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
         "url": "https://flsenate.gov/PublishedContent/Offices/President/4_15_26_Special_Session_D_Memo_and_Information.pdf",
         "category": "official_legislative",
-        "checked_at": "2026-05-27T22:30:47.476Z",
+        "checked_at": "2026-05-28T22:30:52.574Z",
         "error": "fetch failed"
       },
       {
         "label": "Governor actions and proclamations",
         "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/",
         "category": "official_executive",
-        "checked_at": "2026-05-27T22:30:47.477Z",
+        "checked_at": "2026-05-28T22:30:52.574Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
         "url": "https://edr.state.fl.us",
         "category": "official_fiscal",
-        "checked_at": "2026-05-27T22:30:47.477Z",
+        "checked_at": "2026-05-28T22:30:52.575Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Department of State constitutional amendments",
         "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendmentsinitiatives",
         "category": "official_election",
-        "checked_at": "2026-05-27T22:30:47.478Z",
+        "checked_at": "2026-05-28T22:30:52.575Z",
         "error": "fetch failed"
       },
       {
         "label": "Constitutional initiatives database",
         "url": "https://constitutionalinitiatives.dos.fl.gov",
         "category": "official_election",
-        "checked_at": "2026-05-27T22:30:47.479Z",
+        "checked_at": "2026-05-28T22:30:52.576Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida Association of Counties",
         "url": "https://www.fl-counties.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-27T22:30:47.479Z",
+        "checked_at": "2026-05-28T22:30:52.576Z",
         "error": "fetch failed"
       },
       {
         "label": "Florida League of Cities",
         "url": "https://www.flcities.com",
         "category": "stakeholder",
-        "checked_at": "2026-05-27T22:30:47.480Z",
+        "checked_at": "2026-05-28T22:30:52.577Z",
         "error": "fetch failed"
       }
     ],
@@ -87,15 +87,15 @@
     "changed": []
   },
   "official_pages": {
-    "generated_at": "2026-05-27T22:31:04.566Z",
+    "generated_at": "2026-05-28T22:31:09.667Z",
     "pages": []
   },
   "pdfs": {
-    "generated_at": "2026-05-27T22:31:05.146Z",
+    "generated_at": "2026-05-28T22:31:10.367Z",
     "pdfs": []
   },
   "claim_updates": {
-    "generated_at": "2026-05-27T22:31:07.099Z",
+    "generated_at": "2026-05-28T22:31:12.440Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],
@@ -106,24 +106,28 @@
     ]
   },
   "latest_update_log_entry": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "what_changed": [
-      "Reviewed the Florida Senate bill-actions page for May 27, 2026, which listed multiple bill actions; this tracker did not identify a tracked property-tax elimination proposal on that list.",
-      "Noted the bill-actions page continued to display the May 29, 2026 Senate convening notice.",
-      "Added a new official source record and claim for the May 27, 2026 bill-actions check; updated the homepage last_verified date; current status remains Stalled."
+      "Reviewed the Florida Senate bill-actions page for May 28, 2026, which listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+      "Added an official source record for the Governor proclamation calling Special Session 2026-F (June 1-3, 2026) and updated the homepage status to Watching to reflect an active special-session runway.",
+      "Added new proposal records for S 2F and S 4F based on the bill-actions listing and updated the May runway checkpoint to reference the May 28 list."
     ],
     "source_ids_added": [
-      "flsenate-bill-actions-2026-05-27"
+      "flsenate-bill-actions-2026-05-28",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27",
+      "flgov-press-release-special-session-property-tax-2026-05-27"
     ],
     "claims_added": [
-      "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27"
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-special-session-f-proclaimed-2026-06-01",
+      "claim-flgov-press-release-described-save-our-homes-2026-05-27"
     ],
     "claims_revised": [
       "claim-senate-will-convene-2026-05-29-0900"
     ],
     "claims_retired": [],
-    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-27",
-    "git_commit": "f11baa3"
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-28",
+    "git_commit": null
   },
   "build_status": "not run by generate-report",
   "deployment_status": "handled by hosting workflow"
