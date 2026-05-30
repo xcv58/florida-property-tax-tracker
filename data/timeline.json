@@ -43,6 +43,16 @@
     "category": "legislative"
   },
   {
+    "id": "timeline-2026-03-13-hjr201-died",
+    "date": "2026-03-13",
+    "title": "HJR 201 died in House Ways & Means Committee",
+    "summary": "HJR 201 did not advance through House Ways & Means before the end of the 2026 regular session.",
+    "importance": "This ended the regular-session path for another homestead non-school ad valorem elimination proposal.",
+    "source_ids": ["flsenate-hjr201-2026"],
+    "claim_ids": ["claim-hjr201-died-house-ways-and-means"],
+    "category": "legislative"
+  },
+  {
     "id": "timeline-2026-04-24-special-session-d-memo",
     "date": "2026-04-24",
     "title": "Senate memo described Special Session D legislation",
@@ -66,5 +76,256 @@
       "claim-special-session-d-bill-actions-no-property-tax-2026-04-28"
     ],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-01-special-session-d-adjourned",
+    "date": "2026-05-01",
+    "title": "Florida Senate bill-actions page noted Special Session D adjourned",
+    "summary": "The May 1 Florida Senate bill-actions page stated that Special Session D had adjourned sine die and reported no bill actions that day.",
+    "importance": "This confirms the Special Session D checkpoint closed without a tracked property-tax elimination vehicle appearing in the reviewed bill-actions record.",
+    "source_ids": ["flsenate-bill-actions-2026-05-01"],
+    "claim_ids": ["claim-special-session-d-adjourned-sine-die-2026-05-01"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-05-bill-actions-none",
+    "date": "2026-05-05",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 5 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-05"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-05"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-07-bill-actions-none-special-session-e",
+    "date": "2026-05-07",
+    "title": "Florida Senate bill-actions page reported no bill actions; Special Session E scheduled",
+    "summary": "The May 7 Florida Senate bill-actions page reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint and confirms a new special-session convening date to watch for whether any tracked property-tax elimination vehicle appears in official records.",
+    "source_ids": [
+      "flsenate-bill-actions-2026-05-07",
+      "flsenate-special-session-e-joint-proclamation-2026-05-06"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-actions-2026-05-07",
+      "claim-special-session-e-convenes-2026-05-12"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-10-bill-actions-none",
+    "date": "2026-05-10",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 10 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-10"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-10"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-11-bill-actions-none",
+    "date": "2026-05-11",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 11 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-11"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-11"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-12-bill-actions-none",
+    "date": "2026-05-12",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 12 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-12"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-12"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-13-bill-actions-none",
+    "date": "2026-05-13",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 13 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-13"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-13"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-14-bill-actions-none",
+    "date": "2026-05-14",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 14 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-14"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-14"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-16-bill-actions-none",
+    "date": "2026-05-16",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 16 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-16"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-16"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-19-bill-actions-none",
+    "date": "2026-05-19",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 19 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-19"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-19"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-20-bill-actions-none",
+    "date": "2026-05-20",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 20 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-20"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-20"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-22-bill-actions-none",
+    "date": "2026-05-22",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 22 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-22"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-22"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-24-bill-actions-none",
+    "date": "2026-05-24",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 24 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-24"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-24"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-25-bill-actions-none",
+    "date": "2026-05-25",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 25 Florida Senate bill-actions page reported no bill actions that day.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.",
+    "source_ids": ["flsenate-bill-actions-2026-05-25"],
+    "claim_ids": ["claim-flsenate-bill-actions-no-actions-2026-05-25"],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-26-bill-actions-listed",
+    "date": "2026-05-26",
+    "title": "Florida Senate bill-actions page listed bill actions",
+    "summary": "The May 26 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice.",
+    "source_ids": ["flsenate-bill-actions-2026-05-26"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-26",
+      "claim-senate-will-convene-2026-05-29-0900"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-27-bill-actions-listed",
+    "date": "2026-05-27",
+    "title": "Florida Senate bill-actions page listed bill actions",
+    "summary": "The May 27 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.",
+    "importance": "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice.",
+    "source_ids": ["flsenate-bill-actions-2026-05-27"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-tracked-property-tax-2026-05-27",
+      "claim-senate-will-convene-2026-05-29-0900"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-27-special-session-f-proclaimed",
+    "date": "2026-05-27",
+    "title": "Governor proclamation called Special Session 2026-F",
+    "summary": "A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence June 1, 2026 at 10:00 a.m. and extend no later than June 3, 2026 at 11:59 p.m.",
+    "importance": "This created a new official special-session runway that could introduce new property-tax vehicles outside the regular-session bill record.",
+    "source_ids": ["flsenate-special-session-f-governor-proclamation-2026-05-27"],
+    "claim_ids": ["claim-special-session-f-proclaimed-2026-06-01"],
+    "category": "executive"
+  },
+  {
+    "id": "timeline-2026-05-28-bill-actions-s2f-s4f-listed",
+    "date": "2026-05-28",
+    "title": "Special Session 2026-F property-tax bills listed on bill actions",
+    "summary": "The May 28 Florida Senate bill-actions page listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+    "importance": "This is the first bill-actions checkpoint in this tracker’s log showing Special Session 2026-F property-tax vehicles listed as moving.",
+    "source_ids": ["flsenate-bill-actions-2026-05-28"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-senate-will-convene-2026-05-29-0900"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-29-bill-actions-s2f-s4f-appropriations-agenda",
+    "date": "2026-05-29",
+    "title": "Special Session 2026-F property-tax bills placed on Appropriations agenda",
+    "summary": "Official Florida Senate bill pages reviewed on May 30, 2026 listed SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.",
+    "importance": "This is the first committee-agenda checkpoint in this tracker’s log for the Special Session 2026-F property-tax vehicles.",
+    "source_ids": [
+      "flsenate-2026f-senate-bill-list",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sb4f-2026f"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-committee-agenda-2026-05-29",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-29-sjr2f-sb4f-analyses-posted",
+    "date": "2026-05-29",
+    "title": "Appropriations pre-meeting analyses posted for SJR 2-F and SB 4-F",
+    "summary": "The SJR 2-F and SB 4-F Appropriations pre-meeting analyses posted on May 29, 2026 stated that the Revenue Estimating Conference had not reviewed the measures.",
+    "importance": "The fiscal claims now reference version-specific pre-meeting analyses rather than treating them as Revenue Estimating Conference estimates.",
+    "source_ids": [
+      "flsenate-sjr2f-analysis-pre-ap-2026-05-29",
+      "flsenate-sb4f-analysis-pre-ap-2026-05-29"
+    ],
+    "claim_ids": [
+      "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+      "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29"
+    ],
+    "category": "fiscal"
+  },
+  {
+    "id": "timeline-2026-05-30-bill-actions-none-special-session-f-notice",
+    "date": "2026-05-30",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 30 Florida Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.",
+    "importance": "This refreshes the last-verified checkpoint while keeping the active watch on the June 1 Appropriations agenda for SJR 2-F and SB 4-F.",
+    "source_ids": ["flsenate-bill-actions-2026-05-30"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-05-30-dos-ballot-database-check",
+    "date": "2026-05-30",
+    "title": "Department of State ballot database checked",
+    "summary": "The Department of State constitutional initiatives, amendments, and revisions database table reviewed on May 30, 2026 did not display SJR 2-F or Save our Homes from Excessive Property Taxes.",
+    "importance": "The tracker keeps ballot status separate from Senate committee status until an official ballot record appears.",
+    "source_ids": ["fl-dos-constitutional-initiatives-database-2026-05-30"],
+    "claim_ids": ["claim-dos-ballot-database-no-sjr2f-2026-05-30"],
+    "category": "ballot"
   }
 ]

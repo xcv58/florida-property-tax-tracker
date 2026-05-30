@@ -9,6 +9,26 @@
       "url": "https://www.flsenate.gov/Session/Bills/2026?Chamber=House"
     },
     {
+      "label": "Florida Senate 2026F Senate bill list",
+      "url": "https://www.flsenate.gov/Session/Bills/2026F"
+    },
+    {
+      "label": "Florida Senate SJR 2-F bill page",
+      "url": "https://www.flsenate.gov/Session/Bill/2026F/2F"
+    },
+    {
+      "label": "Florida Senate SB 4-F bill page",
+      "url": "https://www.flsenate.gov/Session/Bill/2026F/4F"
+    },
+    {
+      "label": "Florida Senate SJR 2-F pre-meeting analysis",
+      "url": "https://www.flsenate.gov/Session/Bill/2026F/2F/Analyses/2026s00002F.pre.ap.PDF"
+    },
+    {
+      "label": "Florida Senate SB 4-F pre-meeting analysis",
+      "url": "https://www.flsenate.gov/Session/Bill/2026F/4F/Analyses/2026s00004F.pre.ap.PDF"
+    },
+    {
       "label": "Florida Senate calendars and bill actions",
       "url": "https://www.flsenate.gov/?Tab=BillActions"
     },
@@ -23,8 +43,12 @@
   ],
   "official_executive": [
     {
-      "label": "Governor actions and proclamations",
-      "url": "https://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=index.cfm&Directory=Info_Center/gov_actions/"
+      "label": "Governor Special Session F proclamation",
+      "url": "https://www.flsenate.gov/PublishedContent/Home/CalendarLinks/Links/2026_F___Governor_s_Proclamation.pdf"
+    },
+    {
+      "label": "Governor press release on property tax special session",
+      "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-special-session-property-tax-relief-unveils-save"
     }
   ],
   "official_fiscal": [
