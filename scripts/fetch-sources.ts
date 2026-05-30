@@ -76,7 +76,7 @@ function comparableHtml(html: string): string {
 const sources = Object.entries(watchlist).flatMap(([category, items]) =>
   items.map((item) => ({ ...item, category })),
 );
-const manifest: Record<string, string> = {};
+const manifest: Record<string, string> = { ...previousManifest };
 const checked: any[] = [];
 const changed: any[] = [];
 const errors: any[] = [];
@@ -146,11 +146,14 @@ const report = {
   changed,
 };
 
-writeFileSync(tmpManifestPath, JSON.stringify(manifest, null, 2));
-writeFileSync(persistentManifestPath, JSON.stringify(manifest, null, 2));
+writeFileSync(tmpManifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+writeFileSync(
+  persistentManifestPath,
+  `${JSON.stringify(manifest, null, 2)}\n`,
+);
 writeFileSync(
   path.join(tmpDir, "source-fetch-report.json"),
-  JSON.stringify(report, null, 2),
+  `${JSON.stringify(report, null, 2)}\n`,
 );
 
 if (errors.length) {

@@ -15,9 +15,12 @@ const sourceFetch = readOptional("tmp/source-fetch-report.json");
 const officialPages = readOptional("tmp/official-page-parse.json");
 const pdfs = readOptional("tmp/pdf-parse-report.json");
 const claimUpdates = readOptional("tmp/claim-update-report.json");
-const latestUpdate = JSON.parse(
+const updateLog = JSON.parse(
   readFileSync(path.join(root, "data/update-log.json"), "utf8"),
-)[0];
+);
+const latestUpdate = Array.isArray(updateLog)
+  ? updateLog[updateLog.length - 1]
+  : null;
 
 const report = {
   generated_at: new Date().toISOString(),
@@ -55,9 +58,9 @@ ${latestUpdate?.date ?? "Not available"}
 
 writeFileSync(
   path.join(reportsDir, "latest-update.json"),
-  JSON.stringify(report, null, 2),
+  `${JSON.stringify(report, null, 2)}\n`,
 );
-writeFileSync(path.join(reportsDir, "latest-update.md"), markdown);
+writeFileSync(path.join(reportsDir, "latest-update.md"), `${markdown}\n`);
 console.log(
   "Reports written to reports/latest-update.md and reports/latest-update.json.",
 );
