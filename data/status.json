@@ -2,33 +2,35 @@
   "site_title": "Florida Property Tax Tracker",
   "subtitle": "Tracking Florida's 2026 property tax elimination proposals and related reforms",
   "current_status_label": "Watching",
-  "current_status_summary": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations. The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 AM, or upon the call of the President. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session. The issue could return through a later special session or a new joint resolution.",
-  "last_verified": "2026-05-28",
-  "latest_update": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F and S 4F as filed and referred.",
-  "expected_next": "Watch for Special Session 2026-F agendas or bill actions, updates to the May 29, 2026 Senate convening notice, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
+  "current_status_summary": "Official Florida Senate bill pages reviewed on May 30, 2026 list SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026. The May 30, 2026 Senate bill-actions page reported no bill actions that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.",
+  "last_verified": "2026-05-30",
+  "latest_update": "The May 30, 2026 Senate bill-actions page reported no bill actions; official SJR 2-F and SB 4-F bill pages remained at the May 29 Appropriations agenda checkpoint.",
+  "expected_next": "Watch the June 1 Appropriations meeting for amendments or votes, any floor action during Special Session F, Department of State ballot records, and Revenue Estimating Conference or EDR fiscal materials.",
   "claim_ids": [
-    "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
-    "claim-senate-will-convene-2026-05-29-0900",
+    "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+    "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
     "claim-special-session-f-proclaimed-2026-06-01",
     "claim-hjr203-house-passed-80-30",
     "claim-hjr203-died-senate-appropriations",
-    "claim-special-sessions-can-be-called-later",
+    "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+    "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29",
+    "claim-dos-ballot-database-no-sjr2f-2026-05-30",
     "claim-constitutional-amendment-legislative-path",
     "claim-constitutional-amendment-sixty-percent"
   ],
   "sentence_claim_ids": [
     {
       "field": "current_status_summary",
-      "sentence": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.",
+      "sentence": "Official Florida Senate bill pages reviewed on May 30, 2026 list SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28"
+        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
       ]
     },
     {
       "field": "current_status_summary",
-      "sentence": "The bill-actions page displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 AM, or upon the call of the President.",
+      "sentence": "The May 30, 2026 Senate bill-actions page reported no bill actions that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.",
       "claim_ids": [
-        "claim-senate-will-convene-2026-05-29-0900"
+        "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30"
       ]
     },
     {
@@ -45,27 +47,22 @@
       ]
     },
     {
-      "field": "current_status_summary",
-      "sentence": "The issue could return through a later special session or a new joint resolution.",
-      "claim_ids": [
-        "claim-special-sessions-can-be-called-later",
-        "claim-constitutional-amendment-legislative-path"
-      ]
-    },
-    {
       "field": "latest_update",
-      "sentence": "The May 28, 2026 Florida Senate bill-actions page reviewed for this tracker listed Special Session 2026-F items S 2F and S 4F as filed and referred.",
+      "sentence": "The May 30, 2026 Senate bill-actions page reported no bill actions; official SJR 2-F and SB 4-F bill pages remained at the May 29 Appropriations agenda checkpoint.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28"
+        "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
+        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
       ]
     },
     {
       "field": "expected_next",
-      "sentence": "Watch for Special Session 2026-F agendas or bill actions, updates to the May 29, 2026 Senate convening notice, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.",
+      "sentence": "Watch the June 1 Appropriations meeting for amendments or votes, any floor action during Special Session F, Department of State ballot records, and Revenue Estimating Conference or EDR fiscal materials.",
       "claim_ids": [
+        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
         "claim-special-session-f-proclaimed-2026-06-01",
-        "claim-senate-will-convene-2026-05-29-0900",
-        "claim-special-sessions-can-be-called-later",
+        "claim-dos-ballot-database-no-sjr2f-2026-05-30",
+        "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+        "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29",
         "claim-constitutional-amendment-legislative-path",
         "claim-constitutional-amendment-sixty-percent"
       ]

@@ -38,6 +38,12 @@ export const translations = {
       "La lista de acciones legislativas de la Sesión Especial D del 28 de abril de 2026 revisada para este rastreador no incluyó una propuesta rastreada para eliminar impuestos a la propiedad.",
     "Watch for a new special session proclamation, new HJR or SJR filings, Senate committee movement, Department of State ballot records, or property-tax language tied to budget negotiations.":
       "Vigile una nueva proclamación de sesión especial, nuevas presentaciones HJR o SJR, movimiento en comités del Senado, registros electorales del Departamento de Estado o lenguaje sobre impuestos a la propiedad vinculado a negociaciones presupuestarias.",
+    "Official Florida Senate bill pages reviewed on May 30, 2026 list SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026. The May 30, 2026 Senate bill-actions page reported no bill actions that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.":
+      "Las páginas oficiales del Senado de Florida revisadas el 30 de mayo de 2026 listan SJR 2-F (Save our Homes from Excessive Property Taxes) y SB 4-F (Property Tax Administration) con una acción más reciente del 29 de mayo de 2026 en la agenda del Comité de Apropiaciones para el 1 de junio de 2026. La página de acciones legislativas del Senado del 30 de mayo de 2026 informó que no hubo acciones legislativas ese día y mostró un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F de 2026. Una proclamación del Gobernador fechada el 27 de mayo de 2026 indicó que la Sesión Especial 2026-F comenzaría a las 10:00 AM del lunes 1 de junio de 2026 y se extendería a más tardar hasta las 11:59 PM del miércoles 3 de junio de 2026. CS/CS/HJR 203 fue aprobada por la Cámara de Florida, pero murió en Apropiaciones del Senado durante la sesión regular.",
+    "The May 30, 2026 Senate bill-actions page reported no bill actions; official SJR 2-F and SB 4-F bill pages remained at the May 29 Appropriations agenda checkpoint.":
+      "La página de acciones legislativas del Senado del 30 de mayo de 2026 informó que no hubo acciones legislativas; las páginas oficiales de SJR 2-F y SB 4-F permanecieron en el punto de agenda de Apropiaciones del 29 de mayo.",
+    "Watch the June 1 Appropriations meeting for amendments or votes, any floor action during Special Session F, Department of State ballot records, and Revenue Estimating Conference or EDR fiscal materials.":
+      "Vigile la reunión de Apropiaciones del 1 de junio para enmiendas o votaciones, cualquier acción del pleno durante la Sesión Especial F, registros electorales del Departamento de Estado y materiales fiscales de la Revenue Estimating Conference o EDR.",
 
     "Current Path To Ballot": "Ruta actual hacia la boleta",
     "Monthly scale; future months are checkpoints to watch, not predictions.":
@@ -46,6 +52,8 @@ export const translations = {
     "Next watch": "Próximo punto a vigilar",
     "New special session call, new HJR or SJR filing, committee agenda, or ballot record":
       "Nueva convocatoria de sesión especial, nueva presentación HJR o SJR, agenda de comité o registro electoral",
+    "June 1 Appropriations meeting, amendments or votes, floor action, ballot records, or REC/EDR fiscal materials":
+      "Reunión de Apropiaciones del 1 de junio, enmiendas o votaciones, acción del pleno, registros electorales o materiales fiscales de REC/EDR",
     "2026 monthly scale": "Escala mensual de 2026",
     Jan: "Ene",
     Feb: "Feb",
@@ -74,6 +82,7 @@ export const translations = {
     "Feb. 19, 2026": "19 de feb. de 2026",
     "Mar. 13, 2026": "13 de mar. de 2026",
     "Apr. 28, 2026": "28 de abr. de 2026",
+    "May 29-30, 2026": "29-30 de mayo de 2026",
     "Watching window": "Ventana de observación",
     "House vehicle filed": "Vehículo de la Cámara presentado",
     "HJR 203 entered the 2026 regular-session bill record.":
@@ -89,6 +98,10 @@ export const translations = {
       "No se encontró vehículo en la Sesión Especial D",
     "The reviewed bill-actions list did not show a tracked property-tax elimination proposal.":
       "La lista de acciones legislativas revisada no mostró una propuesta rastreada para eliminar impuestos a la propiedad.",
+    "Special Session 2026-F bills wait for June 1 agenda":
+      "Los proyectos de la Sesión Especial 2026-F esperan la agenda del 1 de junio",
+    "Official Senate bill pages list SJR 2-F and SB 4-F on the June 1 Appropriations committee agenda; the May 30 bill-actions page reported no bill actions.":
+      "Las páginas oficiales del Senado listan SJR 2-F y SB 4-F en la agenda del Comité de Apropiaciones del 1 de junio; la página de acciones legislativas del 30 de mayo informó que no hubo acciones.",
     "Possible new legislative vehicle": "Posible nuevo vehículo legislativo",
     "A future special-session call, HJR, or SJR would need official source support before this tracker marks a vehicle active.":
       "Una futura convocatoria de sesión especial, HJR o SJR necesitaría respaldo de una fuente oficial antes de que este rastreador marque un vehículo como activo.",
@@ -100,6 +113,8 @@ export const translations = {
     "Where the 2026 path stands": "Dónde está la ruta de 2026",
     "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. No tracked property-tax elimination vehicle appeared on the April 28, 2026 Special Session D bill-actions list reviewed for this tracker.":
       "La ruta de HJR 203 aprobada por la Cámara está bloqueada porque la propuesta murió en Apropiaciones del Senado. Ningún vehículo rastreado de eliminación de impuestos a la propiedad apareció en la lista de acciones legislativas de la Sesión Especial D del 28 de abril de 2026 revisada para este rastreador.",
+    "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. Official Senate bill pages reviewed on May 30, 2026 list SJR 2-F and SB 4-F on the Appropriations committee agenda for June 1, 2026. The May 30 bill-actions page reported no bill actions that day and displayed a June 1 Special Session F convening notice.":
+      "La ruta de HJR 203 aprobada por la Cámara está bloqueada porque la propuesta murió en Apropiaciones del Senado. Las páginas oficiales del Senado revisadas el 30 de mayo de 2026 listan SJR 2-F y SB 4-F en la agenda del Comité de Apropiaciones para el 1 de junio de 2026. La página de acciones legislativas del 30 de mayo informó que no hubo acciones ese día y mostró un aviso de convocatoria para la Sesión Especial F del 1 de junio.",
     "Color Key": "Clave de colores",
     Green: "Verde",
     Yellow: "Amarillo",
@@ -115,19 +130,32 @@ export const translations = {
     "House path blocked": "Ruta de la Cámara bloqueada",
     "HJR 203 passed one chamber but died in Senate Appropriations during the regular session.":
       "HJR 203 pasó una cámara, pero murió en Apropiaciones del Senado durante la sesión regular.",
+    "2026F vehicle active": "Vehículo 2026F activo",
+    "SJR 2-F and SB 4-F are the active special-session vehicles now listed by official Senate bill pages; HJR 203 remains regular-session history.":
+      "SJR 2-F y SB 4-F son los vehículos activos de sesión especial que ahora figuran en las páginas oficiales del Senado; HJR 203 sigue como historial de la sesión regular.",
     "What to watch": "Qué vigilar",
     "New vehicle": "Nuevo vehículo",
     "Watch for a new special session proclamation, new HJR or SJR filing, committee agenda, or ballot record.":
       "Vigile una nueva proclamación de sesión especial, una nueva presentación HJR o SJR, una agenda de comité o un registro electoral.",
+    "June 1 agenda": "Agenda del 1 de junio",
+    "Watch the June 1 Appropriations meeting for amendments, votes, or later floor action during Special Session F.":
+      "Vigile la reunión de Apropiaciones del 1 de junio para enmiendas, votaciones o acción posterior del pleno durante la Sesión Especial F.",
     "Data depth": "Profundidad de datos",
     "County data pending": "Datos de condados pendientes",
     "County comparisons stay separate from the overview until a proposal version, source type, and verification date are available.":
       "Las comparaciones por condado permanecen separadas del resumen hasta que estén disponibles una versión de propuesta, tipo de fuente y fecha de verificación.",
+    "Fiscal review pending": "Revisión fiscal pendiente",
+    "Pre-meeting analyses say the Revenue Estimating Conference has not reviewed SJR 2-F or SB 4-F; county comparisons remain separate until version-labeled estimates exist.":
+      "Los análisis previos a la reunión dicen que la Revenue Estimating Conference no ha revisado SJR 2-F ni SB 4-F; las comparaciones por condado permanecen separadas hasta que existan estimaciones con versión identificada.",
     "Known Unknowns": "Incertidumbres conocidas",
     "No active tracked elimination vehicle is shown in the current tracker data.":
       "Los datos actuales del rastreador no muestran ningún vehículo de eliminación rastreado activo.",
     "A future proposal may differ from CS/CS/HJR 203 and should be tracked as a separate vehicle.":
       "Una propuesta futura puede diferir de CS/CS/HJR 203 y debería rastrearse como un vehículo separado.",
+    "Revenue Estimating Conference or EDR fiscal materials remain a watch checkpoint.":
+      "Los materiales fiscales de la Revenue Estimating Conference o EDR siguen siendo un punto de seguimiento.",
+    "A Department of State ballot record remains a watch checkpoint if SJR 2-F advances through the legislative path.":
+      "Un registro electoral del Departamento de Estado sigue siendo un punto de seguimiento si SJR 2-F avanza por la ruta legislativa.",
     "County-impact comparisons need version-labeled sources before they should be treated as comparable.":
       "Las comparaciones de impacto por condado necesitan fuentes con versión identificada antes de tratarse como comparables.",
     "Choose Your View": "Elija su vista",
@@ -161,6 +189,16 @@ export const translations = {
       "Una enmienda a la Constitución de Florida puede proponerse mediante resolución conjunta legislativa.",
     "A proposed amendment to the Florida Constitution requires at least 60 percent voter approval to pass unless the constitution provides otherwise.":
       "Una enmienda propuesta a la Constitución de Florida requiere al menos 60 por ciento de aprobación de los votantes para aprobarse, salvo que la constitución disponga otra cosa.",
+    "Official Florida Senate bill pages reviewed on May 30, 2026 listed SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.":
+      "Las páginas oficiales del Senado de Florida revisadas el 30 de mayo de 2026 listaron SJR 2-F (Save our Homes from Excessive Property Taxes) y SB 4-F (Property Tax Administration) con una acción más reciente del 29 de mayo de 2026 en la agenda del Comité de Apropiaciones para el 1 de junio de 2026.",
+    "The Florida Senate bill-actions page for May 30, 2026 reported no bill actions on that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+      "La página de acciones legislativas del Senado de Florida del 30 de mayo de 2026 informó que no hubo acciones legislativas ese día y mostró un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F de 2026.",
+    "The May 29, 2026 SJR 2-F Appropriations pre-meeting analysis stated that the Revenue Estimating Conference had not reviewed the proposed amendment and that staff estimated a negative indeterminate fiscal impact.":
+      "El análisis previo a la reunión de Apropiaciones de SJR 2-F del 29 de mayo de 2026 indicó que la Revenue Estimating Conference no había revisado la enmienda propuesta y que el personal estimó un impacto fiscal negativo indeterminado.",
+    "The May 29, 2026 SB 4-F Appropriations pre-meeting analysis stated that the Revenue Estimating Conference had not reviewed the bill, that staff estimated a zero/negative indeterminate fiscal impact, and that the bill appropriates $5.5 million to the Department of Revenue for county notice reimbursements.":
+      "El análisis previo a la reunión de Apropiaciones de SB 4-F del 29 de mayo de 2026 indicó que la Revenue Estimating Conference no había revisado el proyecto, que el personal estimó un impacto fiscal cero/negativo indeterminado y que el proyecto asigna $5.5 millones al Department of Revenue para reembolsos de avisos a los condados.",
+    "The Department of State constitutional initiatives, amendments, and revisions database table reviewed on May 30, 2026 displayed 2026 general-election active entries for Budget Stabilization Fund and Exemption of Tangible Personal Property on Agricultural Land from Taxation, and did not display SJR 2-F or Save our Homes from Excessive Property Taxes.":
+      "La tabla de la base de datos de iniciativas, enmiendas y revisiones constitucionales del Departamento de Estado revisada el 30 de mayo de 2026 mostró entradas activas de la elección general de 2026 para Budget Stabilization Fund y Exemption of Tangible Personal Property on Agricultural Land from Taxation, y no mostró SJR 2-F ni Save our Homes from Excessive Property Taxes.",
     "Claim sources": "Fuentes del reclamo",
     "Needs review": "Necesita revisión",
 
@@ -196,6 +234,24 @@ export const translations = {
       "Ninguna propuesta rastreada de eliminación de impuestos a la propiedad apareció en la lista de acciones legislativas de la Sesión Especial D del 28 de abril de 2026 revisada para este rastreador.",
     "A new special session call, HJR, or SJR would be needed to reopen a legislative route.":
       "Se necesitaría una nueva convocatoria de sesión especial, HJR o SJR para reabrir una ruta legislativa.",
+    "Special Session F bills filed":
+      "Proyectos de la Sesión Especial F presentados",
+    "The May 28 Senate bill-actions page listed Special Session 2026-F items S 2F and S 4F with actions including filed and referred to Appropriations.":
+      "La página de acciones legislativas del Senado del 28 de mayo listó los elementos S 2F y S 4F de la Sesión Especial 2026-F con acciones que incluyeron presentación y remisión a Apropiaciones.",
+    "A new special-session vehicle reopened a legislative route separate from the dead HJR 203 regular-session path.":
+      "Un nuevo vehículo de sesión especial reabrió una ruta legislativa separada de la ruta muerta de HJR 203 de la sesión regular.",
+    Agenda: "Agenda",
+    "SJR 2-F and SB 4-F placed on Appropriations agenda":
+      "SJR 2-F y SB 4-F incluidos en la agenda de Apropiaciones",
+    "Official Senate bill pages list SJR 2-F and SB 4-F with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.":
+      "Las páginas oficiales del Senado listan SJR 2-F y SB 4-F con una acción más reciente del 29 de mayo de 2026 en la agenda del Comité de Apropiaciones para el 1 de junio de 2026.",
+    "The next procedural checkpoint is the Appropriations meeting record, including any amendments, vote history, or later floor action.":
+      "El siguiente punto procesal es el registro de la reunión de Apropiaciones, incluidas enmiendas, historial de votación o acción posterior del pleno.",
+    "No new bill actions listed": "No se listaron nuevas acciones legislativas",
+    "The May 30 Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on June 1, 2026, for 2026 Special Session F.":
+      "La página de acciones legislativas del Senado del 30 de mayo informó que no hubo acciones legislativas y mostró un aviso de que el Senado se reunirá el 1 de junio de 2026 para la Sesión Especial F de 2026.",
+    "The active watch remains the June 1 Appropriations agenda for SJR 2-F and SB 4-F.":
+      "El seguimiento activo sigue siendo la agenda de Apropiaciones del 1 de junio para SJR 2-F y SB 4-F.",
     "Ballot listing not reached": "Listado en la boleta no alcanzado",
     "A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution.":
       "Una enmienda constitucional legislativa aún necesitaría aprobación de los votantes antes de poder cambiar la Constitución de Florida.",
@@ -243,6 +299,30 @@ export const translations = {
       "La lista de acciones legislativas del Senado del 28 de abril revisada para este rastreador mostró actividad de la Sesión Especial D sobre redistribución distrital, IA, registros públicos, libertad médica y redistribución estatal.",
     "This supports the current status label that no tracked property-tax elimination proposal was active on that reviewed list.":
       "Esto respalda la etiqueta de estado actual de que ninguna propuesta rastreada de eliminación de impuestos a la propiedad estaba activa en esa lista revisada.",
+    "Special Session 2026-F property-tax bills placed on Appropriations agenda":
+      "Proyectos de impuestos a la propiedad de la Sesión Especial 2026-F incluidos en la agenda de Apropiaciones",
+    "This is the first committee-agenda checkpoint in this tracker’s log for the Special Session 2026-F property-tax vehicles.":
+      "Este es el primer punto de agenda de comité en el registro de este rastreador para los vehículos de impuestos a la propiedad de la Sesión Especial 2026-F.",
+    "Appropriations pre-meeting analyses posted for SJR 2-F and SB 4-F":
+      "Análisis previos a la reunión de Apropiaciones publicados para SJR 2-F y SB 4-F",
+    "The SJR 2-F and SB 4-F Appropriations pre-meeting analyses posted on May 29, 2026 stated that the Revenue Estimating Conference had not reviewed the measures.":
+      "Los análisis previos a la reunión de Apropiaciones de SJR 2-F y SB 4-F publicados el 29 de mayo de 2026 indicaron que la Revenue Estimating Conference no había revisado las medidas.",
+    "The fiscal claims now reference version-specific pre-meeting analyses rather than treating them as Revenue Estimating Conference estimates.":
+      "Los reclamos fiscales ahora hacen referencia a análisis previos a la reunión específicos de la versión, en lugar de tratarlos como estimaciones de la Revenue Estimating Conference.",
+    "Florida Senate bill-actions page reported no bill actions":
+      "La página de acciones legislativas del Senado de Florida informó que no hubo acciones legislativas",
+    "The May 30 Florida Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+      "La página de acciones legislativas del Senado de Florida del 30 de mayo informó que no hubo acciones legislativas y mostró un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F de 2026.",
+    "This refreshes the last-verified checkpoint while keeping the active watch on the June 1 Appropriations agenda for SJR 2-F and SB 4-F.":
+      "Esto actualiza el punto de última verificación mientras mantiene el seguimiento activo en la agenda de Apropiaciones del 1 de junio para SJR 2-F y SB 4-F.",
+    "Department of State ballot database checked":
+      "Base de datos electoral del Departamento de Estado revisada",
+    "The Department of State constitutional initiatives, amendments, and revisions database table reviewed on May 30, 2026 did not display SJR 2-F or Save our Homes from Excessive Property Taxes.":
+      "La tabla de la base de datos de iniciativas, enmiendas y revisiones constitucionales del Departamento de Estado revisada el 30 de mayo de 2026 no mostró SJR 2-F ni Save our Homes from Excessive Property Taxes.",
+    "The tracker keeps ballot status separate from Senate committee status until an official ballot record appears.":
+      "El rastreador mantiene el estado de boleta separado del estado del comité del Senado hasta que aparezca un registro electoral oficial.",
+    fiscal: "fiscal",
+    ballot: "boleta",
 
     "Proposal Tracker": "Rastreador de propuestas",
     "Tracked vehicles are included only when they materially affect the elimination debate or related reform path.":
@@ -273,6 +353,14 @@ export const translations = {
       "Propuesta central aprobada por la Cámara en el debate de 2026 sobre eliminación de impuestos a la propiedad.",
     "Relevant as comparison proposals, but not active vehicles for the current status summary.":
       "Relevantes como propuestas de comparación, pero no como vehículos activos para el resumen de estado actual.",
+    "On Appropriations committee agenda for June 1, 2026":
+      "En la agenda del Comité de Apropiaciones para el 1 de junio de 2026",
+    "Special Session 2026-F joint-resolution vehicle listed on the official Senate bill page and linked to SB 4-F.":
+      "Vehículo de resolución conjunta de la Sesión Especial 2026-F listado en la página oficial del Senado y vinculado a SB 4-F.",
+    "Special Session 2026-F related property-tax administration bill listed on the official Senate bill page and linked to SJR 2-F.":
+      "Proyecto relacionado de administración de impuestos a la propiedad de la Sesión Especial 2026-F listado en la página oficial del Senado y vinculado a SJR 2-F.",
+    "Avila; co-introducers Bernard, Mayfield":
+      "Avila; copatrocinadores Bernard, Mayfield",
     Multiple: "Varios",
 
     "Advanced County Data": "Datos avanzados por condado",

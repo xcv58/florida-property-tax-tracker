@@ -278,6 +278,76 @@
     "notes": "This tracker treats the bill-actions list as the source record for which bills were listed as moving on May 28, 2026."
   },
   {
+    "id": "claim-flsenate-bill-actions-s2f-s4f-committee-agenda-2026-05-29",
+    "claim": "The Florida Senate bill-actions page for May 29, 2026 listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including On Committee agenda-- Appropriations, 06/01/26, 3:00 pm, 110 Senate Building.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-29",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-29"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-29",
+    "notes": "This tracker treats the bill-actions list as the source record for which bills were listed as moving on May 29, 2026."
+  },
+  {
+    "id": "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
+    "claim": "The Florida Senate bill-actions page for May 30, 2026 reported no bill actions on that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-30",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-05-30"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-30",
+    "notes": "This refreshes the bill-actions checkpoint without superseding the May 29 committee-agenda status shown on the official bill pages."
+  },
+  {
+    "id": "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+    "claim": "Official Florida Senate bill pages reviewed on May 30, 2026 listed SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.",
+    "claim_type": "legislative_status",
+    "date": "2026-05-29",
+    "status": "confirmed",
+    "source_ids": [
+      "flsenate-2026f-senate-bill-list",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sb4f-2026f"
+    ],
+    "display_context": "homepage",
+    "last_verified": "2026-05-30",
+    "notes": "The official bill pages are preferred over the generic bill-actions page for current proposal status once available."
+  },
+  {
+    "id": "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+    "claim": "The May 29, 2026 SJR 2-F Appropriations pre-meeting analysis stated that the Revenue Estimating Conference had not reviewed the proposed amendment and that staff estimated a negative indeterminate fiscal impact.",
+    "claim_type": "fiscal_analysis",
+    "date": "2026-05-29",
+    "status": "confirmed",
+    "source_ids": ["flsenate-sjr2f-analysis-pre-ap-2026-05-29"],
+    "display_context": "details",
+    "last_verified": "2026-05-30",
+    "notes": "Stored to avoid treating the pre-meeting analysis as a Revenue Estimating Conference estimate."
+  },
+  {
+    "id": "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29",
+    "claim": "The May 29, 2026 SB 4-F Appropriations pre-meeting analysis stated that the Revenue Estimating Conference had not reviewed the bill, that staff estimated a zero/negative indeterminate fiscal impact, and that the bill appropriates $5.5 million to the Department of Revenue for county notice reimbursements.",
+    "claim_type": "fiscal_analysis",
+    "date": "2026-05-29",
+    "status": "confirmed",
+    "source_ids": ["flsenate-sb4f-analysis-pre-ap-2026-05-29"],
+    "display_context": "details",
+    "last_verified": "2026-05-30",
+    "notes": "This claim is version-specific to the SB 4-F pre-meeting analysis reviewed on May 30, 2026."
+  },
+  {
+    "id": "claim-dos-ballot-database-no-sjr2f-2026-05-30",
+    "claim": "The Department of State constitutional initiatives, amendments, and revisions database table reviewed on May 30, 2026 displayed 2026 general-election active entries for Budget Stabilization Fund and Exemption of Tangible Personal Property on Agricultural Land from Taxation, and did not display SJR 2-F or Save our Homes from Excessive Property Taxes.",
+    "claim_type": "ballot_status",
+    "date": "2026-05-30",
+    "status": "confirmed",
+    "source_ids": ["fl-dos-constitutional-initiatives-database-2026-05-30"],
+    "display_context": "homepage",
+    "last_verified": "2026-05-30",
+    "notes": "This is a display-table check only; it should be updated if the Department of State table changes or if an official ballot record is posted elsewhere."
+  },
+  {
     "id": "claim-special-session-f-proclaimed-2026-06-01",
     "claim": "A Governor proclamation for Special Session 2026-F stated the Legislature is convened in special session commencing at 10:00 a.m. on Monday, June 1, 2026, and extending no later than 11:59 p.m. on Wednesday, June 3, 2026.",
     "claim_type": "executive_action",
@@ -304,13 +374,13 @@
     "claim": "Florida Senate bill-actions notices reviewed for this tracker displayed a notice that the Senate will convene on Friday, May 29, 2026, at 9:00 a.m., or upon the call of the President.",
     "claim_type": "legislative_status",
     "date": "2026-05-26",
-    "status": "confirmed",
+    "status": "outdated",
     "source_ids": [
       "flsenate-bill-actions-2026-05-26",
       "flsenate-bill-actions-2026-05-27",
       "flsenate-bill-actions-2026-05-28"
     ],
-    "display_context": "homepage",
+    "display_context": "timeline",
     "last_verified": "2026-05-28",
     "notes": "The convening notice appeared above the bill-actions list on the May 26, May 27, and May 28, 2026 page views."
   },

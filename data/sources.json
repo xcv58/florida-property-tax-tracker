@@ -276,6 +276,90 @@
     "reliability_notes": "Primary official source for the May 28, 2026 bill-actions list and any convening notice displayed above the list."
   },
   {
+    "id": "flsenate-bill-actions-2026-05-29",
+    "title": "Florida Senate Bill Actions for May 29, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-29",
+    "accessed_date": "2026-05-29",
+    "description": "Official Senate bill-actions page for May 29, 2026, listing Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including being placed on the Appropriations committee agenda for June 1, 2026.",
+    "reliability_notes": "Primary official source for the May 29, 2026 bill-actions list and any notices displayed above the list."
+  },
+  {
+    "id": "flsenate-bill-actions-2026-05-30",
+    "title": "Florida Senate Bill Actions for May 30, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-05-30",
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate bill-actions page for May 30, 2026, reporting no bill actions on that day and displaying a notice that the Senate will convene on Monday, June 1, 2026, for Special Session F.",
+    "reliability_notes": "Primary official source for the May 30, 2026 bill-actions check and the displayed Special Session F convening notice."
+  },
+  {
+    "id": "flsenate-2026f-senate-bill-list",
+    "title": "Florida Senate 2026F Senate Bill List",
+    "url": "https://www.flsenate.gov/Session/Bills/2026F",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": null,
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate bill list for Special Session 2026-F, showing two Senate bills found: SJR 2F (Save our Homes from Excessive Property Taxes) and SB 4F (Property Tax Administration).",
+    "reliability_notes": "Official summary source for which Senate bills are listed in Special Session 2026-F."
+  },
+  {
+    "id": "flsenate-sjr2f-2026f",
+    "title": "Florida Senate Bill Page: SJR 2-F, 2026F Special Session",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/2F",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": null,
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate bill page for SJR 2-F, Save our Homes from Excessive Property Taxes, including bill history, linked SB 4-F, bill text, analysis, vote-history status, and latest action.",
+    "reliability_notes": "Primary official source for current SJR 2-F bill status and bill-page metadata."
+  },
+  {
+    "id": "flsenate-sb4f-2026f",
+    "title": "Florida Senate Bill Page: SB 4-F, 2026F Special Session",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/4F",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": null,
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate bill page for SB 4-F, Property Tax Administration, including bill history, linked SJR 2-F, bill text, analysis, cited statutes, appropriation note, vote-history status, and latest action.",
+    "reliability_notes": "Primary official source for current SB 4-F bill status and bill-page metadata."
+  },
+  {
+    "id": "flsenate-sjr2f-analysis-pre-ap-2026-05-29",
+    "title": "SJR 2-F Appropriations Pre-Meeting Bill Analysis",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/2F/Analyses/2026s00002F.pre.ap.PDF",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate Committee on Appropriations",
+    "published_date": "2026-05-29",
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SJR 2-F.",
+    "reliability_notes": "Official staff analysis for the SJR 2-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate."
+  },
+  {
+    "id": "flsenate-sb4f-analysis-pre-ap-2026-05-29",
+    "title": "SB 4-F Appropriations Pre-Meeting Bill Analysis",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/4F/Analyses/2026s00004F.pre.ap.PDF",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate Committee on Appropriations",
+    "published_date": "2026-05-29",
+    "accessed_date": "2026-05-30",
+    "description": "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SB 4-F.",
+    "reliability_notes": "Official staff analysis for the SB 4-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate."
+  },
+  {
     "id": "flsenate-special-session-f-governor-proclamation-2026-05-27",
     "title": "2026 Special Session F Governor's Proclamation (PDF)",
     "url": "https://www.flsenate.gov/PublishedContent/Home/CalendarLinks/Links/2026_F___Governor_s_Proclamation.pdf",
@@ -346,5 +430,17 @@
     "accessed_date": "2026-05-01",
     "description": "Department of State overview of proposed constitutional amendments and initiatives, including the 60 percent voter-approval requirement.",
     "reliability_notes": "Official election source for ballot-path explanation."
+  },
+  {
+    "id": "fl-dos-constitutional-initiatives-database-2026-05-30",
+    "title": "Florida Constitutional Initiatives / Amendments / Revisions Database",
+    "url": "https://constitutionalinitiatives.dos.fl.gov/",
+    "archive_path": null,
+    "source_type": "official_election",
+    "publisher": "Florida Department of State, Division of Elections",
+    "published_date": null,
+    "accessed_date": "2026-05-30",
+    "description": "Official Department of State database view for constitutional initiatives, amendments, and revisions reviewed on May 30, 2026.",
+    "reliability_notes": "Official election source for checking whether a measure appears in the displayed ballot-position database table as reviewed on the access date."
   }
 ]

@@ -300,5 +300,50 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-28",
     "git_commit": "ee91651"
+  },
+  {
+    "date": "2026-05-29",
+    "what_changed": [
+      "Reviewed the Florida Senate bill-actions page for May 29, 2026, which listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including being placed on the Appropriations committee agenda for June 1, 2026.",
+      "Added a new official source record and claim for the May 29, 2026 bill-actions check and updated the homepage last_verified date.",
+      "Marked the May 29, 2026 convening notice claim as outdated now that the dated notice is in the past."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-05-29"],
+    "claims_added": [
+      "claim-flsenate-bill-actions-s2f-s4f-committee-agenda-2026-05-29"
+    ],
+    "claims_revised": ["claim-senate-will-convene-2026-05-29-0900"],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-29",
+    "git_commit": null
+  },
+  {
+    "date": "2026-05-30",
+    "what_changed": [
+      "Reviewed official SJR 2-F and SB 4-F bill pages and updated active proposal records to use those bill pages as primary status sources.",
+      "Reviewed the May 30, 2026 Senate bill-actions page, which reported no bill actions and displayed a June 1, 2026 Special Session F convening notice.",
+      "Added version-specific claims for the SJR 2-F and SB 4-F Appropriations pre-meeting analyses, including their statements that the Revenue Estimating Conference had not reviewed the measures.",
+      "Checked the Department of State constitutional initiatives, amendments, and revisions database table and kept ballot status as a watch checkpoint."
+    ],
+    "source_ids_added": [
+      "flsenate-bill-actions-2026-05-30",
+      "flsenate-2026f-senate-bill-list",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sb4f-2026f",
+      "flsenate-sjr2f-analysis-pre-ap-2026-05-29",
+      "flsenate-sb4f-analysis-pre-ap-2026-05-29",
+      "fl-dos-constitutional-initiatives-database-2026-05-30"
+    ],
+    "claims_added": [
+      "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+      "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+      "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29",
+      "claim-dos-ballot-database-no-sjr2f-2026-05-30"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-30",
+    "git_commit": null
   }
 ]
