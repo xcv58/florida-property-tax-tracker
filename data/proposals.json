@@ -20,6 +20,25 @@
     ]
   },
   {
+    "id": "hjr201-2026",
+    "name": "HJR 201",
+    "title": "Elimination of Non-school Property Tax for Homesteads",
+    "session": "2026",
+    "proposal_type": "constitutional_amendment",
+    "chamber": "House",
+    "sponsor": "Steele, Miller",
+    "status": "dead",
+    "last_action_date": "2026-03-13",
+    "last_action": "Died in Ways & Means Committee",
+    "current_relevance": "Related House-filed elimination proposal; did not advance past Ways & Means during the 2026 regular session.",
+    "material_to_elimination_debate": true,
+    "source_ids": ["flsenate-hjr201-2026"],
+    "claim_ids": [
+      "claim-hjr201-proposed-homestead-nonschool-exemption",
+      "claim-hjr201-died-house-ways-and-means"
+    ]
+  },
+  {
     "id": "related-house-property-tax-proposals-2026",
     "name": "Related 2026 House proposals",
     "title": "Related homestead, non-school ad valorem, and assessment-cap proposals listed with HJR 203",
@@ -34,5 +53,56 @@
     "material_to_elimination_debate": true,
     "source_ids": ["flsenate-hjr203-2026"],
     "claim_ids": ["claim-hjr203-died-senate-appropriations"]
+  },
+  {
+    "id": "s2f-2026f",
+    "name": "SJR 2-F",
+    "title": "Save our Homes from Excessive Property Taxes",
+    "session": "2026F",
+    "proposal_type": "constitutional_amendment",
+    "chamber": "Senate",
+    "sponsor": "Avila; co-introducers Bernard, Mayfield",
+    "status": "active",
+    "last_action_date": "2026-05-29",
+    "last_action": "On Appropriations committee agenda for June 1, 2026",
+    "current_relevance": "Special Session 2026-F joint-resolution vehicle listed on the official Senate bill page and linked to SB 4-F.",
+    "material_to_elimination_debate": true,
+    "source_ids": [
+      "flsenate-2026f-senate-bill-list",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sjr2f-analysis-pre-ap-2026-05-29",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+      "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
+      "claim-special-session-f-proclaimed-2026-06-01"
+    ]
+  },
+  {
+    "id": "s4f-2026f",
+    "name": "SB 4-F",
+    "title": "Property Tax Administration",
+    "session": "2026F",
+    "proposal_type": "related_property_tax_reform",
+    "chamber": "Senate",
+    "sponsor": "Avila; co-introducers Bernard, Mayfield",
+    "status": "active",
+    "last_action_date": "2026-05-29",
+    "last_action": "On Appropriations committee agenda for June 1, 2026",
+    "current_relevance": "Special Session 2026-F related property-tax administration bill listed on the official Senate bill page and linked to SJR 2-F.",
+    "material_to_elimination_debate": true,
+    "source_ids": [
+      "flsenate-2026f-senate-bill-list",
+      "flsenate-sb4f-2026f",
+      "flsenate-sb4f-analysis-pre-ap-2026-05-29",
+      "flsenate-special-session-f-governor-proclamation-2026-05-27"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+      "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29"
+    ]
   }
 ]
