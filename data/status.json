@@ -2,13 +2,14 @@
   "site_title": "Florida Property Tax Tracker",
   "subtitle": "Tracking Florida's 2026 property tax elimination proposals and related reforms",
   "current_status_label": "Watching",
-  "current_status_summary": "Official Florida Senate bill pages reviewed on May 30, 2026 list SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026. The May 30, 2026 Senate bill-actions page reported no bill actions that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.",
-  "last_verified": "2026-05-30",
-  "latest_update": "The May 30, 2026 Senate bill-actions page reported no bill actions; official SJR 2-F and SB 4-F bill pages remained at the May 29 Appropriations agenda checkpoint.",
-  "expected_next": "Watch the June 1 Appropriations meeting for amendments or votes, any floor action during Special Session F, Department of State ballot records, and Revenue Estimating Conference or EDR fiscal materials.",
+  "current_status_summary": "Official Florida Senate bill pages reviewed on June 1, 2026 listed SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a last action of June 1, 2026 placing them on the Special Order Calendar for June 2, 2026 (if received). Official Florida Senate bill pages reviewed on June 1, 2026 listed HJR 1-F and HB 3-F with a last action of June 1, 2026 adding them to the State Affairs Committee agenda. The June 1, 2026 Senate bill-actions page listed those actions and displayed a notice that the Senate will convene on Tuesday, June 2, 2026, at 9:00 a.m., or upon the call of the President. A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence at 10:00 AM on Monday, June 1, 2026 and extend no later than 11:59 PM on Wednesday, June 3, 2026. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.",
+  "last_verified": "2026-06-01",
+  "latest_update": "Bill pages reviewed on June 1, 2026 show SJR 2-F and SB 4-F moved from the June 1 agenda checkpoint to the June 2 Special Order Calendar (if received), and House counterparts HJR 1-F and HB 3-F were added to the State Affairs Committee agenda.",
+  "expected_next": "Watch June 2 committee or floor movement during Special Session 2026-F, Department of State ballot records, and any Revenue Estimating Conference or EDR fiscal materials tied to these bill versions.",
   "claim_ids": [
-    "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
-    "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
+    "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
+    "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+    "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01",
     "claim-special-session-f-proclaimed-2026-06-01",
     "claim-hjr203-house-passed-80-30",
     "claim-hjr203-died-senate-appropriations",
@@ -21,17 +22,22 @@
   "sentence_claim_ids": [
     {
       "field": "current_status_summary",
-      "sentence": "Official Florida Senate bill pages reviewed on May 30, 2026 list SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a latest action of May 29, 2026, on the Appropriations committee agenda for June 1, 2026.",
+      "sentence": "Official Florida Senate bill pages reviewed on June 1, 2026 listed SJR 2-F (Save our Homes from Excessive Property Taxes) and SB 4-F (Property Tax Administration) with a last action of June 1, 2026 placing them on the Special Order Calendar for June 2, 2026 (if received).",
       "claim_ids": [
-        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
+        "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01"
       ]
     },
     {
       "field": "current_status_summary",
-      "sentence": "The May 30, 2026 Senate bill-actions page reported no bill actions that day and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.",
+      "sentence": "Official Florida Senate bill pages reviewed on June 1, 2026 listed HJR 1-F and HB 3-F with a last action of June 1, 2026 adding them to the State Affairs Committee agenda.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30"
+        "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
       ]
+    },
+    {
+      "field": "current_status_summary",
+      "sentence": "The June 1, 2026 Senate bill-actions page listed those actions and displayed a notice that the Senate will convene on Tuesday, June 2, 2026, at 9:00 a.m., or upon the call of the President.",
+      "claim_ids": ["claim-flsenate-bill-actions-special-session-f-actions-2026-06-01"]
     },
     {
       "field": "current_status_summary",
@@ -48,17 +54,20 @@
     },
     {
       "field": "latest_update",
-      "sentence": "The May 30, 2026 Senate bill-actions page reported no bill actions; official SJR 2-F and SB 4-F bill pages remained at the May 29 Appropriations agenda checkpoint.",
+      "sentence": "Bill pages reviewed on June 1, 2026 show SJR 2-F and SB 4-F moved from the June 1 agenda checkpoint to the June 2 Special Order Calendar (if received), and House counterparts HJR 1-F and HB 3-F were added to the State Affairs Committee agenda.",
       "claim_ids": [
-        "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-30",
-        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
+        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
+        "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+        "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
       ]
     },
     {
       "field": "expected_next",
-      "sentence": "Watch the June 1 Appropriations meeting for amendments or votes, any floor action during Special Session F, Department of State ballot records, and Revenue Estimating Conference or EDR fiscal materials.",
+      "sentence": "Watch June 2 committee or floor movement during Special Session 2026-F, Department of State ballot records, and any Revenue Estimating Conference or EDR fiscal materials tied to these bill versions.",
       "claim_ids": [
-        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
+        "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+        "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01",
         "claim-special-session-f-proclaimed-2026-06-01",
         "claim-dos-ballot-database-no-sjr2f-2026-05-30",
         "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",

@@ -345,5 +345,42 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-30",
     "git_commit": null
+  },
+  {
+    "date": "2026-05-31",
+    "what_changed": [
+      "Reviewed the May 31, 2026 Florida Senate bill-actions page, which reported no bill actions and displayed a June 1, 2026 Special Session F convening notice.",
+      "Added a new official source record and claim for the May 31, 2026 bill-actions checkpoint and refreshed the tracker’s last-verified date."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-05-31"],
+    "claims_added": [
+      "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-31"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-05-31",
+    "git_commit": null
+  },
+  {
+    "date": "2026-06-01",
+    "what_changed": [
+      "Reviewed the June 1, 2026 Florida Senate bill-actions page, which listed Special Session 2026-F actions for SJR 2-F, SB 4-F, HJR 1-F, and HB 3-F and displayed a June 2, 2026 convening notice.",
+      "Reviewed official bill pages and updated the active Special Session 2026-F proposal records to reflect a June 1 last-action date and the June 2 Special Order Calendar (if received) checkpoint for the Senate vehicles.",
+      "Added new proposal records for House counterparts HJR 1-F and HB 3-F based on their official bill pages."
+    ],
+    "source_ids_added": [
+      "flsenate-bill-actions-2026-06-01",
+      "flsenate-hjr1f-2026f",
+      "flsenate-hb3f-2026f"
+    ],
+    "claims_added": [
+      "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
+      "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+      "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-06-01",
+    "git_commit": null
   }
 ]

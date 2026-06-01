@@ -327,5 +327,38 @@
     "source_ids": ["fl-dos-constitutional-initiatives-database-2026-05-30"],
     "claim_ids": ["claim-dos-ballot-database-no-sjr2f-2026-05-30"],
     "category": "ballot"
+  },
+  {
+    "id": "timeline-2026-05-31-bill-actions-none-special-session-f-notice",
+    "date": "2026-05-31",
+    "title": "Florida Senate bill-actions page reported no bill actions",
+    "summary": "The May 31 Florida Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.",
+    "importance": "This refreshes the last-verified checkpoint while keeping the active watch on the June 1 Appropriations agenda for SJR 2-F and SB 4-F.",
+    "source_ids": ["flsenate-bill-actions-2026-05-31"],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-no-actions-special-session-f-notice-2026-05-31",
+      "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29"
+    ],
+    "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-06-01-special-session-f-bill-actions",
+    "date": "2026-06-01",
+    "title": "Special Session 2026-F bill actions posted",
+    "summary": "Official bill actions and bill pages reviewed on June 1, 2026 showed SJR 2-F and SB 4-F introduced and placed on the Special Order Calendar for June 2, 2026 (if received), and House counterparts HJR 1-F and HB 3-F added to the State Affairs Committee agenda.",
+    "importance": "This records the opening-day bill-actions checkpoint and updates the tracker’s active watch to the June 2 Special Order Calendar and related committee movement.",
+    "source_ids": [
+      "flsenate-bill-actions-2026-06-01",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sb4f-2026f",
+      "flsenate-hjr1f-2026f",
+      "flsenate-hb3f-2026f"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
+      "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+      "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
+    ],
+    "category": "legislative"
   }
 ]
