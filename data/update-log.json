@@ -381,7 +381,7 @@
     "claims_revised": [],
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-06-01",
-    "git_commit": "d996dc1"
+    "git_commit": "a024c8a"
   },
   {
     "date": "2026-06-02",
@@ -399,6 +399,6 @@
     "claims_revised": [],
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-06-02",
-    "git_commit": "44df2fb"
+    "git_commit": "8a60ab4"
   }
 ]
