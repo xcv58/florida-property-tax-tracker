@@ -473,6 +473,11 @@
       "text": "flsenate-bill-actions-2026-06-01 Florida Senate Bill Actions for June 1, 2026 Florida Senate official_legislative"
     },
     {
+      "title": "Florida Senate Bill Actions for June 2, 2026",
+      "type": "source",
+      "text": "flsenate-bill-actions-2026-06-02 Florida Senate Bill Actions for June 2, 2026 Florida Senate official_legislative"
+    },
+    {
       "title": "Florida Senate 2026F Senate Bill List",
       "type": "source",
       "text": "flsenate-2026f-senate-bill-list Florida Senate 2026F Senate Bill List Florida Senate official_legislative"
@@ -562,22 +567,22 @@
     {
       "title": "SJR 2-F",
       "type": "proposal",
-      "text": "SJR 2-F Save our Homes from Excessive Property Taxes active Special Session 2026-F joint-resolution vehicle listed on the official Senate bill page and linked to SB 4-F."
+      "text": "SJR 2-F Save our Homes from Excessive Property Taxes active Special Session 2026-F Senate joint-resolution vehicle that was substituted by the House counterpart on June 2, 2026."
     },
     {
       "title": "SB 4-F",
       "type": "proposal",
-      "text": "SB 4-F Property Tax Administration active Special Session 2026-F related property-tax administration bill listed on the official Senate bill page and linked to SJR 2-F."
+      "text": "SB 4-F Property Tax Administration active Special Session 2026-F related property-tax administration bill that passed both chambers and was ordered enrolled on June 2, 2026."
     },
     {
       "title": "HJR 1-F",
       "type": "proposal",
-      "text": "HJR 1-F Save our Homes from Excessive Property Taxes active House Special Session 2026-F joint-resolution vehicle listed on the official bill page and linked to HB 3-F."
+      "text": "HJR 1-F Save our Homes from Excessive Property Taxes active House Special Session 2026-F joint-resolution vehicle that passed both chambers and was ordered enrolled on June 2, 2026."
     },
     {
       "title": "HB 3-F",
       "type": "proposal",
-      "text": "HB 3-F Property Tax Administration active House Special Session 2026-F related property-tax administration bill listed on the official bill page and linked to HJR 1-F."
+      "text": "HB 3-F Property Tax Administration active House Special Session 2026-F related property-tax administration bill that was substituted by the Senate counterpart on June 2, 2026."
     }
   ],
   "timeline": [
@@ -735,6 +740,11 @@
       "title": "Special Session 2026-F bill actions posted",
       "type": "timeline",
       "text": "2026-06-01 Special Session 2026-F bill actions posted Official bill actions and bill pages reviewed on June 1, 2026 showed SJR 2-F and SB 4-F introduced and placed on the Special Order Calendar for June 2, 2026 (if received), and House counterparts HJR 1-F and HB 3-F added to the State Affairs Committee agenda. This records the opening-day bill-actions checkpoint and updates the tracker’s active watch to the June 2 Special Order Calendar and related committee movement."
+    },
+    {
+      "title": "House substitute advanced and SB 4-F was ordered enrolled",
+      "type": "timeline",
+      "text": "2026-06-02 House substitute advanced and SB 4-F was ordered enrolled Official bill actions and bill pages reviewed on June 2, 2026 showed CS/HJR 1-F passed both chambers and was ordered enrolled, CS/SJR 2-F was laid on the table, CS/SB 4-F was ordered enrolled, and CS/HB 3-F was laid on the table. This records the June 2 floor checkpoint, shows the Senate joint resolution yielded to the House substitute, and shifts the tracker’s next watch to enrolled texts, ballot records, and any executive action on SB 4-F."
     }
   ],
   "overview": [
@@ -849,6 +859,11 @@
       "text": "2026-05-31 Check No new bill actions listed The May 31 Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on June 1, 2026, for 2026 Special Session F. The active watch remains the June 1 Appropriations agenda for SJR 2-F and SB 4-F. watching"
     },
     {
+      "title": "House substitute advanced; SB 4-F enrolled",
+      "type": "overview",
+      "text": "2026-06-02 Floor House substitute advanced; SB 4-F enrolled The June 2, 2026 bill-actions page and official bill pages show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those vehicles. The next public checkpoints move beyond floor action to enrolled text, ballot records, and any Governor action on SB 4-F. completed"
+    },
+    {
       "title": "Ballot listing not reached",
       "type": "overview",
       "text": "Future checkpoint Ballot Ballot listing not reached A legislative constitutional amendment would still need voter approval before it could change the Florida Constitution. The Department of State ballot step comes after a measure advances through the required constitutional-amendment path. not_started"
@@ -879,9 +894,9 @@
       "text": "May May 29-31, 2026 Special Session 2026-F bills wait for June 1 agenda Official Senate bill pages list SJR 2-F and SB 4-F on the June 1 Appropriations committee agenda; the May 31 bill-actions page reported no bill actions. watching"
     },
     {
-      "title": "Special Session 2026-F bill actions posted",
+      "title": "Special Session 2026-F final floor actions posted",
       "type": "runway",
-      "text": "June Jun. 1-3, 2026 Special Session 2026-F bill actions posted Bill actions and bill pages for June 1, 2026 show property-tax bills moved to the June 2 Special Order Calendar (if received) and House counterparts were added to the State Affairs Committee agenda. watching"
+      "text": "June Jun. 1-3, 2026 Special Session 2026-F final floor actions posted Bill actions and bill pages for June 2, 2026 show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those advancing vehicles. watching"
     },
     {
       "title": "Watch for additional filings and committee movement",

@@ -2,12 +2,12 @@
   "brief": {
     "eyebrow": "overview",
     "heading": "Where the 2026 path stands",
-    "body": "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. Official Florida Senate bill pages reviewed on June 1, 2026 list SJR 2-F and SB 4-F with a last action placing them on the Special Order Calendar for June 2, 2026 (if received). Official Florida Senate bill pages reviewed on June 1, 2026 list House counterparts HJR 1-F and HB 3-F with a last action adding them to the State Affairs Committee agenda.",
+    "body": "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/HJR 1-F as ordered enrolled, while CS/SJR 2-F was laid on the table and referred to CS/HJR 1-F. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/SB 4-F as ordered enrolled, while CS/HB 3-F was laid on the table and referred to CS/SB 4-F.",
     "claim_ids": [
       "claim-hjr203-house-passed-80-30",
       "claim-hjr203-died-senate-appropriations",
-      "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
-      "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
+      "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+      "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
     ],
     "source_ids": [
       "flsenate-hjr203-2026",
@@ -42,7 +42,7 @@
   "monthly_runway": {
     "eyebrow": "monthly_runway",
     "heading": "Current Path To Ballot",
-    "as_of": "2026-06-01",
+    "as_of": "2026-06-02",
     "scale_note": "Monthly scale; future months are checkpoints to watch, not predictions.",
     "current_label": "Last verified",
     "current_month": "June",
@@ -59,14 +59,14 @@
       "Oct",
       "Nov"
     ],
-    "next_watch": "June 2 committee or floor movement, House State Affairs activity, ballot records, or REC/EDR fiscal materials",
+    "next_watch": "Enrolled text, ballot records, Governor action on SB 4-F, or REC/EDR fiscal materials",
     "source_ids": [
       "flsenate-hjr203-2026",
       "flsenate-sjr2f-2026f",
       "flsenate-sb4f-2026f",
       "flsenate-hjr1f-2026f",
       "flsenate-hb3f-2026f",
-      "flsenate-bill-actions-2026-06-01",
+      "flsenate-bill-actions-2026-06-02",
       "flsenate-special-session-e-joint-proclamation-2026-05-06",
       "flsenate-special-session-f-governor-proclamation-2026-05-27",
       "flsenate-sjr2f-analysis-pre-ap-2026-05-29",
@@ -156,13 +156,13 @@
       "id": "june-special-session-f",
       "month": "June",
       "range": "Jun. 1-3, 2026",
-      "title": "Special Session 2026-F bill actions posted",
-      "summary": "Bill actions and bill pages for June 1, 2026 show property-tax bills moved to the June 2 Special Order Calendar (if received) and House counterparts were added to the State Affairs Committee agenda.",
+      "title": "Special Session 2026-F final floor actions posted",
+      "summary": "Bill actions and bill pages for June 2, 2026 show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those advancing vehicles.",
       "status": "watching",
       "status_label": "Watching",
       "is_current": true,
       "source_ids": [
-        "flsenate-bill-actions-2026-06-01",
+        "flsenate-bill-actions-2026-06-02",
         "flsenate-sjr2f-2026f",
         "flsenate-sb4f-2026f",
         "flsenate-hjr1f-2026f",
@@ -170,10 +170,9 @@
         "flsenate-special-session-f-governor-proclamation-2026-05-27"
       ],
       "claim_ids": [
-        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-01",
-        "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
-        "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01",
-        "claim-special-session-f-proclaimed-2026-06-01"
+        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+        "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+        "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
       ]
       },
       {
@@ -549,6 +548,28 @@
       ]
     },
     {
+      "id": "special-session-f-final-floor-actions",
+      "date": "2026-06-02",
+      "label": "Floor",
+      "title": "House substitute advanced; SB 4-F enrolled",
+      "description": "The June 2, 2026 bill-actions page and official bill pages show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those vehicles.",
+      "dependency": "The next public checkpoints move beyond floor action to enrolled text, ballot records, and any Governor action on SB 4-F.",
+      "status": "completed",
+      "status_label": "Completed",
+      "source_ids": [
+        "flsenate-bill-actions-2026-06-02",
+        "flsenate-hjr1f-2026f",
+        "flsenate-sjr2f-2026f",
+        "flsenate-sb4f-2026f",
+        "flsenate-hb3f-2026f"
+      ],
+      "claim_ids": [
+        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+        "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+        "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
+      ]
+    },
+    {
       "id": "ballot-listing",
       "date": "Future checkpoint",
       "label": "Ballot",
@@ -570,38 +591,42 @@
   "next_panels": [
     {
       "label": "What changed",
-      "value": "2026F vehicle active",
-      "body": "SJR 2-F and SB 4-F are the active special-session vehicles now listed by official Senate bill pages; HJR 203 remains regular-session history.",
-      "status": "watching",
+      "value": "House substitute advanced",
+      "body": "On June 2, 2026, the Senate bill page showed CS/SJR 2-F was laid on the table in favor of CS/HJR 1-F, which was ordered enrolled.",
+      "status": "completed",
       "claim_ids": [
-        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
+        "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
         "claim-hjr203-died-senate-appropriations"
       ],
       "source_ids": [
+        "flsenate-hjr1f-2026f",
         "flsenate-sjr2f-2026f",
-        "flsenate-sb4f-2026f",
         "flsenate-hjr203-2026"
       ]
     },
     {
       "label": "What to watch",
-      "value": "June 1 agenda",
-      "body": "Watch the June 1 Appropriations meeting for amendments, votes, or later floor action during Special Session F.",
+      "value": "Enrollment and ballot steps",
+      "body": "Watch enrolled text, any Governor action on SB 4-F, and whether the Department of State posts a ballot record for the advancing joint resolution.",
       "status": "watching",
       "claim_ids": [
-        "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
-        "claim-special-session-f-proclaimed-2026-06-01"
+        "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+        "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+        "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02",
+        "claim-dos-ballot-database-no-sjr2f-2026-05-30"
       ],
       "source_ids": [
-        "flsenate-sjr2f-2026f",
+        "flsenate-bill-actions-2026-06-02",
+        "flsenate-hjr1f-2026f",
         "flsenate-sb4f-2026f",
-        "flsenate-special-session-f-governor-proclamation-2026-05-27"
+        "fl-dos-constitutional-initiatives-database-2026-05-30",
+        "fl-dos-constitutional-amendments"
       ]
     },
     {
       "label": "Data depth",
-      "value": "Fiscal review pending",
-      "body": "Pre-meeting analyses say the Revenue Estimating Conference has not reviewed SJR 2-F or SB 4-F; county comparisons remain separate until version-labeled estimates exist.",
+      "value": "Version-labeled fiscal watch",
+      "body": "Pre-meeting analyses say the Revenue Estimating Conference had not reviewed SJR 2-F or SB 4-F; keep county comparisons separate until version-labeled estimates exist.",
       "status": "watching",
       "claim_ids": [
         "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
@@ -614,8 +639,8 @@
     }
   ],
   "known_unknowns": [
-    "Revenue Estimating Conference or EDR fiscal materials remain a watch checkpoint.",
-    "A Department of State ballot record remains a watch checkpoint if SJR 2-F advances through the legislative path.",
+    "Governor action on SB 4-F remains a watch checkpoint.",
+    "A Department of State ballot record remains a watch checkpoint if the advancing joint resolution completes the constitutional-amendment path.",
     "County-impact comparisons need version-labeled sources before they should be treated as comparable."
   ],
   "depth_links": [

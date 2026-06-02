@@ -493,5 +493,38 @@
     "display_context": "homepage",
     "last_verified": "2026-06-01",
     "notes": "This claim reflects the bill-page Last Action entries shown on June 1, 2026."
+  },
+  {
+    "id": "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+    "claim": "The Florida Senate bill-actions page for June 2, 2026 listed Special Session 2026-F actions including: HJR 1-F ordered enrolled, SJR 2-F laid on the table and referred to CS/HJR 1-F, HB 3-F laid on the table and referred to CS/SB 4-F, and SB 4-F ordered enrolled. The same page displayed that the Senate has adjourned sine die for Special Session F.",
+    "claim_type": "legislative_status",
+    "date": "2026-06-02",
+    "status": "confirmed",
+    "source_ids": ["flsenate-bill-actions-2026-06-02"],
+    "display_context": "homepage",
+    "last_verified": "2026-06-02",
+    "notes": "This updates the tracker's bill-actions checkpoint for the day the House substitute advanced and the Senate-adjournment notice appeared."
+  },
+  {
+    "id": "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+    "claim": "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/HJR 1-F with a last action of June 2, 2026 ordering it enrolled, while CS/SJR 2-F showed a last action of June 2, 2026 laying it on the table and referring to CS/HJR 1-F.",
+    "claim_type": "legislative_status",
+    "date": "2026-06-02",
+    "status": "confirmed",
+    "source_ids": ["flsenate-hjr1f-2026f", "flsenate-sjr2f-2026f"],
+    "display_context": "homepage",
+    "last_verified": "2026-06-02",
+    "notes": "This claim reflects the June 2, 2026 bill-page Last Action entries for the joint resolutions."
+  },
+  {
+    "id": "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02",
+    "claim": "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/SB 4-F with a last action of June 2, 2026 ordering it enrolled, while CS/HB 3-F showed a last action of June 2, 2026 laying it on the table and referring to CS/SB 4-F.",
+    "claim_type": "legislative_status",
+    "date": "2026-06-02",
+    "status": "confirmed",
+    "source_ids": ["flsenate-sb4f-2026f", "flsenate-hb3f-2026f"],
+    "display_context": "homepage",
+    "last_verified": "2026-06-02",
+    "notes": "This claim reflects the June 2, 2026 bill-page Last Action entries for the administration bills."
   }
 ]

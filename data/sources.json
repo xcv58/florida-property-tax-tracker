@@ -324,6 +324,18 @@
     "reliability_notes": "Primary official source for the June 1, 2026 bill-actions check and the displayed convening notice."
   },
   {
+    "id": "flsenate-bill-actions-2026-06-02",
+    "title": "Florida Senate Bill Actions for June 2, 2026",
+    "url": "https://www.flsenate.gov/?Tab=BillActions",
+    "archive_path": null,
+    "source_type": "official_legislative",
+    "publisher": "Florida Senate",
+    "published_date": "2026-06-02",
+    "accessed_date": "2026-06-02",
+    "description": "Official Senate bill-actions page for June 2, 2026, listing Special Session 2026-F actions for HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F, and displaying that the Senate has adjourned sine die for Special Session F.",
+    "reliability_notes": "Primary official source for the June 2, 2026 bill-actions checkpoint and the displayed Special Session F adjournment notice."
+  },
+  {
     "id": "flsenate-2026f-senate-bill-list",
     "title": "Florida Senate 2026F Senate Bill List",
     "url": "https://www.flsenate.gov/Session/Bills/2026F",
@@ -343,7 +355,7 @@
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-06-01",
+    "accessed_date": "2026-06-02",
     "description": "Official Senate bill page for SJR 2-F, Save our Homes from Excessive Property Taxes, including bill history, linked SB 4-F, bill text, analysis, vote-history status, and latest action.",
     "reliability_notes": "Primary official source for current SJR 2-F bill status and bill-page metadata."
   },
@@ -355,31 +367,31 @@
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-06-01",
+    "accessed_date": "2026-06-02",
     "description": "Official Senate bill page for SB 4-F, Property Tax Administration, including bill history, linked SJR 2-F, bill text, analysis, cited statutes, appropriation note, vote-history status, and latest action.",
     "reliability_notes": "Primary official source for current SB 4-F bill status and bill-page metadata."
   },
   {
     "id": "flsenate-hjr1f-2026f",
     "title": "Florida Senate Bill Page: HJR 1-F, 2026F Special Session",
-    "url": "https://www.flsenate.gov/Session/Bill/2026F/1",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/1F",
     "archive_path": null,
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-06-01",
+    "accessed_date": "2026-06-02",
     "description": "Official bill page for HJR 1-F, Save our Homes from Excessive Property Taxes, including bill history, linked HB 3-F, bill text, analyses, and latest action.",
     "reliability_notes": "Primary official source for current HJR 1-F bill status and bill-page metadata."
   },
   {
     "id": "flsenate-hb3f-2026f",
     "title": "Florida Senate Bill Page: HB 3-F, 2026F Special Session",
-    "url": "https://www.flsenate.gov/Session/Bill/2026F/3",
+    "url": "https://www.flsenate.gov/Session/Bill/2026F/3F",
     "archive_path": null,
     "source_type": "official_legislative",
     "publisher": "Florida Senate",
     "published_date": null,
-    "accessed_date": "2026-06-01",
+    "accessed_date": "2026-06-02",
     "description": "Official bill page for HB 3-F, Property Tax Administration, including bill history, linked HJR 1-F, cited statutes, appropriation note, analyses, and latest action.",
     "reliability_notes": "Primary official source for current HB 3-F bill status and bill-page metadata."
   },

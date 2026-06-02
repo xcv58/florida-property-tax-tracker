@@ -360,5 +360,25 @@
       "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"
     ],
     "category": "legislative"
+  },
+  {
+    "id": "timeline-2026-06-02-special-session-f-final-floor-actions",
+    "date": "2026-06-02",
+    "title": "House substitute advanced and SB 4-F was ordered enrolled",
+    "summary": "Official bill actions and bill pages reviewed on June 2, 2026 showed CS/HJR 1-F passed both chambers and was ordered enrolled, CS/SJR 2-F was laid on the table, CS/SB 4-F was ordered enrolled, and CS/HB 3-F was laid on the table.",
+    "importance": "This records the June 2 floor checkpoint, shows the Senate joint resolution yielded to the House substitute, and shifts the tracker’s next watch to enrolled texts, ballot records, and any executive action on SB 4-F.",
+    "source_ids": [
+      "flsenate-bill-actions-2026-06-02",
+      "flsenate-hjr1f-2026f",
+      "flsenate-sjr2f-2026f",
+      "flsenate-sb4f-2026f",
+      "flsenate-hb3f-2026f"
+    ],
+    "claim_ids": [
+      "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+      "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+      "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
+    ],
+    "category": "legislative"
   }
 ]

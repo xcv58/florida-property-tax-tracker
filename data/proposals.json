@@ -63,9 +63,9 @@
     "chamber": "Senate",
     "sponsor": "Avila; co-introducers Bernard, Mayfield",
     "status": "active",
-    "last_action_date": "2026-06-01",
-    "last_action": "Placed on Special Order Calendar for June 2, 2026 (if received)",
-    "current_relevance": "Special Session 2026-F joint-resolution vehicle listed on the official Senate bill page and linked to SB 4-F.",
+    "last_action_date": "2026-06-02",
+    "last_action": "Laid on Table, refer to CS/HJR 1-F",
+    "current_relevance": "Special Session 2026-F Senate joint-resolution vehicle that was substituted by the House counterpart on June 2, 2026.",
     "material_to_elimination_debate": true,
     "source_ids": [
       "flsenate-2026f-senate-bill-list",
@@ -77,6 +77,7 @@
       "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
       "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
       "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+      "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
       "claim-sjr2f-analysis-rec-not-reviewed-2026-05-29",
       "claim-special-session-f-proclaimed-2026-06-01"
     ]
@@ -90,9 +91,9 @@
     "chamber": "Senate",
     "sponsor": "Avila; co-introducers Bernard, Mayfield",
     "status": "active",
-    "last_action_date": "2026-06-01",
-    "last_action": "Placed on Special Order Calendar for June 2, 2026 (if received)",
-    "current_relevance": "Special Session 2026-F related property-tax administration bill listed on the official Senate bill page and linked to SJR 2-F.",
+    "last_action_date": "2026-06-02",
+    "last_action": "Ordered enrolled",
+    "current_relevance": "Special Session 2026-F related property-tax administration bill that passed both chambers and was ordered enrolled on June 2, 2026.",
     "material_to_elimination_debate": true,
     "source_ids": [
       "flsenate-2026f-senate-bill-list",
@@ -104,6 +105,7 @@
       "claim-flsenate-bill-actions-s2f-s4f-filed-2026-05-28",
       "claim-s2f-s4f-official-bill-pages-committee-agenda-2026-05-29",
       "claim-s2f-s4f-official-bill-pages-special-order-2026-06-01",
+      "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02",
       "claim-sb4f-analysis-rec-not-reviewed-appropriation-2026-05-29"
     ]
   },
@@ -116,12 +118,15 @@
     "chamber": "House",
     "sponsor": "Overdorf",
     "status": "active",
-    "last_action_date": "2026-06-01",
-    "last_action": "Added to State Affairs Committee agenda",
-    "current_relevance": "House Special Session 2026-F joint-resolution vehicle listed on the official bill page and linked to HB 3-F.",
+    "last_action_date": "2026-06-02",
+    "last_action": "Ordered enrolled",
+    "current_relevance": "House Special Session 2026-F joint-resolution vehicle that passed both chambers and was ordered enrolled on June 2, 2026.",
     "material_to_elimination_debate": true,
     "source_ids": ["flsenate-hjr1f-2026f"],
-    "claim_ids": ["claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"]
+    "claim_ids": [
+      "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01",
+      "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02"
+    ]
   },
   {
     "id": "h3f-2026f",
@@ -132,11 +137,14 @@
     "chamber": "House",
     "sponsor": "Overdorf",
     "status": "active",
-    "last_action_date": "2026-06-01",
-    "last_action": "Added to State Affairs Committee agenda",
-    "current_relevance": "House Special Session 2026-F related property-tax administration bill listed on the official bill page and linked to HJR 1-F.",
+    "last_action_date": "2026-06-02",
+    "last_action": "Laid on Table, refer to CS/SB 4-F",
+    "current_relevance": "House Special Session 2026-F related property-tax administration bill that was substituted by the Senate counterpart on June 2, 2026.",
     "material_to_elimination_debate": true,
     "source_ids": ["flsenate-hb3f-2026f"],
-    "claim_ids": ["claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01"]
+    "claim_ids": [
+      "claim-h1f-h3f-official-bill-pages-state-affairs-agenda-2026-06-01",
+      "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
+    ]
   }
 ]

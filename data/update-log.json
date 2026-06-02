@@ -382,5 +382,23 @@
     "claims_retired": [],
     "automation_run_id": "florida-tax-tracker-editorial-review-2026-06-01",
     "git_commit": "d996dc1"
+  },
+  {
+    "date": "2026-06-02",
+    "what_changed": [
+      "Reviewed the June 2, 2026 Florida Senate bill-actions page, which listed Special Session 2026-F actions for HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F and displayed that the Senate had adjourned sine die for Special Session F.",
+      "Reviewed official bill pages and updated the active Special Session 2026-F proposal records to reflect June 2, 2026 final floor actions, including CS/HJR 1-F and CS/SB 4-F ordered enrolled.",
+      "Corrected the stored HJR 1-F and HB 3-F source URLs to the explicit Florida Senate Special Session 2026-F bill-page paths."
+    ],
+    "source_ids_added": ["flsenate-bill-actions-2026-06-02"],
+    "claims_added": [
+      "claim-flsenate-bill-actions-special-session-f-actions-2026-06-02",
+      "claim-h1f-s2f-official-bill-pages-final-action-2026-06-02",
+      "claim-sb4f-hb3f-official-bill-pages-final-action-2026-06-02"
+    ],
+    "claims_revised": [],
+    "claims_retired": [],
+    "automation_run_id": "florida-tax-tracker-editorial-review-2026-06-02",
+    "git_commit": null
   }
 ]
