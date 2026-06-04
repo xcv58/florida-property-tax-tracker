@@ -9,10 +9,14 @@ const primaryUrl = source.url ?? archiveUrl;
 ---
 
 <span class:list={['source-chip', compact && 'source-chip--compact']}>
-  <a href={primaryUrl} target="_blank" rel="noreferrer">
+  <a href={primaryUrl} target="_blank" rel="noreferrer" data-no-translate>
     {source.title}
   </a>
   <span class="source-type">{sourceTypeLabel(source.source_type)}</span>
-  {!compact && <span class="source-meta">Accessed {formatDate(source.accessed_date)}</span>}
+  {!compact && (
+    <span class="source-meta">
+      <span>Accessed</span> <time datetime={source.accessed_date} data-no-translate>{formatDate(source.accessed_date)}</time>
+    </span>
+  )}
   {!compact && archiveUrl && <a href={archiveUrl}>Archived copy</a>}
 </span>

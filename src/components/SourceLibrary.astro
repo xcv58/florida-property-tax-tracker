@@ -34,14 +34,19 @@ const sourceTypes = Array.from(new Set(items.map((source) => source.source_type)
           <article class="source-record" data-source-record data-source-type={source.source_type} data-source-text={`${source.id} ${source.title} ${source.publisher}`.toLowerCase()}>
             <div>
               <p class="terminal-label">&gt; {source.id}</p>
-              <h3>{source.title}</h3>
+              <h3 data-no-translate>{source.title}</h3>
               <p>{source.description}</p>
             </div>
             <dl>
-              <div><dt>Publisher</dt><dd>{source.publisher}</dd></div>
+              <div><dt>Publisher</dt><dd data-no-translate>{source.publisher}</dd></div>
               <div><dt>Source type</dt><dd>{sourceTypeLabel(source.source_type)}</dd></div>
-              <div><dt>Published</dt><dd>{source.published_date ?? 'Not dated'}</dd></div>
-              <div><dt>Accessed</dt><dd>{source.accessed_date}</dd></div>
+              <div>
+                <dt>Published</dt>
+                <dd>
+                  {source.published_date ? <time datetime={source.published_date} data-no-translate>{source.published_date}</time> : 'Not dated'}
+                </dd>
+              </div>
+              <div><dt>Accessed</dt><dd><time datetime={source.accessed_date} data-no-translate>{source.accessed_date}</time></dd></div>
             </dl>
             <p class="muted">{source.reliability_notes}</p>
             <div class="source-row">

@@ -36,14 +36,16 @@ const { items = defaultProposals } = Astro.props;
             return (
               <tr>
                 <th scope="row" data-label="Proposal">
-                  <strong>{proposal.name}</strong>
+                  <strong data-no-translate>{proposal.name}</strong>
                   <span>{proposal.title}</span>
                 </th>
                 <td data-label="Type">{proposal.proposal_type.replaceAll('_', ' ')}</td>
                 <td data-label="Status"><span class={`badge badge--${proposal.status}`}>{proposal.status.replaceAll('_', ' ')}</span></td>
                 <td data-label="Chamber">{proposal.chamber}</td>
-                <td data-label="Sponsor">{proposal.sponsor}</td>
-                <td data-label="Last action">{proposal.last_action_date}: {proposal.last_action}</td>
+                <td data-label="Sponsor" data-no-translate>{proposal.sponsor}</td>
+                <td data-label="Last action">
+                  <time datetime={proposal.last_action_date} data-no-translate>{proposal.last_action_date}</time>: <span>{proposal.last_action}</span>
+                </td>
                 <td data-label="Current relevance">{proposal.current_relevance}</td>
                 <td data-label="Source">
                   <div class="source-row">

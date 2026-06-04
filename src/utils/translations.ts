@@ -913,6 +913,677 @@ const zhHant = Object.fromEntries(
   Object.entries(zhHans).map(([key, value]) => [key, toTraditional(value)]),
 );
 
+const zhHansSupplement = {
+  "Florida Property Tax Tracker update feed": "佛罗里达房产税追踪器更新订阅",
+  "Current tracker overview": "当前追踪器概览",
+  "Current tracker status": "当前追踪器状态",
+  "Status color legend": "状态颜色说明",
+  "Page Not Found": "页面未找到",
+  "The page may have moved, or the link may be incomplete.":
+    "页面可能已移动，或链接可能不完整。",
+  "Return to the tracker overview": "返回追踪器概览",
+  Proposals: "提案",
+  active: "活动中",
+  executive: "行政",
+  Check: "检查",
+  Floor: "全院",
+  Session: "会期",
+  June: "六月",
+  "Jun-Jul": "六月-七月",
+  "Jun. 1-3, 2026": "2026 年 6 月 1-3 日",
+  "May 29-31, 2026": "2026 年 5 月 29-31 日",
+  "Enrolled text, ballot records, Governor action on SB 4-F, or REC/EDR fiscal materials":
+    "已登记文本、选票记录、州长对 SB 4-F 的行动，或 REC/EDR 财政材料",
+  "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/HJR 1-F as ordered enrolled, while CS/SJR 2-F was laid on the table and referred to CS/HJR 1-F. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/SB 4-F as ordered enrolled, while CS/HB 3-F was laid on the table and referred to CS/SB 4-F.":
+    "众议院通过的 HJR 203 路径受阻，因为该提案在参议院拨款委员会中终止。2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/HJR 1-F 已被命令登记，而 CS/SJR 2-F 被搁置并转指 CS/HJR 1-F。2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/SB 4-F 已被命令登记，而 CS/HB 3-F 被搁置并转指 CS/SB 4-F。",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/HJR 1-F (Save our Homes from Excessive Property Taxes) with a last action of June 2, 2026 ordering it enrolled, while CS/SJR 2-F was laid on the table and referred to CS/HJR 1-F. Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/SB 4-F (Property Tax Administration) with a last action of June 2, 2026 ordering it enrolled, while CS/HB 3-F was laid on the table and referred to CS/SB 4-F. The June 2, 2026 Senate bill-actions page listed those actions and displayed that the Senate has adjourned sine die for Special Session F. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.":
+    "2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/HJR 1-F（Save our Homes from Excessive Property Taxes），最后行动为 2026 年 6 月 2 日命令登记；同时 CS/SJR 2-F 被搁置并转指 CS/HJR 1-F。2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/SB 4-F（Property Tax Administration），最后行动为 2026 年 6 月 2 日命令登记；同时 CS/HB 3-F 被搁置并转指 CS/SB 4-F。2026 年 6 月 2 日参议院法案行动页面列出这些行动，并显示参议院已无限期休会，结束特别会期 F。CS/CS/HJR 203 已在佛罗里达众议院通过，但在常规会期的参议院拨款委员会中终止。",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/HJR 1-F with a last action of June 2, 2026 ordering it enrolled, while CS/SJR 2-F showed a last action of June 2, 2026 laying it on the table and referring to CS/HJR 1-F.":
+    "2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/HJR 1-F，最后行动为 2026 年 6 月 2 日命令登记；同时 CS/SJR 2-F 显示的最后行动为 2026 年 6 月 2 日搁置并转指 CS/HJR 1-F。",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/SB 4-F with a last action of June 2, 2026 ordering it enrolled, while CS/HB 3-F showed a last action of June 2, 2026 laying it on the table and referring to CS/SB 4-F.":
+    "2026 年 6 月 2 日审查的佛罗里达参议院官方法案页面列出 CS/SB 4-F，最后行动为 2026 年 6 月 2 日命令登记；同时 CS/HB 3-F 显示的最后行动为 2026 年 6 月 2 日搁置并转指 CS/SB 4-F。",
+  "Bill actions and bill pages for June 2, 2026 show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those advancing vehicles.":
+    "2026 年 6 月 2 日的法案行动和法案页面显示，CS/HJR 1-F 与 CS/SB 4-F 被命令登记，而 CS/SJR 2-F 与 CS/HB 3-F 被搁置，以支持这些推进中的载体。",
+  "Official Senate bill pages list SJR 2-F and SB 4-F on the June 1 Appropriations committee agenda; the May 31 bill-actions page reported no bill actions.":
+    "参议院官方法案页面列出 SJR 2-F 与 SB 4-F 已列入 6 月 1 日拨款委员会议程；5 月 31 日法案行动页面报告没有法案行动。",
+  "Additional special-session bills, new regular-session filings, or committee agendas would need official source support before this tracker marks a vehicle moving beyond filing.":
+    "额外特别会期法案、新的常规会期提交或委员会议程，需要有官方来源支持，本追踪器才会将某个载体标记为已超越提交阶段。",
+  "Special Session 2026-F final floor actions posted":
+    "特别会期 2026-F 最终全院行动已发布",
+  "House substitute advanced": "众议院替代载体推进",
+  "On June 2, 2026, the Senate bill page showed CS/SJR 2-F was laid on the table in favor of CS/HJR 1-F, which was ordered enrolled.":
+    "2026 年 6 月 2 日，参议院法案页面显示 CS/SJR 2-F 被搁置，转而支持已被命令登记的 CS/HJR 1-F。",
+  "Enrollment and ballot steps": "登记和选票步骤",
+  "Watch enrolled text, any Governor action on SB 4-F, and whether the Department of State posts a ballot record for the advancing joint resolution.":
+    "请关注已登记文本、州长对 SB 4-F 的任何行动，以及州务部是否为推进中的联合决议发布选票记录。",
+  "Version-labeled fiscal watch": "有版本标注的财政观察",
+  "Pre-meeting analyses say the Revenue Estimating Conference had not reviewed SJR 2-F or SB 4-F; keep county comparisons separate until version-labeled estimates exist.":
+    "会前分析称 Revenue Estimating Conference 尚未审查 SJR 2-F 或 SB 4-F；在出现有版本标注的估算前，请将县级比较保持单独显示。",
+  "Governor action on SB 4-F remains a watch checkpoint.":
+    "州长对 SB 4-F 的行动仍是观察检查点。",
+  "A Department of State ballot record remains a watch checkpoint if the advancing joint resolution completes the constitutional-amendment path.":
+    "如果推进中的联合决议完成宪法修正案路径，州务部选票记录仍是观察检查点。",
+  "Watch for additional filings and committee movement":
+    "关注额外提交和委员会动向",
+  "House substitute advanced; SB 4-F enrolled":
+    "众议院替代载体推进；SB 4-F 已登记",
+  "The June 2, 2026 bill-actions page and official bill pages show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those vehicles.":
+    "2026 年 6 月 2 日法案行动页面和官方法案页面显示，CS/HJR 1-F 与 CS/SB 4-F 被命令登记，而 CS/SJR 2-F 与 CS/HB 3-F 被搁置，以支持这些载体。",
+  "The next public checkpoints move beyond floor action to enrolled text, ballot records, and any Governor action on SB 4-F.":
+    "下一批公开检查点从全院行动转向已登记文本、选票记录，以及州长对 SB 4-F 的任何行动。",
+  "Special Session 2026-F bill actions posted":
+    "特别会期 2026-F 法案行动已发布",
+  "Official bill actions and bill pages reviewed on June 1, 2026 showed SJR 2-F and SB 4-F introduced and placed on the Special Order Calendar for June 2, 2026 (if received), and House counterparts HJR 1-F and HB 3-F added to the State Affairs Committee agenda.":
+    "2026 年 6 月 1 日审查的官方法案行动和法案页面显示，SJR 2-F 与 SB 4-F 已提出并列入 2026 年 6 月 2 日特别顺序日程（如收到），众议院对应法案 HJR 1-F 与 HB 3-F 已加入州务委员会会议程。",
+  "This records the opening-day bill-actions checkpoint and updates the tracker’s active watch to the June 2 Special Order Calendar and related committee movement.":
+    "这记录了开幕日法案行动检查点，并将追踪器的活动观察更新为 6 月 2 日特别顺序日程及相关委员会动向。",
+  "House substitute advanced and SB 4-F was ordered enrolled":
+    "众议院替代载体推进，SB 4-F 被命令登记",
+  "Official bill actions and bill pages reviewed on June 2, 2026 showed CS/HJR 1-F passed both chambers and was ordered enrolled, CS/SJR 2-F was laid on the table, CS/SB 4-F was ordered enrolled, and CS/HB 3-F was laid on the table.":
+    "2026 年 6 月 2 日审查的官方法案行动和法案页面显示，CS/HJR 1-F 已通过两院并被命令登记，CS/SJR 2-F 被搁置，CS/SB 4-F 被命令登记，CS/HB 3-F 被搁置。",
+  "This records the June 2 floor checkpoint, shows the Senate joint resolution yielded to the House substitute, and shifts the tracker’s next watch to enrolled texts, ballot records, and any executive action on SB 4-F.":
+    "这记录了 6 月 2 日全院检查点，显示参议院联合决议让位于众议院替代载体，并将追踪器下一项观察转向已登记文本、选票记录，以及对 SB 4-F 的任何行政行动。",
+  "Died in Ways & Means Committee": "在筹款委员会中终止",
+  "Elimination of Non-school Property Tax for Homesteads":
+    "取消自住房产非学校房产税",
+  "Related House-filed elimination proposal; did not advance past Ways & Means during the 2026 regular session.":
+    "相关众议院提交的取消税提案；在 2026 年常规会期中未推进超过筹款委员会。",
+  "Save our Homes from Excessive Property Taxes":
+    "保护我们的住房免受过高房产税影响",
+  "Property Tax Administration": "房产税管理",
+  "Ordered enrolled": "命令登记",
+  "Laid on Table, refer to CS/HJR 1-F": "搁置，转指 CS/HJR 1-F",
+  "Laid on Table, refer to CS/SB 4-F": "搁置，转指 CS/SB 4-F",
+  "Special Session 2026-F Senate joint-resolution vehicle that was substituted by the House counterpart on June 2, 2026.":
+    "特别会期 2026-F 参议院联合决议载体，已于 2026 年 6 月 2 日由众议院对应载体替代。",
+  "Special Session 2026-F related property-tax administration bill that passed both chambers and was ordered enrolled on June 2, 2026.":
+    "特别会期 2026-F 相关房产税管理法案，已通过两院并于 2026 年 6 月 2 日被命令登记。",
+  "House Special Session 2026-F joint-resolution vehicle that passed both chambers and was ordered enrolled on June 2, 2026.":
+    "众议院特别会期 2026-F 联合决议载体，已通过两院并于 2026 年 6 月 2 日被命令登记。",
+  "House Special Session 2026-F related property-tax administration bill that was substituted by the Senate counterpart on June 2, 2026.":
+    "众议院特别会期 2026-F 相关房产税管理法案，已于 2026 年 6 月 2 日由参议院对应法案替代。",
+  "HJR 201 died in House Ways & Means Committee":
+    "HJR 201 在众议院筹款委员会中终止",
+  "HJR 201 did not advance through House Ways & Means before the end of the 2026 regular session.":
+    "HJR 201 在 2026 年常规会期结束前未通过众议院筹款委员会推进。",
+  "This ended the regular-session path for another homestead non-school ad valorem elimination proposal.":
+    "这结束了另一项自住房产非学校从价税取消提案的常规会期路径。",
+  "Special Session D adjourned": "特别会期 D 已休会",
+  "Florida Senate bill-actions page noted Special Session D adjourned":
+    "佛罗里达参议院法案行动页面注明特别会期 D 已休会",
+  "The May 1 Florida Senate bill-actions page stated that Special Session D had adjourned sine die and reported no bill actions that day.":
+    "5 月 1 日佛罗里达参议院法案行动页面称特别会期 D 已无限期休会，并报告当天没有法案行动。",
+  "This confirms the Special Session D checkpoint closed without a tracked property-tax elimination vehicle appearing in the reviewed bill-actions record.":
+    "这确认特别会期 D 检查点已关闭，已审查的法案行动记录中未出现正在追踪的取消房产税载体。",
+  "Florida Senate bill-actions page reported no bill actions; Special Session E scheduled":
+    "佛罗里达参议院法案行动页面报告没有法案行动；特别会期 E 已排期",
+  "This refreshes the tracker’s last-verified checkpoint and confirms a new special-session convening date to watch for whether any tracked property-tax elimination vehicle appears in official records.":
+    "这刷新了追踪器最后核实检查点，并确认新的特别会期召开日期，以观察官方记录中是否出现任何正在追踪的取消房产税载体。",
+  "Bill actions listed": "已列出法案行动",
+  "The Florida Senate bill-actions page for May 26, 2026 listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list.":
+    "佛罗里达参议院 2026 年 5 月 26 日法案行动页面列出多项法案行动，且该列表未显示正在追踪的取消房产税提案。",
+  "The May 26 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.":
+    "5 月 26 日佛罗里达参议院法案行动页面列出多项法案行动，本追踪器未在该列表中识别出正在追踪的取消房产税提案。",
+  "The May 27 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.":
+    "5 月 27 日佛罗里达参议院法案行动页面列出多项法案行动，本追踪器未在该列表中识别出正在追踪的取消房产税提案。",
+  "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice.":
+    "这刷新了追踪器最后核实检查点，但未识别出新的已追踪取消房产税载体；该页面还显示了 5 月 29 日召开通知。",
+  "Special Session 2026-F property-tax bills listed on bill actions":
+    "特别会期 2026-F 房产税法案列于法案行动",
+  "The May 28 Florida Senate bill-actions page listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.":
+    "5 月 28 日佛罗里达参议院法案行动页面列出特别会期 2026-F 项目 S 2F（Save our Homes from Excessive Property Taxes）和 S 4F（Property Tax Administration），行动包括已提交并转交拨款委员会。",
+  "This is the first bill-actions checkpoint in this tracker’s log showing Special Session 2026-F property-tax vehicles listed as moving.":
+    "这是本追踪器日志中第一个显示特别会期 2026-F 房产税载体被列为有进展的法案行动检查点。",
+  "Governor proclamation called Special Session 2026-F":
+    "州长公告召集特别会期 2026-F",
+  "A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence June 1, 2026 at 10:00 a.m. and extend no later than June 3, 2026 at 11:59 p.m.":
+    "州长 2026 年 5 月 27 日公告称，特别会期 2026-F 将于 2026 年 6 月 1 日上午 10:00 开始，并不晚于 2026 年 6 月 3 日晚上 11:59 结束。",
+  "This created a new official special-session runway that could introduce new property-tax vehicles outside the regular-session bill record.":
+    "这创建了新的官方特别会期路径，可能在常规会期法案记录之外引入新的房产税载体。",
+  "No bill actions listed": "未列出法案行动",
+  "Florida Senate bill-actions page listed bill actions":
+    "佛罗里达参议院法案行动页面列出法案行动",
+  "This created the primary House vehicle tracked in the 2026 elimination debate.":
+    "这形成了 2026 年取消税讨论中追踪的主要众议院载体。",
+  "The Florida Senate bill-actions page for May 1, 2026 stated that Special Session D had adjourned sine die and reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 1 日法案行动页面称特别会期 D 已无限期休会，并报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 5, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 5 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 7, 2026 reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.":
+    "佛罗里达参议院 2026 年 5 月 7 日法案行动页面报告当天没有法案行动，并称参议院将于 2026 年 5 月 12 日上午 10:00 召开特别会期 E。",
+  "The Florida Senate bill-actions page for May 10, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 10 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 11, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 11 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 12, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 12 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 13, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 13 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 14, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 14 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 16, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 16 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 19 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 20, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 20 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 22, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 22 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 24, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 24 日法案行动页面报告当天没有法案行动。",
+  "The Florida Senate bill-actions page for May 25, 2026 reported no bill actions that day.":
+    "佛罗里达参议院 2026 年 5 月 25 日法案行动页面报告当天没有法案行动。",
+  "The May 5 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 5 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 7 Florida Senate bill-actions page reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.":
+    "5 月 7 日佛罗里达参议院法案行动页面报告当天没有法案行动，并称参议院将于 2026 年 5 月 12 日上午 10:00 召开特别会期 E。",
+  "The May 10 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 10 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 11 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 11 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 12 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 12 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 13 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 13 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 14 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 14 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 16 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 16 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 19 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 19 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 20 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 20 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 22 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 22 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 24 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 24 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 25 Florida Senate bill-actions page reported no bill actions that day.":
+    "5 月 25 日佛罗里达参议院法案行动页面报告当天没有法案行动。",
+  "The May 31 Florida Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+    "5 月 31 日佛罗里达参议院法案行动页面报告没有法案行动，并显示通知称参议院将于 2026 年 6 月 1 日星期一召开 2026 年特别会期 F。",
+  "The May 31 Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on June 1, 2026, for 2026 Special Session F.":
+    "5 月 31 日参议院法案行动页面报告没有法案行动，并显示通知称参议院将于 2026 年 6 月 1 日召开 2026 年特别会期 F。",
+  "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.":
+    "这刷新了追踪器最后核实检查点，但未识别出新的已追踪取消房产税载体。",
+  "The Florida Senate bill-actions page for June 2, 2026 listed Special Session 2026-F actions including: HJR 1-F ordered enrolled, SJR 2-F laid on the table and referred to CS/HJR 1-F, HB 3-F laid on the table and referred to CS/SB 4-F, and SB 4-F ordered enrolled. The same page displayed that the Senate has adjourned sine die for Special Session F.":
+    "佛罗里达参议院 2026 年 6 月 2 日法案行动页面列出特别会期 2026-F 行动，包括 HJR 1-F 被命令登记、SJR 2-F 被搁置并转指 CS/HJR 1-F、HB 3-F 被搁置并转指 CS/SB 4-F，以及 SB 4-F 被命令登记。该页面还显示参议院已无限期休会，结束特别会期 F。",
+  "Official bill page for HJR 201, including bill history, related bills, text, analyses, and last action.":
+    "HJR 201 官方法案页面，包括法案历史、相关法案、文本、分析和最后行动。",
+  "Primary official source for HJR 201 bill status and committee history.":
+    "HJR 201 法案状态和委员会历史的主要官方来源。",
+  "Official Senate bill-actions page indicating Special Session D had adjourned sine die and showing no bill actions for May 1, 2026.":
+    "参议院官方法案行动页面，注明特别会期 D 已无限期休会，并显示 2026 年 5 月 1 日没有法案行动。",
+  "Primary official source for the May 1, 2026 Senate bill-actions status line and listed bill actions.":
+    "2026 年 5 月 1 日参议院法案行动状态行和所列法案行动的主要官方来源。",
+  "Official Senate bill-actions page for May 5, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 5 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the listed bill actions on May 5, 2026.":
+    "2026 年 5 月 5 日所列法案行动的主要官方来源。",
+  "Joint proclamation PDF linked from Florida Senate calendar links for Special Session E.":
+    "佛罗里达参议院日历链接中关于特别会期 E 的联合公告 PDF。",
+  "Official Florida Senate-hosted PDF link for Special Session E.":
+    "佛罗里达参议院托管的特别会期 E PDF 官方链接。",
+  "Official Senate bill-actions page for May 7, 2026, reporting no bill actions and displaying the Special Session E convening notice.":
+    "2026 年 5 月 7 日参议院官方法案行动页面，报告没有法案行动并显示特别会期 E 召开通知。",
+  "Primary official source for the May 7, 2026 bill-actions page status line and special-session convening notice.":
+    "2026 年 5 月 7 日法案行动页面状态行和特别会期召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 10, 2026, reporting no bill actions that day and displaying the Special Session E convening notice.":
+    "2026 年 5 月 10 日参议院官方法案行动页面，报告当天没有法案行动并显示特别会期 E 召开通知。",
+  "Primary official source for the May 10, 2026 bill-actions page status line and special-session convening notice.":
+    "2026 年 5 月 10 日法案行动页面状态行和特别会期召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 11, 2026, reporting no bill actions that day and displaying the Special Session E convening notice.":
+    "2026 年 5 月 11 日参议院官方法案行动页面，报告当天没有法案行动并显示特别会期 E 召开通知。",
+  "Primary official source for the May 11, 2026 bill-actions page status line and special-session convening notice.":
+    "2026 年 5 月 11 日法案行动页面状态行和特别会期召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 12, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 12 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 12, 2026 bill-actions page status line.":
+    "2026 年 5 月 12 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 13, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 13 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 13, 2026 bill-actions page status line.":
+    "2026 年 5 月 13 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 14, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 14 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 14, 2026 bill-actions page status line.":
+    "2026 年 5 月 14 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 16, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 16 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 16, 2026 bill-actions page status line.":
+    "2026 年 5 月 16 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 19, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 19 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 19, 2026 bill-actions page status line.":
+    "2026 年 5 月 19 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 20, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 20 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 20, 2026 bill-actions page status line.":
+    "2026 年 5 月 20 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 22, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 22 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 22, 2026 bill-actions page status line.":
+    "2026 年 5 月 22 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 24, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 24 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 24, 2026 bill-actions page status line.":
+    "2026 年 5 月 24 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 25, 2026, reporting no bill actions that day.":
+    "2026 年 5 月 25 日参议院官方法案行动页面，报告当天没有法案行动。",
+  "Primary official source for the May 25, 2026 bill-actions page status line.":
+    "2026 年 5 月 25 日法案行动页面状态行的主要官方来源。",
+  "Official Senate bill-actions page for May 26, 2026, listing multiple bill actions and displaying a May 29, 2026 convening notice.":
+    "2026 年 5 月 26 日参议院官方法案行动页面，列出多项法案行动并显示 2026 年 5 月 29 日召开通知。",
+  "Primary official source for the May 26, 2026 bill-actions list and convening notice.":
+    "2026 年 5 月 26 日法案行动列表和召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 27, 2026, listing multiple bill actions and displaying a May 29, 2026 convening notice.":
+    "2026 年 5 月 27 日参议院官方法案行动页面，列出多项法案行动并显示 2026 年 5 月 29 日召开通知。",
+  "Primary official source for the May 27, 2026 bill-actions list and convening notice.":
+    "2026 年 5 月 27 日法案行动列表和召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 28, 2026, listing Special Session 2026-F bills including S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) and displaying a May 29, 2026 convening notice.":
+    "2026 年 5 月 28 日参议院官方法案行动页面，列出特别会期 2026-F 法案，包括 S 2F（Save our Homes from Excessive Property Taxes）和 S 4F（Property Tax Administration），并显示 2026 年 5 月 29 日召开通知。",
+  "Primary official source for the May 28, 2026 bill-actions list and any convening notice displayed above the list.":
+    "2026 年 5 月 28 日法案行动列表及列表上方任何召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 29, 2026, listing Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including being placed on the Appropriations committee agenda for June 1, 2026.":
+    "2026 年 5 月 29 日参议院官方法案行动页面，列出特别会期 2026-F 项目 S 2F（Save our Homes from Excessive Property Taxes）和 S 4F（Property Tax Administration），其行动包括列入 2026 年 6 月 1 日拨款委员会议程。",
+  "Primary official source for the May 29, 2026 bill-actions list and any notices displayed above the list.":
+    "2026 年 5 月 29 日法案行动列表及列表上方任何通知的主要官方来源。",
+  "Official Senate bill-actions page for May 30, 2026, reporting no bill actions on that day and displaying a notice that the Senate will convene on Monday, June 1, 2026, for Special Session F.":
+    "2026 年 5 月 30 日参议院官方法案行动页面，报告当天没有法案行动，并显示通知称参议院将于 2026 年 6 月 1 日星期一召开特别会期 F。",
+  "Primary official source for the May 30, 2026 bill-actions check and the displayed Special Session F convening notice.":
+    "2026 年 5 月 30 日法案行动检查和显示的特别会期 F 召开通知的主要官方来源。",
+  "Official Senate bill-actions page for May 31, 2026, reporting no bill actions on that day and displaying a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+    "2026 年 5 月 31 日参议院官方法案行动页面，报告当天没有法案行动，并显示通知称参议院将于 2026 年 6 月 1 日星期一召开 2026 年特别会期 F。",
+  "Primary official source for the May 31, 2026 bill-actions check and the displayed Special Session F convening notice.":
+    "2026 年 5 月 31 日法案行动检查和显示的特别会期 F 召开通知的主要官方来源。",
+  "Official Senate bill-actions page for June 1, 2026, listing actions for Special Session 2026-F bills including HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F, and displaying a notice that the Senate will convene on Tuesday, June 2, 2026 at 9:00 a.m., or upon the call of the President.":
+    "2026 年 6 月 1 日参议院官方法案行动页面，列出特别会期 2026-F 法案行动，包括 HJR 1-F、SJR 2-F、HB 3-F 和 SB 4-F，并显示通知称参议院将于 2026 年 6 月 2 日星期二上午 9:00 或依议长召集召开会议。",
+  "Primary official source for the June 1, 2026 bill-actions check and the displayed convening notice.":
+    "2026 年 6 月 1 日法案行动检查和显示的召开通知的主要官方来源。",
+  "Official Senate bill-actions page for June 2, 2026, listing Special Session 2026-F actions for HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F, and displaying that the Senate has adjourned sine die for Special Session F.":
+    "2026 年 6 月 2 日参议院官方法案行动页面，列出 HJR 1-F、SJR 2-F、HB 3-F 和 SB 4-F 的特别会期 2026-F 行动，并显示参议院已无限期休会，结束特别会期 F。",
+  "Primary official source for the June 2, 2026 bill-actions checkpoint and the displayed Special Session F adjournment notice.":
+    "2026 年 6 月 2 日法案行动检查点和显示的特别会期 F 休会通知的主要官方来源。",
+  "Official Senate bill list for Special Session 2026-F, showing two Senate bills found: SJR 2F (Save our Homes from Excessive Property Taxes) and SB 4F (Property Tax Administration).":
+    "特别会期 2026-F 参议院官方法案列表，显示找到两项参议院法案：SJR 2F（Save our Homes from Excessive Property Taxes）和 SB 4F（Property Tax Administration）。",
+  "Official summary source for which Senate bills are listed in Special Session 2026-F.":
+    "用于确认特别会期 2026-F 中列出哪些参议院法案的官方摘要来源。",
+  "Official Senate bill page for SJR 2-F, Save our Homes from Excessive Property Taxes, including bill history, linked SB 4-F, bill text, analysis, vote-history status, and latest action.":
+    "SJR 2-F（Save our Homes from Excessive Property Taxes）参议院官方法案页面，包括法案历史、链接的 SB 4-F、法案文本、分析、投票历史状态和最新行动。",
+  "Primary official source for current SJR 2-F bill status and bill-page metadata.":
+    "当前 SJR 2-F 法案状态和法案页面元数据的主要官方来源。",
+  "Official Senate bill page for SB 4-F, Property Tax Administration, including bill history, linked SJR 2-F, bill text, analysis, cited statutes, appropriation note, vote-history status, and latest action.":
+    "SB 4-F（Property Tax Administration）参议院官方法案页面，包括法案历史、链接的 SJR 2-F、法案文本、分析、引用法规、拨款说明、投票历史状态和最新行动。",
+  "Primary official source for current SB 4-F bill status and bill-page metadata.":
+    "当前 SB 4-F 法案状态和法案页面元数据的主要官方来源。",
+  "Official bill page for HJR 1-F, Save our Homes from Excessive Property Taxes, including bill history, linked HB 3-F, bill text, analyses, and latest action.":
+    "HJR 1-F（Save our Homes from Excessive Property Taxes）官方法案页面，包括法案历史、链接的 HB 3-F、法案文本、分析和最新行动。",
+  "Primary official source for current HJR 1-F bill status and bill-page metadata.":
+    "当前 HJR 1-F 法案状态和法案页面元数据的主要官方来源。",
+  "Official bill page for HB 3-F, Property Tax Administration, including bill history, linked HJR 1-F, cited statutes, appropriation note, analyses, and latest action.":
+    "HB 3-F（Property Tax Administration）官方法案页面，包括法案历史、链接的 HJR 1-F、引用法规、拨款说明、分析和最新行动。",
+  "Primary official source for current HB 3-F bill status and bill-page metadata.":
+    "当前 HB 3-F 法案状态和法案页面元数据的主要官方来源。",
+  "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SJR 2-F.":
+    "SJR 2-F 的参议院拨款委员会会前法案分析和财政影响说明。",
+  "Official staff analysis for the SJR 2-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate.":
+    "2026 年 6 月 1 日拨款委员会会议前审查的 SJR 2-F 版本官方工作人员分析；不应视为 Revenue Estimating Conference 估算。",
+  "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SB 4-F.":
+    "SB 4-F 的参议院拨款委员会会前法案分析和财政影响说明。",
+  "Official staff analysis for the SB 4-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate.":
+    "2026 年 6 月 1 日拨款委员会会议前审查的 SB 4-F 版本官方工作人员分析；不应视为 Revenue Estimating Conference 估算。",
+  "Governor proclamation PDF linked from Florida Senate calendar links calling Special Session 2026-F and listing the stated purposes of the session.":
+    "佛罗里达参议院日历链接中的州长公告 PDF，召集特别会期 2026-F 并列出该会期所述目的。",
+  "Primary official source for Special Session 2026-F call dates and stated purposes.":
+    "特别会期 2026-F 召集日期和所述目的的主要官方来源。",
+  "Governor press release describing the stated purpose of a proposed special session during the week of June 1, 2026 and describing a proposal titled “Save Our Homes from Excessive Property Taxes.”":
+    "州长新闻稿描述 2026 年 6 月 1 日当周拟议特别会期的所述目的，并描述一项名为“Save Our Homes from Excessive Property Taxes”的提案。",
+  "Official executive-branch press release; treated as a statement of the Governor’s described proposal and goals (not a substitute for bill text).":
+    "行政部门官方新闻稿；视为州长所描述提案和目标的陈述（不能替代法案文本）。",
+  "Official Department of State database view for constitutional initiatives, amendments, and revisions reviewed on May 30, 2026.":
+    "2026 年 5 月 30 日审查的州务部宪法倡议、修正案和修订数据库官方视图。",
+  "Official election source for checking whether a measure appears in the displayed ballot-position database table as reviewed on the access date.":
+    "用于检查某项措施是否出现在访问日期所审查选票位置数据库表中的官方选举来源。",
+} as const;
+
+const zhHantSupplement = Object.fromEntries(
+  Object.entries(zhHansSupplement).map(([key, value]) => [key, toTraditional(value)]),
+);
+
+const esSupplement = {
+  "Florida Property Tax Tracker update feed":
+    "Feed de actualizaciones del Rastreador de Impuestos a la Propiedad de Florida",
+  "Current tracker overview": "Resumen actual del rastreador",
+  "Current tracker status": "Estado actual del rastreador",
+  "Status color legend": "Leyenda de colores de estado",
+  "Page Not Found": "Página no encontrada",
+  "The page may have moved, or the link may be incomplete.":
+    "Es posible que la página se haya movido o que el enlace esté incompleto.",
+  "Return to the tracker overview": "Volver al resumen del rastreador",
+  Proposals: "Propuestas",
+  active: "activa",
+  executive: "ejecutivo",
+  Check: "Revisión",
+  Floor: "Pleno",
+  Session: "Sesión",
+  June: "Junio",
+  "Jun-Jul": "Jun-Jul",
+  "Jun. 1-3, 2026": "1-3 de jun. de 2026",
+  "May 29-31, 2026": "29-31 de mayo de 2026",
+  "Enrolled text, ballot records, Governor action on SB 4-F, or REC/EDR fiscal materials":
+    "Texto inscrito, registros electorales, acción del Gobernador sobre SB 4-F o materiales fiscales de REC/EDR",
+  "The House-passed HJR 203 path is blocked because the proposal died in Senate Appropriations. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/HJR 1-F as ordered enrolled, while CS/SJR 2-F was laid on the table and referred to CS/HJR 1-F. Official Florida Senate bill pages reviewed on June 2, 2026 list CS/SB 4-F as ordered enrolled, while CS/HB 3-F was laid on the table and referred to CS/SB 4-F.":
+    "La ruta de HJR 203 aprobada por la Cámara está bloqueada porque la propuesta murió en Apropiaciones del Senado. Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listan CS/HJR 1-F como ordenada para inscripción, mientras CS/SJR 2-F fue dejado sobre la mesa y remitido a CS/HJR 1-F. Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listan CS/SB 4-F como ordenada para inscripción, mientras CS/HB 3-F fue dejado sobre la mesa y remitido a CS/SB 4-F.",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/HJR 1-F (Save our Homes from Excessive Property Taxes) with a last action of June 2, 2026 ordering it enrolled, while CS/SJR 2-F was laid on the table and referred to CS/HJR 1-F. Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/SB 4-F (Property Tax Administration) with a last action of June 2, 2026 ordering it enrolled, while CS/HB 3-F was laid on the table and referred to CS/SB 4-F. The June 2, 2026 Senate bill-actions page listed those actions and displayed that the Senate has adjourned sine die for Special Session F. CS/CS/HJR 203 passed the Florida House but died in Senate Appropriations during the regular session.":
+    "Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listaron CS/HJR 1-F (Save our Homes from Excessive Property Taxes) con una última acción del 2 de junio de 2026 que ordenó su inscripción, mientras CS/SJR 2-F fue dejado sobre la mesa y remitido a CS/HJR 1-F. Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listaron CS/SB 4-F (Property Tax Administration) con una última acción del 2 de junio de 2026 que ordenó su inscripción, mientras CS/HB 3-F fue dejado sobre la mesa y remitido a CS/SB 4-F. La página de acciones legislativas del Senado del 2 de junio de 2026 listó esas acciones y mostró que el Senado había levantado sine die la Sesión Especial F. CS/CS/HJR 203 fue aprobada por la Cámara de Florida, pero murió en Apropiaciones del Senado durante la sesión regular.",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/HJR 1-F with a last action of June 2, 2026 ordering it enrolled, while CS/SJR 2-F showed a last action of June 2, 2026 laying it on the table and referring to CS/HJR 1-F.":
+    "Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listaron CS/HJR 1-F con una última acción del 2 de junio de 2026 que ordenó su inscripción, mientras CS/SJR 2-F mostró una última acción del 2 de junio de 2026 dejándola sobre la mesa y remitiéndola a CS/HJR 1-F.",
+  "Official Florida Senate bill pages reviewed on June 2, 2026 listed CS/SB 4-F with a last action of June 2, 2026 ordering it enrolled, while CS/HB 3-F showed a last action of June 2, 2026 laying it on the table and referring to CS/SB 4-F.":
+    "Las páginas oficiales del Senado de Florida revisadas el 2 de junio de 2026 listaron CS/SB 4-F con una última acción del 2 de junio de 2026 que ordenó su inscripción, mientras CS/HB 3-F mostró una última acción del 2 de junio de 2026 dejándola sobre la mesa y remitiéndola a CS/SB 4-F.",
+  "Bill actions and bill pages for June 2, 2026 show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those advancing vehicles.":
+    "Las acciones legislativas y páginas de proyectos del 2 de junio de 2026 muestran que CS/HJR 1-F y CS/SB 4-F fueron ordenados para inscripción, mientras CS/SJR 2-F y CS/HB 3-F fueron dejados sobre la mesa a favor de esos vehículos en avance.",
+  "Official Senate bill pages list SJR 2-F and SB 4-F on the June 1 Appropriations committee agenda; the May 31 bill-actions page reported no bill actions.":
+    "Las páginas oficiales del Senado listan SJR 2-F y SB 4-F en la agenda del Comité de Apropiaciones del 1 de junio; la página de acciones legislativas del 31 de mayo informó que no hubo acciones.",
+  "Additional special-session bills, new regular-session filings, or committee agendas would need official source support before this tracker marks a vehicle moving beyond filing.":
+    "Proyectos adicionales de sesión especial, nuevas presentaciones de sesión regular o agendas de comité necesitarían respaldo de fuentes oficiales antes de que este rastreador marque un vehículo como avanzado más allá de la presentación.",
+  "Special Session 2026-F final floor actions posted":
+    "Acciones finales del pleno de la Sesión Especial 2026-F publicadas",
+  "House substitute advanced": "Avanzó el sustituto de la Cámara",
+  "On June 2, 2026, the Senate bill page showed CS/SJR 2-F was laid on the table in favor of CS/HJR 1-F, which was ordered enrolled.":
+    "El 2 de junio de 2026, la página del Senado mostró que CS/SJR 2-F fue dejada sobre la mesa a favor de CS/HJR 1-F, que fue ordenada para inscripción.",
+  "Enrollment and ballot steps": "Inscripción y pasos de boleta",
+  "Watch enrolled text, any Governor action on SB 4-F, and whether the Department of State posts a ballot record for the advancing joint resolution.":
+    "Vigile el texto inscrito, cualquier acción del Gobernador sobre SB 4-F y si el Departamento de Estado publica un registro electoral para la resolución conjunta en avance.",
+  "Version-labeled fiscal watch": "Seguimiento fiscal con versión identificada",
+  "Pre-meeting analyses say the Revenue Estimating Conference had not reviewed SJR 2-F or SB 4-F; keep county comparisons separate until version-labeled estimates exist.":
+    "Los análisis previos a la reunión dicen que la Revenue Estimating Conference no había revisado SJR 2-F ni SB 4-F; mantenga separadas las comparaciones por condado hasta que existan estimaciones con versión identificada.",
+  "Governor action on SB 4-F remains a watch checkpoint.":
+    "La acción del Gobernador sobre SB 4-F sigue siendo un punto de seguimiento.",
+  "A Department of State ballot record remains a watch checkpoint if the advancing joint resolution completes the constitutional-amendment path.":
+    "Un registro electoral del Departamento de Estado sigue siendo un punto de seguimiento si la resolución conjunta en avance completa la ruta de enmienda constitucional.",
+  "Watch for additional filings and committee movement":
+    "Vigilar presentaciones adicionales y movimiento en comités",
+  "House substitute advanced; SB 4-F enrolled":
+    "Avanzó el sustituto de la Cámara; SB 4-F inscrito",
+  "The June 2, 2026 bill-actions page and official bill pages show CS/HJR 1-F and CS/SB 4-F were ordered enrolled, while CS/SJR 2-F and CS/HB 3-F were laid on the table in favor of those vehicles.":
+    "La página de acciones legislativas del 2 de junio de 2026 y las páginas oficiales de proyectos muestran que CS/HJR 1-F y CS/SB 4-F fueron ordenados para inscripción, mientras CS/SJR 2-F y CS/HB 3-F fueron dejados sobre la mesa a favor de esos vehículos.",
+  "The next public checkpoints move beyond floor action to enrolled text, ballot records, and any Governor action on SB 4-F.":
+    "Los próximos puntos públicos pasan de la acción del pleno al texto inscrito, los registros electorales y cualquier acción del Gobernador sobre SB 4-F.",
+  "Special Session 2026-F bill actions posted":
+    "Acciones legislativas de la Sesión Especial 2026-F publicadas",
+  "Official bill actions and bill pages reviewed on June 1, 2026 showed SJR 2-F and SB 4-F introduced and placed on the Special Order Calendar for June 2, 2026 (if received), and House counterparts HJR 1-F and HB 3-F added to the State Affairs Committee agenda.":
+    "Las acciones legislativas y páginas oficiales revisadas el 1 de junio de 2026 mostraron que SJR 2-F y SB 4-F fueron presentados y colocados en el Calendario de Orden Especial para el 2 de junio de 2026 (si se recibían), y que las contrapartes de la Cámara HJR 1-F y HB 3-F fueron añadidas a la agenda del Comité de Asuntos Estatales.",
+  "This records the opening-day bill-actions checkpoint and updates the tracker’s active watch to the June 2 Special Order Calendar and related committee movement.":
+    "Esto registra el punto de acciones legislativas del día de apertura y actualiza el seguimiento activo del rastreador al Calendario de Orden Especial del 2 de junio y movimiento de comité relacionado.",
+  "House substitute advanced and SB 4-F was ordered enrolled":
+    "Avanzó el sustituto de la Cámara y SB 4-F fue ordenado para inscripción",
+  "Official bill actions and bill pages reviewed on June 2, 2026 showed CS/HJR 1-F passed both chambers and was ordered enrolled, CS/SJR 2-F was laid on the table, CS/SB 4-F was ordered enrolled, and CS/HB 3-F was laid on the table.":
+    "Las acciones legislativas y páginas oficiales revisadas el 2 de junio de 2026 mostraron que CS/HJR 1-F pasó ambas cámaras y fue ordenado para inscripción, CS/SJR 2-F fue dejado sobre la mesa, CS/SB 4-F fue ordenado para inscripción y CS/HB 3-F fue dejado sobre la mesa.",
+  "This records the June 2 floor checkpoint, shows the Senate joint resolution yielded to the House substitute, and shifts the tracker’s next watch to enrolled texts, ballot records, and any executive action on SB 4-F.":
+    "Esto registra el punto del pleno del 2 de junio, muestra que la resolución conjunta del Senado cedió ante el sustituto de la Cámara y desplaza el próximo seguimiento del rastreador a textos inscritos, registros electorales y cualquier acción ejecutiva sobre SB 4-F.",
+  "Died in Ways & Means Committee": "Murió en Ways & Means Committee",
+  "Elimination of Non-school Property Tax for Homesteads":
+    "Eliminación de impuestos a la propiedad no escolares para homesteads",
+  "Related House-filed elimination proposal; did not advance past Ways & Means during the 2026 regular session.":
+    "Propuesta relacionada de eliminación presentada en la Cámara; no avanzó más allá de Ways & Means durante la sesión regular de 2026.",
+  "Save our Homes from Excessive Property Taxes":
+    "Salvar nuestros hogares de impuestos a la propiedad excesivos",
+  "Property Tax Administration": "Administración de impuestos a la propiedad",
+  "Ordered enrolled": "Ordenado para inscripción",
+  "Laid on Table, refer to CS/HJR 1-F":
+    "Dejado sobre la mesa, remitido a CS/HJR 1-F",
+  "Laid on Table, refer to CS/SB 4-F":
+    "Dejado sobre la mesa, remitido a CS/SB 4-F",
+  "Special Session 2026-F Senate joint-resolution vehicle that was substituted by the House counterpart on June 2, 2026.":
+    "Vehículo de resolución conjunta del Senado de la Sesión Especial 2026-F que fue sustituido por la contraparte de la Cámara el 2 de junio de 2026.",
+  "Special Session 2026-F related property-tax administration bill that passed both chambers and was ordered enrolled on June 2, 2026.":
+    "Proyecto relacionado de administración de impuestos a la propiedad de la Sesión Especial 2026-F que pasó ambas cámaras y fue ordenado para inscripción el 2 de junio de 2026.",
+  "House Special Session 2026-F joint-resolution vehicle that passed both chambers and was ordered enrolled on June 2, 2026.":
+    "Vehículo de resolución conjunta de la Cámara de la Sesión Especial 2026-F que pasó ambas cámaras y fue ordenado para inscripción el 2 de junio de 2026.",
+  "House Special Session 2026-F related property-tax administration bill that was substituted by the Senate counterpart on June 2, 2026.":
+    "Proyecto relacionado de administración de impuestos a la propiedad de la Cámara en la Sesión Especial 2026-F que fue sustituido por la contraparte del Senado el 2 de junio de 2026.",
+  "HJR 201 died in House Ways & Means Committee":
+    "HJR 201 murió en el Ways & Means Committee de la Cámara",
+  "HJR 201 did not advance through House Ways & Means before the end of the 2026 regular session.":
+    "HJR 201 no avanzó por Ways & Means de la Cámara antes del final de la sesión regular de 2026.",
+  "This ended the regular-session path for another homestead non-school ad valorem elimination proposal.":
+    "Esto terminó la ruta de la sesión regular para otra propuesta de eliminación ad valorem no escolar para homesteads.",
+  "Special Session D adjourned": "Sesión Especial D levantada",
+  "Florida Senate bill-actions page noted Special Session D adjourned":
+    "La página de acciones legislativas del Senado de Florida indicó que la Sesión Especial D se levantó",
+  "The May 1 Florida Senate bill-actions page stated that Special Session D had adjourned sine die and reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 1 de mayo indicó que la Sesión Especial D había levantado sine die y reportó que no hubo acciones legislativas ese día.",
+  "This confirms the Special Session D checkpoint closed without a tracked property-tax elimination vehicle appearing in the reviewed bill-actions record.":
+    "Esto confirma que el punto de la Sesión Especial D cerró sin que apareciera un vehículo rastreado de eliminación de impuestos a la propiedad en el registro revisado de acciones legislativas.",
+  "Florida Senate bill-actions page reported no bill actions; Special Session E scheduled":
+    "La página de acciones legislativas del Senado de Florida informó que no hubo acciones; Sesión Especial E programada",
+  "This refreshes the tracker’s last-verified checkpoint and confirms a new special-session convening date to watch for whether any tracked property-tax elimination vehicle appears in official records.":
+    "Esto actualiza el punto de última verificación del rastreador y confirma una nueva fecha de convocatoria de sesión especial para vigilar si algún vehículo rastreado de eliminación de impuestos a la propiedad aparece en registros oficiales.",
+  "Bill actions listed": "Acciones legislativas listadas",
+  "The Florida Senate bill-actions page for May 26, 2026 listed multiple bill actions and did not show a tracked property-tax elimination proposal on that list.":
+    "La página de acciones legislativas del Senado de Florida del 26 de mayo de 2026 listó varias acciones legislativas y no mostró una propuesta rastreada de eliminación de impuestos a la propiedad en esa lista.",
+  "The May 26 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.":
+    "La página de acciones legislativas del Senado de Florida del 26 de mayo listó varias acciones legislativas y este rastreador no identificó una propuesta rastreada de eliminación de impuestos a la propiedad en esa lista.",
+  "The May 27 Florida Senate bill-actions page listed multiple bill actions and this tracker did not identify a tracked property-tax elimination proposal on that list.":
+    "La página de acciones legislativas del Senado de Florida del 27 de mayo listó varias acciones legislativas y este rastreador no identificó una propuesta rastreada de eliminación de impuestos a la propiedad en esa lista.",
+  "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle; the page also displayed a May 29 convening notice.":
+    "Esto actualiza el punto de última verificación del rastreador sin identificar un nuevo vehículo rastreado de eliminación de impuestos a la propiedad; la página también mostró un aviso de convocatoria para el 29 de mayo.",
+  "Special Session 2026-F property-tax bills listed on bill actions":
+    "Proyectos de impuestos a la propiedad de la Sesión Especial 2026-F listados en acciones legislativas",
+  "The May 28 Florida Senate bill-actions page listed Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including Filed and Referred to Appropriations.":
+    "La página de acciones legislativas del Senado de Florida del 28 de mayo listó los elementos de la Sesión Especial 2026-F S 2F (Save our Homes from Excessive Property Taxes) y S 4F (Property Tax Administration) con acciones que incluían presentado y remitido a Apropiaciones.",
+  "This is the first bill-actions checkpoint in this tracker’s log showing Special Session 2026-F property-tax vehicles listed as moving.":
+    "Este es el primer punto de acciones legislativas en el registro de este rastreador que muestra vehículos de impuestos a la propiedad de la Sesión Especial 2026-F listados como en movimiento.",
+  "Governor proclamation called Special Session 2026-F":
+    "La proclamación del Gobernador convocó la Sesión Especial 2026-F",
+  "A Governor proclamation dated May 27, 2026 stated Special Session 2026-F would commence June 1, 2026 at 10:00 a.m. and extend no later than June 3, 2026 at 11:59 p.m.":
+    "Una proclamación del Gobernador fechada el 27 de mayo de 2026 indicó que la Sesión Especial 2026-F comenzaría el 1 de junio de 2026 a las 10:00 a.m. y se extendería a más tardar hasta el 3 de junio de 2026 a las 11:59 p.m.",
+  "This created a new official special-session runway that could introduce new property-tax vehicles outside the regular-session bill record.":
+    "Esto creó una nueva ruta oficial de sesión especial que podría introducir nuevos vehículos de impuestos a la propiedad fuera del registro de proyectos de la sesión regular.",
+  "No bill actions listed": "No se listaron acciones legislativas",
+  "Florida Senate bill-actions page listed bill actions":
+    "La página de acciones legislativas del Senado de Florida listó acciones legislativas",
+  "This created the primary House vehicle tracked in the 2026 elimination debate.":
+    "Esto creó el vehículo principal de la Cámara rastreado en el debate de eliminación de 2026.",
+  "The Florida Senate bill-actions page for May 1, 2026 stated that Special Session D had adjourned sine die and reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 1 de mayo de 2026 indicó que la Sesión Especial D había levantado sine die y reportó que no hubo acciones legislativas ese día.",
+  "The Florida Senate bill-actions page for May 5, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 5 de mayo de 2026 informó que no hubo acciones legislativas ese día.",
+  "The Florida Senate bill-actions page for May 7, 2026 reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.":
+    "La página de acciones legislativas del Senado de Florida del 7 de mayo de 2026 informó que no hubo acciones ese día e indicó que el Senado se reuniría el 12 de mayo de 2026 a las 10:00 AM para la Sesión Especial E.",
+  "The Florida Senate bill-actions page for May 10, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 10 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 11, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 11 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 12, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 12 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 13, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 13 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 14, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 14 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 16, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 16 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 19, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 19 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 20, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 20 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 22, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 22 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 24, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 24 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The Florida Senate bill-actions page for May 25, 2026 reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 25 de mayo de 2026 informó que no hubo acciones ese día.",
+  "The May 5 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 5 de mayo informó que no hubo acciones ese día.",
+  "The May 7 Florida Senate bill-actions page reported no bill actions that day and stated the Senate will convene on May 12, 2026, at 10:00 AM for Special Session E.":
+    "La página de acciones legislativas del Senado de Florida del 7 de mayo informó que no hubo acciones ese día e indicó que el Senado se reuniría el 12 de mayo de 2026 a las 10:00 AM para la Sesión Especial E.",
+  "The May 10 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 10 de mayo informó que no hubo acciones ese día.",
+  "The May 11 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 11 de mayo informó que no hubo acciones ese día.",
+  "The May 12 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 12 de mayo informó que no hubo acciones ese día.",
+  "The May 13 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 13 de mayo informó que no hubo acciones ese día.",
+  "The May 14 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 14 de mayo informó que no hubo acciones ese día.",
+  "The May 16 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 16 de mayo informó que no hubo acciones ese día.",
+  "The May 19 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 19 de mayo informó que no hubo acciones ese día.",
+  "The May 20 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 20 de mayo informó que no hubo acciones ese día.",
+  "The May 22 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 22 de mayo informó que no hubo acciones ese día.",
+  "The May 24 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 24 de mayo informó que no hubo acciones ese día.",
+  "The May 25 Florida Senate bill-actions page reported no bill actions that day.":
+    "La página de acciones legislativas del Senado de Florida del 25 de mayo informó que no hubo acciones ese día.",
+  "The May 31 Florida Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+    "La página de acciones legislativas del Senado de Florida del 31 de mayo informó que no hubo acciones y mostró un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F de 2026.",
+  "The May 31 Senate bill-actions page reported no bill actions and displayed a notice that the Senate will convene on June 1, 2026, for 2026 Special Session F.":
+    "La página de acciones legislativas del Senado del 31 de mayo informó que no hubo acciones y mostró un aviso de que el Senado se reunirá el 1 de junio de 2026 para la Sesión Especial F de 2026.",
+  "This refreshes the tracker’s last-verified checkpoint without identifying a new tracked property-tax elimination vehicle.":
+    "Esto actualiza el punto de última verificación del rastreador sin identificar un nuevo vehículo rastreado de eliminación de impuestos a la propiedad.",
+  "The Florida Senate bill-actions page for June 2, 2026 listed Special Session 2026-F actions including: HJR 1-F ordered enrolled, SJR 2-F laid on the table and referred to CS/HJR 1-F, HB 3-F laid on the table and referred to CS/SB 4-F, and SB 4-F ordered enrolled. The same page displayed that the Senate has adjourned sine die for Special Session F.":
+    "La página de acciones legislativas del Senado de Florida del 2 de junio de 2026 listó acciones de la Sesión Especial 2026-F, incluidas: HJR 1-F ordenado para inscripción, SJR 2-F dejado sobre la mesa y remitido a CS/HJR 1-F, HB 3-F dejado sobre la mesa y remitido a CS/SB 4-F, y SB 4-F ordenado para inscripción. La misma página mostró que el Senado levantó sine die la Sesión Especial F.",
+  "Official bill page for HJR 201, including bill history, related bills, text, analyses, and last action.":
+    "Página oficial del proyecto HJR 201, incluidos historial, proyectos relacionados, texto, análisis y última acción.",
+  "Primary official source for HJR 201 bill status and committee history.":
+    "Fuente oficial principal para el estado de HJR 201 y su historial de comité.",
+  "Official Senate bill-actions page indicating Special Session D had adjourned sine die and showing no bill actions for May 1, 2026.":
+    "Página oficial de acciones legislativas del Senado que indica que la Sesión Especial D había levantado sine die y muestra que no hubo acciones legislativas el 1 de mayo de 2026.",
+  "Primary official source for the May 1, 2026 Senate bill-actions status line and listed bill actions.":
+    "Fuente oficial principal para la línea de estado de acciones legislativas del Senado del 1 de mayo de 2026 y las acciones listadas.",
+  "Official Senate bill-actions page for May 5, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 5 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the listed bill actions on May 5, 2026.":
+    "Fuente oficial principal para las acciones legislativas listadas el 5 de mayo de 2026.",
+  "Joint proclamation PDF linked from Florida Senate calendar links for Special Session E.":
+    "PDF de proclamación conjunta enlazado desde los enlaces de calendario del Senado de Florida para la Sesión Especial E.",
+  "Official Florida Senate-hosted PDF link for Special Session E.":
+    "Enlace PDF oficial alojado por el Senado de Florida para la Sesión Especial E.",
+  "Official Senate bill-actions page for May 7, 2026, reporting no bill actions and displaying the Special Session E convening notice.":
+    "Página oficial de acciones legislativas del Senado del 7 de mayo de 2026, que informa que no hubo acciones y muestra el aviso de convocatoria de la Sesión Especial E.",
+  "Primary official source for the May 7, 2026 bill-actions page status line and special-session convening notice.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 7 de mayo de 2026 y el aviso de convocatoria de sesión especial.",
+  "Official Senate bill-actions page for May 10, 2026, reporting no bill actions that day and displaying the Special Session E convening notice.":
+    "Página oficial de acciones legislativas del Senado del 10 de mayo de 2026, que informa que no hubo acciones ese día y muestra el aviso de convocatoria de la Sesión Especial E.",
+  "Primary official source for the May 10, 2026 bill-actions page status line and special-session convening notice.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 10 de mayo de 2026 y el aviso de convocatoria de sesión especial.",
+  "Official Senate bill-actions page for May 11, 2026, reporting no bill actions that day and displaying the Special Session E convening notice.":
+    "Página oficial de acciones legislativas del Senado del 11 de mayo de 2026, que informa que no hubo acciones ese día y muestra el aviso de convocatoria de la Sesión Especial E.",
+  "Primary official source for the May 11, 2026 bill-actions page status line and special-session convening notice.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 11 de mayo de 2026 y el aviso de convocatoria de sesión especial.",
+  "Official Senate bill-actions page for May 12, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 12 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 12, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 12 de mayo de 2026.",
+  "Official Senate bill-actions page for May 13, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 13 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 13, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 13 de mayo de 2026.",
+  "Official Senate bill-actions page for May 14, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 14 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 14, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 14 de mayo de 2026.",
+  "Official Senate bill-actions page for May 16, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 16 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 16, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 16 de mayo de 2026.",
+  "Official Senate bill-actions page for May 19, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 19 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 19, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 19 de mayo de 2026.",
+  "Official Senate bill-actions page for May 20, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 20 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 20, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 20 de mayo de 2026.",
+  "Official Senate bill-actions page for May 22, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 22 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 22, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 22 de mayo de 2026.",
+  "Official Senate bill-actions page for May 24, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 24 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 24, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 24 de mayo de 2026.",
+  "Official Senate bill-actions page for May 25, 2026, reporting no bill actions that day.":
+    "Página oficial de acciones legislativas del Senado del 25 de mayo de 2026, que informa que no hubo acciones ese día.",
+  "Primary official source for the May 25, 2026 bill-actions page status line.":
+    "Fuente oficial principal para la línea de estado de la página de acciones legislativas del 25 de mayo de 2026.",
+  "Official Senate bill-actions page for May 26, 2026, listing multiple bill actions and displaying a May 29, 2026 convening notice.":
+    "Página oficial de acciones legislativas del Senado del 26 de mayo de 2026, que lista varias acciones legislativas y muestra un aviso de convocatoria para el 29 de mayo de 2026.",
+  "Primary official source for the May 26, 2026 bill-actions list and convening notice.":
+    "Fuente oficial principal para la lista de acciones legislativas del 26 de mayo de 2026 y el aviso de convocatoria.",
+  "Official Senate bill-actions page for May 27, 2026, listing multiple bill actions and displaying a May 29, 2026 convening notice.":
+    "Página oficial de acciones legislativas del Senado del 27 de mayo de 2026, que lista varias acciones legislativas y muestra un aviso de convocatoria para el 29 de mayo de 2026.",
+  "Primary official source for the May 27, 2026 bill-actions list and convening notice.":
+    "Fuente oficial principal para la lista de acciones legislativas del 27 de mayo de 2026 y el aviso de convocatoria.",
+  "Official Senate bill-actions page for May 28, 2026, listing Special Session 2026-F bills including S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) and displaying a May 29, 2026 convening notice.":
+    "Página oficial de acciones legislativas del Senado del 28 de mayo de 2026, que lista proyectos de la Sesión Especial 2026-F, incluidos S 2F (Save our Homes from Excessive Property Taxes) y S 4F (Property Tax Administration), y muestra un aviso de convocatoria para el 29 de mayo de 2026.",
+  "Primary official source for the May 28, 2026 bill-actions list and any convening notice displayed above the list.":
+    "Fuente oficial principal para la lista de acciones legislativas del 28 de mayo de 2026 y cualquier aviso de convocatoria mostrado sobre la lista.",
+  "Official Senate bill-actions page for May 29, 2026, listing Special Session 2026-F items S 2F (Save our Homes from Excessive Property Taxes) and S 4F (Property Tax Administration) with actions including being placed on the Appropriations committee agenda for June 1, 2026.":
+    "Página oficial de acciones legislativas del Senado del 29 de mayo de 2026, que lista elementos de la Sesión Especial 2026-F S 2F (Save our Homes from Excessive Property Taxes) y S 4F (Property Tax Administration), con acciones que incluyen su colocación en la agenda del Comité de Apropiaciones para el 1 de junio de 2026.",
+  "Primary official source for the May 29, 2026 bill-actions list and any notices displayed above the list.":
+    "Fuente oficial principal para la lista de acciones legislativas del 29 de mayo de 2026 y cualquier aviso mostrado sobre la lista.",
+  "Official Senate bill-actions page for May 30, 2026, reporting no bill actions on that day and displaying a notice that the Senate will convene on Monday, June 1, 2026, for Special Session F.":
+    "Página oficial de acciones legislativas del Senado del 30 de mayo de 2026, que informa que no hubo acciones ese día y muestra un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F.",
+  "Primary official source for the May 30, 2026 bill-actions check and the displayed Special Session F convening notice.":
+    "Fuente oficial principal para la revisión de acciones legislativas del 30 de mayo de 2026 y el aviso mostrado de convocatoria de la Sesión Especial F.",
+  "Official Senate bill-actions page for May 31, 2026, reporting no bill actions on that day and displaying a notice that the Senate will convene on Monday, June 1, 2026, for 2026 Special Session F.":
+    "Página oficial de acciones legislativas del Senado del 31 de mayo de 2026, que informa que no hubo acciones ese día y muestra un aviso de que el Senado se reunirá el lunes 1 de junio de 2026 para la Sesión Especial F de 2026.",
+  "Primary official source for the May 31, 2026 bill-actions check and the displayed Special Session F convening notice.":
+    "Fuente oficial principal para la revisión de acciones legislativas del 31 de mayo de 2026 y el aviso mostrado de convocatoria de la Sesión Especial F.",
+  "Official Senate bill-actions page for June 1, 2026, listing actions for Special Session 2026-F bills including HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F, and displaying a notice that the Senate will convene on Tuesday, June 2, 2026 at 9:00 a.m., or upon the call of the President.":
+    "Página oficial de acciones legislativas del Senado del 1 de junio de 2026, que lista acciones para proyectos de la Sesión Especial 2026-F, incluidos HJR 1-F, SJR 2-F, HB 3-F y SB 4-F, y muestra un aviso de que el Senado se reunirá el martes 2 de junio de 2026 a las 9:00 a.m., o por convocatoria del Presidente.",
+  "Primary official source for the June 1, 2026 bill-actions check and the displayed convening notice.":
+    "Fuente oficial principal para la revisión de acciones legislativas del 1 de junio de 2026 y el aviso de convocatoria mostrado.",
+  "Official Senate bill-actions page for June 2, 2026, listing Special Session 2026-F actions for HJR 1-F, SJR 2-F, HB 3-F, and SB 4-F, and displaying that the Senate has adjourned sine die for Special Session F.":
+    "Página oficial de acciones legislativas del Senado del 2 de junio de 2026, que lista acciones de la Sesión Especial 2026-F para HJR 1-F, SJR 2-F, HB 3-F y SB 4-F, y muestra que el Senado levantó sine die la Sesión Especial F.",
+  "Primary official source for the June 2, 2026 bill-actions checkpoint and the displayed Special Session F adjournment notice.":
+    "Fuente oficial principal para el punto de acciones legislativas del 2 de junio de 2026 y el aviso mostrado de levantamiento de la Sesión Especial F.",
+  "Official Senate bill list for Special Session 2026-F, showing two Senate bills found: SJR 2F (Save our Homes from Excessive Property Taxes) and SB 4F (Property Tax Administration).":
+    "Lista oficial de proyectos del Senado para la Sesión Especial 2026-F, que muestra dos proyectos del Senado encontrados: SJR 2F (Save our Homes from Excessive Property Taxes) y SB 4F (Property Tax Administration).",
+  "Official summary source for which Senate bills are listed in Special Session 2026-F.":
+    "Fuente oficial de resumen sobre qué proyectos del Senado están listados en la Sesión Especial 2026-F.",
+  "Official Senate bill page for SJR 2-F, Save our Homes from Excessive Property Taxes, including bill history, linked SB 4-F, bill text, analysis, vote-history status, and latest action.":
+    "Página oficial del Senado para SJR 2-F, Save our Homes from Excessive Property Taxes, incluidos historial, SB 4-F vinculado, texto del proyecto, análisis, estado del historial de votación y última acción.",
+  "Primary official source for current SJR 2-F bill status and bill-page metadata.":
+    "Fuente oficial principal para el estado actual de SJR 2-F y metadatos de la página del proyecto.",
+  "Official Senate bill page for SB 4-F, Property Tax Administration, including bill history, linked SJR 2-F, bill text, analysis, cited statutes, appropriation note, vote-history status, and latest action.":
+    "Página oficial del Senado para SB 4-F, Property Tax Administration, incluidos historial, SJR 2-F vinculado, texto del proyecto, análisis, estatutos citados, nota de apropiación, estado del historial de votación y última acción.",
+  "Primary official source for current SB 4-F bill status and bill-page metadata.":
+    "Fuente oficial principal para el estado actual de SB 4-F y metadatos de la página del proyecto.",
+  "Official bill page for HJR 1-F, Save our Homes from Excessive Property Taxes, including bill history, linked HB 3-F, bill text, analyses, and latest action.":
+    "Página oficial del proyecto HJR 1-F, Save our Homes from Excessive Property Taxes, incluidos historial, HB 3-F vinculado, texto del proyecto, análisis y última acción.",
+  "Primary official source for current HJR 1-F bill status and bill-page metadata.":
+    "Fuente oficial principal para el estado actual de HJR 1-F y metadatos de la página del proyecto.",
+  "Official bill page for HB 3-F, Property Tax Administration, including bill history, linked HJR 1-F, cited statutes, appropriation note, analyses, and latest action.":
+    "Página oficial del proyecto HB 3-F, Property Tax Administration, incluidos historial, HJR 1-F vinculado, estatutos citados, nota de apropiación, análisis y última acción.",
+  "Primary official source for current HB 3-F bill status and bill-page metadata.":
+    "Fuente oficial principal para el estado actual de HB 3-F y metadatos de la página del proyecto.",
+  "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SJR 2-F.":
+    "Análisis previo a la reunión de Apropiaciones del Senado y declaración de impacto fiscal para SJR 2-F.",
+  "Official staff analysis for the SJR 2-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate.":
+    "Análisis oficial del personal para la versión de SJR 2-F revisada antes de la reunión de Apropiaciones del 1 de junio de 2026; no debe tratarse como una estimación de la Revenue Estimating Conference.",
+  "Official Senate Appropriations pre-meeting bill analysis and fiscal impact statement for SB 4-F.":
+    "Análisis previo a la reunión de Apropiaciones del Senado y declaración de impacto fiscal para SB 4-F.",
+  "Official staff analysis for the SB 4-F version reviewed before the June 1, 2026 Appropriations meeting; should not be treated as a Revenue Estimating Conference estimate.":
+    "Análisis oficial del personal para la versión de SB 4-F revisada antes de la reunión de Apropiaciones del 1 de junio de 2026; no debe tratarse como una estimación de la Revenue Estimating Conference.",
+  "Governor proclamation PDF linked from Florida Senate calendar links calling Special Session 2026-F and listing the stated purposes of the session.":
+    "PDF de proclamación del Gobernador enlazado desde los enlaces de calendario del Senado de Florida que convoca la Sesión Especial 2026-F y lista los propósitos indicados de la sesión.",
+  "Primary official source for Special Session 2026-F call dates and stated purposes.":
+    "Fuente oficial principal para las fechas de convocatoria y propósitos indicados de la Sesión Especial 2026-F.",
+  "Governor press release describing the stated purpose of a proposed special session during the week of June 1, 2026 and describing a proposal titled “Save Our Homes from Excessive Property Taxes.”":
+    "Comunicado de prensa del Gobernador que describe el propósito indicado de una sesión especial propuesta durante la semana del 1 de junio de 2026 y una propuesta titulada “Save Our Homes from Excessive Property Taxes”.",
+  "Official executive-branch press release; treated as a statement of the Governor’s described proposal and goals (not a substitute for bill text).":
+    "Comunicado de prensa oficial del poder ejecutivo; tratado como una declaración de la propuesta y metas descritas por el Gobernador (no como sustituto del texto del proyecto).",
+  "Official Department of State database view for constitutional initiatives, amendments, and revisions reviewed on May 30, 2026.":
+    "Vista oficial de la base de datos del Departamento de Estado para iniciativas, enmiendas y revisiones constitucionales revisada el 30 de mayo de 2026.",
+  "Official election source for checking whether a measure appears in the displayed ballot-position database table as reviewed on the access date.":
+    "Fuente electoral oficial para verificar si una medida aparece en la tabla mostrada de posiciones de boleta revisada en la fecha de acceso.",
+} as const;
+
 export const translations = {
   es: {
     "Florida Property Tax Tracker":
@@ -1424,9 +2095,10 @@ export const translations = {
       "El Rastreador de Impuestos a la Propiedad de Florida es un proyecto cívico neutral. No está afiliado al Estado de Florida, la Legislatura de Florida, ningún gobierno condal ni ninguna organización de defensa. Todos los reclamos fácticos enlazan a registros de fuentes.",
     "See an error? Submit a correction with a source.":
       "¿Ve un error? Envíe una corrección con una fuente.",
+    ...esSupplement,
   },
-  "zh-Hans": zhHans,
-  "zh-Hant": zhHant,
+  "zh-Hans": { ...zhHans, ...zhHansSupplement },
+  "zh-Hant": { ...zhHant, ...zhHantSupplement },
 } as const;
 
 export const translationTemplates = {

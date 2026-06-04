@@ -57,7 +57,7 @@ const sourceTypes = Array.from(
             const sourceType = county.source_type ?? 'not_available';
             return (
               <tr data-county-record data-county={county.county.toLowerCase()} data-impact={county.estimated_impact ?? ''} data-source-type={sourceType}>
-                <th scope="row" data-label="County">{county.county}</th>
+                <th scope="row" data-label="County" data-no-translate>{county.county}</th>
                 <td data-label="Estimated impact">{impact}</td>
                 <td data-label="Proposal version">{county.proposal_version}</td>
                 <td data-label="Source type">{sourceTypeLabel(county.source_type)}</td>
@@ -66,7 +66,7 @@ const sourceTypes = Array.from(
                     {countySources.length ? countySources.map((source) => <SourceLink source={source} compact />) : <span class="muted">Not available</span>}
                   </div>
                 </td>
-                <td data-label="Last verified">{county.last_verified}</td>
+                <td data-label="Last verified"><time datetime={county.last_verified} data-no-translate>{county.last_verified}</time></td>
                 <td data-label="Notes">{county.notes}</td>
               </tr>
             );
