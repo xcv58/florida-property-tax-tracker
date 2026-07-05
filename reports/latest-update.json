@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T11:45:37.259Z",
+  "generated_at": "2026-07-05T11:47:38.750Z",
   "source_fetch": {
-    "generated_at": "2026-07-04T11:45:31.004Z",
+    "generated_at": "2026-07-05T11:47:34.180Z",
     "sources_checked": 17,
     "sources_changed": 2,
     "errors": [],
@@ -14,11 +14,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "ab3b4ee60281c0da343ad6980448198b9296bcb81912bfa564c9dee3332d4dfa",
-        "raw_hash": "14c85e3c0d98f546dc139e7a78ab65e7533dcf1d64861232747dd62378ba906c",
+        "raw_hash": "e527bbf011973e1308bb457aacbc43946235e3c94fe3e9859afe33606c1dd460",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-senate-bill-list.html",
-        "checked_at": "2026-07-04T11:45:18.298Z"
+        "checked_at": "2026-07-05T11:47:21.801Z"
       },
       {
         "label": "Florida Senate 2026 House bill list",
@@ -28,11 +28,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "208937d2d5e050c2aa23a5ca1e33fb6dcff61d89dee8f84d57d81f54ed5620d2",
-        "raw_hash": "6cea353137f9f493bddfac107ed2646dedeaf2df76f7cf6a0205329ccdbb87e2",
+        "raw_hash": "860007ac113d7b22ab2c123067f165e3a2a1f2a880c4cc553c3e2e94f9dde71a",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-house-bill-list.html",
-        "checked_at": "2026-07-04T11:45:19.712Z"
+        "checked_at": "2026-07-05T11:47:23.171Z"
       },
       {
         "label": "Florida Senate 2026F Senate bill list",
@@ -42,11 +42,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "67b39cbc50cb539f466f392a6b93b6e93fe57bd0dc8c7f051e4c8d134ca8583b",
-        "raw_hash": "2868dd79521dc90aa2d31c8d99018d0e3675e7475c95986b82dd57800e76564d",
+        "raw_hash": "4748cfc02dfe584d034bfee18854007dae2b704dab0a9c7eefa2671dbfd7848c",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026f-senate-bill-list.html",
-        "checked_at": "2026-07-04T11:45:20.450Z"
+        "checked_at": "2026-07-05T11:47:24.508Z"
       },
       {
         "label": "Florida Senate SJR 2-F bill page",
@@ -56,11 +56,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "cbd12b70b3c6312723228f970f97be25f36f003098f1d04cd4b65ea68b41ae00",
-        "raw_hash": "8edf22183851716a7a236155ef493c5f138775b69dbac488844288e089002c67",
+        "raw_hash": "3644bb76a7d79102749f8c0ad937fbf0cbedfd5a6d6e19297c963f8c4cc8c42d",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sjr-2-f-bill-page.html",
-        "checked_at": "2026-07-04T11:45:20.667Z"
+        "checked_at": "2026-07-05T11:47:24.710Z"
       },
       {
         "label": "Florida Senate SB 4-F bill page",
@@ -70,11 +70,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "f317b35421770eee0f1067dfd25697b6e7ea7443ab3132db05ae8427201694c4",
-        "raw_hash": "70f744bad6378ef580ed3e6a991ef3dead67c1425be0d4b130bbdf117c46c312",
+        "raw_hash": "917809f84fb7a13c0fb39f4e2576d170a8d8bcf5bf21155cb63b670efc81aff7",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sb-4-f-bill-page.html",
-        "checked_at": "2026-07-04T11:45:21.305Z"
+        "checked_at": "2026-07-05T11:47:24.902Z"
       },
       {
         "label": "Florida Senate SJR 2-F pre-meeting analysis",
@@ -88,7 +88,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sjr-2-f-pre-meeting-analysis.pdf",
-        "checked_at": "2026-07-04T11:45:21.856Z"
+        "checked_at": "2026-07-05T11:47:25.097Z"
       },
       {
         "label": "Florida Senate SB 4-F pre-meeting analysis",
@@ -102,7 +102,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sb-4-f-pre-meeting-analysis.pdf",
-        "checked_at": "2026-07-04T11:45:23.932Z"
+        "checked_at": "2026-07-05T11:47:26.091Z"
       },
       {
         "label": "Florida Senate calendars and bill actions",
@@ -111,12 +111,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "fba8f92dc3f08387d430aaceb10ae390ec8c77299f8c6dbe12d6dcb08d6b49ef",
-        "raw_hash": "ad361796c01b151b3246e98e527a617392661410bd8d2d3e5fa7085fab916fe1",
+        "hash": "47f51bd2874fdb16ce7905c53138ad3566aca28683ec186140ebe77addfe6ab9",
+        "raw_hash": "168fe64e46b71ebac475787a61929ffccc2b3bd8e9f85a1c9f43145ce459f2c8",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-07-04T11:45:24.784Z"
+        "checked_at": "2026-07-05T11:47:27.004Z"
       },
       {
         "label": "Florida Senate Special Session D update memo",
@@ -130,7 +130,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-update-memo.pdf",
-        "checked_at": "2026-07-04T11:45:25.407Z"
+        "checked_at": "2026-07-05T11:47:27.637Z"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
@@ -144,7 +144,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-memo-and-information.pdf",
-        "checked_at": "2026-07-04T11:45:25.709Z"
+        "checked_at": "2026-07-05T11:47:28.020Z"
       },
       {
         "label": "Governor Special Session F proclamation",
@@ -158,21 +158,21 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/governor-special-session-f-proclamation.pdf",
-        "checked_at": "2026-07-04T11:45:26.889Z"
+        "checked_at": "2026-07-05T11:47:29.303Z"
       },
       {
         "label": "Governor press release on property tax special session",
         "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-special-session-property-tax-relief-unveils-save",
         "category": "official_executive",
-        "status": 415,
-        "ok": false,
-        "content_type": "text/html",
-        "hash": "51ca8beb017cec587022340678418ba8c0af7ef621b454845c8a0319c6e5cea4",
-        "raw_hash": "a23e5e4ef0a2b95839d79afc9109aed6b7095b1b4a929df6aaeee52ba936ade3",
+        "status": 200,
+        "ok": true,
+        "content_type": "text/html; charset=UTF-8",
+        "hash": "6953960c76105750ce46c6af6e26816574a943f5138300be096a374cb945e629",
+        "raw_hash": "d19100458d2b092b818580820cbdb5d99b0de736533d0182a975c5e5f048b71d",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/governor-press-release-on-property-tax-special-session.html",
-        "checked_at": "2026-07-04T11:45:27.786Z"
+        "checked_at": "2026-07-05T11:47:30.924Z"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
@@ -182,11 +182,11 @@
         "ok": true,
         "content_type": "text/html;charset=UTF-8",
         "hash": "d6ceb66780710d3ad1025c2a7018efc25c23b884d592d1bbeba92a523aacc36d",
-        "raw_hash": "db0f2a7045d0cd7385857f579b9bda1e9eec40cee6beae7be3b8a13276731ef0",
+        "raw_hash": "295d116fd6343e102d608163c7d53a97756ff6e8f68651de93df7af212301f0b",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-office-of-economic-and-demographic-research.html",
-        "checked_at": "2026-07-04T11:45:27.985Z"
+        "checked_at": "2026-07-05T11:47:31.175Z"
       },
       {
         "label": "Florida Department of State constitutional amendments",
@@ -196,11 +196,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "b2c22ad0ed3f84b4c7206f9bf0ff06a8646094917b167ae2fc12be654b0aa4b0",
-        "raw_hash": "30bdd110f79a9b79e28220afa8830aa0f1ee55493fd97a70ff2b6cfbef5304b4",
+        "raw_hash": "e421c3cdeafa71d078c33063da16afba6d0d0afd987da91c99a604b8caa30dd8",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-department-of-state-constitutional-amendments.html",
-        "checked_at": "2026-07-04T11:45:28.793Z"
+        "checked_at": "2026-07-05T11:47:32.081Z"
       },
       {
         "label": "Constitutional initiatives database",
@@ -210,11 +210,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "065e3e7dfa95dca970a878b20b44a9219bae46ab587ac025b334d72e8d19c05a",
-        "raw_hash": "c3c9653a867b81c3d8a0902fc7ce4dd00a0186d1a5b2a33dc1238d15a242e26d",
+        "raw_hash": "bef6e0ee86abb01c23b4c1e2c04e9712eddc582e39480bd281653ed1f69b8e9c",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/constitutional-initiatives-database.html",
-        "checked_at": "2026-07-04T11:45:29.242Z"
+        "checked_at": "2026-07-05T11:47:32.313Z"
       },
       {
         "label": "Florida Association of Counties",
@@ -228,7 +228,7 @@
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-association-of-counties.html",
-        "checked_at": "2026-07-04T11:45:29.663Z"
+        "checked_at": "2026-07-05T11:47:32.883Z"
       },
       {
         "label": "Florida League of Cities",
@@ -238,11 +238,11 @@
         "ok": true,
         "content_type": "text/html; charset=UTF-8",
         "hash": "c3dc806724159c29f5e856cb0a548e15624601272c68b13a9eb7db4444499d6d",
-        "raw_hash": "5d2aa2de5d27e13047b4ebc629f11fa3f5b9eabc2c1b9b91c20de9eb9ba96c18",
+        "raw_hash": "9158306c434111de4f8b16ff85c2b47274f29953edad0f379ac422c69e81a8a3",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-league-of-cities.html",
-        "checked_at": "2026-07-04T11:45:30.667Z"
+        "checked_at": "2026-07-05T11:47:33.929Z"
       }
     ],
     "changed": [
@@ -253,31 +253,31 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "fba8f92dc3f08387d430aaceb10ae390ec8c77299f8c6dbe12d6dcb08d6b49ef",
-        "raw_hash": "ad361796c01b151b3246e98e527a617392661410bd8d2d3e5fa7085fab916fe1",
+        "hash": "47f51bd2874fdb16ce7905c53138ad3566aca28683ec186140ebe77addfe6ab9",
+        "raw_hash": "168fe64e46b71ebac475787a61929ffccc2b3bd8e9f85a1c9f43145ce459f2c8",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-07-04T11:45:24.784Z"
+        "checked_at": "2026-07-05T11:47:27.004Z"
       },
       {
         "label": "Governor press release on property tax special session",
         "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-special-session-property-tax-relief-unveils-save",
         "category": "official_executive",
-        "status": 415,
-        "ok": false,
-        "content_type": "text/html",
-        "hash": "51ca8beb017cec587022340678418ba8c0af7ef621b454845c8a0319c6e5cea4",
-        "raw_hash": "a23e5e4ef0a2b95839d79afc9109aed6b7095b1b4a929df6aaeee52ba936ade3",
+        "status": 200,
+        "ok": true,
+        "content_type": "text/html; charset=UTF-8",
+        "hash": "6953960c76105750ce46c6af6e26816574a943f5138300be096a374cb945e629",
+        "raw_hash": "d19100458d2b092b818580820cbdb5d99b0de736533d0182a975c5e5f048b71d",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/governor-press-release-on-property-tax-special-session.html",
-        "checked_at": "2026-07-04T11:45:27.786Z"
+        "checked_at": "2026-07-05T11:47:30.924Z"
       }
     ]
   },
   "official_pages": {
-    "generated_at": "2026-07-04T11:45:31.845Z",
+    "generated_at": "2026-07-05T11:47:35.040Z",
     "pages": [
       {
         "label": "Florida Senate 2026 Senate bill list",
@@ -345,10 +345,10 @@
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
-        "title": "Bill Actions for 7/4/2026 -\n    The Florida Senate",
+        "title": "Bill Actions for 7/5/2026 -\n    The Florida Senate",
         "headings": [
           "The Florida Senate",
-          "Saturday, July 4, 2026 Open Calendar",
+          "Sunday, July 5, 2026 Open Calendar",
           "Bill Actions",
           "Spotlights",
           "Current Wildfire Information",
@@ -371,13 +371,15 @@
       {
         "label": "Governor press release on property tax special session",
         "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-special-session-property-tax-relief-unveils-save",
-        "title": "415 Unsupported Media Type",
+        "title": "Governor Ron DeSantis Announces Special Session on Property Tax Relief & Unveils “Save Our Homes” Property Tax Elimination Proposal | Executive Office of the Governor",
         "headings": [
-          "415 Unsupported Media Type"
+          "Main",
+          "Governor Ron DeSantis Announces Special Session on Property Tax Relief & Unveils “Save Our Homes” Property Tax Elimination Proposal",
+          "News Menu"
         ],
-        "mentions_property_tax": false,
-        "mentions_special_session": false,
-        "text_sample": "415 Unsupported Media Type openresty/1.29.2.3"
+        "mentions_property_tax": true,
+        "mentions_special_session": true,
+        "text_sample": "Skip to main content Executive Office of the Governor Ron DeSantis 46ᵀᴴ Governor of Florida Flag Status: Full Staff Main Governor First Lady Lieutenant Governor Leadership Newsroom Info Center Search Newsroom Home Newsroom Press Releases 2026 Governor Ron DeSantis Announces Speci... Governor Ron DeSantis Announces Special Session on Property Tax Relief & Unveils “Save Our Homes” Property Tax Elimination Proposal May 27 2026 TAMPA, Fla.— Today, Governor Ron DeSantis announced he is calling for a special session of the Florida Legislature during the week of June 1 to consider a constitutional amendment aimed at delivering broad property tax relief for Florida homeowners. The proposal, titled “Save Our Homes from Excessive Property Taxes,” provides for the immediate increase in the homestead exemption and calls for a schedule for full elimination through general law.“Today in Tampa, I outlined the Save Our Homes from Excessive Property Taxes plan that will eliminate taxes on homesteads,” said Governor Ron DeSantis. “Property tax revenue collected by local governments has nearly doubled in the past seven years and is expected to reach an astounding $83 billion by 2032. Florida homeowne"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
@@ -469,7 +471,7 @@
     ]
   },
   "pdfs": {
-    "generated_at": "2026-07-04T11:45:35.639Z",
+    "generated_at": "2026-07-05T11:47:37.146Z",
     "pdfs": [
       {
         "label": "Florida Senate SJR 2-F pre-meeting analysis",
@@ -526,7 +528,7 @@
     ]
   },
   "claim_updates": {
-    "generated_at": "2026-07-04T11:45:35.998Z",
+    "generated_at": "2026-07-05T11:47:37.497Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],
