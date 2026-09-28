@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T15:09:32.221Z",
+  "generated_at": "2026-09-28T18:09:41.832Z",
   "source_fetch": {
-    "generated_at": "2026-09-27T15:09:27.932Z",
+    "generated_at": "2026-09-28T18:09:38.138Z",
     "sources_checked": 17,
     "sources_changed": 1,
     "errors": [],
@@ -14,11 +14,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "0a32864247b47f16d38ed232aa00abecf149db31cf87714b78ad9254e0e45120",
-        "raw_hash": "a71a38adae5e9828bea5803b1ac8a8bb7cd18c34c99090898d37c85e0ac8ec9a",
+        "raw_hash": "09e339a6f9ed16a12e430254895fdce47a406293058f68c0e87de1f022a71b45",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-senate-bill-list.html",
-        "checked_at": "2026-09-27T15:09:17.559Z"
+        "checked_at": "2026-09-28T18:09:28.195Z"
       },
       {
         "label": "Florida Senate 2026 House bill list",
@@ -28,11 +28,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "0ec8f8fb14286d92674df22151bb88248aebe0f593eca72dd544bfa148f96080",
-        "raw_hash": "180fa9b89978d42289e4ec2b0ebbf33fcfa8f9b93711a7ee331c7b59e1e4ae04",
+        "raw_hash": "9d453bc958d13a983101ad28a25eb1f9e60d2c145ba6550f22a04f28e6108b87",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026-house-bill-list.html",
-        "checked_at": "2026-09-27T15:09:18.789Z"
+        "checked_at": "2026-09-28T18:09:29.501Z"
       },
       {
         "label": "Florida Senate 2026F Senate bill list",
@@ -42,11 +42,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "6c6195c5691d2b8e4434b40812b18b83c277f3a050e1028cee77f174045d3d8c",
-        "raw_hash": "93a6f87d5ca7f803974cdad517167520418bd3eefe84f1d2a4b71b85c619e701",
+        "raw_hash": "db38da565f11d3453393020c8310ac6cc4ccb805ca2f829e87e55009cec52562",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-2026f-senate-bill-list.html",
-        "checked_at": "2026-09-27T15:09:19.632Z"
+        "checked_at": "2026-09-28T18:09:30.592Z"
       },
       {
         "label": "Florida Senate SJR 2-F bill page",
@@ -56,11 +56,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "21161a277061ec1bf3c5720467e17fff8cd1536c2dfd852651904f143b47c8b7",
-        "raw_hash": "ce68a46f2ace3bc72404fcc58ed017b5588d9551b7a75a7555bb593670f8fdf0",
+        "raw_hash": "00d48d4ec8a0d779c303545a6518265d81cb952b19e36a73351c6c38af6dee5d",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sjr-2-f-bill-page.html",
-        "checked_at": "2026-09-27T15:09:19.994Z"
+        "checked_at": "2026-09-28T18:09:30.917Z"
       },
       {
         "label": "Florida Senate SB 4-F bill page",
@@ -70,11 +70,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "fc20f9f616a6468bb68ce97fb885fc0b57b9ff6b46832dfede50aad41a89f435",
-        "raw_hash": "1332bf7edd4b30c9446a7306d8f9e8268180dd3b55fe9adac818a387741de9eb",
+        "raw_hash": "d3851fe08aaa554f32771abdb1e9f6ebb1a829a5f948c57f8f64507ad838b373",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sb-4-f-bill-page.html",
-        "checked_at": "2026-09-27T15:09:20.500Z"
+        "checked_at": "2026-09-28T18:09:31.394Z"
       },
       {
         "label": "Florida Senate SJR 2-F pre-meeting analysis",
@@ -88,7 +88,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sjr-2-f-pre-meeting-analysis.pdf",
-        "checked_at": "2026-09-27T15:09:20.918Z"
+        "checked_at": "2026-09-28T18:09:31.862Z"
       },
       {
         "label": "Florida Senate SB 4-F pre-meeting analysis",
@@ -102,7 +102,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-sb-4-f-pre-meeting-analysis.pdf",
-        "checked_at": "2026-09-27T15:09:21.551Z"
+        "checked_at": "2026-09-28T18:09:32.719Z"
       },
       {
         "label": "Florida Senate calendars and bill actions",
@@ -111,12 +111,12 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "5742da375edf845bc7357e7e27387b497c954c357d254eba89f42a692c5e00de",
-        "raw_hash": "90eed0e14581ffd5934d144ab1a9629c908b6daa0bed656b4ec654e448c403b5",
+        "hash": "99a0001d80c6985e6cfc57b2ddd73690fa5b630e5eda61d87238f062ae8a74a1",
+        "raw_hash": "70f282b6a2b3b2dbdb66b9460c9eaabdcceeded525058316c43ce0e845c0deb2",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-09-27T15:09:22.296Z"
+        "checked_at": "2026-09-28T18:09:33.434Z"
       },
       {
         "label": "Florida Senate Special Session D update memo",
@@ -130,7 +130,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-update-memo.pdf",
-        "checked_at": "2026-09-27T15:09:22.663Z"
+        "checked_at": "2026-09-28T18:09:33.765Z"
       },
       {
         "label": "Florida Senate Special Session D memo and information",
@@ -144,7 +144,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-senate-special-session-d-memo-and-information.pdf",
-        "checked_at": "2026-09-27T15:09:22.873Z"
+        "checked_at": "2026-09-28T18:09:34.015Z"
       },
       {
         "label": "Governor Special Session F proclamation",
@@ -158,7 +158,7 @@
         "hash_strategy": "raw_bytes",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/governor-special-session-f-proclamation.pdf",
-        "checked_at": "2026-09-27T15:09:23.583Z"
+        "checked_at": "2026-09-28T18:09:34.926Z"
       },
       {
         "label": "Governor press release on property tax special session",
@@ -168,11 +168,11 @@
         "ok": true,
         "content_type": "text/html; charset=UTF-8",
         "hash": "6953960c76105750ce46c6af6e26816574a943f5138300be096a374cb945e629",
-        "raw_hash": "9155b8614a55e4a7df477e97aad7288be823930dd4a997f8164f619d2a9025d0",
+        "raw_hash": "6f2e3259a98f09611d6ac2d4e6bd7beb75b04b2c0030b9a8e0bc5473b6b68f7c",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/governor-press-release-on-property-tax-special-session.html",
-        "checked_at": "2026-09-27T15:09:24.208Z"
+        "checked_at": "2026-09-28T18:09:35.739Z"
       },
       {
         "label": "Florida Office of Economic and Demographic Research",
@@ -182,11 +182,11 @@
         "ok": true,
         "content_type": "text/html;charset=UTF-8",
         "hash": "309bcaf60e5745632e41fefcacaa5193df7f12ca7e107bc64d5911e20a0acf6c",
-        "raw_hash": "86001a1665fe4e43b0f348e369244d925eff1ff232403e1de6a2bbdaf6110576",
+        "raw_hash": "887b953f4cfe819573d2457c5c80f8df18c35a0c34484e39d2e3df6b59ffd672",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-office-of-economic-and-demographic-research.html",
-        "checked_at": "2026-09-27T15:09:24.507Z"
+        "checked_at": "2026-09-28T18:09:36.098Z"
       },
       {
         "label": "Florida Department of State constitutional amendments",
@@ -196,11 +196,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "b2c22ad0ed3f84b4c7206f9bf0ff06a8646094917b167ae2fc12be654b0aa4b0",
-        "raw_hash": "8db4a86848b15dd0a52325b18e38ae5e3b29324d91992433da4a7e79691cb049",
+        "raw_hash": "6000d8fc678ebced7ae573da12693c65c074e9f2af27d0728d70c119fdc98023",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-department-of-state-constitutional-amendments.html",
-        "checked_at": "2026-09-27T15:09:24.961Z"
+        "checked_at": "2026-09-28T18:09:36.706Z"
       },
       {
         "label": "Constitutional initiatives database",
@@ -210,11 +210,11 @@
         "ok": true,
         "content_type": "text/html; charset=utf-8",
         "hash": "ceac83bb75d236e603a2444e9267975f5f977300056f89fd257b0040bbee1885",
-        "raw_hash": "17f4540091398ddf41c43d3cac21ed183d04245596518ed96ae685c517adc3b0",
+        "raw_hash": "20ab1d42ca961b059ce252f16f915016493d931235388fcf71d52e197bf3b084",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/constitutional-initiatives-database.html",
-        "checked_at": "2026-09-27T15:09:25.205Z"
+        "checked_at": "2026-09-28T18:09:37.004Z"
       },
       {
         "label": "Florida Association of Counties",
@@ -224,11 +224,11 @@
         "ok": true,
         "content_type": "text/html; charset=UTF-8",
         "hash": "72ce16227e2fefb04c9a191563cb1c2c63642fffe16e8a25a6804c8fb708803e",
-        "raw_hash": "1319aec7949863f3f0fa4be20b9e7f88c129852c8c3b0a0dcb7c6e0ccf8d3fdd",
+        "raw_hash": "507af395acf76c69fa28f9933b4acd4f92259cf79b43a7060344f1e1d0224c1b",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-association-of-counties.html",
-        "checked_at": "2026-09-27T15:09:25.453Z"
+        "checked_at": "2026-09-28T18:09:37.411Z"
       },
       {
         "label": "Florida League of Cities",
@@ -238,11 +238,11 @@
         "ok": true,
         "content_type": "text/html; charset=UTF-8",
         "hash": "82417a4b03094edc193a54e383eb57a0d987c3d4daa7281784f3b9378967616d",
-        "raw_hash": "8c8988479f7f8dce5be58ffdb625c0dae8f751615e53c591e479e2b6f4652076",
+        "raw_hash": "07df0df1886d8eb2bd07c47db7d1731deb0f6eff11abd57b76c8d309a5121ac8",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": false,
         "cache_path": "tmp/source-cache/florida-league-of-cities.html",
-        "checked_at": "2026-09-27T15:09:25.662Z"
+        "checked_at": "2026-09-28T18:09:37.967Z"
       }
     ],
     "changed": [
@@ -253,17 +253,17 @@
         "status": 200,
         "ok": true,
         "content_type": "text/html; charset=utf-8",
-        "hash": "5742da375edf845bc7357e7e27387b497c954c357d254eba89f42a692c5e00de",
-        "raw_hash": "90eed0e14581ffd5934d144ab1a9629c908b6daa0bed656b4ec654e448c403b5",
+        "hash": "99a0001d80c6985e6cfc57b2ddd73690fa5b630e5eda61d87238f062ae8a74a1",
+        "raw_hash": "70f282b6a2b3b2dbdb66b9460c9eaabdcceeded525058316c43ce0e845c0deb2",
         "hash_strategy": "normalized_html_text_and_links",
         "changed_since_last_run": true,
         "cache_path": "tmp/source-cache/florida-senate-calendars-and-bill-actions.html",
-        "checked_at": "2026-09-27T15:09:22.296Z"
+        "checked_at": "2026-09-28T18:09:33.434Z"
       }
     ]
   },
   "official_pages": {
-    "generated_at": "2026-09-27T15:09:28.832Z",
+    "generated_at": "2026-09-28T18:09:38.913Z",
     "pages": [
       {
         "label": "Florida Senate 2026 Senate bill list",
@@ -331,10 +331,10 @@
       {
         "label": "Florida Senate calendars and bill actions",
         "url": "https://www.flsenate.gov/?Tab=BillActions",
-        "title": "Bill Actions for 9/27/2026 -\n    The Florida Senate",
+        "title": "Bill Actions for 9/28/2026 -\n    The Florida Senate",
         "headings": [
           "The Florida Senate",
-          "Sunday, September 27, 2026 Open Calendar",
+          "Monday, September 28, 2026 Open Calendar",
           "Bill Actions",
           "Spotlights",
           "Interim Committee Meetings",
@@ -457,7 +457,7 @@
     ]
   },
   "pdfs": {
-    "generated_at": "2026-09-27T15:09:30.619Z",
+    "generated_at": "2026-09-28T18:09:40.576Z",
     "pdfs": [
       {
         "label": "Florida Senate SJR 2-F pre-meeting analysis",
@@ -514,7 +514,7 @@
     ]
   },
   "claim_updates": {
-    "generated_at": "2026-09-27T15:09:30.972Z",
+    "generated_at": "2026-09-28T18:09:40.859Z",
     "mode": "deterministic-first-pass",
     "claims_added": [],
     "claims_updated": [],
