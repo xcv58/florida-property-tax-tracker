@@ -1,6 +1,6 @@
 # Latest Tracker Update
 
-Generated: 2026-11-03T17:50:19.702Z
+Generated: 2026-11-04T17:58:56.746Z
 
 ## Sources Checked
 
@@ -8,7 +8,7 @@ Generated: 2026-11-03T17:50:19.702Z
 
 ## Sources Changed
 
-9
+4
 
 ## Claims
 
